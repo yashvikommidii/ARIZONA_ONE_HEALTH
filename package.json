@@ -1,0 +1,31 @@
+{
+  "name": "hack-12",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next dev",
+    "dev:stable": "rm -rf .next && WATCHPACK_POLLING=true WATCHPACK_POLL_INTERVAL=1000 next dev -p 3000",
+    "stop:dev": "pkill -f \"next dev\" || true",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/leaflet": "^1.9.21",
+    "leaflet": "^1.9.4",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.35",
+    "typescript": "^6.0.3"
+  }
+}

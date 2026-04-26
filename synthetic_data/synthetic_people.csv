@@ -1,0 +1,3001 @@
+person_id,county,city,zip_code,age_group,sex_at_birth,preferred_language
+09e8f6d3fa82e72d,Apache,Window Rock,86503,45-64,female,English
+c5968807a2173084,Apache,Eagar,86511,65+,female,English
+144574d0e012144a,Apache,Window Rock,86503,18-29,male,English
+279e3a41194a2894,Apache,Eagar,86511,30-44,female,English
+99f749f9b7b66bc5,Apache,Window Rock,86503,45-64,female,English
+5421dec51b2f6a13,Apache,Chinle,86503,0-17,female,Spanish
+0ef4f8f4cd016a6a,Apache,Chinle,86503,45-64,male,Navajo
+c7ff7b7ccfc3fc18,Apache,Window Rock,86511,18-29,male,Spanish
+d555f5eec5b7567f,Apache,Eagar,86503,45-64,female,English
+5e7ef3d614bc636d,Apache,Window Rock,86503,65+,female,English
+65501f84a5b8d488,Apache,Chinle,86503,30-44,female,English
+cff63f0a6d4b3521,Apache,Eagar,86503,45-64,female,English
+7a1958c508618d41,Apache,Chinle,86505,18-29,male,English
+5a6504463523d544,Apache,Eagar,86505,65+,male,English
+b535c603325a93c0,Apache,Chinle,86505,18-29,female,Spanish
+3277875576a4fead,Apache,Chinle,86503,45-64,female,Spanish
+8ca773cf27003cd0,Apache,Window Rock,86505,0-17,male,English
+f5c8b208c192f82b,Apache,Eagar,86505,65+,female,English
+03f3fa7dfa31d0be,Apache,Eagar,86505,0-17,female,English
+9ddc0173a1621296,Apache,Window Rock,86511,30-44,female,English
+f3cbd65e03bf6118,Apache,Eagar,86505,65+,male,English
+ed4461169cc3e601,Apache,Window Rock,86511,65+,male,Spanish
+37d80ba3138c8279,Apache,Window Rock,86505,30-44,female,Spanish
+dc0b20dfc2ceec90,Apache,Chinle,86511,45-64,male,English
+9398f3370d1a9a1b,Apache,Chinle,86511,30-44,female,English
+c976b6da64399c07,Apache,Eagar,86511,65+,male,English
+4c5d406004ca32e0,Apache,Chinle,86505,18-29,female,English
+d73d2f970b42cfda,Apache,Window Rock,86511,30-44,female,Spanish
+9d97ab337b0dd0fa,Apache,Window Rock,86503,45-64,male,English
+ebee54e6ab1a0769,Apache,Eagar,86505,65+,male,Spanish
+fa96cde0fb3cb2f1,Apache,Window Rock,86511,18-29,other,English
+8d5b475429e28ae8,Apache,Eagar,86505,0-17,female,English
+d16664861169e0fa,Apache,Eagar,86503,30-44,female,English
+e9f185b1e81a4567,Apache,Window Rock,86503,65+,male,English
+58773b8c4a37943d,Apache,Chinle,86511,30-44,male,English
+7d419ce270ff4726,Apache,Eagar,86505,18-29,female,English
+52fea3f47dc4619f,Apache,Window Rock,86511,30-44,female,English
+f9d0f4752c8053ff,Apache,Window Rock,86511,45-64,male,English
+c920ad139d29d23d,Apache,Chinle,86503,18-29,female,English
+aa3d470042b71190,Apache,Window Rock,86505,30-44,male,English
+e500f815e7cac5f2,Apache,Eagar,86503,0-17,other,Spanish
+497dde3aeb03b3f8,Apache,Window Rock,86503,30-44,female,Spanish
+90ba7bb3693aecbb,Apache,Window Rock,86505,0-17,female,Spanish
+46312107fdc763fa,Apache,Chinle,86505,30-44,male,Navajo
+3c3cf1b381ccd453,Apache,Eagar,86511,30-44,female,English
+62f092bcf172e5b2,Apache,Eagar,86511,30-44,male,English
+22d76fc4474fd39b,Apache,Chinle,86511,65+,male,English
+70933f7d6bd4a83c,Apache,Window Rock,86503,0-17,female,Spanish
+53ee97cd0822c8d9,Apache,Window Rock,86511,18-29,male,English
+5dc13459afb49991,Apache,Eagar,86511,30-44,female,English
+9c9cb6cd986d4009,Apache,Eagar,86505,18-29,female,English
+a86d226575f65518,Apache,Chinle,86505,65+,male,English
+1d171c0c785bd874,Apache,Eagar,86503,0-17,female,English
+4c85931622e12742,Apache,Window Rock,86503,18-29,female,Spanish
+62d82e64f5478206,Apache,Chinle,86511,65+,male,English
+d32d5ec8af1df655,Apache,Eagar,86505,65+,female,Spanish
+aabea3db722b7f48,Apache,Window Rock,86503,45-64,female,English
+096301aac9917f76,Apache,Eagar,86505,18-29,male,English
+2785b7a1c8bf557d,Apache,Chinle,86503,0-17,female,English
+42777895d52a8502,Apache,Chinle,86503,45-64,female,Spanish
+eee95d5bc48d2821,Apache,Eagar,86505,30-44,female,Spanish
+67c02aea4429f7d6,Apache,Window Rock,86511,0-17,female,English
+23ca811624c5d7ae,Apache,Window Rock,86503,18-29,male,Spanish
+29204e1368d518b7,Apache,Chinle,86503,45-64,male,English
+502210c442edbccf,Apache,Chinle,86511,45-64,male,English
+7cc0c56c4be60df1,Apache,Window Rock,86505,0-17,male,English
+0975f17523f06798,Apache,Eagar,86511,45-64,female,Spanish
+8c95915f416af583,Apache,Chinle,86503,65+,female,Spanish
+f5bad44e56014970,Apache,Chinle,86505,45-64,male,English
+774bec0f9af8491e,Apache,Window Rock,86505,18-29,male,Spanish
+34d3169fe04edbe7,Apache,Chinle,86511,30-44,male,Spanish
+834aa330f215f019,Apache,Window Rock,86503,65+,female,English
+73a5ca2dd686f0a2,Apache,Window Rock,86503,30-44,female,Spanish
+499520147783541b,Apache,Eagar,86511,0-17,male,English
+3a8d02471a3db29d,Apache,Eagar,86505,0-17,male,English
+d49f619a42b32463,Apache,Eagar,86511,45-64,female,English
+a50df7a1a8d6b11a,Apache,Chinle,86511,18-29,male,English
+ffc8732e94160acd,Apache,Eagar,86505,45-64,female,English
+a2c4f12ab97487cd,Apache,Window Rock,86503,30-44,male,English
+a95b60adde90656b,Apache,Eagar,86511,18-29,male,English
+0e2458029a13c346,Apache,Window Rock,86505,45-64,male,English
+8baf4dd08df5eaea,Apache,Chinle,86511,18-29,female,Spanish
+bfe599df46543bc9,Apache,Eagar,86503,45-64,female,English
+96d22041e7440aa2,Apache,Chinle,86503,45-64,male,English
+e097e10264600483,Apache,Window Rock,86503,0-17,female,English
+66f4d0e4283aae14,Apache,Window Rock,86505,30-44,male,English
+5966a91d30188d09,Apache,Chinle,86505,30-44,female,English
+839fbe99c2d2ffe8,Apache,Window Rock,86505,18-29,male,English
+e749ec185fd82639,Apache,Window Rock,86511,18-29,male,English
+32074dd600260751,Apache,Chinle,86511,30-44,male,English
+30dccd2e6bc73a23,Apache,Chinle,86511,45-64,male,English
+f1a32dfa4c870422,Apache,Chinle,86503,45-64,female,English
+86a853638235f270,Apache,Eagar,86505,45-64,male,English
+0167ae34f6a6278a,Apache,Chinle,86503,45-64,female,English
+17aad03754721050,Apache,Window Rock,86503,0-17,female,English
+8eddfc807c69ba99,Apache,Window Rock,86505,30-44,male,English
+974650359cdbace0,Apache,Chinle,86505,65+,male,English
+31b57b3be51c8c31,Apache,Eagar,86505,30-44,male,English
+d053f797ce6647ee,Apache,Chinle,86511,45-64,male,English
+294ae8956cd31bf0,Apache,Chinle,86503,18-29,female,English
+c9abeebafcaaf9ce,Apache,Eagar,86505,45-64,male,Spanish
+4fcfb1e69f19524b,Apache,Eagar,86503,65+,male,English
+7b44224866ce29fb,Apache,Eagar,86505,0-17,female,English
+a776fa3973fa81fb,Apache,Chinle,86503,30-44,female,Spanish
+5debe4619a5083d9,Apache,Chinle,86505,45-64,female,Spanish
+82b88df7689cd0fd,Apache,Chinle,86503,45-64,male,English
+e702d8287554fee5,Apache,Window Rock,86503,18-29,female,English
+9411555c4872bd92,Apache,Chinle,86511,0-17,male,English
+6eefdaab2b836cc5,Apache,Chinle,86503,45-64,male,English
+338f6c116cdac1ff,Apache,Window Rock,86505,0-17,female,English
+5393cd5c4e00f8f4,Apache,Chinle,86505,65+,female,English
+f5554853bf1c9072,Apache,Eagar,86503,0-17,male,Spanish
+af5a18a79e5f1387,Apache,Window Rock,86511,45-64,female,English
+00df0e4b6866aede,Apache,Window Rock,86511,45-64,female,English
+a833bf71c1213618,Apache,Window Rock,86505,65+,male,Spanish
+753a0b935a18b44e,Apache,Window Rock,86505,0-17,male,English
+665124aa2d153815,Apache,Eagar,86505,30-44,male,English
+3166547f52871437,Apache,Window Rock,86503,18-29,female,Spanish
+6676ab2ca4d8d1a6,Apache,Eagar,86511,30-44,female,Spanish
+90fb8c11b18ef08b,Apache,Chinle,86503,18-29,female,English
+742e130e47a41c1c,Apache,Eagar,86505,30-44,male,English
+2c2e0998ce884746,Apache,Eagar,86505,30-44,male,English
+90a6d8671bbffd69,Apache,Eagar,86505,30-44,female,English
+32fd0abf8d2bcf2b,Apache,Eagar,86503,18-29,male,English
+6972f13b6ff58460,Apache,Chinle,86505,65+,male,English
+63051f7829b503d2,Apache,Chinle,86505,18-29,female,English
+c453dfc34d0df7f2,Apache,Eagar,86511,65+,male,English
+5c4f7dedc23646e3,Apache,Chinle,86505,45-64,male,English
+a520a384b7c4666c,Apache,Window Rock,86503,18-29,female,English
+273ad3e12032d1b3,Apache,Eagar,86503,18-29,male,English
+9ad3fc9419c2b37a,Apache,Window Rock,86511,65+,male,Spanish
+28b6ab6841311517,Apache,Chinle,86505,30-44,female,Spanish
+ac2a7af16055b10e,Apache,Chinle,86503,45-64,female,English
+3af00ac4b32ec1dd,Apache,Eagar,86503,0-17,male,Spanish
+f5c03658a6143732,Apache,Window Rock,86503,30-44,female,English
+a7f196743c11fd10,Apache,Window Rock,86511,30-44,male,English
+cf789386b77d7046,Apache,Chinle,86505,30-44,female,Spanish
+c951d1a762a132c1,Apache,Window Rock,86511,18-29,male,English
+4890950b359cd2d5,Apache,Eagar,86503,0-17,female,English
+86cea21c9f060d3b,Apache,Chinle,86503,18-29,male,English
+2dadca028c2e0cec,Apache,Window Rock,86511,18-29,female,Spanish
+086a8ec810cf76ab,Apache,Eagar,86503,30-44,male,English
+d45ab8018047c0de,Apache,Window Rock,86503,0-17,male,English
+537c6bd802e8f821,Apache,Eagar,86505,30-44,female,English
+1c18edb706c626d5,Apache,Chinle,86511,30-44,female,English
+8fb7d3cd4b0ad0fa,Apache,Eagar,86505,45-64,female,English
+8d20ffb8b052ff9f,Apache,Eagar,86511,65+,other,English
+c9c67fe4b78d12b9,Apache,Eagar,86503,45-64,female,English
+d8492d15908419fa,Apache,Chinle,86503,65+,female,Spanish
+74e67c638d9122cc,Apache,Chinle,86505,30-44,female,English
+3d380497f686637f,Apache,Chinle,86505,45-64,female,Spanish
+7eff146d8d6142a0,Apache,Eagar,86503,30-44,female,English
+74d235bf7c3c2ad6,Apache,Chinle,86511,45-64,female,Spanish
+60c3e9ffc2e5a7a0,Apache,Chinle,86503,0-17,female,Spanish
+c501a99f99fd68a3,Apache,Chinle,86503,18-29,male,Spanish
+c4647f2fb75938e2,Apache,Eagar,86505,0-17,male,English
+6f436c2743a9ad8b,Apache,Eagar,86503,18-29,female,English
+69eec14360a5dc29,Apache,Window Rock,86505,65+,male,English
+7dae2e9b15a640d7,Apache,Chinle,86511,45-64,female,English
+e6e0abb92b9a9e48,Apache,Window Rock,86505,30-44,female,Spanish
+5aafaf8cf107eb26,Apache,Eagar,86503,65+,female,Spanish
+1924a34c4bc843cd,Apache,Chinle,86511,18-29,female,English
+aebfbcf8ba177140,Apache,Eagar,86511,65+,female,English
+784f9a5af54d81a3,Apache,Chinle,86505,18-29,male,English
+e801d380043ed0e2,Apache,Window Rock,86511,18-29,female,Spanish
+5081af12d7fe0b24,Apache,Window Rock,86505,45-64,male,Spanish
+f5a82bc698b64c77,Apache,Eagar,86511,65+,male,English
+3160db02317c2f80,Apache,Eagar,86505,65+,male,English
+68c2f366360ee1ed,Apache,Chinle,86503,45-64,female,English
+58377273ac15159e,Apache,Window Rock,86505,45-64,female,English
+d0c3903168389f34,Apache,Eagar,86503,65+,male,Spanish
+dc99abdf906ebdf4,Apache,Chinle,86511,45-64,male,Spanish
+05294a60a18d99d4,Apache,Eagar,86503,18-29,male,English
+9a914f0bd705fa5e,Apache,Eagar,86503,30-44,female,English
+62e89280530940b0,Apache,Chinle,86503,45-64,male,English
+32e9b7a372ae75eb,Apache,Window Rock,86505,18-29,female,English
+9cb338d40300e8b7,Apache,Eagar,86511,45-64,female,English
+c80dd890749de844,Apache,Eagar,86511,18-29,male,English
+e790175e75174900,Apache,Eagar,86505,30-44,male,Spanish
+7f1a7bd6f9fee515,Apache,Chinle,86511,30-44,female,Spanish
+052893e9643f678d,Apache,Chinle,86511,65+,male,English
+e63dcc2f9ae4cf95,Apache,Window Rock,86505,65+,female,English
+c335117b691c3c04,Apache,Eagar,86505,65+,female,Navajo
+9b3e10fe06747b1e,Apache,Chinle,86505,0-17,male,Spanish
+273ee8a1050e8c7f,Apache,Eagar,86511,30-44,male,English
+4ce1ea176ab7bd24,Apache,Window Rock,86511,45-64,female,English
+a0ca69a7804b72f8,Apache,Eagar,86511,45-64,male,English
+6b4196923ab1ade0,Apache,Eagar,86511,0-17,male,English
+341edec823085c9d,Apache,Eagar,86503,0-17,female,Spanish
+f78ab6e841cc149c,Apache,Window Rock,86503,45-64,male,English
+648b536e893b0573,Apache,Chinle,86503,18-29,male,English
+3b510f2303511c1a,Apache,Chinle,86511,65+,male,English
+fd0689da47d23b76,Apache,Window Rock,86503,65+,male,Navajo
+578898d77ceae41a,Apache,Eagar,86505,0-17,female,English
+095736e392d9ecd5,Apache,Chinle,86505,45-64,male,English
+84d6ec3d46297f48,Apache,Eagar,86505,0-17,female,English
+36d1690326b1ddf3,Apache,Chinle,86511,18-29,female,Spanish
+8cd4f1278e6816ef,Apache,Chinle,86511,30-44,female,Spanish
+56314d29bb80e102,Apache,Chinle,86503,0-17,male,English
+6f3b037c1d98aca3,Apache,Chinle,86511,65+,male,English
+b4aeecbcd26c04c9,Cochise,Bisbee,85635,0-17,female,English
+cf5efdc0fee15481,Cochise,Bisbee,85615,65+,female,English
+488399d29d961d76,Cochise,Douglas,85615,65+,male,English
+464ef1429cee0501,Cochise,Douglas,85635,65+,male,English
+c49b02e744dd2d85,Cochise,Sierra Vista,85607,65+,male,English
+cca121e433142e2d,Cochise,Bisbee,85635,30-44,female,Spanish
+3681adf01c19eeec,Cochise,Sierra Vista,85635,18-29,male,English
+745247cf64469c81,Cochise,Sierra Vista,85607,18-29,female,Spanish
+b4e4e8e90f980a14,Cochise,Douglas,85607,65+,male,Spanish
+5d23eae35e9e0f51,Cochise,Bisbee,85607,0-17,female,Spanish
+d9ba3ba488a2b0b3,Cochise,Douglas,85607,0-17,female,Spanish
+923989bb189f56ff,Cochise,Sierra Vista,85635,0-17,female,English
+4406ae8f7f6c7d9d,Cochise,Sierra Vista,85615,30-44,male,English
+8c274e7dcd9ec33d,Cochise,Bisbee,85635,18-29,male,English
+f2ad14c716bfd588,Cochise,Douglas,85615,45-64,male,Spanish
+f80fe1ebcba4bf17,Cochise,Sierra Vista,85615,45-64,female,English
+d4615c996d0e8bc1,Cochise,Bisbee,85635,45-64,female,English
+d0e6298fad8fae76,Cochise,Douglas,85635,45-64,female,English
+75eb422549eafdd5,Cochise,Bisbee,85635,65+,male,Spanish
+1b2d0126ec21f427,Cochise,Douglas,85607,30-44,male,English
+1ad4396e876ec7ef,Cochise,Sierra Vista,85615,30-44,male,English
+3d2e58a25051c592,Cochise,Bisbee,85615,0-17,male,English
+d730c1dc958d57f6,Cochise,Bisbee,85635,30-44,female,English
+b25b478e70c783b7,Cochise,Bisbee,85615,45-64,female,Spanish
+7cf20baa8f814cc9,Cochise,Douglas,85635,0-17,female,English
+37cce3714b683e68,Cochise,Bisbee,85635,18-29,male,English
+13e136bfdbce36c5,Cochise,Douglas,85635,18-29,male,English
+5d7e3b54713deee9,Cochise,Douglas,85635,65+,male,English
+622cd9f17f92585f,Cochise,Bisbee,85607,45-64,male,English
+6dd854d9070c86d5,Cochise,Sierra Vista,85615,45-64,female,English
+b89a6172aa964ea8,Cochise,Sierra Vista,85607,30-44,female,English
+8a3202a6d47da916,Cochise,Sierra Vista,85607,45-64,female,English
+f707fd5a41397a61,Cochise,Sierra Vista,85615,18-29,female,Spanish
+18949d7d34b2023a,Cochise,Sierra Vista,85607,0-17,male,English
+bd8cfaf88afa58a8,Cochise,Douglas,85615,45-64,female,English
+fa88afcb37f78177,Cochise,Sierra Vista,85635,0-17,female,English
+5967a9a723682f1c,Cochise,Bisbee,85615,30-44,female,English
+97d9cca63033413f,Cochise,Sierra Vista,85607,18-29,male,Spanish
+35e6e89a8353cf6c,Cochise,Douglas,85615,18-29,female,Spanish
+64533903204c0cf3,Cochise,Sierra Vista,85615,30-44,female,English
+040fd6c930a45bc8,Cochise,Douglas,85607,30-44,male,English
+82968d81be7498a4,Cochise,Sierra Vista,85615,30-44,male,English
+f7568885c4242371,Cochise,Douglas,85607,30-44,male,English
+461fd0bfdaae7a04,Cochise,Douglas,85635,65+,female,Spanish
+754e15994c89e96f,Cochise,Douglas,85635,30-44,female,Spanish
+073d997014ba4327,Cochise,Douglas,85607,18-29,female,English
+be57ea1218497438,Cochise,Bisbee,85635,18-29,male,English
+d81ea9dfb8af411b,Cochise,Bisbee,85607,18-29,female,English
+6f53846be3bc22ef,Cochise,Sierra Vista,85635,0-17,male,English
+d94ce546e79219d0,Cochise,Bisbee,85635,30-44,male,English
+5991efcf8fb82c3a,Cochise,Bisbee,85615,65+,male,English
+968d4d0b27a0335e,Cochise,Douglas,85615,45-64,male,English
+9f0a7438f2c45cb3,Cochise,Bisbee,85607,18-29,female,English
+6aa77a3bb88481c4,Cochise,Douglas,85607,45-64,male,English
+9781a1c2cbc8d6c5,Cochise,Bisbee,85615,30-44,male,Spanish
+f487934b9f4ddd50,Cochise,Douglas,85635,45-64,female,English
+a243d793cc0c1f3c,Cochise,Sierra Vista,85615,0-17,male,English
+26b16a87e3a09ea6,Cochise,Sierra Vista,85635,45-64,female,English
+64046ec24a923217,Cochise,Bisbee,85635,45-64,female,Spanish
+502beaed73ccd03b,Cochise,Douglas,85615,45-64,female,English
+5ad0132cca886c50,Cochise,Sierra Vista,85615,0-17,male,English
+55a25879b0667f62,Cochise,Bisbee,85635,65+,female,English
+87d78825a7675baa,Cochise,Douglas,85615,65+,male,English
+7b8cc5149ca71bf9,Cochise,Bisbee,85607,18-29,female,Spanish
+bf1a7b1303f3425a,Cochise,Sierra Vista,85635,45-64,male,Navajo
+4258d9a1bb0e0902,Cochise,Sierra Vista,85635,45-64,male,English
+f8ed6e538d3e8f07,Cochise,Sierra Vista,85607,18-29,male,English
+3dc02a8cfd44c492,Cochise,Sierra Vista,85607,18-29,male,English
+878d47073a903a23,Cochise,Bisbee,85635,0-17,female,Spanish
+406e984868761ccb,Cochise,Bisbee,85615,0-17,female,English
+06d5bd62ed44ec85,Cochise,Sierra Vista,85635,30-44,female,English
+ffc766394e4e1fbb,Cochise,Douglas,85635,18-29,male,English
+a084a99d244ace60,Cochise,Sierra Vista,85615,65+,male,Spanish
+72332fce2c7d7509,Cochise,Douglas,85635,65+,other,English
+c573c7b3ba3b2b06,Cochise,Douglas,85635,30-44,male,Spanish
+b342af4b1bce049a,Cochise,Bisbee,85607,65+,female,English
+b806ef4d33fc1fa5,Cochise,Bisbee,85607,45-64,male,English
+68e50c0f1c73f419,Cochise,Sierra Vista,85615,30-44,male,Spanish
+df9df816143b03cc,Cochise,Sierra Vista,85615,65+,male,English
+9d0364b1cf803153,Cochise,Bisbee,85615,18-29,other,English
+40db66277576b538,Cochise,Douglas,85607,45-64,male,Spanish
+d09c2ef24a95cdd4,Cochise,Sierra Vista,85615,65+,female,Spanish
+c04045eb3ea58e06,Cochise,Bisbee,85615,30-44,female,English
+fca8c8f9b824a50b,Cochise,Sierra Vista,85607,30-44,male,English
+03eb1c7a2ea7e479,Cochise,Douglas,85607,18-29,female,English
+7ebd3a928c3110ef,Cochise,Bisbee,85615,0-17,male,English
+c929405eb2e0b842,Cochise,Sierra Vista,85635,30-44,female,English
+6688f33c2eaa72de,Cochise,Sierra Vista,85635,18-29,male,English
+ff963fa19c572236,Cochise,Sierra Vista,85635,65+,female,English
+2f9f5ce6ef2ea775,Cochise,Bisbee,85635,0-17,male,English
+db09bb36fba3dc3a,Cochise,Douglas,85615,45-64,female,English
+7928182a85124200,Cochise,Bisbee,85635,45-64,male,Spanish
+4e97a0bad01f2d48,Cochise,Sierra Vista,85607,18-29,female,English
+89533bdff63fd3da,Cochise,Bisbee,85615,65+,female,English
+f9fecc80bc8f86ac,Cochise,Sierra Vista,85635,45-64,female,English
+f6ca940edba41891,Cochise,Sierra Vista,85607,18-29,female,English
+dfe6ab624cb56ec6,Cochise,Bisbee,85615,18-29,male,English
+d486c1dcc1f29314,Cochise,Sierra Vista,85635,18-29,female,English
+b5b83920254a2886,Cochise,Bisbee,85615,65+,female,Navajo
+5792728edb7910e1,Cochise,Bisbee,85615,18-29,male,English
+c2445783356c3b4f,Cochise,Bisbee,85615,0-17,male,Spanish
+1831af57cb4d61c6,Cochise,Douglas,85615,0-17,female,English
+2a3327277128456b,Cochise,Bisbee,85635,30-44,male,English
+aa1a99d38f20f55e,Cochise,Bisbee,85615,45-64,female,English
+c928a4bf701a821e,Cochise,Sierra Vista,85607,45-64,female,English
+66dc764009289cf0,Cochise,Bisbee,85607,65+,female,English
+20df4ef2f4d0e3a8,Cochise,Douglas,85607,0-17,female,English
+8359a060f9fa3fbb,Cochise,Douglas,85635,0-17,female,English
+6288622f1792e3cf,Cochise,Douglas,85615,45-64,male,English
+c1ce92e738ae5252,Cochise,Douglas,85635,18-29,male,English
+4b0f8124412344c9,Cochise,Douglas,85635,30-44,male,English
+a914c8c61755ed04,Cochise,Bisbee,85615,18-29,male,English
+92dfd33efdf57952,Cochise,Sierra Vista,85607,0-17,female,English
+22e8be08466e5f2f,Cochise,Douglas,85607,45-64,male,Navajo
+87720b42e3b7de9a,Cochise,Douglas,85635,0-17,male,Spanish
+491ead46265a8068,Cochise,Sierra Vista,85635,45-64,male,English
+4449fc7157499c85,Cochise,Bisbee,85607,0-17,female,English
+ca4d4832afebd595,Cochise,Douglas,85607,18-29,male,English
+21844ec42373cc66,Cochise,Sierra Vista,85635,65+,female,English
+bb293f42df02a72c,Cochise,Bisbee,85615,30-44,male,Spanish
+464d589f3a2f506e,Cochise,Sierra Vista,85615,45-64,female,English
+84825fda14292b1c,Cochise,Sierra Vista,85635,45-64,female,Spanish
+20cdf5ac927a439e,Cochise,Bisbee,85607,45-64,male,English
+cf336cb2713767c6,Cochise,Douglas,85635,18-29,male,English
+45fe152051303102,Cochise,Sierra Vista,85615,18-29,male,English
+84341d6fd0e94691,Cochise,Douglas,85635,30-44,male,English
+2dc832daa0e994e0,Cochise,Sierra Vista,85607,45-64,male,English
+f540a12894d596fb,Cochise,Bisbee,85607,45-64,female,English
+814930f81df9eccb,Cochise,Bisbee,85615,45-64,male,English
+1f5643b7fd1938fe,Cochise,Sierra Vista,85615,65+,male,English
+9f175b3705ec8e05,Cochise,Douglas,85607,45-64,male,English
+8c8cb4246b1cfcae,Cochise,Bisbee,85607,0-17,female,English
+6b86cd30e15c2851,Cochise,Bisbee,85607,18-29,male,Spanish
+1af5a5da05d87995,Cochise,Douglas,85607,45-64,male,English
+5d0bea02c03574cf,Cochise,Douglas,85607,18-29,female,English
+2672a360690eb6c2,Cochise,Douglas,85635,30-44,male,Spanish
+517d0025e967be0c,Cochise,Douglas,85635,45-64,female,English
+deca0321dcd7e656,Cochise,Douglas,85615,65+,male,English
+95662b273b577bdf,Cochise,Bisbee,85615,65+,female,English
+924d4aa4920ecae6,Cochise,Douglas,85615,30-44,male,English
+2c45ca4e83d8f0c2,Cochise,Bisbee,85607,65+,female,Spanish
+9a5a771f5f6c39e0,Cochise,Douglas,85615,18-29,female,English
+fab7f64a41464123,Cochise,Douglas,85635,18-29,female,English
+a23da447001445f1,Cochise,Douglas,85635,45-64,female,Navajo
+9853651ba35acb02,Cochise,Douglas,85615,30-44,female,English
+c10e6741a971adb3,Cochise,Bisbee,85615,30-44,female,English
+b7e1dd3cbecba01f,Cochise,Douglas,85635,30-44,male,English
+4f9f1728e17041d3,Cochise,Bisbee,85615,0-17,other,Spanish
+440658366e35c7cd,Cochise,Bisbee,85615,30-44,male,English
+0824215dd0697d55,Cochise,Douglas,85615,45-64,female,English
+df96640f9ce3b78d,Cochise,Bisbee,85615,45-64,male,English
+5fa706316f4994fc,Cochise,Bisbee,85615,18-29,male,Navajo
+0d3bbae3e842f490,Cochise,Bisbee,85607,45-64,male,English
+90ed06e8cd4735b9,Cochise,Bisbee,85635,45-64,female,Spanish
+25d79b23983c6d12,Cochise,Sierra Vista,85635,65+,female,English
+c843502918ef4023,Cochise,Douglas,85607,30-44,female,English
+5e7dc696dc031a56,Cochise,Douglas,85635,45-64,male,English
+6d4dd9cbf512da22,Cochise,Douglas,85635,30-44,female,Spanish
+26d0b4bc5265139f,Cochise,Bisbee,85615,30-44,male,Spanish
+7822d78e56b219b5,Cochise,Bisbee,85635,18-29,female,Spanish
+9ec0ab783fa1c1cb,Cochise,Bisbee,85615,18-29,male,English
+f5fd1d0696b42a8b,Cochise,Bisbee,85607,45-64,female,English
+4c6a0716ac544926,Cochise,Bisbee,85615,18-29,male,English
+6d237aa15c6c9df7,Cochise,Douglas,85607,18-29,female,English
+b74c265227b77e05,Cochise,Douglas,85635,18-29,female,English
+aaee5b057c7e7c55,Cochise,Douglas,85635,45-64,female,English
+1048c6f6d71780af,Cochise,Sierra Vista,85607,0-17,male,English
+e9182d81180a3976,Cochise,Sierra Vista,85607,30-44,male,English
+e93039256918d43e,Cochise,Sierra Vista,85607,65+,male,English
+9837eeacb213fa7d,Cochise,Douglas,85615,45-64,male,English
+bbfcf6b1156161e0,Cochise,Bisbee,85607,65+,female,English
+8d1fe092959e1234,Cochise,Bisbee,85635,65+,female,Spanish
+fbbe8805a4bb83c6,Cochise,Sierra Vista,85607,65+,female,English
+4e03f47fc5b8c80d,Cochise,Douglas,85607,0-17,male,English
+5cd5c03278f9daba,Cochise,Douglas,85615,65+,male,English
+5f5e86e511155654,Cochise,Bisbee,85615,18-29,male,English
+796c3733bf55c6d9,Cochise,Douglas,85635,18-29,female,Spanish
+a29f76708770e2f6,Cochise,Douglas,85635,45-64,female,English
+ae4e8e732d678054,Cochise,Douglas,85615,30-44,female,English
+2ec1361737924e06,Cochise,Sierra Vista,85615,18-29,female,English
+57529d468b7e53ee,Cochise,Douglas,85615,65+,female,English
+047867b5d04d660d,Cochise,Douglas,85635,18-29,female,English
+fa44334ce47ae333,Cochise,Douglas,85607,30-44,male,Spanish
+f06862e88f471a0a,Cochise,Douglas,85635,0-17,male,English
+86cab09097c5beb1,Cochise,Sierra Vista,85607,65+,female,English
+40f980c0d6882626,Cochise,Douglas,85615,45-64,male,Spanish
+b0e5f6bb2cdcccc7,Cochise,Bisbee,85607,45-64,male,English
+ed5765c16e207ab1,Cochise,Sierra Vista,85635,30-44,male,English
+d0c18fcdcbfeabb6,Cochise,Sierra Vista,85607,45-64,male,English
+a2ad3fd67ff8e578,Cochise,Sierra Vista,85607,18-29,male,English
+6ab54b65ead12044,Cochise,Bisbee,85635,30-44,male,English
+b9950f2cb122a0b9,Cochise,Douglas,85607,30-44,female,English
+37ada1c7398633b6,Cochise,Bisbee,85615,45-64,female,Spanish
+616a341becea806a,Cochise,Sierra Vista,85635,0-17,female,English
+e7b881102138f521,Cochise,Sierra Vista,85607,65+,female,English
+48205feb1818195d,Cochise,Sierra Vista,85635,65+,male,English
+68c208c8819d4fbc,Cochise,Douglas,85615,30-44,male,English
+c2675503d7d2aae3,Cochise,Sierra Vista,85635,65+,female,Navajo
+c27c69dab096a61b,Cochise,Bisbee,85607,45-64,female,English
+24debeab5dc5eda9,Cochise,Douglas,85615,45-64,male,English
+f80b4f221dd276ed,Coconino,Flagstaff,86001,30-44,female,English
+4328a3e35cece862,Coconino,Flagstaff,86001,45-64,female,Spanish
+e27c6ec575e47da8,Coconino,Flagstaff,86001,0-17,male,English
+0ad50b1efa417c38,Coconino,Williams,86001,18-29,female,English
+4ff30e4c8475daec,Coconino,Flagstaff,86001,0-17,other,English
+5b280c702217ad13,Coconino,Williams,86004,30-44,male,Spanish
+ee164fbac4710d8d,Coconino,Page,86001,65+,male,English
+b58dad07becf1bd0,Coconino,Flagstaff,86011,65+,male,Spanish
+04deeb510fe3d8b2,Coconino,Williams,86004,30-44,female,English
+40fb585cba70d213,Coconino,Williams,86004,45-64,female,English
+1a8be450630ac512,Coconino,Page,86004,0-17,male,English
+f0d0c7e82a4c15dc,Coconino,Page,86011,0-17,female,English
+e94ded630c26acbd,Coconino,Page,86011,30-44,female,English
+fda304b87aa80784,Coconino,Williams,86001,65+,male,English
+76b3edde99659918,Coconino,Flagstaff,86001,18-29,male,English
+c9ff76b988b274d7,Coconino,Flagstaff,86011,45-64,male,English
+ec34f58ce7c5829a,Coconino,Page,86001,18-29,female,Spanish
+a1c355b312977bf9,Coconino,Page,86001,45-64,male,English
+184b1a931c52abff,Coconino,Williams,86004,45-64,female,English
+33e7407aee200297,Coconino,Page,86004,18-29,male,English
+7ea7f77335478066,Coconino,Williams,86004,45-64,female,English
+e2258e2a60b012ab,Coconino,Page,86001,30-44,female,English
+5392d1ed54d68c1e,Coconino,Williams,86011,30-44,female,English
+c966ef4d6d7f832b,Coconino,Flagstaff,86004,30-44,female,English
+4e22747e596c6256,Coconino,Page,86004,45-64,female,English
+dfbb1851e5782835,Coconino,Page,86004,0-17,male,English
+6acb7cde893d48fb,Coconino,Williams,86004,0-17,male,Navajo
+cdc3fa2f945e88da,Coconino,Williams,86001,45-64,female,Spanish
+e59bc93d3788da26,Coconino,Flagstaff,86004,0-17,male,English
+679dd2d3f935e911,Coconino,Flagstaff,86001,30-44,female,English
+dba396a9a94a4265,Coconino,Williams,86004,45-64,female,English
+4778324acc09fd71,Coconino,Flagstaff,86001,30-44,female,Navajo
+cdebbe61e227eccc,Coconino,Williams,86011,45-64,male,Spanish
+bd1067d544e2c8eb,Coconino,Flagstaff,86011,0-17,female,English
+9b105ba9032c2aa4,Coconino,Page,86004,45-64,female,Spanish
+77970e292c01256d,Coconino,Williams,86001,65+,female,English
+05015a2355896a4f,Coconino,Flagstaff,86011,65+,male,English
+f1466f0bd427c5ee,Coconino,Page,86004,30-44,female,English
+67250dedbe3cc887,Coconino,Flagstaff,86004,65+,male,English
+222aa280f60f4ce9,Coconino,Flagstaff,86011,65+,female,Spanish
+ff4035091615b71e,Coconino,Williams,86004,18-29,male,English
+6ee7f424f8e350b8,Coconino,Williams,86011,45-64,female,Spanish
+1ef05c7ac24b2d1c,Coconino,Flagstaff,86011,0-17,male,Spanish
+a4ed264850a108a7,Coconino,Page,86001,30-44,male,Spanish
+ad8007e71d427554,Coconino,Williams,86004,30-44,male,Spanish
+48685452ca5bbda1,Coconino,Williams,86001,30-44,male,English
+c9c5d62c71d228d3,Coconino,Flagstaff,86001,18-29,male,Spanish
+d9b6272a74f7f5b4,Coconino,Page,86001,45-64,male,English
+a9ee22137970fe7c,Coconino,Page,86011,65+,female,English
+e6224596f1796a55,Coconino,Page,86001,45-64,female,English
+206c9f079f503e6e,Coconino,Flagstaff,86004,0-17,male,English
+6ef8b3e698c87a0b,Coconino,Page,86004,18-29,female,Spanish
+020a30f5101dcaad,Coconino,Page,86004,0-17,female,English
+22a4aaa5e43a491b,Coconino,Williams,86011,30-44,female,English
+1702f181505264a1,Coconino,Williams,86011,45-64,male,English
+dcc6d5e6fc928f34,Coconino,Page,86001,45-64,male,Navajo
+73ae8198f5b25c82,Coconino,Williams,86011,0-17,female,English
+bfe17f7f8b78a145,Coconino,Page,86004,0-17,female,English
+161d56ba794f4caa,Coconino,Page,86001,18-29,male,English
+b700065a99ed8557,Coconino,Williams,86011,18-29,female,English
+6b53de52868dde87,Coconino,Page,86011,30-44,male,English
+45f0be74814763e2,Coconino,Williams,86011,0-17,female,Spanish
+a9876ea3f5c3d77d,Coconino,Page,86004,0-17,female,English
+0493afdb4fb24f0f,Coconino,Williams,86011,30-44,male,English
+a03693f96ef1c749,Coconino,Page,86004,18-29,male,English
+7dc1080d4b19db8b,Coconino,Flagstaff,86011,45-64,female,English
+26e53271d0bf6f70,Coconino,Flagstaff,86004,45-64,male,English
+6716ca2ccd7248a4,Coconino,Page,86011,30-44,male,English
+c1b53c37f07a8f33,Coconino,Flagstaff,86011,30-44,female,English
+3263fd02f788574f,Coconino,Page,86011,30-44,male,Spanish
+4036244890c7a4c3,Coconino,Page,86011,0-17,male,English
+53000a4fbc509852,Coconino,Williams,86011,45-64,female,Spanish
+f3f605f23c7b0874,Coconino,Williams,86004,0-17,male,English
+7ccbc5e2aed3f4e6,Coconino,Williams,86011,30-44,male,Spanish
+656d35202e37c883,Coconino,Flagstaff,86001,0-17,female,Spanish
+34d7da7d2c1680d9,Coconino,Williams,86011,30-44,female,English
+eab6ada6f799d2c8,Coconino,Williams,86011,45-64,female,Navajo
+7ebe1d4b3f515d8f,Coconino,Flagstaff,86004,30-44,male,English
+a1d7776e730949f3,Coconino,Flagstaff,86004,18-29,female,English
+0e142fdcffeab0b4,Coconino,Page,86004,0-17,male,English
+fcc1f7fb506df9c5,Coconino,Page,86001,45-64,female,Spanish
+f8d52afad765bb09,Coconino,Flagstaff,86011,45-64,male,Spanish
+faa36d8251597623,Coconino,Flagstaff,86011,0-17,male,Spanish
+fefce3fca0daeab9,Coconino,Page,86011,0-17,male,English
+bdb63895b15d3c66,Coconino,Williams,86011,65+,female,English
+65bdead3d23a6fdf,Coconino,Williams,86001,18-29,male,Spanish
+c8e84f170c8170c3,Coconino,Williams,86001,45-64,male,English
+a3f78c9498e62413,Coconino,Page,86001,18-29,male,English
+26b9daae0c5f5027,Coconino,Page,86011,30-44,female,English
+71b4752974974033,Coconino,Page,86011,0-17,male,Spanish
+e268e64afc2767f8,Coconino,Williams,86001,45-64,female,English
+d5258dadc2062d42,Coconino,Flagstaff,86004,45-64,male,English
+561fe6b61891cf85,Coconino,Williams,86004,30-44,female,English
+2b2bf2869eacff20,Coconino,Flagstaff,86011,0-17,female,English
+a88a8cf088fd87aa,Coconino,Page,86011,0-17,female,English
+425d137c69d5aac0,Coconino,Flagstaff,86004,65+,male,English
+6146b5ddd8c04a0e,Coconino,Page,86004,45-64,female,English
+3f4cc829fe794b4d,Coconino,Flagstaff,86001,18-29,female,English
+37f021e78b16c469,Coconino,Page,86011,45-64,male,English
+8ff927793fae7f3d,Coconino,Williams,86001,18-29,male,Navajo
+dcb331fd7de9ada1,Coconino,Flagstaff,86011,30-44,female,English
+e6a5291cb188b0dd,Coconino,Williams,86001,18-29,other,English
+3ac58dc4c06d75c1,Coconino,Flagstaff,86004,65+,female,Spanish
+07e1ba3a66ad957a,Coconino,Williams,86011,45-64,male,English
+e4f7a7f4a65e7a19,Coconino,Flagstaff,86011,0-17,female,English
+5000d650859986ae,Coconino,Williams,86004,30-44,male,English
+d0adb9ff69825c18,Coconino,Page,86004,30-44,male,English
+d634d60efb3835f6,Coconino,Flagstaff,86001,65+,male,Spanish
+2cd44fa1331d113e,Coconino,Williams,86001,45-64,female,English
+81b71bad263202cd,Coconino,Flagstaff,86011,30-44,female,English
+604bb2d62154b947,Coconino,Page,86004,30-44,male,Spanish
+eae3f6b9b70a42e0,Coconino,Page,86011,45-64,male,Spanish
+9f731b2acd1c5a49,Coconino,Page,86004,30-44,male,Spanish
+eceabaee264e5930,Coconino,Williams,86004,45-64,male,Spanish
+f7c97c1249ceef18,Coconino,Williams,86004,18-29,female,English
+4d6cdfa20fc73fc7,Coconino,Page,86004,18-29,male,English
+a264c033eccdef23,Coconino,Page,86011,45-64,female,English
+37442f57d2a9226a,Coconino,Page,86001,0-17,male,English
+7364f48dedfdc95e,Coconino,Page,86001,65+,male,Spanish
+4e4a643246b10fc5,Coconino,Flagstaff,86004,0-17,female,English
+545c046c093c17c4,Coconino,Williams,86001,0-17,male,English
+32d1a1470238405f,Coconino,Flagstaff,86004,45-64,male,English
+3c0147de748735a9,Coconino,Flagstaff,86001,30-44,male,English
+88efe165f07b904c,Coconino,Williams,86004,45-64,other,English
+9c0f9f9b203c2459,Coconino,Page,86001,18-29,female,Spanish
+7ceb5eb4dfefd61f,Coconino,Page,86004,65+,female,Spanish
+c80bd9071260daf3,Coconino,Flagstaff,86011,65+,female,English
+4ade5187f39295a5,Coconino,Williams,86011,0-17,female,English
+ba75635f5ec13734,Coconino,Flagstaff,86004,45-64,female,English
+4af9d5d8c0375875,Coconino,Flagstaff,86001,30-44,female,Spanish
+47113351949cd71b,Coconino,Flagstaff,86001,18-29,female,English
+1ab420fc8b4c6602,Coconino,Williams,86011,18-29,male,English
+8f7731b6acf303c2,Coconino,Williams,86004,18-29,male,English
+e49ae4893483107d,Coconino,Page,86011,0-17,male,Spanish
+a61d25132fceb5a0,Coconino,Page,86001,18-29,male,English
+7534146c98b6a11f,Coconino,Page,86004,0-17,male,English
+20e92324c517aedd,Coconino,Williams,86011,0-17,female,Navajo
+7d9599ac4de58cb5,Coconino,Flagstaff,86011,0-17,female,English
+8dc49862addce602,Coconino,Page,86011,18-29,male,Spanish
+c1ada8a23d33d38e,Coconino,Williams,86004,0-17,male,English
+35e2c1b385c55770,Coconino,Flagstaff,86004,0-17,male,Navajo
+8d597aee1a3c50e8,Coconino,Williams,86004,30-44,male,Spanish
+d8585e18f9f4b4a5,Coconino,Williams,86001,18-29,female,Spanish
+7c22c3979977416b,Coconino,Flagstaff,86001,0-17,female,English
+07d0f1d79b7f61c2,Coconino,Flagstaff,86004,45-64,male,English
+68256f222b2e33f0,Coconino,Williams,86001,45-64,female,Spanish
+c6f4dce79f81c852,Coconino,Williams,86011,18-29,female,Spanish
+c999ed4f713f974e,Coconino,Williams,86001,45-64,female,Spanish
+8985d4f54b2a262e,Coconino,Williams,86001,18-29,male,English
+8950cac3e1e8ef02,Coconino,Page,86011,18-29,male,English
+794e5ca32a950133,Coconino,Flagstaff,86004,45-64,male,English
+4cbb5ad8b331534d,Coconino,Flagstaff,86011,30-44,female,Spanish
+4116452b599ae127,Coconino,Flagstaff,86004,18-29,male,English
+c2ca3d2cfc1b07dd,Coconino,Flagstaff,86011,45-64,male,English
+630aa86f2cc27357,Coconino,Page,86001,30-44,male,English
+e86ba129a3210efa,Coconino,Williams,86004,0-17,male,English
+2267bb76a2f2b8aa,Coconino,Williams,86001,65+,female,English
+3dce084b7484eb26,Coconino,Page,86004,0-17,female,English
+cdff0519cb581fad,Coconino,Williams,86004,45-64,female,English
+182ed2f3a47de24c,Coconino,Flagstaff,86011,65+,male,English
+0477a6b45a04c3f1,Coconino,Page,86001,18-29,female,Spanish
+1fd5d1775deea5d5,Coconino,Page,86001,45-64,female,Spanish
+5d9908e2dffcabc0,Coconino,Flagstaff,86001,30-44,female,English
+7ae4eabff71d5e7f,Coconino,Flagstaff,86011,18-29,female,English
+84df3074d8fab317,Coconino,Williams,86004,45-64,female,Navajo
+f874a72b2d8a8847,Coconino,Williams,86001,30-44,male,English
+f4835a9a70a415b5,Coconino,Williams,86001,30-44,male,English
+33640502ced111fd,Coconino,Page,86004,45-64,male,English
+c5ffd3ab313124f5,Coconino,Flagstaff,86001,65+,female,Spanish
+b3d83d55ae5ecdaa,Coconino,Flagstaff,86001,0-17,female,English
+035a6080e38ab4a5,Coconino,Page,86001,30-44,female,Spanish
+29ac29ab190be965,Coconino,Flagstaff,86011,18-29,male,English
+63e25b5811cc3dff,Coconino,Page,86001,0-17,female,English
+a76262646214bf36,Coconino,Flagstaff,86011,18-29,male,English
+21750ebb5a0abea2,Coconino,Page,86011,45-64,female,English
+5c8acf7ea8811206,Coconino,Flagstaff,86001,0-17,male,Navajo
+3553636c898c9f4d,Coconino,Flagstaff,86004,30-44,male,English
+9b3aa68e8fc7f4ac,Coconino,Williams,86004,65+,female,Navajo
+1d397ba5a1a4f2b3,Coconino,Williams,86004,45-64,female,Spanish
+e38155a198fbdeee,Coconino,Page,86001,0-17,female,English
+6056b849f7da576f,Coconino,Page,86011,30-44,female,English
+5a36f7140cf99ed6,Coconino,Page,86001,65+,female,English
+3da964a092898761,Coconino,Flagstaff,86011,45-64,female,English
+d0a092636e549cff,Coconino,Williams,86004,0-17,female,English
+cd63268a6897b904,Coconino,Williams,86011,18-29,other,English
+18c69e55f14534de,Coconino,Page,86011,18-29,male,English
+fca36e690f284de5,Coconino,Williams,86004,30-44,female,English
+23274dcc942060c4,Coconino,Flagstaff,86004,0-17,other,English
+29d275a60049e2eb,Coconino,Williams,86001,65+,female,English
+65ad656bf024cc38,Coconino,Williams,86011,0-17,other,English
+d95a7c51d1393869,Coconino,Page,86004,65+,other,English
+b58e54c1d97112ac,Coconino,Williams,86004,45-64,male,Spanish
+ec06e17a3bfb8c95,Coconino,Williams,86011,18-29,male,English
+4b606af2546c19d8,Coconino,Page,86011,18-29,male,English
+a150352391dafea0,Coconino,Williams,86001,0-17,female,English
+f7437c12e2c00dd3,Coconino,Flagstaff,86001,18-29,female,Spanish
+3dd4a79037f6d785,Coconino,Flagstaff,86001,0-17,male,English
+9394a90f901dd010,Coconino,Williams,86004,65+,female,Spanish
+cac8f48788cc65a7,Coconino,Williams,86001,18-29,female,Navajo
+7997a16428a815aa,Coconino,Page,86011,65+,male,English
+a04730f1a561afb4,Gila,Miami,85553,45-64,female,English
+9eefe17770ab62e7,Gila,Payson,85541,45-64,female,English
+5f7bb372b116e620,Gila,Miami,85553,30-44,other,Spanish
+aa313d463c29f8a3,Gila,Globe,85553,18-29,male,English
+daeac57f8573742f,Gila,Miami,85501,65+,female,Spanish
+ed4cfef07a9445ca,Gila,Payson,85541,0-17,male,English
+82bae8404684f783,Gila,Miami,85553,45-64,female,English
+358f9110861368e7,Gila,Globe,85553,0-17,female,English
+5874c0f96aedeb7d,Gila,Globe,85541,30-44,female,English
+c2fab22d782f8189,Gila,Payson,85541,18-29,female,Spanish
+3d2097ba58715c55,Gila,Miami,85553,45-64,female,English
+643e6eb4aec8763b,Gila,Globe,85541,0-17,female,English
+752ed40f447fc635,Gila,Globe,85541,0-17,female,Spanish
+7263054e419d9a69,Gila,Payson,85553,65+,male,English
+56250cd55fb409f2,Gila,Miami,85501,45-64,female,English
+b0fb36acc3b75d1a,Gila,Globe,85501,30-44,male,Spanish
+2c99f4b83c30edda,Gila,Payson,85553,18-29,female,English
+03ce4ab5de07a333,Gila,Miami,85541,0-17,female,English
+34d6b6ecb98072ac,Gila,Miami,85553,45-64,female,English
+a1be867ad482f8db,Gila,Miami,85541,65+,female,English
+6c339e96f8337533,Gila,Payson,85541,30-44,male,English
+f7f320ecce195d5c,Gila,Payson,85501,30-44,female,English
+e4476ec568d770f6,Gila,Payson,85541,30-44,female,English
+4b8a8e11639e6a4a,Gila,Globe,85553,45-64,female,English
+bada94193d5aa3c1,Gila,Payson,85553,18-29,female,English
+5300d507a5628a1a,Gila,Payson,85553,45-64,male,English
+17efa99962eeef15,Gila,Payson,85541,0-17,male,English
+a9bfc19f52880544,Gila,Miami,85553,45-64,male,English
+6ce7702b8c39b7e1,Gila,Payson,85501,65+,female,English
+4a3f71ab64ffe86d,Gila,Globe,85501,30-44,other,English
+6517f1ac8f9ead66,Gila,Miami,85501,45-64,female,Spanish
+e74411954bad24a8,Gila,Globe,85501,30-44,female,English
+9e3c22ee50f8da52,Gila,Miami,85541,65+,female,English
+b1ac213ba284bd61,Gila,Miami,85541,0-17,female,English
+9e93c52cc7400d56,Gila,Globe,85501,30-44,female,English
+82cfa068cb03f9ab,Gila,Payson,85541,18-29,male,English
+1fa27ff84c02a637,Gila,Globe,85501,18-29,female,English
+6666b2f4812eb83e,Gila,Payson,85501,30-44,male,English
+310009682cfcc954,Gila,Miami,85541,65+,male,English
+8506026375e0b0e8,Gila,Payson,85541,18-29,male,English
+5e68c85581d864f6,Gila,Globe,85501,18-29,male,Spanish
+f024518eb790735c,Gila,Payson,85553,30-44,male,English
+d92bacaf06484201,Gila,Payson,85553,30-44,male,English
+f1b5dde143bb95b3,Gila,Miami,85501,0-17,male,English
+efe82bce87c270ac,Gila,Miami,85553,0-17,female,Spanish
+46eb0471e555fb00,Gila,Globe,85501,0-17,female,English
+621b9c9a73151140,Gila,Payson,85541,45-64,male,English
+7088fa9d2f2597c8,Gila,Miami,85501,18-29,female,English
+4c0363c606fe8f72,Gila,Miami,85553,18-29,female,Spanish
+8b53e201c9153ce2,Gila,Miami,85501,18-29,female,English
+928c6c592868d6da,Gila,Globe,85501,45-64,male,English
+27336400d3e91cf5,Gila,Miami,85501,65+,male,English
+271470bf4566d0f1,Gila,Globe,85553,0-17,male,English
+950d183e50f96f8c,Gila,Payson,85553,65+,male,English
+4149f550c4b1dda5,Gila,Payson,85541,18-29,female,English
+99772168177852e7,Gila,Miami,85541,30-44,female,Navajo
+a30ef9936ecc54b8,Gila,Payson,85553,45-64,male,English
+ea9d3d96d2d41b87,Gila,Payson,85501,18-29,female,English
+ffd6d990b110f84e,Gila,Payson,85553,45-64,male,English
+01459a36c53f829b,Gila,Miami,85501,65+,male,Spanish
+3a492134102675b9,Gila,Payson,85553,18-29,female,English
+01c1c737d310ca50,Gila,Payson,85541,65+,female,Spanish
+6aba55766e1cdc64,Gila,Miami,85553,45-64,female,English
+a35e50cbd700c027,Gila,Miami,85553,45-64,male,English
+ff18922d1bb12fb2,Gila,Payson,85501,65+,male,English
+ae3ff1568c1cb3d4,Gila,Payson,85501,45-64,male,English
+cd5d20a08c001ac0,Gila,Miami,85541,45-64,female,English
+80159561e552dd11,Gila,Payson,85541,30-44,male,English
+b63f3b7b503f0e64,Gila,Payson,85501,65+,male,Spanish
+dd09f8411aea8fef,Gila,Payson,85501,30-44,male,English
+7eb36126faa4ad49,Gila,Payson,85501,65+,female,Navajo
+117989ec530b110f,Gila,Payson,85553,65+,other,English
+db891be54a36c088,Gila,Globe,85501,30-44,male,English
+b9855431d44b9ed5,Gila,Globe,85501,30-44,female,Spanish
+5140a7478a901d32,Gila,Globe,85541,45-64,male,English
+d72766b12c5ceab7,Gila,Miami,85541,30-44,male,English
+89d0d1e1de304d32,Gila,Miami,85501,45-64,male,Spanish
+773fff3666442d7c,Gila,Miami,85501,0-17,female,Spanish
+0153e43af9d876c4,Gila,Miami,85541,18-29,female,English
+a994f4870b8318d0,Gila,Globe,85501,45-64,female,English
+78fca518ff1c73cf,Gila,Miami,85553,30-44,female,English
+f86982cb1d9862a4,Gila,Payson,85541,18-29,female,Spanish
+2ec0287557493ba8,Gila,Payson,85501,18-29,male,English
+a47a0b46b9a3d5d3,Gila,Globe,85553,30-44,female,English
+341b944c185f82d1,Gila,Globe,85541,65+,female,English
+8cb7d55e936518f9,Gila,Miami,85501,45-64,male,English
+7892968b22fba8e8,Gila,Globe,85541,30-44,female,English
+6a21e6756a72403f,Gila,Globe,85501,45-64,male,English
+29364a47d72f4525,Gila,Globe,85553,30-44,male,English
+0cd55fee3c402fa9,Gila,Globe,85553,45-64,female,English
+a15edcbd321752d5,Gila,Payson,85501,45-64,male,Spanish
+32dfba941006616b,Gila,Payson,85553,30-44,female,English
+e218ab5cdd8f4373,Gila,Miami,85541,18-29,female,English
+eb73d08aa908d228,Gila,Miami,85553,30-44,male,Spanish
+bf79c3ffd639ceb6,Gila,Miami,85553,0-17,female,English
+c902548a8b99e354,Gila,Payson,85541,0-17,male,Spanish
+675d87a6866730b0,Gila,Payson,85541,45-64,female,Spanish
+9742df35b045cf4f,Gila,Globe,85501,65+,male,English
+93a6b69fd9e13a24,Gila,Payson,85553,18-29,male,English
+934e456c8b811ad6,Gila,Globe,85501,30-44,male,English
+7f9e5d6e15872bc5,Gila,Miami,85541,45-64,male,Spanish
+8850f0d84a9dc3e5,Gila,Globe,85553,45-64,other,Spanish
+a209ca4b65e8bcb8,Gila,Payson,85553,30-44,male,English
+36a99b21cef24030,Gila,Payson,85541,45-64,male,Spanish
+02ff08837557ddf2,Gila,Globe,85541,65+,female,English
+445854f52581c268,Gila,Globe,85541,45-64,female,Spanish
+b917cd98447e8bb5,Gila,Miami,85553,45-64,female,Spanish
+d55ead463305bbbd,Gila,Miami,85553,45-64,male,English
+ee681d43bb4d0e49,Gila,Globe,85541,18-29,male,English
+f530cc3c3abbe38e,Gila,Miami,85553,0-17,male,English
+9411ec77997bd3f2,Gila,Payson,85541,65+,female,English
+455763cf71a6179c,Gila,Payson,85541,0-17,female,English
+5c429ba0bb9fe2cd,Gila,Globe,85501,30-44,male,English
+66008fe04ff39787,Gila,Payson,85541,18-29,other,Spanish
+331a6476ff96f56a,Gila,Globe,85541,30-44,male,English
+9e03b76b1d8422e0,Gila,Miami,85553,45-64,male,English
+a7a611b60c54a326,Gila,Miami,85541,65+,female,English
+eed98b5ebb7c8268,Gila,Payson,85541,30-44,male,English
+51274da778bca659,Gila,Payson,85553,30-44,female,English
+a47c2fd324ed16e2,Gila,Payson,85541,45-64,male,English
+b7d608a406fae228,Gila,Payson,85553,0-17,male,English
+ebaf294b878991d6,Gila,Miami,85553,45-64,female,English
+33a6d0eb22eb4214,Gila,Globe,85541,18-29,male,English
+f03a2917d6452fbe,Gila,Globe,85541,0-17,male,English
+2708b8f603196b77,Gila,Payson,85541,45-64,male,English
+8382c7171a6e6465,Gila,Globe,85553,45-64,male,English
+2319ff66e1082d53,Gila,Payson,85553,45-64,male,English
+3f21bc4274b1e4eb,Gila,Miami,85501,0-17,male,English
+919f5e89db1a5702,Gila,Miami,85541,30-44,male,English
+d835e475f8697e18,Gila,Payson,85541,65+,male,English
+17effb316fafaeb8,Gila,Globe,85541,45-64,male,English
+dc6480a0f7c4e210,Gila,Miami,85553,65+,male,Spanish
+6b9477db89a95b7a,Gila,Globe,85501,18-29,male,English
+a2d0dbc00bcd5214,Gila,Globe,85553,45-64,male,English
+3ee5519f0c28a178,Gila,Miami,85541,45-64,male,English
+e301d1fbb3ae601a,Gila,Miami,85553,45-64,male,Spanish
+147ba0a6d80e2454,Gila,Payson,85541,45-64,male,English
+a1d7d309aea8b46c,Gila,Globe,85553,0-17,female,Spanish
+b502fabf979b6136,Gila,Miami,85541,0-17,female,Spanish
+e6b5a2c148f2f4d6,Gila,Miami,85501,18-29,female,English
+a8b57fb9d530d29c,Gila,Miami,85553,65+,male,English
+926ff3db5d9a7e70,Gila,Miami,85553,18-29,male,Spanish
+c00950b7a0973e08,Gila,Payson,85553,18-29,male,English
+a1ec9595feb569b0,Gila,Globe,85553,65+,male,English
+9a8b44844065a9a4,Gila,Miami,85553,45-64,female,English
+bcefe867fbee1081,Gila,Miami,85501,45-64,male,English
+433030a1ea62d5ae,Gila,Miami,85501,0-17,female,English
+8a63e45f37d37711,Gila,Globe,85541,18-29,female,English
+13d160dd790ed303,Gila,Payson,85501,18-29,male,English
+9c427a74409bc7e6,Gila,Payson,85553,0-17,male,English
+6fa0ab01a184f0e1,Gila,Payson,85541,45-64,male,English
+92b500a48be6f3d4,Gila,Payson,85553,18-29,female,English
+9ecefe8d8776dcf7,Gila,Globe,85541,30-44,female,English
+58101bf8fb163984,Gila,Miami,85541,18-29,female,Spanish
+94219f1747389914,Gila,Miami,85541,65+,male,Navajo
+377e218050803b12,Gila,Globe,85553,18-29,female,English
+55a7f5cf26415829,Gila,Globe,85501,45-64,female,Spanish
+fb63f64de1b40c1d,Gila,Payson,85541,30-44,female,Spanish
+770ce6806526efba,Gila,Payson,85553,45-64,female,English
+58b8839c8707e96a,Gila,Globe,85541,30-44,male,English
+477f5668c17c2b9e,Gila,Miami,85553,0-17,female,English
+1903d0651325d79c,Gila,Globe,85553,30-44,female,English
+c48fff8bdb795f15,Gila,Miami,85541,45-64,male,Spanish
+4198ab6ec23d8607,Gila,Globe,85541,45-64,female,English
+b7192942a41644bd,Gila,Payson,85553,0-17,male,Spanish
+0a5e201b5b17f355,Gila,Payson,85541,45-64,female,English
+e615c16567ddddaf,Gila,Globe,85553,0-17,male,English
+fe75c5ed0c01575f,Gila,Miami,85501,45-64,female,Spanish
+affbd8ca623e4248,Gila,Payson,85553,18-29,female,Spanish
+aabedf0d67308e8c,Gila,Payson,85541,45-64,female,English
+439ec01a04190081,Gila,Globe,85553,30-44,male,English
+78609f67af62de72,Gila,Globe,85541,45-64,male,Spanish
+ed5a80c216d02140,Gila,Miami,85541,65+,female,Spanish
+6ac17899116564b4,Gila,Globe,85501,0-17,male,English
+8a52ccfd9ae1a5fb,Gila,Payson,85501,45-64,male,English
+d411e89ebc877ea8,Gila,Miami,85553,0-17,female,English
+d44cdc5e91b6a6a0,Gila,Globe,85501,0-17,male,Spanish
+8442f0c815af8a08,Gila,Miami,85541,45-64,female,English
+1019c563442c8fc8,Gila,Globe,85501,45-64,female,English
+c487ea260aee66c7,Gila,Miami,85553,18-29,female,English
+7ce5952f0bfc93a9,Gila,Payson,85541,30-44,male,English
+c935b8b13bce43db,Gila,Globe,85553,30-44,male,Spanish
+8318590e7c2ba3ba,Gila,Globe,85541,18-29,female,Spanish
+6dbaf2d00a4d00ce,Gila,Payson,85541,0-17,male,Spanish
+38b9f53daf56a7cc,Gila,Payson,85541,45-64,female,English
+a5e3560e2c4c6065,Gila,Miami,85501,65+,male,English
+77575796dbb3fc81,Gila,Globe,85541,45-64,male,English
+221d9a48dbaced0c,Gila,Miami,85553,0-17,male,English
+497008cba873c27d,Gila,Globe,85501,30-44,male,Navajo
+4aa5ca0391f64794,Gila,Miami,85501,18-29,female,Spanish
+8f4158830fe5af26,Gila,Payson,85501,30-44,male,English
+d483a14246413d48,Gila,Globe,85553,18-29,male,Navajo
+b29ca5012bc802ef,Gila,Globe,85553,0-17,female,English
+c3da587f70c24c49,Gila,Miami,85501,45-64,female,English
+7b0ed75b406185e4,Gila,Payson,85501,0-17,female,English
+4090fd1aa5522f3a,Gila,Miami,85541,30-44,male,Spanish
+b2e23f7282b11ff4,Gila,Miami,85541,0-17,male,English
+2dafb5be9735d555,Gila,Miami,85541,30-44,male,English
+1f1c0bf08230c805,Gila,Payson,85553,45-64,male,English
+35253f321e30cf0b,Gila,Globe,85553,30-44,male,English
+1baff53354ae95c7,Graham,Thatcher,85552,0-17,male,English
+a0a1a2cd9b2c7977,Graham,Safford,85552,45-64,female,English
+3e8ebbdbf5d887e5,Graham,Pima,85552,45-64,male,English
+a8822a3e1a12cdc3,Graham,Pima,85534,30-44,female,English
+2cdf9999be64cc7b,Graham,Pima,85543,0-17,female,English
+acac9e7f90561e93,Graham,Safford,85552,30-44,male,English
+c9ec40194529bd2c,Graham,Thatcher,85534,30-44,female,Spanish
+46a9bf725a00220e,Graham,Safford,85552,45-64,male,Spanish
+6f9bf4664622c646,Graham,Thatcher,85552,65+,male,English
+12924a86884c32dd,Graham,Thatcher,85552,0-17,male,Spanish
+4808a6961c9ee305,Graham,Pima,85552,18-29,male,English
+a2735d29e792cab9,Graham,Pima,85552,0-17,female,English
+ed380ec790424093,Graham,Safford,85552,65+,male,English
+061668a3fa85ec72,Graham,Pima,85534,0-17,male,English
+0376676cb973300e,Graham,Pima,85552,45-64,female,English
+62ae5fa558e24a78,Graham,Pima,85534,65+,male,English
+44736e148e122310,Graham,Thatcher,85543,65+,male,English
+10c97126bb5631ea,Graham,Thatcher,85543,18-29,male,Spanish
+6cca290e04c93e54,Graham,Pima,85552,0-17,female,English
+e60a13c372158c2f,Graham,Safford,85543,30-44,male,English
+6391c9aaa17e3524,Graham,Pima,85552,45-64,male,English
+00c23b7aaa315071,Graham,Thatcher,85552,18-29,male,English
+1a153765c3cf81eb,Graham,Safford,85543,45-64,female,Spanish
+c194d428e34c7f18,Graham,Pima,85543,45-64,other,English
+96e24e53f31d617f,Graham,Thatcher,85552,45-64,female,English
+c4d9e9fec3907904,Graham,Thatcher,85543,65+,male,Spanish
+5873d0bc4da27428,Graham,Pima,85534,65+,male,Spanish
+f9d9528b9ada3483,Graham,Pima,85534,0-17,male,Spanish
+0f9093032ac2e532,Graham,Pima,85552,45-64,male,English
+b1a6e8bd18acdf17,Graham,Safford,85534,45-64,female,English
+9e770690c50d2a80,Graham,Safford,85543,18-29,female,English
+e36c212d3a6e18d2,Graham,Thatcher,85552,45-64,female,Spanish
+e5a97ecc7facbe47,Graham,Safford,85552,30-44,female,Spanish
+7990e75ea86f9d29,Graham,Pima,85543,18-29,male,English
+60486c4b840fc96d,Graham,Safford,85552,0-17,female,English
+c87843497c38231e,Graham,Safford,85534,65+,male,English
+81ee59507dd49bec,Graham,Thatcher,85552,18-29,female,English
+3e96a954a66ecc09,Graham,Pima,85543,45-64,male,English
+576d90eb7744fd1f,Graham,Thatcher,85534,45-64,female,Spanish
+80d5578493b3e5b9,Graham,Safford,85543,0-17,male,English
+e1ee25a88b766964,Graham,Thatcher,85543,65+,male,Spanish
+09f5a3da5370efb8,Graham,Pima,85543,45-64,male,English
+0f2b73b73fd2430b,Graham,Safford,85543,65+,female,English
+38c28fda5056c4e1,Graham,Safford,85543,0-17,female,English
+f2a433649c45becc,Graham,Pima,85552,18-29,female,Spanish
+85576b2d7d7fb45b,Graham,Pima,85534,45-64,female,English
+3c2b454f543bf706,Graham,Pima,85552,45-64,female,Spanish
+d9122974023f7149,Graham,Thatcher,85543,18-29,male,English
+e6d413988180babf,Graham,Pima,85534,30-44,female,Spanish
+cf533f6346ad5280,Graham,Safford,85534,18-29,female,English
+949fe37283891c6e,Graham,Safford,85534,65+,male,English
+368d27f367138494,Graham,Safford,85552,65+,male,English
+6027c89a19266b3a,Graham,Thatcher,85552,65+,male,Navajo
+f8f0c4c8f46e6cdd,Graham,Thatcher,85543,18-29,male,English
+86b573521968e99a,Graham,Thatcher,85543,65+,female,English
+3bad91ab60257fa7,Graham,Safford,85543,65+,male,English
+610fdbbfaaa1a4d8,Graham,Safford,85534,45-64,female,English
+c69c1792b745d939,Graham,Pima,85543,0-17,female,English
+849036d93dee2726,Graham,Thatcher,85543,0-17,female,English
+edf1b82caabe225b,Graham,Thatcher,85543,65+,female,English
+0b62fe3d0dbbbe61,Graham,Pima,85552,18-29,female,English
+08f306e74a1d97db,Graham,Pima,85543,65+,female,Spanish
+2573141856d06fd2,Graham,Safford,85543,45-64,female,English
+3c64be731faffe4a,Graham,Pima,85552,30-44,female,English
+310f2d9fc2776db4,Graham,Pima,85552,0-17,female,English
+9b4d3d76981342f4,Graham,Thatcher,85543,45-64,female,Spanish
+35546401a76cac98,Graham,Thatcher,85543,30-44,male,English
+ee074cc1887c12b3,Graham,Thatcher,85534,18-29,male,English
+6b7455ba5a65ab68,Graham,Pima,85552,45-64,female,Spanish
+5ae32a151b725d9d,Graham,Thatcher,85552,30-44,male,English
+4d0567624c8bb155,Graham,Thatcher,85552,18-29,male,English
+a544cd91cf2172b1,Graham,Pima,85543,30-44,male,English
+b0423aecf36ced7c,Graham,Safford,85534,18-29,female,English
+9edf7e97a8408bfe,Graham,Thatcher,85552,45-64,female,English
+62a5f614ef2329cf,Graham,Pima,85552,30-44,female,English
+f256b7685b165233,Graham,Safford,85534,45-64,male,Spanish
+c6f64a71648a06c2,Graham,Pima,85534,18-29,female,English
+e923f9edf46af93d,Graham,Pima,85534,0-17,female,Spanish
+b7de23d8fac9b42a,Graham,Safford,85543,45-64,female,Spanish
+085a443dd239aeae,Graham,Thatcher,85534,18-29,female,English
+55ed9b78bd0f0a8f,Graham,Pima,85534,0-17,male,Spanish
+48294b212e92b76d,Graham,Thatcher,85543,65+,male,English
+fa4ba3596c660bd8,Graham,Safford,85552,30-44,male,English
+adf1e967ff3d2277,Graham,Pima,85552,30-44,male,English
+887f1d6a043ffb16,Graham,Thatcher,85552,18-29,female,English
+ceecbef373406083,Graham,Thatcher,85534,18-29,female,Spanish
+73b8ecebbb3944d7,Graham,Safford,85543,18-29,male,English
+af066a764e483c0d,Graham,Thatcher,85543,0-17,female,English
+7e9182487b3d7389,Graham,Safford,85552,30-44,female,English
+c4a4596280a2c7a6,Graham,Safford,85534,45-64,male,Spanish
+9e7f5351c49f4ad2,Graham,Thatcher,85534,30-44,female,Spanish
+551fe68d0bfd8072,Graham,Pima,85552,18-29,male,English
+2f81dc46e9495ef6,Graham,Thatcher,85534,65+,female,English
+e950cb19d90352e0,Graham,Thatcher,85552,30-44,male,English
+f2fb41eb02b0294d,Graham,Safford,85534,0-17,male,English
+816ac61adee9cf38,Graham,Thatcher,85543,0-17,female,English
+35c3f3ea013cd8bc,Graham,Safford,85534,30-44,female,English
+da97c745bc270a2d,Graham,Thatcher,85543,30-44,male,English
+4e772ec069619552,Graham,Safford,85534,18-29,female,English
+f1e74cbd0d59923d,Graham,Safford,85543,45-64,male,English
+5b2259f157e25574,Graham,Pima,85534,30-44,male,English
+4f1845058129d91b,Graham,Safford,85543,45-64,female,English
+ed0e028ef904b193,Graham,Thatcher,85543,45-64,female,English
+940a82e3cf1df21b,Graham,Pima,85534,45-64,male,English
+3027d46af13325ff,Graham,Pima,85543,18-29,male,Spanish
+1b27168a2b5b1a61,Graham,Safford,85534,45-64,female,English
+baade8c2a043adf1,Graham,Pima,85534,30-44,female,Spanish
+d4fb32b0c1be3bfb,Graham,Pima,85543,45-64,female,Spanish
+88b9512168b57d0b,Graham,Safford,85543,0-17,male,Spanish
+993ea51d52f9cc37,Graham,Pima,85534,0-17,male,English
+a7b3b9b9e1747e3b,Graham,Safford,85534,30-44,female,English
+59ad79a7376ce795,Graham,Thatcher,85543,45-64,female,English
+174479672471a22e,Graham,Safford,85543,65+,female,English
+e52f9b563dc53689,Graham,Pima,85552,30-44,male,English
+3e68876a40d7998b,Graham,Pima,85543,18-29,male,Spanish
+52b6bb272e91d4c2,Graham,Safford,85534,30-44,female,Spanish
+ad9375b2d13175b3,Graham,Thatcher,85543,0-17,male,English
+921dc046c7795196,Graham,Safford,85552,65+,male,English
+248bcd473a649904,Graham,Safford,85552,65+,male,English
+d18e125e172b43fc,Graham,Thatcher,85552,0-17,female,English
+172066e7a3f510ec,Graham,Safford,85534,30-44,female,Spanish
+ea98498a3fe334fe,Graham,Safford,85534,18-29,female,English
+67a689d86345ca38,Graham,Pima,85543,45-64,male,English
+c88681d067880a20,Graham,Safford,85543,18-29,male,English
+3af4e5fd08a05014,Graham,Pima,85543,65+,male,English
+b75cf07c3e6d4a29,Graham,Safford,85543,30-44,male,English
+a3e49e002f1048e0,Graham,Pima,85534,45-64,female,English
+6261ea9a34706e4f,Graham,Thatcher,85534,65+,male,English
+9ff1eb50902c3ad9,Graham,Safford,85552,30-44,female,English
+5748c22293037d4a,Graham,Pima,85534,30-44,male,Spanish
+82c32040e625294f,Graham,Pima,85552,18-29,female,English
+9bf3605028631ca1,Graham,Safford,85534,30-44,male,English
+cfdfce0d4c9e0d74,Graham,Pima,85543,65+,male,English
+414353eb560072c6,Graham,Thatcher,85543,45-64,female,English
+3e7d1c13b7070793,Graham,Safford,85552,30-44,female,English
+64d8b3328b86c313,Graham,Thatcher,85543,65+,female,English
+f01ba076cef5f1c7,Graham,Safford,85543,30-44,male,Navajo
+cce2e06611ea10ec,Graham,Safford,85543,65+,female,English
+5be519f1cd1d8030,Graham,Pima,85543,65+,male,English
+7890cbe6e81e6ddd,Graham,Safford,85534,0-17,female,English
+00b589e1e23800bd,Graham,Pima,85534,18-29,male,English
+c7a8bbeeacd77dfa,Graham,Pima,85534,45-64,male,Spanish
+21e440513c553bf5,Graham,Thatcher,85552,45-64,male,English
+4fe06c2d0e564d93,Graham,Thatcher,85534,45-64,male,English
+2aa0e97027d7ce05,Graham,Thatcher,85543,65+,female,Spanish
+20d7653bdb574378,Graham,Safford,85552,45-64,male,English
+0b76d755d60a8188,Graham,Pima,85543,0-17,male,English
+7d92e7d011718263,Graham,Safford,85543,30-44,female,English
+a221d55ca5e104dd,Graham,Thatcher,85543,45-64,male,English
+7f7b96a5fa144fdb,Graham,Thatcher,85543,0-17,female,English
+1623743461e5137e,Graham,Safford,85552,30-44,female,English
+67de8dbf6384b6ef,Graham,Pima,85534,45-64,female,English
+2d0ad14f3debccfd,Graham,Pima,85552,18-29,male,Spanish
+a931b2d5eb11426e,Graham,Safford,85534,18-29,female,English
+09d70092688444e4,Graham,Safford,85534,45-64,female,English
+d20dea3728ebe189,Graham,Thatcher,85552,45-64,male,English
+304132552229c6a6,Graham,Pima,85543,45-64,female,Spanish
+f4f80660e3eb1924,Graham,Safford,85552,30-44,male,Spanish
+4efebcc02f80ad69,Graham,Pima,85534,18-29,male,English
+572cf836633cb5b5,Graham,Thatcher,85534,18-29,male,English
+54da8fd0c076cd75,Graham,Safford,85543,18-29,male,English
+51e58a89e732bacd,Graham,Thatcher,85552,30-44,male,English
+7d121e099cd6137b,Graham,Pima,85534,30-44,male,English
+dafb856797f409a4,Graham,Safford,85534,18-29,male,English
+f524e9761ae695bc,Graham,Thatcher,85552,65+,female,English
+38bdf04fe8ac70cf,Graham,Pima,85543,65+,female,Spanish
+7a4120d400ae0525,Graham,Thatcher,85534,65+,male,English
+fe6dde0d6b12fd73,Graham,Thatcher,85552,30-44,female,English
+76828089a7eeaf4a,Graham,Pima,85552,0-17,female,English
+b3955ced2e6ea871,Graham,Thatcher,85543,45-64,female,English
+ebd7b60192dca5ff,Graham,Pima,85543,18-29,male,English
+3942cc90c19ff8f2,Graham,Safford,85552,18-29,female,Navajo
+555f6a811e4ac170,Graham,Pima,85543,18-29,female,English
+fedfdb85eddaa14c,Graham,Safford,85552,30-44,male,English
+0d4b4c011591730a,Graham,Pima,85534,30-44,male,English
+298f786f6c144f72,Graham,Pima,85543,30-44,female,English
+14e42c2e9c3c0387,Graham,Pima,85552,45-64,male,English
+340a61a5edfe3363,Graham,Pima,85534,30-44,male,Spanish
+679b1ce4501782e2,Graham,Pima,85534,18-29,male,Spanish
+ddea325320d60330,Graham,Safford,85543,45-64,female,English
+de3794f0132f72c9,Graham,Thatcher,85543,18-29,male,Spanish
+13325b349d754a3e,Graham,Pima,85543,0-17,female,English
+67d34101c922e4af,Graham,Pima,85552,18-29,male,English
+f32cf43019aa4444,Graham,Safford,85552,0-17,female,Spanish
+260181bc9b919184,Graham,Pima,85552,30-44,male,English
+f32ec77c6fbf542c,Graham,Thatcher,85543,0-17,female,English
+58ee0c8d7ef88fea,Graham,Safford,85543,65+,female,English
+38c737bb20ebaa38,Graham,Safford,85534,0-17,male,English
+02c250acf50b9561,Graham,Thatcher,85552,18-29,female,English
+4170a3501a985f10,Graham,Safford,85552,45-64,female,English
+fc172df90e363f59,Graham,Pima,85552,30-44,male,Spanish
+3441f6e3adccf031,Graham,Safford,85552,0-17,female,Spanish
+62e5769c96e12cdc,Graham,Pima,85552,30-44,male,English
+196922ab0358461e,Graham,Pima,85534,0-17,female,Spanish
+251653a412b9b93f,Graham,Thatcher,85543,0-17,female,Spanish
+1b2e07aa3aeb79ee,Graham,Pima,85534,30-44,male,English
+42363cf4080bd97c,Graham,Safford,85534,45-64,male,English
+58b07d5e75721095,Graham,Thatcher,85543,18-29,female,English
+0a84f70a3d0220e8,Graham,Safford,85543,0-17,female,English
+4e130f543d24dfb9,Graham,Safford,85552,45-64,female,English
+04e0b14c6cd3df2f,Greenlee,Morenci,85540,30-44,female,Spanish
+7a3288b4ede03147,Greenlee,Duncan,85540,30-44,female,Spanish
+f75dfa173c028937,Greenlee,Duncan,85938,65+,female,English
+97c5de614f5e1fc9,Greenlee,Duncan,85540,30-44,female,Spanish
+e1a98874668d98e2,Greenlee,Morenci,85938,0-17,male,Spanish
+d1f3566e7d8be2a5,Greenlee,Duncan,85550,0-17,male,English
+c65f58d610315e71,Greenlee,Clifton,85938,65+,female,English
+6ba0a6bbe115e393,Greenlee,Morenci,85550,30-44,male,English
+79cf3f2b169a9119,Greenlee,Morenci,85938,45-64,male,English
+2ca9041e0690040b,Greenlee,Clifton,85540,45-64,female,Spanish
+1d8fc86ada09cf0f,Greenlee,Duncan,85938,18-29,male,English
+e3f34e3b4be38a44,Greenlee,Clifton,85540,45-64,male,English
+8542bf8c136f0974,Greenlee,Duncan,85938,0-17,female,English
+cca4d3dc428162f4,Greenlee,Clifton,85550,18-29,male,Spanish
+fe4c06db2a8503db,Greenlee,Morenci,85938,0-17,female,English
+af1e409719be05e4,Greenlee,Morenci,85938,30-44,female,English
+42a0b5ed78ea81bf,Greenlee,Clifton,85938,45-64,male,Navajo
+a766d726b5402cb7,Greenlee,Duncan,85938,45-64,male,English
+00fe283d0fc84679,Greenlee,Duncan,85550,18-29,male,English
+494c4c00824d840b,Greenlee,Duncan,85938,30-44,male,English
+ea8ce9cf70dd0dfe,Greenlee,Clifton,85938,18-29,female,English
+e87c4fae42ff4544,Greenlee,Clifton,85550,45-64,female,Spanish
+241611626c450455,Greenlee,Duncan,85550,30-44,female,English
+70ddf317ccd51138,Greenlee,Clifton,85540,45-64,male,English
+a28f1daaaf0c9a20,Greenlee,Morenci,85550,30-44,female,English
+8405afe902a48c30,Greenlee,Morenci,85550,30-44,male,Spanish
+7a53d8af1946c3ba,Greenlee,Clifton,85540,18-29,female,English
+abca7530aa291fb3,Greenlee,Clifton,85938,0-17,female,English
+e26a8da0faefef4d,Greenlee,Morenci,85550,45-64,female,Spanish
+59d0556134cd3f63,Greenlee,Duncan,85550,30-44,male,English
+6ca5a82df1322d37,Greenlee,Clifton,85938,45-64,male,Spanish
+5166d784e1f05081,Greenlee,Clifton,85540,18-29,female,Navajo
+8a68c9aca9e1e096,Greenlee,Duncan,85540,30-44,female,English
+01956a1954e9559f,Greenlee,Morenci,85938,65+,male,English
+20ba9572ed31b386,Greenlee,Morenci,85540,30-44,male,English
+a725227ccb30ba67,Greenlee,Morenci,85540,0-17,male,Spanish
+cff230b16c77343c,Greenlee,Morenci,85938,0-17,female,English
+e337aa8064ec2607,Greenlee,Morenci,85550,45-64,male,Spanish
+1d46b8a3d68eff1a,Greenlee,Clifton,85938,45-64,female,English
+f3bdcebacd5d7f8e,Greenlee,Morenci,85938,65+,female,English
+be87c59894670388,Greenlee,Duncan,85938,65+,female,Spanish
+bb05db02d5ffd0cb,Greenlee,Duncan,85938,45-64,female,Spanish
+826da81fddc448ff,Greenlee,Clifton,85550,18-29,female,English
+7d76ea38ded44ef2,Greenlee,Morenci,85938,0-17,female,English
+d48bbe5217e5b520,Greenlee,Duncan,85938,30-44,female,English
+6bfb12f2a8258734,Greenlee,Morenci,85540,65+,male,English
+098c7fc88187457c,Greenlee,Clifton,85550,45-64,female,English
+00c9d477c30f9237,Greenlee,Clifton,85550,65+,female,English
+dd000981d61185cb,Greenlee,Morenci,85550,0-17,male,English
+10146bf13da34174,Greenlee,Duncan,85938,30-44,female,English
+ce2fe609470a7c58,Greenlee,Duncan,85938,45-64,female,Spanish
+e91e668f8a57e3d5,Greenlee,Morenci,85938,0-17,male,Spanish
+f4b534a421f6408b,Greenlee,Clifton,85550,18-29,male,Spanish
+017cc7b2d14e709d,Greenlee,Clifton,85540,0-17,male,English
+64b22cd7a54059c1,Greenlee,Morenci,85540,45-64,male,Spanish
+34e91e7062830ba0,Greenlee,Morenci,85550,0-17,female,English
+a3cc8cb0e0b97377,Greenlee,Clifton,85550,45-64,male,English
+1d0ae56679b71555,Greenlee,Morenci,85938,45-64,female,English
+0a89caab022809bb,Greenlee,Morenci,85938,30-44,male,English
+b827ab1c3cd51a99,Greenlee,Duncan,85540,65+,female,English
+8ad2bd76aecc2ad3,Greenlee,Duncan,85938,30-44,other,English
+5bfde1e840d1d79c,Greenlee,Duncan,85938,18-29,male,English
+fe7fb52a621a1413,Greenlee,Duncan,85550,0-17,male,English
+36f0b5d89bf2e381,Greenlee,Morenci,85540,18-29,female,English
+e3f648565cc6ef20,Greenlee,Duncan,85550,18-29,male,English
+40d6ea9d6261f935,Greenlee,Clifton,85938,65+,male,English
+93f1302f462a3a7f,Greenlee,Duncan,85540,30-44,female,English
+5a5ddb4d2f82237f,Greenlee,Clifton,85540,45-64,female,English
+ea8954d3a0189f19,Greenlee,Morenci,85550,45-64,male,Navajo
+40b0b63333a8fc98,Greenlee,Clifton,85938,65+,female,English
+3ad17a4198965955,Greenlee,Clifton,85550,65+,male,English
+96da35fd5a1b04a2,Greenlee,Morenci,85540,65+,male,English
+7f39a1c6b7874305,Greenlee,Duncan,85550,45-64,male,English
+0df69e2ce1f58b1a,Greenlee,Duncan,85540,45-64,female,English
+2e6538515b4293d7,Greenlee,Morenci,85550,0-17,other,English
+1f4089614f06bba7,Greenlee,Clifton,85540,45-64,female,Spanish
+c68a6af0cd834b6d,Greenlee,Morenci,85540,0-17,male,English
+d3358f6106546549,Greenlee,Duncan,85938,65+,male,English
+192f012cb2d8036e,Greenlee,Duncan,85550,30-44,female,English
+a2df2c51ad225b1a,Greenlee,Duncan,85550,65+,female,English
+38fc0e3bce8c8909,Greenlee,Duncan,85938,18-29,male,English
+170b8610b71625a2,Greenlee,Morenci,85540,30-44,male,English
+e69180f8c86a7d2b,Greenlee,Duncan,85938,65+,other,Spanish
+9995176a85c17cb9,Greenlee,Duncan,85540,30-44,male,English
+50a470a86ccfb8b5,Greenlee,Duncan,85938,65+,female,English
+df7a2010286294eb,Greenlee,Duncan,85550,45-64,male,English
+97803cd0a6394f95,Greenlee,Morenci,85550,30-44,female,Spanish
+e3d1f0886a629d76,Greenlee,Morenci,85550,18-29,female,Spanish
+81d774a6a8ad632f,Greenlee,Morenci,85938,45-64,female,English
+34bb224a7481b57f,Greenlee,Clifton,85938,0-17,other,Spanish
+d97fe2475ac2853a,Greenlee,Clifton,85550,30-44,female,English
+a30166d129617646,Greenlee,Morenci,85550,0-17,female,Spanish
+c81375b65d9dfff2,Greenlee,Duncan,85540,45-64,male,Spanish
+36836f3614c148d4,Greenlee,Morenci,85550,45-64,female,English
+3d598bd9221bb2ce,Greenlee,Clifton,85938,65+,female,English
+51e9abccf4467daf,Greenlee,Duncan,85540,45-64,male,English
+bed823a8cbe52bda,Greenlee,Clifton,85938,30-44,male,English
+b928c4088a459a89,Greenlee,Morenci,85540,45-64,male,English
+bbe3dab991ee9320,Greenlee,Morenci,85550,30-44,female,Spanish
+e0f7b7378ae728fc,Greenlee,Clifton,85550,45-64,female,English
+ac9249355f08f73f,Greenlee,Morenci,85540,18-29,male,English
+28057e71c670651e,Greenlee,Duncan,85938,65+,female,English
+e8fb87dbff342c2f,Greenlee,Morenci,85938,65+,male,English
+2e865b5e7bed42a2,Greenlee,Clifton,85550,45-64,female,Spanish
+b738296602b5c35b,Greenlee,Clifton,85938,45-64,male,English
+bac0aff548393b5a,Greenlee,Duncan,85540,18-29,female,English
+4a5d1890ce3a273d,Greenlee,Clifton,85550,0-17,female,English
+8b4bd49e157e5a02,Greenlee,Duncan,85550,18-29,female,English
+e848dee46cf19ecf,Greenlee,Duncan,85938,65+,female,English
+8cb9bba89ad81255,Greenlee,Duncan,85540,0-17,male,English
+966eb671bc5cab4d,Greenlee,Duncan,85938,45-64,female,English
+8fc51c58b09ed4fc,Greenlee,Morenci,85550,30-44,male,English
+cb3a3286dc227c85,Greenlee,Morenci,85938,65+,male,English
+41cdac8ef5f8375b,Greenlee,Clifton,85550,45-64,female,English
+dba9bfaa23462511,Greenlee,Morenci,85550,0-17,female,Navajo
+81384761bad3cfd2,Greenlee,Duncan,85550,0-17,male,English
+73cbe3a2b52e38dc,Greenlee,Morenci,85540,45-64,female,English
+5d89cedf75422144,Greenlee,Clifton,85540,0-17,male,English
+1ec455f566f03662,Greenlee,Clifton,85550,0-17,male,Spanish
+46cf7ce28afdd352,Greenlee,Morenci,85550,0-17,female,English
+55d901a510fec691,Greenlee,Duncan,85938,65+,male,English
+646c498af5de3dd3,Greenlee,Duncan,85540,30-44,female,Spanish
+654c7595568e9bd5,Greenlee,Morenci,85540,30-44,male,English
+ffc9963e4988fd8a,Greenlee,Morenci,85550,0-17,other,English
+3fcdd89fdca184db,Greenlee,Duncan,85550,0-17,female,Spanish
+c3be221d9ba608f5,Greenlee,Clifton,85540,30-44,male,English
+4fbf9e9a88aa1ba1,Greenlee,Duncan,85550,65+,male,English
+037b927ec8d4f1fc,Greenlee,Duncan,85550,45-64,female,English
+86944b495753fcab,Greenlee,Duncan,85540,30-44,female,English
+f6f252091f032582,Greenlee,Morenci,85938,65+,male,Spanish
+38dc66fc45282b4c,Greenlee,Clifton,85550,0-17,male,English
+b9e4f03eec0faf34,Greenlee,Clifton,85938,45-64,female,English
+f42a979564e6d887,Greenlee,Clifton,85938,30-44,male,English
+24007480ff836c52,Greenlee,Morenci,85938,0-17,male,English
+40751d22b19019c0,Greenlee,Duncan,85938,0-17,female,English
+6a9580ba06869b19,Greenlee,Clifton,85550,45-64,male,English
+ec6366a50c635b9b,Greenlee,Clifton,85540,30-44,male,English
+53925c0e01c6a99e,Greenlee,Clifton,85550,18-29,male,Spanish
+9b2616198f70b4b0,Greenlee,Morenci,85540,65+,male,English
+f0f194e969f036f2,Greenlee,Clifton,85540,30-44,female,English
+3743032f60fdf017,Greenlee,Morenci,85540,45-64,male,English
+884df462e8825008,Greenlee,Clifton,85540,0-17,male,English
+eec3856ad94b46bf,Greenlee,Clifton,85540,65+,female,English
+8769254893d04ee7,Greenlee,Duncan,85938,30-44,female,English
+c13d2fe7586479c0,Greenlee,Morenci,85938,0-17,female,English
+219da4462b88c872,Greenlee,Morenci,85540,65+,male,English
+d063ba33788d9223,Greenlee,Duncan,85550,45-64,female,Spanish
+ef65f704b240b287,Greenlee,Morenci,85550,0-17,female,English
+5e329d3555e8ba17,Greenlee,Clifton,85938,18-29,male,English
+f1b46beed9bdc366,Greenlee,Morenci,85938,45-64,female,English
+94d639081c27e20b,Greenlee,Clifton,85938,65+,male,English
+6da1e513517749b9,Greenlee,Duncan,85540,0-17,female,English
+4fdd0af5ccb3e890,Greenlee,Morenci,85938,45-64,male,English
+9a5a870c5f9ac1e7,Greenlee,Clifton,85938,0-17,male,English
+d41b73b815d3fc2a,Greenlee,Clifton,85540,45-64,male,English
+1eb6999f5d223c59,Greenlee,Duncan,85938,65+,female,English
+7e587c039b5f8eb9,Greenlee,Clifton,85540,45-64,male,English
+1eff9a7cbf70599d,Greenlee,Clifton,85550,30-44,female,English
+fd6ed17e88266f14,Greenlee,Duncan,85550,0-17,female,English
+0516c495ec7d7d00,Greenlee,Duncan,85550,65+,female,English
+adbdad9e6fafc092,Greenlee,Duncan,85540,18-29,female,English
+265866093ebea9f0,Greenlee,Clifton,85550,18-29,female,English
+ee36174ad79fd2a1,Greenlee,Duncan,85938,65+,male,English
+497a96105ec89a62,Greenlee,Clifton,85550,65+,female,Navajo
+304e092eb0e59012,Greenlee,Morenci,85550,18-29,male,Spanish
+7253b2b5257a6b58,Greenlee,Clifton,85550,30-44,female,Spanish
+9bc58560530eea22,Greenlee,Duncan,85540,30-44,female,Navajo
+869e47ab670a2fd5,Greenlee,Duncan,85540,30-44,female,Spanish
+9ef9a177de20e083,Greenlee,Clifton,85550,30-44,female,Spanish
+2a4efa90fe4a11cf,Greenlee,Duncan,85550,65+,female,English
+75cf2e04e5c24b56,Greenlee,Clifton,85540,30-44,female,English
+1f70240da5af2241,Greenlee,Duncan,85938,30-44,male,English
+50d39cbe415a0d04,Greenlee,Duncan,85550,0-17,male,English
+95c0fabf87e3df16,Greenlee,Duncan,85540,65+,female,Spanish
+e27922c6c0e23ac8,Greenlee,Duncan,85540,18-29,male,English
+87ab414a259006b2,Greenlee,Duncan,85938,45-64,male,English
+42317dcfb0549295,Greenlee,Duncan,85540,30-44,male,English
+c8cde39d9cf78b3e,Greenlee,Clifton,85550,18-29,male,English
+5082d63341c6c699,Greenlee,Duncan,85938,45-64,male,Spanish
+1798700858269c9b,Greenlee,Morenci,85540,30-44,male,Spanish
+e594ceacf6a6948a,Greenlee,Duncan,85938,18-29,male,English
+e1e974d432d074fd,Greenlee,Morenci,85938,45-64,female,English
+7529146447a9fe52,Greenlee,Morenci,85550,30-44,male,English
+0fcb3eb61f804e06,Greenlee,Duncan,85938,65+,female,English
+65728ad7c5aacb3e,Greenlee,Duncan,85540,0-17,male,English
+919fbe95deb1552e,Greenlee,Clifton,85550,65+,female,English
+6976faa1d28c22ff,Greenlee,Duncan,85540,30-44,male,English
+16eb1bbc8362e17e,Greenlee,Clifton,85550,30-44,male,Spanish
+6c06f7d76e4d6082,Greenlee,Morenci,85550,30-44,male,English
+297ef04076a4fce2,Greenlee,Clifton,85540,45-64,male,English
+6f44bd0432a439f4,Greenlee,Morenci,85938,45-64,female,English
+5f818dbdfa8d7b7f,Greenlee,Duncan,85938,30-44,female,English
+ab2171a862851c67,Greenlee,Morenci,85540,45-64,female,English
+5cb67b8a49ba812a,Greenlee,Clifton,85540,18-29,female,English
+d04ca85e72c4d3a1,Greenlee,Duncan,85938,18-29,male,Spanish
+fee9d02436329e87,Greenlee,Duncan,85540,0-17,female,Navajo
+3eaf3842aed553a0,Greenlee,Clifton,85550,18-29,female,English
+ea4b968a26dfcde6,Greenlee,Duncan,85550,65+,female,English
+96af9942e199b8ee,Greenlee,Duncan,85550,0-17,female,Spanish
+0c64d5963e48c756,Greenlee,Clifton,85550,65+,female,Navajo
+ca69c4a9919d7b5f,La Paz,Bouse,85344,45-64,female,Spanish
+1a180a26a0a8a655,La Paz,Bouse,85348,0-17,male,Spanish
+20fa062de155d9cc,La Paz,Quartzsite,85348,0-17,female,English
+9cddfb487e48b530,La Paz,Bouse,85328,18-29,female,Spanish
+dff6271c8ebaf4f9,La Paz,Quartzsite,85328,18-29,male,English
+308e97cf346ee0ab,La Paz,Parker,85344,18-29,female,Spanish
+23bec25f5163844a,La Paz,Bouse,85328,65+,female,English
+b73e5eacd488f34f,La Paz,Bouse,85348,65+,male,English
+5cc9fc6cac623401,La Paz,Bouse,85344,18-29,female,English
+9ebdf40b83a497ba,La Paz,Quartzsite,85344,65+,female,English
+74128049fb1262e9,La Paz,Bouse,85344,45-64,female,Spanish
+0c611a4fa11bf078,La Paz,Bouse,85344,0-17,male,English
+f07843556215b6b4,La Paz,Quartzsite,85344,65+,male,English
+064ab06b1ded3353,La Paz,Quartzsite,85328,0-17,male,English
+2273a6b2cc318f0a,La Paz,Bouse,85344,45-64,male,English
+c4ed56e5115a6b84,La Paz,Quartzsite,85344,30-44,female,Spanish
+b3a4c5b3df47e438,La Paz,Bouse,85344,30-44,male,English
+1cc0cd19fb154fa9,La Paz,Parker,85328,18-29,male,Spanish
+6669c831e2f5d547,La Paz,Parker,85348,45-64,female,English
+9650af755d581248,La Paz,Bouse,85328,0-17,male,English
+4d5e9503c0632c9b,La Paz,Bouse,85348,18-29,female,English
+07fafc48592b657e,La Paz,Bouse,85348,30-44,male,English
+e475ded057b1643f,La Paz,Bouse,85348,0-17,female,English
+db02c2fc59053095,La Paz,Quartzsite,85344,65+,female,English
+61d7b41c50bbfff0,La Paz,Quartzsite,85344,45-64,male,English
+377011ee1f712060,La Paz,Bouse,85348,65+,male,Spanish
+f5db97dead179d6b,La Paz,Parker,85348,45-64,male,Spanish
+cd9e5229e7f2d5d3,La Paz,Bouse,85344,18-29,male,English
+c3d9c233ae779291,La Paz,Bouse,85344,45-64,female,English
+0e175d17c1361b26,La Paz,Quartzsite,85344,18-29,male,English
+bcf40bb6b8b484d6,La Paz,Bouse,85328,45-64,male,English
+d7b9501de3216756,La Paz,Bouse,85348,45-64,male,Spanish
+8c15096f6b7f60f6,La Paz,Quartzsite,85328,0-17,female,English
+48ca828df408d9ff,La Paz,Quartzsite,85348,18-29,male,Spanish
+b61fc9d8d50cd3ef,La Paz,Bouse,85344,0-17,female,Spanish
+cde75e6d70030f5b,La Paz,Parker,85328,65+,female,English
+055ffa84c2429abd,La Paz,Parker,85328,65+,female,Spanish
+5b88ca0604c4d2ac,La Paz,Parker,85328,45-64,male,English
+d9d38258a47252df,La Paz,Parker,85348,30-44,female,English
+aad3f442b70cabd6,La Paz,Parker,85328,18-29,female,English
+079f4111dc6d5543,La Paz,Bouse,85328,30-44,female,English
+db87cf7ac31a698a,La Paz,Parker,85328,65+,male,Spanish
+504dedb8a70d35d8,La Paz,Quartzsite,85328,65+,male,English
+2ea8bde63b0c1122,La Paz,Bouse,85328,0-17,male,English
+dcff3b27331b28c5,La Paz,Bouse,85328,65+,female,Spanish
+2f6591091dccc8a0,La Paz,Bouse,85328,65+,male,Spanish
+d0c27ccc59dc2750,La Paz,Quartzsite,85348,30-44,female,Spanish
+4c21d208ed8f7664,La Paz,Quartzsite,85344,30-44,male,English
+69054fe93fc44d27,La Paz,Quartzsite,85328,30-44,male,English
+c6752a2d46544751,La Paz,Bouse,85344,30-44,female,English
+c64cadb24efe2c6d,La Paz,Quartzsite,85344,30-44,male,English
+84385db65ba9326c,La Paz,Quartzsite,85328,30-44,female,Spanish
+4ea002f4f6e94b98,La Paz,Parker,85344,65+,female,English
+5bd2f2593c4a884f,La Paz,Quartzsite,85348,0-17,female,English
+b3ae9291749c87a3,La Paz,Parker,85328,30-44,male,Navajo
+d4ffefa5e7b040da,La Paz,Parker,85328,18-29,female,English
+6571a737989a8aef,La Paz,Quartzsite,85328,18-29,female,English
+3da5e6f934b7237c,La Paz,Bouse,85348,30-44,male,Spanish
+a45c47345d354b74,La Paz,Quartzsite,85344,45-64,male,Navajo
+286279d009eb9d11,La Paz,Quartzsite,85328,45-64,female,English
+3876983c15cf48b3,La Paz,Parker,85348,65+,female,Spanish
+63103606e376d39b,La Paz,Parker,85344,45-64,male,English
+9d15cea2ace0bbee,La Paz,Quartzsite,85328,18-29,male,Spanish
+a077a6fbceaa1a61,La Paz,Bouse,85344,45-64,female,English
+e2b50dd61b57b53e,La Paz,Bouse,85344,30-44,male,English
+bb252af98d41ce5d,La Paz,Parker,85344,65+,female,English
+01d14abfd96069b6,La Paz,Quartzsite,85344,30-44,female,English
+9ec96caa710eab4c,La Paz,Quartzsite,85348,0-17,female,English
+bf994c493343dba6,La Paz,Quartzsite,85328,30-44,male,English
+59e1fe6477a2dfae,La Paz,Bouse,85344,30-44,male,English
+0f4ccf4918c08ebb,La Paz,Quartzsite,85344,30-44,female,English
+97d7b2a2752afa89,La Paz,Quartzsite,85344,0-17,male,English
+6f83538d057e15c2,La Paz,Quartzsite,85348,30-44,male,English
+59facd7a95081639,La Paz,Parker,85344,18-29,female,English
+c8925767f46fa39b,La Paz,Parker,85328,18-29,female,English
+b5bee37f6a73b33b,La Paz,Parker,85344,0-17,female,English
+f0333df2f7076dbe,La Paz,Quartzsite,85348,65+,male,Spanish
+fecb7ef000f0ce8d,La Paz,Parker,85348,30-44,female,English
+cbc73252d8361614,La Paz,Quartzsite,85344,30-44,male,English
+12fdac98ca3408f0,La Paz,Parker,85344,30-44,male,English
+28e069bfbeb23f87,La Paz,Bouse,85344,18-29,female,English
+8b72f40d5b9b8826,La Paz,Parker,85348,18-29,female,English
+82d4eb6a83c4869c,La Paz,Quartzsite,85328,45-64,male,English
+25370505cf51ef8c,La Paz,Parker,85348,18-29,female,Spanish
+65d4961a2b4cc4bc,La Paz,Quartzsite,85328,18-29,female,Spanish
+8959812d8992b0bc,La Paz,Quartzsite,85344,45-64,female,English
+750b7e9c5ca9ee02,La Paz,Bouse,85348,30-44,male,English
+1e07bbc91db6559b,La Paz,Bouse,85348,30-44,female,English
+efd7456abfdf1107,La Paz,Bouse,85344,18-29,male,Spanish
+0fac6c84fb2f3f97,La Paz,Quartzsite,85348,45-64,female,English
+5bcda81fad4e0960,La Paz,Parker,85328,0-17,male,English
+e4ef9bcad1d33fd4,La Paz,Quartzsite,85344,65+,male,English
+3df452f4fe31fe79,La Paz,Quartzsite,85344,45-64,male,English
+c5f6dd59d2939333,La Paz,Parker,85344,18-29,female,English
+7d69867bc1f8191d,La Paz,Quartzsite,85344,30-44,other,English
+c3ba54cb30fcbc13,La Paz,Parker,85328,18-29,female,Spanish
+cb865dff328bf797,La Paz,Bouse,85348,0-17,male,Spanish
+6d8cd35a6584258c,La Paz,Parker,85328,65+,female,English
+c83cccac6b6ec644,La Paz,Quartzsite,85344,45-64,male,English
+532c3162cb27e62a,La Paz,Bouse,85328,18-29,male,English
+df8c35a17e2cfa83,La Paz,Bouse,85348,45-64,male,Spanish
+0cd75331324a787e,La Paz,Quartzsite,85328,18-29,female,Spanish
+766fbe3fdd1aad71,La Paz,Bouse,85348,30-44,male,English
+3498b09443c93b66,La Paz,Parker,85328,0-17,female,English
+3b5c95046faa6c1c,La Paz,Quartzsite,85348,0-17,male,English
+3acda61002826744,La Paz,Quartzsite,85348,30-44,male,Spanish
+1585a8a22dfc7b1d,La Paz,Parker,85344,30-44,female,English
+fcc3d4afa0343477,La Paz,Bouse,85328,65+,male,Spanish
+fcb6504ff5d06032,La Paz,Bouse,85328,18-29,female,English
+0b013493cfbd627f,La Paz,Quartzsite,85348,0-17,male,Spanish
+155531ebf16d20e0,La Paz,Parker,85344,65+,male,English
+b409e4d5281d6b92,La Paz,Parker,85344,18-29,male,Spanish
+91e152513729e55d,La Paz,Quartzsite,85348,30-44,female,Spanish
+fdfc5e502ef93253,La Paz,Quartzsite,85344,45-64,male,English
+764b3ff4794754d2,La Paz,Parker,85328,45-64,male,English
+d702e8a0b9ef7a32,La Paz,Bouse,85348,45-64,female,English
+3a6bda5d93561d34,La Paz,Bouse,85348,0-17,female,English
+2ffcf1d932f6977d,La Paz,Quartzsite,85328,45-64,female,English
+469578515319735d,La Paz,Parker,85348,45-64,male,English
+0e5dcbc54f53aae2,La Paz,Bouse,85348,30-44,male,English
+4cc86cb92da46a8e,La Paz,Parker,85344,0-17,male,English
+834502719bf9d42b,La Paz,Parker,85328,30-44,female,Spanish
+1eb57e6e69f09173,La Paz,Bouse,85328,0-17,female,English
+4149d8cbe801410c,La Paz,Bouse,85328,65+,male,English
+644fa9db60871928,La Paz,Parker,85328,30-44,female,English
+5b0a5938af7040c0,La Paz,Quartzsite,85328,65+,female,English
+bb867632a5fccb00,La Paz,Quartzsite,85348,30-44,female,English
+28610410554b5334,La Paz,Quartzsite,85344,45-64,female,English
+44df96d58778b914,La Paz,Bouse,85328,65+,female,English
+292fb75572179283,La Paz,Parker,85344,45-64,female,Navajo
+0690bef7ab624767,La Paz,Bouse,85344,65+,female,English
+79a4997b510434fa,La Paz,Parker,85328,30-44,male,Navajo
+d51cb1f74d6adf9a,La Paz,Bouse,85328,45-64,male,Spanish
+714dac44b317d869,La Paz,Parker,85328,30-44,female,Spanish
+19ded70ac2caaaaa,La Paz,Quartzsite,85348,65+,male,English
+30ea9c057eca2603,La Paz,Parker,85328,18-29,male,English
+bc76c36d0dceb6cd,La Paz,Bouse,85344,0-17,male,English
+6d97ee725b9552aa,La Paz,Quartzsite,85328,30-44,male,Spanish
+25fdd685ffa1fdae,La Paz,Parker,85344,45-64,female,English
+5240cc7087da7ec7,La Paz,Parker,85328,30-44,male,English
+83fef954dd82220a,La Paz,Quartzsite,85344,65+,female,Spanish
+06025771055c6ff9,La Paz,Bouse,85344,30-44,female,Spanish
+5e438a23df4aa7bd,La Paz,Parker,85348,65+,male,Spanish
+c33b25816e7adc06,La Paz,Parker,85328,0-17,female,English
+0642ee2707ff8216,La Paz,Bouse,85344,30-44,other,Spanish
+c69c3ec30093dac6,La Paz,Quartzsite,85344,65+,male,English
+aa26e495ae50893b,La Paz,Bouse,85328,0-17,female,Spanish
+b35e7bcf494cfec5,La Paz,Parker,85348,30-44,female,Spanish
+99de497245cbd44f,La Paz,Parker,85348,65+,female,Spanish
+b8b9d4a734dc2928,La Paz,Quartzsite,85328,18-29,male,English
+50e51b4aac48528b,La Paz,Parker,85344,45-64,male,English
+4c5d2fe7d579ff85,La Paz,Parker,85344,0-17,female,Spanish
+af2e38718f41743a,La Paz,Quartzsite,85344,45-64,female,English
+1383e08f32b799ab,La Paz,Parker,85348,45-64,female,Spanish
+b5fc72e541ec3ebf,La Paz,Bouse,85328,18-29,female,English
+aef7a6a131737785,La Paz,Parker,85348,0-17,male,English
+0bd71b7834906fe2,La Paz,Quartzsite,85328,18-29,male,English
+ee15bd8f4927661a,La Paz,Parker,85328,30-44,female,English
+2b57bda35e3cc9c2,La Paz,Parker,85328,18-29,male,Spanish
+87ae1df472789d7b,La Paz,Bouse,85348,0-17,male,Spanish
+f5593865c691b175,La Paz,Parker,85344,30-44,female,English
+859e51e6c5abcb6e,La Paz,Quartzsite,85328,45-64,male,English
+04e856a62cb495b7,La Paz,Bouse,85344,0-17,male,Navajo
+43ea1e4551ac60cf,La Paz,Parker,85348,45-64,female,English
+551c2d04cd66cabf,La Paz,Bouse,85348,0-17,female,English
+aa295b616285f6ab,La Paz,Quartzsite,85344,0-17,female,Spanish
+4472e9fd646b6a30,La Paz,Parker,85348,30-44,male,English
+2dabc75eca2f04bf,La Paz,Bouse,85328,30-44,female,English
+9a2d331e07d538c2,La Paz,Bouse,85344,18-29,male,Spanish
+9a4e308d61ef3191,La Paz,Parker,85348,45-64,female,English
+d49a96b0aa144e45,La Paz,Parker,85328,30-44,male,English
+b1b40461c9cefbb2,La Paz,Quartzsite,85348,30-44,male,English
+ae3e36ebf7b8f73d,La Paz,Parker,85328,0-17,male,English
+203d059a81465e9d,La Paz,Parker,85344,30-44,female,English
+cf444ccdaf841355,La Paz,Bouse,85344,30-44,female,English
+a499aaa6676ba3f2,La Paz,Bouse,85348,30-44,male,Navajo
+24a15b3912d3de6a,La Paz,Bouse,85348,65+,male,Spanish
+f71cc6854c763ca8,La Paz,Parker,85328,0-17,female,English
+3831dd975d435e09,La Paz,Parker,85328,30-44,female,English
+84a14444325d608e,La Paz,Bouse,85348,18-29,female,English
+341952b028ae860b,La Paz,Quartzsite,85328,0-17,male,Spanish
+b0002b84585caf6b,La Paz,Quartzsite,85344,0-17,female,English
+1fac64d63952d0aa,La Paz,Bouse,85344,0-17,female,English
+4723da6e197b1e60,La Paz,Quartzsite,85344,65+,male,English
+40b985020d032341,La Paz,Quartzsite,85328,30-44,female,English
+f8e780d197ec4220,La Paz,Bouse,85344,18-29,female,English
+3e7f88d458940600,La Paz,Quartzsite,85348,0-17,male,English
+c246fc48a62e7c32,La Paz,Parker,85344,45-64,male,English
+35e2c20141ae8b84,La Paz,Parker,85328,18-29,female,English
+202be15958dfec86,La Paz,Bouse,85328,30-44,male,Spanish
+f08e3dd3ad75b4d6,La Paz,Bouse,85348,30-44,male,English
+0f1f552080e53a5f,La Paz,Quartzsite,85348,45-64,female,English
+a8d4dc360d67579f,La Paz,Parker,85348,18-29,male,English
+040e36ed6329629f,La Paz,Parker,85328,18-29,male,English
+566afb2fcc3b2430,La Paz,Quartzsite,85344,18-29,male,Navajo
+8b0d5260efad7d11,La Paz,Quartzsite,85344,45-64,female,Spanish
+9ffe897d09fa9186,La Paz,Parker,85328,18-29,female,English
+9bae53eb679ebb06,La Paz,Parker,85344,18-29,female,English
+841bf807186e7c6a,La Paz,Bouse,85344,65+,male,Spanish
+948030f33eb85401,La Paz,Bouse,85328,45-64,male,English
+80c3b4ea76253931,Maricopa,Phoenix,85003,45-64,male,Spanish
+07d54192a9c511f2,Maricopa,Glendale,85003,30-44,female,English
+401f39c4294b6ff0,Maricopa,Mesa,85003,45-64,male,Spanish
+cffc27dcc816caf5,Maricopa,Glendale,85003,0-17,female,Spanish
+5c5fca706545f398,Maricopa,Phoenix,85224,65+,male,English
+05eaec699b3fdc3e,Maricopa,Mesa,85224,18-29,female,English
+2b76fae8ecffb3d8,Maricopa,Mesa,85224,45-64,female,Spanish
+0645e15da1b3a77b,Maricopa,Mesa,85003,0-17,female,Spanish
+6a5f1fe8598c0e1c,Maricopa,Glendale,85308,18-29,female,English
+4d6a09bc8b9685be,Maricopa,Glendale,85308,65+,female,English
+88dfd7aaee212b80,Maricopa,Phoenix,85224,0-17,male,English
+d0cc6faef207befd,Maricopa,Phoenix,85308,0-17,male,English
+d37973c5275b18f8,Maricopa,Glendale,85224,30-44,male,English
+c64d0247e65dd12c,Maricopa,Glendale,85308,18-29,female,Spanish
+931faf804675479f,Maricopa,Glendale,85003,45-64,female,English
+ae2e76ceb0554b93,Maricopa,Glendale,85308,45-64,male,Spanish
+7c5c348278ae4a13,Maricopa,Glendale,85224,45-64,male,English
+2aab34fe8f361e57,Maricopa,Mesa,85224,45-64,male,English
+eb6c7628e0bf59df,Maricopa,Mesa,85003,0-17,male,English
+edee43fe40bfc64b,Maricopa,Glendale,85003,0-17,male,English
+1372705fa934073b,Maricopa,Phoenix,85224,45-64,other,English
+838ee3d4890bb8ae,Maricopa,Mesa,85224,45-64,female,English
+61f27ce450bcf3f5,Maricopa,Phoenix,85224,18-29,male,English
+44fca5757cd9339e,Maricopa,Glendale,85308,30-44,male,English
+90f56ef73a4d6ee2,Maricopa,Glendale,85003,18-29,female,Spanish
+775631076eb99158,Maricopa,Glendale,85308,0-17,female,Spanish
+c0a741a392d3eb4d,Maricopa,Mesa,85308,30-44,male,English
+c8e0f3fda7cf5648,Maricopa,Phoenix,85308,30-44,female,English
+b4f694246bd4440f,Maricopa,Phoenix,85224,18-29,female,English
+4f064d9eeb584e40,Maricopa,Glendale,85308,30-44,female,English
+8e92ab72f36daa35,Maricopa,Glendale,85224,65+,male,Spanish
+f9c957d76fd3d5d5,Maricopa,Mesa,85003,0-17,female,English
+5f82f17904c137f8,Maricopa,Glendale,85308,65+,female,English
+011f62573642de5e,Maricopa,Phoenix,85308,0-17,male,Spanish
+6cf629ad7488fc76,Maricopa,Glendale,85224,0-17,female,English
+4a767ea86f397e88,Maricopa,Phoenix,85003,30-44,other,English
+3cab766b88c04495,Maricopa,Phoenix,85003,0-17,male,English
+bd4002308dc9464a,Maricopa,Mesa,85003,0-17,male,English
+5a7d10607ac7608e,Maricopa,Mesa,85003,65+,female,English
+35b0a8ac39fd3909,Maricopa,Mesa,85224,45-64,female,English
+b22f4e6863cc0c04,Maricopa,Phoenix,85003,30-44,female,English
+948c814ce1d56380,Maricopa,Phoenix,85308,18-29,male,English
+7a4f9f6b35b88777,Maricopa,Mesa,85003,65+,female,English
+aa6323ce7aaf8bdc,Maricopa,Mesa,85308,18-29,female,English
+06dfd1accff93d6e,Maricopa,Glendale,85308,45-64,male,English
+44de3d03eaf52934,Maricopa,Glendale,85308,0-17,male,English
+e0ec358431420b5b,Maricopa,Phoenix,85308,30-44,male,English
+f417afb6504ca160,Maricopa,Phoenix,85308,65+,female,English
+02205663ccbb627b,Maricopa,Phoenix,85003,45-64,male,English
+5b6ea6f3b5ab3038,Maricopa,Glendale,85308,18-29,male,English
+a2f0acfb1ab18d3e,Maricopa,Mesa,85224,0-17,female,English
+9fc6ed8e2c2e3e23,Maricopa,Mesa,85003,0-17,female,English
+b6682d6fb8947290,Maricopa,Phoenix,85224,45-64,female,Spanish
+03a41eee0f109fb8,Maricopa,Phoenix,85003,45-64,female,English
+9a2b267e7aa2c3ee,Maricopa,Mesa,85224,0-17,female,Spanish
+9b4ca3645017d213,Maricopa,Mesa,85003,0-17,female,English
+3f3c0363e156f384,Maricopa,Mesa,85308,45-64,female,English
+76a311ff782237c2,Maricopa,Mesa,85224,30-44,female,English
+4b1964629dad24c4,Maricopa,Phoenix,85003,18-29,male,English
+956f41e7d244d027,Maricopa,Glendale,85308,45-64,female,English
+47594d481e553524,Maricopa,Glendale,85308,18-29,male,English
+43fc4a89ca2a8f2e,Maricopa,Phoenix,85308,65+,male,English
+4b9cb12a5c4db098,Maricopa,Phoenix,85224,65+,male,English
+7f6a90d40fc9d50b,Maricopa,Phoenix,85003,65+,female,English
+b829811d9071e922,Maricopa,Glendale,85224,65+,male,English
+810b23fbe6146cca,Maricopa,Glendale,85224,0-17,male,English
+6a98e05350a33e55,Maricopa,Phoenix,85224,45-64,male,English
+4cad19e6cc7a2e3d,Maricopa,Mesa,85003,45-64,male,English
+cc1adfcaf47b3a70,Maricopa,Mesa,85308,18-29,male,English
+372b71ce4f8f5ebf,Maricopa,Glendale,85224,18-29,female,English
+5bc7c793a5cb5cec,Maricopa,Glendale,85003,45-64,female,English
+4aca2b621822a790,Maricopa,Glendale,85003,30-44,male,English
+9b217844254de74e,Maricopa,Mesa,85308,0-17,male,English
+bf1ed7d7dc1f3358,Maricopa,Phoenix,85308,30-44,female,Navajo
+b14b18f93e7f8a67,Maricopa,Glendale,85224,30-44,male,Spanish
+e8259596df1c494e,Maricopa,Phoenix,85224,30-44,female,English
+7768af19aa526d32,Maricopa,Phoenix,85224,45-64,male,English
+dd571e79c4060f06,Maricopa,Glendale,85308,18-29,male,English
+a651f2d120e5eae3,Maricopa,Mesa,85003,18-29,male,English
+757f356f38be642f,Maricopa,Phoenix,85003,65+,male,English
+2a57dd12f025e860,Maricopa,Glendale,85308,30-44,male,English
+fc441050015bcda8,Maricopa,Glendale,85308,45-64,female,English
+b001ef56754e51af,Maricopa,Phoenix,85003,18-29,male,English
+aa931e9f616f0b06,Maricopa,Glendale,85224,18-29,male,Navajo
+e77f7f026daf8158,Maricopa,Glendale,85308,45-64,male,Spanish
+8279a68175024299,Maricopa,Mesa,85308,45-64,male,Spanish
+609d7e1c98030757,Maricopa,Mesa,85224,18-29,male,English
+efa6a9774b2656ab,Maricopa,Glendale,85003,65+,female,English
+2f463d154f44c90d,Maricopa,Glendale,85224,18-29,female,English
+3b8ef0c11107af7d,Maricopa,Phoenix,85308,18-29,male,Spanish
+263b15822cad89ae,Maricopa,Phoenix,85003,18-29,female,English
+92ea66ed026cad1e,Maricopa,Mesa,85224,45-64,male,English
+b33b1e2b8e0da0b2,Maricopa,Mesa,85003,0-17,female,English
+2b0b689b007401e0,Maricopa,Mesa,85308,45-64,male,Spanish
+bc1372077be0a093,Maricopa,Mesa,85003,45-64,male,English
+1664a78c2c0a22ee,Maricopa,Phoenix,85224,18-29,male,English
+2109d3c504ebc7d9,Maricopa,Phoenix,85224,0-17,male,English
+4262bd5692c6d054,Maricopa,Glendale,85003,30-44,female,English
+6f82dbc4ce15ccb9,Maricopa,Glendale,85224,18-29,male,English
+a87113ab02ebf954,Maricopa,Mesa,85224,30-44,female,English
+5eae740574723452,Maricopa,Mesa,85308,65+,male,English
+b5df751552ff6e17,Maricopa,Glendale,85003,0-17,female,English
+7daa26bf231211de,Maricopa,Phoenix,85308,0-17,male,English
+55978137b4ae953a,Maricopa,Glendale,85308,30-44,female,Spanish
+68e1f1b622bcf519,Maricopa,Phoenix,85224,30-44,male,English
+ca76464204beeddf,Maricopa,Mesa,85308,65+,male,English
+ee7341c5d15af4a0,Maricopa,Glendale,85224,18-29,male,English
+45ab1505dd2dd6fe,Maricopa,Glendale,85003,0-17,male,Spanish
+30fcc97099cc62e5,Maricopa,Mesa,85224,18-29,female,Spanish
+fcf26c647f13d435,Maricopa,Phoenix,85224,0-17,female,English
+f7ae280f3d20c34c,Maricopa,Glendale,85308,18-29,male,Spanish
+f170e1f7c00f4881,Maricopa,Mesa,85224,18-29,female,Spanish
+2fb296e62216be9f,Maricopa,Mesa,85003,65+,male,English
+5825e75145020c95,Maricopa,Glendale,85003,18-29,male,Spanish
+90c8ca51b4a312e7,Maricopa,Glendale,85224,18-29,female,Navajo
+ab9a18c3d5ef6427,Maricopa,Phoenix,85003,18-29,male,English
+8a4691ebd46fade5,Maricopa,Phoenix,85308,30-44,male,English
+57097b37c0be6ec6,Maricopa,Phoenix,85003,18-29,female,English
+be076b90694fa3cb,Maricopa,Mesa,85308,18-29,female,English
+45ecbe21aa00925b,Maricopa,Phoenix,85003,45-64,female,English
+f9d83f59d2b04e4f,Maricopa,Mesa,85003,18-29,female,Spanish
+33a8ea0cc7c4f7fa,Maricopa,Phoenix,85308,65+,other,Spanish
+9b59ae16ad10f61c,Maricopa,Phoenix,85003,0-17,male,Spanish
+c998907f7136c73f,Maricopa,Glendale,85224,45-64,female,English
+16fc098b70a9234b,Maricopa,Phoenix,85003,45-64,male,Spanish
+dde6631b58135daa,Maricopa,Phoenix,85224,18-29,male,English
+cf32e8c4ca8c89f8,Maricopa,Glendale,85308,65+,female,English
+af2272196d8e894c,Maricopa,Glendale,85308,0-17,male,Spanish
+52023b7fd6c09db9,Maricopa,Glendale,85224,30-44,female,English
+5310561f9062aa72,Maricopa,Glendale,85308,30-44,male,English
+da5102e807351f07,Maricopa,Mesa,85308,65+,male,English
+7e58acb3d00eb71f,Maricopa,Phoenix,85224,65+,female,English
+8f8dd0e696edc899,Maricopa,Glendale,85003,65+,female,English
+545c489db2e3d523,Maricopa,Phoenix,85224,30-44,female,English
+810518a94dd4faaa,Maricopa,Glendale,85308,18-29,female,English
+540642f2f6562b68,Maricopa,Mesa,85224,18-29,female,English
+fa17cbe89fb6eef7,Maricopa,Glendale,85003,18-29,female,Spanish
+2604ffc9db777aff,Maricopa,Glendale,85308,0-17,female,English
+43e9a310e6d0493e,Maricopa,Phoenix,85224,0-17,female,English
+d33dd30ee08505fe,Maricopa,Mesa,85224,45-64,male,Spanish
+5dca99d46f92eb47,Maricopa,Glendale,85308,65+,other,Spanish
+bc5d6dc5bf38ea79,Maricopa,Glendale,85224,0-17,female,Spanish
+9b8571ba111d5a1d,Maricopa,Mesa,85224,45-64,male,English
+ec244533484f4733,Maricopa,Glendale,85003,65+,female,English
+9e17327d9d54aa0b,Maricopa,Mesa,85003,30-44,male,Spanish
+74f9aaab3d9905c7,Maricopa,Mesa,85224,45-64,female,English
+555bc485c948c7f5,Maricopa,Glendale,85224,18-29,female,English
+122146ebe91de955,Maricopa,Phoenix,85308,65+,female,Spanish
+13435c4db1ae8537,Maricopa,Glendale,85224,18-29,female,English
+60201ae4b5afdff3,Maricopa,Glendale,85308,18-29,male,English
+b7408af41079be35,Maricopa,Phoenix,85003,65+,other,English
+7134702658fe401c,Maricopa,Glendale,85308,30-44,female,English
+aca75a2a62414ce4,Maricopa,Phoenix,85308,30-44,female,English
+97e4e1053d5725f0,Maricopa,Glendale,85224,0-17,female,English
+de430cb73b9852bc,Maricopa,Glendale,85308,30-44,female,English
+d2d4fabb9a156fc3,Maricopa,Mesa,85003,18-29,male,English
+698ffe5e62ac65ef,Maricopa,Mesa,85308,0-17,female,Spanish
+dcb70af0952e6b3a,Maricopa,Phoenix,85003,0-17,female,Spanish
+fe92960c1b8d550e,Maricopa,Phoenix,85003,65+,female,Spanish
+6a445854fab6895a,Maricopa,Mesa,85003,45-64,male,English
+ee32aefde627f764,Maricopa,Glendale,85308,30-44,female,Navajo
+1e321153e43ab59c,Maricopa,Phoenix,85224,45-64,female,English
+68a49e9d532009f1,Maricopa,Mesa,85224,30-44,female,English
+232b14bf6f9fba9b,Maricopa,Mesa,85224,45-64,male,English
+21e9f5447d26f00c,Maricopa,Phoenix,85224,18-29,male,Spanish
+785e5615cc8535de,Maricopa,Mesa,85308,0-17,male,English
+8327c92a188af561,Maricopa,Phoenix,85003,18-29,male,English
+aef91321a71831f4,Maricopa,Glendale,85308,45-64,female,English
+c6b7af6e4c6299a6,Maricopa,Glendale,85003,65+,female,English
+75130dd3b2c1d85b,Maricopa,Mesa,85224,30-44,female,English
+91b7741950bd6fe0,Maricopa,Phoenix,85003,45-64,male,English
+5e92d22aee5708d2,Maricopa,Glendale,85224,65+,female,English
+c8740511a50f15fc,Maricopa,Glendale,85003,18-29,male,English
+8a01db77a04b4980,Maricopa,Phoenix,85308,45-64,male,English
+a1de532b9a325bbb,Maricopa,Mesa,85003,0-17,female,English
+30520642529843a2,Maricopa,Phoenix,85308,45-64,female,English
+9f3d856c45d1e473,Maricopa,Glendale,85224,0-17,female,English
+1b80b499ac635963,Maricopa,Glendale,85308,18-29,male,Spanish
+acdefa16ad26f03e,Maricopa,Glendale,85308,45-64,male,English
+62de70eae934421a,Maricopa,Mesa,85224,0-17,female,Spanish
+26a88bfadf691104,Maricopa,Phoenix,85003,30-44,female,English
+bec0cf28b44aed23,Maricopa,Phoenix,85003,18-29,female,English
+1ac2219278a4c78e,Maricopa,Phoenix,85308,0-17,female,English
+54443ac1c67dec7b,Maricopa,Mesa,85224,30-44,female,English
+689873f5ea465a88,Maricopa,Mesa,85224,0-17,female,English
+6bb41bcc44e995ba,Maricopa,Phoenix,85224,45-64,female,English
+0adc7f2dad54eae7,Maricopa,Phoenix,85308,45-64,male,English
+bc3678d796290f0b,Maricopa,Phoenix,85224,18-29,male,Navajo
+8093b644a65775de,Maricopa,Glendale,85308,45-64,male,English
+ec4da08017a71478,Maricopa,Phoenix,85308,18-29,male,English
+5ac6024e0fb8649d,Maricopa,Glendale,85003,18-29,male,Spanish
+a86e6716f350345c,Maricopa,Glendale,85224,0-17,female,Spanish
+de8a0701e97e180b,Maricopa,Mesa,85308,45-64,female,English
+4660dfe192a5ac08,Maricopa,Phoenix,85003,45-64,male,English
+32c4f9b8fbe18b0a,Maricopa,Mesa,85003,45-64,female,English
+32fecfb977dd75ab,Maricopa,Phoenix,85003,30-44,male,English
+583914ffbce7731d,Maricopa,Glendale,85224,45-64,female,English
+0a569b71d826a1d3,Maricopa,Phoenix,85308,45-64,female,Spanish
+b21a89cafe191cf1,Maricopa,Phoenix,85003,65+,female,English
+0629d4c30ea3279f,Maricopa,Phoenix,85308,65+,male,English
+80f7ff1362a380c1,Mohave,Lake Havasu City,86403,30-44,female,English
+de231b2fe6cdefde,Mohave,Bullhead City,86401,65+,female,Navajo
+d66718d77a811366,Mohave,Kingman,86401,0-17,male,Spanish
+ce5fafff5d94a7c7,Mohave,Kingman,86442,0-17,male,English
+6fd4eb31dc175470,Mohave,Kingman,86401,30-44,male,English
+b8d50b47cf666d79,Mohave,Bullhead City,86442,18-29,male,English
+ebea944b45c69aa2,Mohave,Bullhead City,86403,0-17,female,English
+ac9e3b624988b9d0,Mohave,Bullhead City,86401,45-64,male,English
+d2f2fb0f7fc2101e,Mohave,Bullhead City,86401,45-64,male,English
+de723eef2b22da7a,Mohave,Lake Havasu City,86442,0-17,female,English
+cff43fe18cb8d35a,Mohave,Bullhead City,86442,45-64,female,English
+4b64ace63afef096,Mohave,Kingman,86401,65+,female,Spanish
+152e0c3f25d579a9,Mohave,Lake Havasu City,86403,30-44,male,Spanish
+5cca44aee66d235a,Mohave,Bullhead City,86403,30-44,male,English
+e826e06bb21448e3,Mohave,Kingman,86401,30-44,male,English
+6087da5a7a02d41b,Mohave,Bullhead City,86442,18-29,male,English
+141cf1ef1a19e03e,Mohave,Lake Havasu City,86401,45-64,male,Spanish
+b9e65f1757ebfa8c,Mohave,Bullhead City,86401,65+,female,English
+d6239b98a55ed20b,Mohave,Lake Havasu City,86442,45-64,female,English
+90747fd7c4923718,Mohave,Kingman,86403,18-29,male,English
+b66927cfab4a98c1,Mohave,Kingman,86401,45-64,male,Spanish
+970f47bd1b4319b4,Mohave,Lake Havasu City,86442,65+,female,Spanish
+c81efa88ebfb5652,Mohave,Kingman,86403,18-29,female,Spanish
+a8802d5d3787c604,Mohave,Bullhead City,86442,18-29,female,Spanish
+77019706d39be4df,Mohave,Kingman,86401,45-64,male,English
+0d9a28f328bd82fb,Mohave,Bullhead City,86442,18-29,male,English
+b3de990d5625857f,Mohave,Kingman,86403,0-17,female,English
+32382a9ad41d549a,Mohave,Bullhead City,86442,18-29,female,English
+6915a531281d7a93,Mohave,Lake Havasu City,86401,18-29,female,Spanish
+3193ca0a039c3a82,Mohave,Lake Havasu City,86401,0-17,female,English
+31699ab4662f7fce,Mohave,Kingman,86403,65+,male,English
+4c96aa4852c0a89f,Mohave,Kingman,86442,0-17,female,English
+6af14a43ceab8bb3,Mohave,Kingman,86403,0-17,female,English
+151b18996f02ce1d,Mohave,Kingman,86401,0-17,male,English
+93d15e6c9278043d,Mohave,Kingman,86401,18-29,male,English
+7b346bf7251ee4c0,Mohave,Bullhead City,86403,30-44,female,English
+15cb9790c88d30d5,Mohave,Lake Havasu City,86403,65+,male,Spanish
+25415642f07bb890,Mohave,Bullhead City,86403,45-64,male,Spanish
+68ebd4e0225bb67b,Mohave,Kingman,86401,30-44,male,English
+e7fef0dddd5a87c1,Mohave,Kingman,86442,0-17,male,Spanish
+a5b9576131a149e5,Mohave,Kingman,86403,30-44,male,Spanish
+ee3134061a026072,Mohave,Bullhead City,86442,0-17,other,Spanish
+07b6fb521d85dcd7,Mohave,Bullhead City,86401,45-64,male,Spanish
+24eb51a19f456d1c,Mohave,Bullhead City,86442,30-44,male,English
+64c3edb3b1b1040c,Mohave,Kingman,86403,30-44,male,Spanish
+a64f94f033ff4952,Mohave,Lake Havasu City,86401,45-64,female,English
+59d43539681ab6b1,Mohave,Lake Havasu City,86442,45-64,male,English
+760f50b8e52804d5,Mohave,Kingman,86403,45-64,other,Navajo
+4594adc49853eb0b,Mohave,Kingman,86403,65+,female,English
+6a9a4adf58e52e33,Mohave,Kingman,86401,45-64,male,English
+b4e3cbd8ce4ffa71,Mohave,Lake Havasu City,86401,0-17,male,Spanish
+1a14855a8562c727,Mohave,Bullhead City,86401,45-64,male,Spanish
+a28b88ac3902216b,Mohave,Kingman,86442,0-17,male,English
+bd24a4ea70f53e39,Mohave,Lake Havasu City,86403,65+,male,Spanish
+78aff0c3ef4ebe9e,Mohave,Kingman,86442,18-29,male,Spanish
+0b8db1e6d51819f1,Mohave,Bullhead City,86442,45-64,male,Spanish
+bb46ce089df1889b,Mohave,Kingman,86401,18-29,female,English
+89c0531cc92ceedf,Mohave,Lake Havasu City,86442,65+,male,English
+b409a22cd11bd7ab,Mohave,Kingman,86403,65+,male,English
+5a156e60830872bf,Mohave,Lake Havasu City,86442,0-17,female,English
+13c7006f66767eb0,Mohave,Bullhead City,86442,65+,female,English
+b893638380826953,Mohave,Kingman,86401,30-44,male,English
+204e8d95627f3e79,Mohave,Bullhead City,86401,30-44,female,English
+67624f99a3cdd2b5,Mohave,Lake Havasu City,86442,65+,male,English
+fc3cc31eff952949,Mohave,Bullhead City,86442,65+,female,Navajo
+1266881c64129265,Mohave,Lake Havasu City,86403,45-64,female,English
+fd96f308f44ade27,Mohave,Kingman,86403,0-17,male,Spanish
+acff827352932bd1,Mohave,Kingman,86442,45-64,male,Spanish
+e716b4e5125e27f6,Mohave,Bullhead City,86442,30-44,other,English
+d25bfe1a6cc3e39f,Mohave,Kingman,86401,30-44,female,English
+eb8c3bfda09f34ed,Mohave,Bullhead City,86403,0-17,male,English
+ed66a9f5bf562836,Mohave,Lake Havasu City,86442,30-44,female,Spanish
+cb5d3735ada8ca29,Mohave,Kingman,86442,18-29,male,English
+7fff8bdecafb29c0,Mohave,Lake Havasu City,86403,18-29,female,English
+5d775a6bf566d91d,Mohave,Kingman,86442,45-64,female,Spanish
+600e5edb39ede8e3,Mohave,Lake Havasu City,86401,30-44,other,English
+0b0a5515d6705be1,Mohave,Kingman,86401,18-29,female,Spanish
+5cd80239ab1f4579,Mohave,Lake Havasu City,86442,18-29,female,English
+5ff80f0df7de98f4,Mohave,Bullhead City,86401,0-17,female,English
+361d7e3f0029e1b5,Mohave,Lake Havasu City,86401,45-64,female,English
+3d91977988d7aa99,Mohave,Lake Havasu City,86442,0-17,female,Spanish
+d50649535c42e2ea,Mohave,Bullhead City,86442,45-64,female,English
+f9b61531a7d0ef63,Mohave,Kingman,86403,45-64,male,English
+fe59be0d72993348,Mohave,Lake Havasu City,86442,30-44,male,English
+5193ea7179fe017c,Mohave,Kingman,86403,30-44,male,English
+bb4b35d7f54a9b5b,Mohave,Kingman,86401,18-29,male,Spanish
+b471231dc6784992,Mohave,Kingman,86403,45-64,female,English
+682bc81737a68b29,Mohave,Lake Havasu City,86403,0-17,male,English
+fb1d4c8da606da12,Mohave,Lake Havasu City,86401,45-64,female,English
+3114ff7052e15940,Mohave,Kingman,86442,45-64,female,English
+fcd4c16cce93d3ec,Mohave,Kingman,86401,0-17,female,English
+723540d456a532c5,Mohave,Bullhead City,86401,0-17,female,English
+edd8d90032874897,Mohave,Kingman,86403,65+,male,English
+881d0f5dccf34ac9,Mohave,Lake Havasu City,86403,45-64,female,English
+7768e77d2b08557c,Mohave,Bullhead City,86442,65+,other,English
+08e0bacec0766e73,Mohave,Kingman,86442,0-17,male,English
+7efa459251176821,Mohave,Kingman,86403,65+,female,English
+1af6d03bdb7807cc,Mohave,Kingman,86442,18-29,female,English
+b2144d70efee9f89,Mohave,Lake Havasu City,86403,18-29,male,English
+e7fb9e306ea913e9,Mohave,Kingman,86403,45-64,male,English
+fa92a3085e656d05,Mohave,Kingman,86442,45-64,other,English
+700f29541faea99e,Mohave,Lake Havasu City,86403,30-44,male,English
+dded77da624678de,Mohave,Bullhead City,86401,18-29,male,English
+8e76b2d634e297af,Mohave,Kingman,86401,18-29,male,English
+c9821d7b748942e5,Mohave,Kingman,86403,45-64,female,English
+a84593e204611319,Mohave,Kingman,86401,18-29,female,Navajo
+c105bddb3e165d2e,Mohave,Bullhead City,86401,45-64,female,English
+126964245c9049b6,Mohave,Lake Havasu City,86403,0-17,female,English
+f96a951d34e861ee,Mohave,Lake Havasu City,86403,45-64,male,English
+23ff8a9002977a3e,Mohave,Bullhead City,86401,18-29,male,Spanish
+24f25ac063ca320d,Mohave,Lake Havasu City,86442,65+,female,English
+ec25f4a3698d6a74,Mohave,Kingman,86442,30-44,female,English
+596c8787f542df4c,Mohave,Lake Havasu City,86442,18-29,male,English
+7de3c50a3bf880ea,Mohave,Lake Havasu City,86401,45-64,female,English
+1a6930c66f696a98,Mohave,Bullhead City,86403,30-44,female,English
+f2c2a7399dcfc02e,Mohave,Kingman,86403,45-64,female,English
+ca3e3595ef005c46,Mohave,Bullhead City,86401,45-64,female,English
+d7835e163ad90852,Mohave,Kingman,86442,0-17,male,English
+8b86842ea0ef2518,Mohave,Kingman,86403,45-64,male,English
+0c4abc9a27b2abd1,Mohave,Lake Havasu City,86442,65+,male,English
+6e54a5bbaef52e9b,Mohave,Kingman,86442,18-29,male,English
+887ab938d3f352d3,Mohave,Lake Havasu City,86442,45-64,female,Spanish
+885025e41c566181,Mohave,Lake Havasu City,86442,45-64,male,Spanish
+2f3b9e346fdb08cd,Mohave,Lake Havasu City,86401,0-17,female,English
+cbc18a8fe85d9a3d,Mohave,Kingman,86403,30-44,female,Spanish
+5cb5ad7ecef14b07,Mohave,Lake Havasu City,86401,45-64,male,Spanish
+4fb5d5450ca860ef,Mohave,Bullhead City,86403,18-29,female,Spanish
+cfead635ef7e24e1,Mohave,Bullhead City,86401,65+,male,Spanish
+289cb3966854c4e3,Mohave,Kingman,86403,65+,male,English
+0945bbb98f21eb24,Mohave,Lake Havasu City,86403,18-29,female,English
+9ecd93c55419e4d9,Mohave,Kingman,86403,18-29,female,English
+8dc0da5bbdd281c9,Mohave,Lake Havasu City,86442,65+,female,Spanish
+a9f2caba828f2184,Mohave,Kingman,86442,18-29,female,English
+ca2b47147652e138,Mohave,Bullhead City,86401,30-44,female,Navajo
+96c47f428421575d,Mohave,Bullhead City,86401,0-17,male,English
+999681fb8280078c,Mohave,Kingman,86401,0-17,female,English
+ddd452cee01d2b20,Mohave,Bullhead City,86401,0-17,female,English
+5346a6ab9afd37aa,Mohave,Bullhead City,86401,30-44,male,Spanish
+4236d624afde2832,Mohave,Kingman,86403,45-64,male,English
+3a1137f41a1a26ae,Mohave,Lake Havasu City,86403,0-17,male,Spanish
+54239e8df4a3a002,Mohave,Kingman,86403,30-44,male,English
+4d26d6c2429cf806,Mohave,Bullhead City,86403,65+,male,English
+4f49d6767059bbd5,Mohave,Bullhead City,86403,0-17,female,English
+215c180644ad6a17,Mohave,Lake Havasu City,86401,18-29,male,Spanish
+55226ce0e64c0463,Mohave,Kingman,86442,45-64,female,English
+b6445d51dafffa9d,Mohave,Kingman,86442,45-64,male,English
+b948c87f8c761563,Mohave,Lake Havasu City,86442,45-64,female,English
+86877510787e2ff3,Mohave,Bullhead City,86401,65+,female,English
+deebf960738d6204,Mohave,Kingman,86403,30-44,female,English
+2fe07b3812ebb4e8,Mohave,Kingman,86403,30-44,female,English
+9e653da55154d681,Mohave,Bullhead City,86401,18-29,female,English
+217dcb9479baf083,Mohave,Kingman,86403,65+,female,English
+fc54ea8da846aff5,Mohave,Lake Havasu City,86403,18-29,female,Spanish
+fba8f610e3eedf59,Mohave,Bullhead City,86401,18-29,male,English
+8f817eaf79eec682,Mohave,Kingman,86442,0-17,male,Spanish
+df7a2bcb2b9de4a9,Mohave,Bullhead City,86442,45-64,male,English
+4533335938468641,Mohave,Bullhead City,86401,45-64,female,English
+8aa70ae21dbbfd66,Mohave,Kingman,86442,45-64,female,English
+73424c01b85bbc63,Mohave,Kingman,86401,45-64,male,English
+69adae750fcf9368,Mohave,Lake Havasu City,86403,18-29,female,Spanish
+1388945105bd6476,Mohave,Lake Havasu City,86401,0-17,female,English
+2a1d12cf0cba493d,Mohave,Lake Havasu City,86403,65+,female,English
+c7946a3b1f293779,Mohave,Kingman,86403,30-44,male,English
+00abe7c85eb8bd5a,Mohave,Kingman,86442,18-29,male,English
+32a3b4112b6c3935,Mohave,Kingman,86442,18-29,male,English
+746903d37c763370,Mohave,Lake Havasu City,86401,0-17,male,English
+ed015689fdac1e59,Mohave,Bullhead City,86403,45-64,female,English
+6f4d0dd5bc93337a,Mohave,Kingman,86442,45-64,male,Spanish
+2c9ce0fe98d8b668,Mohave,Lake Havasu City,86442,45-64,female,Spanish
+3ca7a480ede41cb8,Mohave,Lake Havasu City,86403,30-44,female,English
+726e4aca9075360b,Mohave,Bullhead City,86401,45-64,male,English
+04b44a93b3eeda0f,Mohave,Bullhead City,86401,45-64,female,Spanish
+591ed976d7dbd95d,Mohave,Kingman,86401,45-64,male,Navajo
+1311b6f115715b74,Mohave,Kingman,86442,65+,female,English
+884454004176ccdc,Mohave,Bullhead City,86403,65+,male,English
+99327f297971a7fb,Mohave,Kingman,86442,65+,female,Navajo
+12186383580fc66e,Mohave,Lake Havasu City,86442,0-17,male,English
+daf2134d71ce9377,Mohave,Bullhead City,86442,45-64,male,Spanish
+a930d9cea3d12bf3,Mohave,Bullhead City,86403,18-29,male,Spanish
+14cc08e300dda6e6,Mohave,Kingman,86403,18-29,male,English
+f69629aef7e8fe41,Mohave,Kingman,86403,0-17,female,Spanish
+74a7695d10f7f9f4,Mohave,Lake Havasu City,86403,65+,female,English
+831f81a1be5d3031,Mohave,Kingman,86401,45-64,male,English
+6021204360719e7c,Mohave,Kingman,86403,18-29,male,Navajo
+fa2833bd1162baed,Mohave,Lake Havasu City,86442,0-17,male,English
+83e652f4b4af9d4a,Mohave,Bullhead City,86403,0-17,male,Spanish
+6622574b0e52069e,Mohave,Kingman,86401,18-29,female,English
+4cba5bc72bdcc691,Mohave,Lake Havasu City,86401,45-64,female,Spanish
+9dd180e2841c04cd,Mohave,Lake Havasu City,86403,65+,female,English
+38517217c5c6a45a,Mohave,Lake Havasu City,86403,45-64,female,English
+318628d1a14d3c1a,Mohave,Kingman,86442,45-64,male,English
+07ce7e2b276ebcf0,Mohave,Kingman,86401,30-44,female,Spanish
+2b73c0d357c3156b,Mohave,Kingman,86401,65+,female,English
+a7c4670e295acc1b,Mohave,Bullhead City,86442,18-29,male,English
+d48ee3a2f3092998,Mohave,Lake Havasu City,86401,30-44,other,English
+5ab71d765bf495d7,Mohave,Bullhead City,86401,45-64,female,Spanish
+734ca077ff0e6de0,Mohave,Kingman,86442,0-17,female,English
+7a4172080fb88432,Mohave,Lake Havasu City,86403,0-17,male,English
+89bf3eecd4697351,Mohave,Bullhead City,86403,65+,female,English
+c99fdffc5dce7538,Mohave,Bullhead City,86442,45-64,male,Spanish
+6823fc64cb7cd095,Navajo,Winslow,85901,18-29,female,English
+703787ad6a65b1b6,Navajo,Holbrook,85901,0-17,female,English
+0775e5d682970ffe,Navajo,Show Low,85929,65+,female,English
+ad3cdd086005c1ee,Navajo,Holbrook,85929,30-44,male,English
+6f60d1be393682bd,Navajo,Holbrook,85901,45-64,male,English
+8af2bb97a916957b,Navajo,Winslow,85929,30-44,male,English
+6656106f70e46ac8,Navajo,Holbrook,85901,30-44,female,English
+4edcaf7aacb7a54e,Navajo,Winslow,85901,45-64,female,English
+0c865e9fcd208f05,Navajo,Show Low,85929,30-44,male,Spanish
+cb75d980f282dcd2,Navajo,Holbrook,85929,65+,male,Spanish
+fbd2e7b83df68bdf,Navajo,Holbrook,85901,45-64,male,Spanish
+e295d283c1a972c8,Navajo,Show Low,85901,45-64,female,English
+8ff221595dcaeb06,Navajo,Winslow,85901,30-44,female,Spanish
+3f2c0d1d73683028,Navajo,Show Low,86025,0-17,male,English
+0d56525824dcf0c9,Navajo,Show Low,85901,0-17,female,English
+ce3bfdf6eab01dfa,Navajo,Winslow,85929,0-17,female,Spanish
+5486878ef8a7adff,Navajo,Winslow,86025,65+,female,English
+16283a2a51759a56,Navajo,Winslow,86025,0-17,female,English
+ffd1eb752bb45e92,Navajo,Show Low,86025,45-64,male,English
+85327e07f3a51dcf,Navajo,Holbrook,86025,65+,female,English
+f98b2797182daf99,Navajo,Winslow,86025,18-29,female,Spanish
+6a66b5ffe007801c,Navajo,Show Low,86025,30-44,male,Spanish
+4118724cb626fb27,Navajo,Winslow,85901,18-29,female,Spanish
+441d57c3a4f297b1,Navajo,Winslow,85901,45-64,female,English
+a852d144a7d1a08e,Navajo,Holbrook,85929,0-17,male,English
+dd199b65e4e815ce,Navajo,Holbrook,85901,0-17,female,Spanish
+9cb2257b3485c21f,Navajo,Show Low,85901,18-29,male,English
+a8ddd95e1ef641df,Navajo,Show Low,85929,0-17,female,Spanish
+1ef00e77c4b3030f,Navajo,Holbrook,85901,65+,male,English
+27bf3538ee637b0a,Navajo,Holbrook,85901,0-17,female,English
+55470d58a5ddc9f3,Navajo,Holbrook,85929,30-44,female,English
+9a2da21f9af6f449,Navajo,Show Low,86025,45-64,female,Spanish
+6da1245d45ee499c,Navajo,Show Low,86025,45-64,female,English
+2593ba9946e3ebf3,Navajo,Holbrook,86025,65+,female,English
+0186e22bfb28db6b,Navajo,Holbrook,85901,65+,female,English
+e5ce4b7233512a69,Navajo,Winslow,86025,0-17,male,Navajo
+36007cc40212e7f3,Navajo,Winslow,86025,45-64,male,Spanish
+6c6333f81827bfa5,Navajo,Show Low,85929,18-29,male,Spanish
+0b14967d209574d6,Navajo,Winslow,86025,30-44,female,English
+f5b780237df84db3,Navajo,Show Low,86025,45-64,male,Spanish
+e23dcd631047448b,Navajo,Holbrook,86025,65+,male,Spanish
+838667be29880538,Navajo,Show Low,85929,18-29,male,English
+0549cc802f348cf0,Navajo,Winslow,85929,18-29,female,English
+384265daeccb9705,Navajo,Holbrook,85929,65+,male,English
+7c66e31619eaf41d,Navajo,Show Low,86025,30-44,female,English
+dc410f4c527a5a42,Navajo,Winslow,86025,0-17,female,Spanish
+cfb2377e2572eaa2,Navajo,Holbrook,85901,45-64,male,English
+b27a89277ee6c5a2,Navajo,Show Low,86025,65+,female,Spanish
+a84387f42cfc77a5,Navajo,Winslow,85901,0-17,female,English
+8c48f193f57b55dd,Navajo,Holbrook,85901,18-29,male,English
+2e3409239075dafa,Navajo,Holbrook,85929,45-64,male,English
+402420537d3d817d,Navajo,Show Low,86025,0-17,male,English
+fcc83e8c4f218fba,Navajo,Show Low,85929,18-29,female,Navajo
+8ea82d53d39d30ea,Navajo,Show Low,86025,45-64,female,English
+ddc61a871b6fc535,Navajo,Show Low,85929,0-17,female,English
+3f9d2403a638acf5,Navajo,Holbrook,85901,65+,female,English
+a12ae4ccdf19a313,Navajo,Show Low,85901,18-29,female,Spanish
+5b1df1fe628eda7f,Navajo,Holbrook,85929,45-64,female,English
+8f08fe23f560c8ef,Navajo,Show Low,85929,65+,female,English
+eb31ec3f18e7d788,Navajo,Winslow,85929,0-17,female,Spanish
+afbfac5d287e85cd,Navajo,Holbrook,85929,0-17,female,English
+04a399873ecdd07c,Navajo,Winslow,86025,45-64,male,English
+fe448da9c9369052,Navajo,Winslow,85929,45-64,male,Spanish
+a1a20ce9eb10fe5c,Navajo,Show Low,86025,45-64,male,English
+64ea942a6a99365b,Navajo,Winslow,86025,45-64,male,English
+0d2992b3e54bebac,Navajo,Show Low,85929,65+,female,Spanish
+06912918cd9939f3,Navajo,Holbrook,86025,45-64,other,Spanish
+b8928834bb099068,Navajo,Show Low,86025,30-44,male,English
+dafb4fa179c98d40,Navajo,Winslow,85901,30-44,male,English
+41f6df18ee0834c8,Navajo,Show Low,85929,18-29,female,English
+143ad67c34131275,Navajo,Holbrook,85929,0-17,male,English
+25a933a465bfa90e,Navajo,Winslow,85929,45-64,female,English
+2faef2f07c800f37,Navajo,Winslow,85929,30-44,male,English
+22f2051d8145247c,Navajo,Holbrook,85929,30-44,male,English
+2e9fb17c8387e1c7,Navajo,Holbrook,85929,65+,male,English
+757bcae9663d1179,Navajo,Winslow,86025,65+,male,English
+fd5a4d5e5102fa10,Navajo,Show Low,85901,45-64,male,English
+662d53cdca047525,Navajo,Winslow,86025,65+,female,English
+6d0f7b59eb5c12c4,Navajo,Show Low,86025,18-29,female,English
+77ef388205c76950,Navajo,Winslow,85929,0-17,male,Spanish
+5e3e84ffd90fe2ba,Navajo,Holbrook,85929,65+,male,Spanish
+65a7eef0fd6fdfd1,Navajo,Show Low,85929,45-64,male,English
+daf49f26298db55e,Navajo,Holbrook,85929,45-64,male,English
+3c32f26920597533,Navajo,Show Low,85929,0-17,female,Spanish
+c9caa30300d16ae6,Navajo,Winslow,86025,30-44,female,Spanish
+7c288b1a73d1c375,Navajo,Show Low,86025,65+,female,English
+d90fff4a8ae4496c,Navajo,Show Low,86025,30-44,male,English
+eabe3c1fc1bdaae4,Navajo,Show Low,85929,65+,male,English
+1c31132c9f3cec31,Navajo,Winslow,85901,30-44,male,Spanish
+86565765e0ae206b,Navajo,Winslow,85929,45-64,female,English
+07540e828a599d7b,Navajo,Show Low,85901,30-44,male,English
+af11a3e62df6f4dc,Navajo,Winslow,86025,30-44,male,English
+c4f10971e0bc7ffa,Navajo,Winslow,86025,0-17,female,English
+c1a42a5051a902a7,Navajo,Show Low,85901,45-64,female,English
+6ea40e5809794f21,Navajo,Show Low,86025,45-64,male,Spanish
+5a8fe7f6816779c0,Navajo,Show Low,85929,0-17,female,English
+c289fa8d57ba9c22,Navajo,Show Low,85901,30-44,male,English
+ca801bb6f963dd3c,Navajo,Holbrook,85901,0-17,male,English
+91e09eca4dad3d89,Navajo,Show Low,85929,0-17,male,English
+dd04e56e6cc46a81,Navajo,Winslow,85901,18-29,female,Spanish
+d3eea749a53a2dfb,Navajo,Holbrook,85901,0-17,female,English
+ecb5144312208bcb,Navajo,Winslow,86025,65+,female,English
+1f811c396adf91d7,Navajo,Holbrook,86025,30-44,female,English
+2efd3aa713e0388e,Navajo,Show Low,85901,45-64,male,English
+622a07296c8a7b2e,Navajo,Show Low,85901,65+,female,English
+347114c44e948798,Navajo,Show Low,85901,0-17,male,English
+b5d589c5986c1166,Navajo,Holbrook,85901,65+,female,English
+da307c0503cf5c6b,Navajo,Holbrook,86025,45-64,female,Spanish
+48993421a4927688,Navajo,Holbrook,85901,18-29,male,English
+216a2d4194cf65a5,Navajo,Show Low,86025,45-64,male,English
+b9ccd17a66172963,Navajo,Winslow,85929,30-44,female,English
+372702f46cf52936,Navajo,Holbrook,86025,0-17,female,English
+b8286cd522e8a431,Navajo,Holbrook,86025,45-64,female,Spanish
+0045bafa959ff8fc,Navajo,Holbrook,86025,30-44,male,Spanish
+dc1970a060b9c2b5,Navajo,Holbrook,85929,0-17,female,English
+b958202e50f22763,Navajo,Show Low,85929,18-29,female,English
+507147091d20d709,Navajo,Holbrook,85901,0-17,male,English
+562cb95fde224e97,Navajo,Holbrook,86025,45-64,male,English
+7c5147202370143b,Navajo,Holbrook,86025,18-29,female,English
+48eff42b02d7aef1,Navajo,Winslow,86025,0-17,male,English
+986ec7c4ec8edc11,Navajo,Holbrook,85929,45-64,female,English
+524de6b277bae07e,Navajo,Holbrook,85901,65+,female,English
+ed893757a6469350,Navajo,Winslow,85929,30-44,female,English
+9f932a6a0453c13a,Navajo,Winslow,86025,65+,male,English
+b99967e23619443b,Navajo,Holbrook,85901,65+,male,English
+18a89070963a0b71,Navajo,Show Low,85901,30-44,male,English
+99eb03974c6fc696,Navajo,Holbrook,85929,45-64,female,English
+3b0a729a8109c91e,Navajo,Holbrook,86025,0-17,female,Navajo
+137304aa93e19e2d,Navajo,Winslow,85901,65+,male,English
+828d83e1e5a71378,Navajo,Show Low,85901,0-17,other,Spanish
+61991f1d15cf67e8,Navajo,Holbrook,85901,0-17,female,Spanish
+3ad57fddfd679099,Navajo,Winslow,85901,65+,male,English
+45b193cc36dbd7cc,Navajo,Show Low,85901,0-17,female,English
+8c53957254527d16,Navajo,Winslow,85929,18-29,female,English
+f90966dc0d550009,Navajo,Show Low,85901,18-29,female,English
+d4f759c133155080,Navajo,Holbrook,86025,30-44,female,English
+2da8b6d1a77e00b1,Navajo,Holbrook,86025,30-44,female,Spanish
+d20f3c7ed7c5522b,Navajo,Show Low,85901,18-29,female,English
+43f0d3abe4a2c463,Navajo,Show Low,86025,45-64,male,English
+03d298f7bb79e960,Navajo,Holbrook,85901,18-29,male,English
+acf1e6b818054af4,Navajo,Show Low,85929,0-17,female,English
+fb36152e81ad5fab,Navajo,Winslow,85929,45-64,female,English
+66d283a672bcab51,Navajo,Winslow,85901,65+,female,English
+5ccce723c4b8e999,Navajo,Winslow,86025,18-29,female,English
+c7248ca528e76aa1,Navajo,Show Low,86025,18-29,male,English
+ad06e252fdb61829,Navajo,Holbrook,85901,45-64,female,Spanish
+ffd8be53497f39aa,Navajo,Holbrook,85901,30-44,male,English
+c8ad98e059c6445d,Navajo,Winslow,85901,18-29,female,English
+d2a8f55b8dccfaab,Navajo,Winslow,85929,0-17,female,English
+431ef74c7087ce90,Navajo,Holbrook,86025,65+,female,English
+f7b8a8e7c75c0710,Navajo,Winslow,85929,30-44,male,English
+b03abea11e62ba69,Navajo,Show Low,86025,18-29,female,English
+59e2e0de9cc234cb,Navajo,Winslow,85929,18-29,male,English
+39b2f2f1524d309c,Navajo,Winslow,86025,30-44,female,English
+edd9ec23d184a3d1,Navajo,Winslow,85929,30-44,female,English
+614bfe50146ad43e,Navajo,Holbrook,86025,30-44,male,English
+f0a831c95b28458d,Navajo,Winslow,86025,30-44,female,Spanish
+9d711f323753eacd,Navajo,Show Low,85929,45-64,female,English
+fd1631b6442787fe,Navajo,Show Low,85901,45-64,female,English
+24c069b2258704d5,Navajo,Show Low,85901,45-64,male,English
+0b5d39d5f637f5d8,Navajo,Winslow,85901,30-44,female,English
+208e3af5d346592f,Navajo,Show Low,86025,45-64,female,English
+bc571fd99a8cca9b,Navajo,Show Low,85901,45-64,female,Spanish
+389eba3070cf0835,Navajo,Holbrook,85929,45-64,other,English
+ac68c8a839ce5501,Navajo,Holbrook,85929,30-44,male,English
+8bc141f39039fa7e,Navajo,Winslow,86025,65+,male,English
+63622a66cdc996ac,Navajo,Holbrook,86025,30-44,male,English
+ed8cb51d08d410a3,Navajo,Show Low,86025,65+,female,English
+4e458e32af76ad87,Navajo,Winslow,86025,65+,female,Spanish
+062a196535d3c63d,Navajo,Holbrook,86025,0-17,female,English
+785f6b8226837e96,Navajo,Holbrook,86025,0-17,male,English
+64a7cbe5b6ee4021,Navajo,Holbrook,86025,30-44,other,English
+dea8fcdced3d7177,Navajo,Winslow,86025,45-64,male,English
+4d530c8a745a9138,Navajo,Holbrook,86025,65+,male,English
+cc62f7b742a14c95,Navajo,Holbrook,86025,0-17,male,English
+388f99834998b02a,Navajo,Winslow,86025,45-64,female,English
+59ec7e28345ffccb,Navajo,Holbrook,85901,30-44,female,Spanish
+c7cd435a1eb36fb5,Navajo,Show Low,85929,18-29,female,English
+a4b2309864ee89cd,Navajo,Show Low,85929,0-17,male,Spanish
+ca0d4f88a3389554,Navajo,Winslow,86025,0-17,female,English
+82b738cdaabd8ad2,Navajo,Show Low,85929,30-44,female,English
+5fe1f3f7a944bc70,Navajo,Holbrook,85901,45-64,male,English
+d5ec9fc11e891167,Navajo,Holbrook,85929,30-44,female,English
+07619f555da193f8,Navajo,Winslow,85901,45-64,female,English
+3db08d3be7dd4961,Navajo,Show Low,85929,18-29,female,Spanish
+70d8fcde8fa211a8,Navajo,Winslow,85901,30-44,male,English
+47e88c9b0500d4f3,Navajo,Winslow,85929,45-64,male,English
+056da954a8f3156a,Navajo,Holbrook,85929,30-44,female,English
+1c770024006030de,Navajo,Winslow,85901,65+,female,Spanish
+51b23c7bd5a24e99,Navajo,Holbrook,85901,30-44,female,English
+6a604ecd1e2b3195,Navajo,Holbrook,85901,45-64,female,English
+27d812684ddbfb15,Navajo,Holbrook,86025,30-44,female,English
+9c6410624019439f,Navajo,Winslow,85901,18-29,female,English
+486de68ab82baeee,Navajo,Winslow,85929,65+,female,English
+c3a21eb566b6ec2b,Navajo,Winslow,86025,0-17,female,English
+44479f35a99022c7,Navajo,Holbrook,85901,18-29,male,Spanish
+ef02df3094ce1278,Navajo,Winslow,85929,45-64,male,Spanish
+41d26e0b8a0032e4,Navajo,Winslow,85901,0-17,female,English
+38b1377f959e7fbc,Navajo,Winslow,85901,18-29,female,English
+e185d2efcbfd0248,Navajo,Holbrook,85929,0-17,female,English
+4da3e929b6a264db,Pima,Tucson,85746,18-29,male,English
+0a372b50383c0b46,Pima,Marana,85701,30-44,male,English
+415f1a9144401952,Pima,Marana,85746,18-29,male,English
+a18b3454d0e91609,Pima,Oro Valley,85705,18-29,male,Spanish
+261451e6adca8052,Pima,Oro Valley,85746,18-29,female,Spanish
+a0829b73fdedfaab,Pima,Oro Valley,85705,0-17,female,English
+f817bfbf3e2e9afd,Pima,Tucson,85746,18-29,male,Spanish
+b4a16cb1dc294077,Pima,Oro Valley,85701,65+,female,English
+e4763b158ebcaae2,Pima,Oro Valley,85705,0-17,female,English
+a6d22ab46672a31d,Pima,Tucson,85705,65+,male,English
+bd34bf9d216e286d,Pima,Marana,85701,18-29,male,English
+86240f137b23bcfc,Pima,Tucson,85705,45-64,male,Spanish
+47e785499a90e201,Pima,Marana,85705,30-44,female,English
+a06a249db7115514,Pima,Marana,85746,45-64,male,English
+2e747145a2e6315a,Pima,Marana,85746,18-29,male,English
+2f944f75d1acfd7e,Pima,Tucson,85746,0-17,female,English
+373ea5b66f8af38c,Pima,Oro Valley,85705,45-64,other,Spanish
+ec7453d199f28107,Pima,Tucson,85701,65+,female,Spanish
+a3ac195715ccb3ba,Pima,Oro Valley,85701,0-17,female,English
+f188d5f121986d65,Pima,Tucson,85705,45-64,male,Spanish
+7ad46c1bd1a70f92,Pima,Oro Valley,85701,45-64,female,Navajo
+3ce29c98da8b433a,Pima,Marana,85701,18-29,male,English
+a99f76e32df16cfa,Pima,Tucson,85746,0-17,male,Spanish
+f9a4aa2d34627ea4,Pima,Tucson,85746,0-17,male,English
+71f510498dfa7023,Pima,Tucson,85701,18-29,female,English
+ea237ad509f196d7,Pima,Oro Valley,85701,45-64,male,English
+6bfe5267a9022bd4,Pima,Oro Valley,85701,45-64,male,English
+a8fb3d3d2534cbff,Pima,Oro Valley,85746,65+,male,Spanish
+04dac11bc6fc7ac0,Pima,Oro Valley,85746,30-44,female,English
+76ec67798d2720b0,Pima,Marana,85705,0-17,male,English
+338249d98097dee3,Pima,Oro Valley,85701,18-29,male,Spanish
+564a77a354f4747c,Pima,Oro Valley,85746,18-29,male,English
+a0521b47a154f156,Pima,Tucson,85746,30-44,male,Spanish
+b05cb772f7d0d242,Pima,Oro Valley,85705,45-64,male,Spanish
+f8970c91b9b81bd9,Pima,Oro Valley,85705,45-64,female,English
+8034224e4e32ca0d,Pima,Oro Valley,85701,0-17,male,Spanish
+9169c3910fa00996,Pima,Marana,85701,18-29,female,Spanish
+8e2a7289f0337fdb,Pima,Marana,85701,18-29,female,English
+83e74f4653201000,Pima,Marana,85701,65+,female,English
+9faf0cc5444d8c76,Pima,Tucson,85701,0-17,male,English
+8b4544922d786e69,Pima,Oro Valley,85705,45-64,male,English
+b45b16cdbeb88aa2,Pima,Tucson,85701,30-44,male,English
+96070afe3657a01d,Pima,Tucson,85746,30-44,female,English
+541c6234d92fda80,Pima,Oro Valley,85746,30-44,female,English
+9054c7aa7bf65264,Pima,Oro Valley,85705,18-29,female,English
+0b2840933738e031,Pima,Tucson,85746,0-17,female,Spanish
+e5e09eaa692c8d2f,Pima,Marana,85746,0-17,male,Spanish
+dba07e065dc4b30c,Pima,Tucson,85701,0-17,female,English
+7b957b5a7b11ffe8,Pima,Oro Valley,85746,45-64,female,English
+afceb31b982e7c19,Pima,Oro Valley,85705,45-64,male,English
+549ee1d2692dbee3,Pima,Tucson,85705,45-64,male,Spanish
+7b386a3bfeb98b37,Pima,Oro Valley,85746,18-29,female,English
+24b4bc700fcf2cfb,Pima,Tucson,85746,65+,female,English
+2ca91010497370cf,Pima,Tucson,85705,65+,male,English
+f33fa8f953c36c23,Pima,Tucson,85701,65+,male,English
+96e5530d3ba1237b,Pima,Marana,85746,18-29,female,Spanish
+433e1bf673d17e8f,Pima,Tucson,85701,45-64,male,English
+39f500f3fa36a568,Pima,Tucson,85705,45-64,female,English
+38ce08dab713c11e,Pima,Tucson,85701,18-29,male,English
+a96ea6c240bef571,Pima,Oro Valley,85705,0-17,female,English
+aab88a4ac7c68e1a,Pima,Marana,85701,45-64,female,Spanish
+ede63936d305bfdf,Pima,Marana,85705,65+,male,Spanish
+4e2ec0dab20545c0,Pima,Tucson,85701,18-29,male,English
+b8bdb1985451a56f,Pima,Marana,85746,45-64,male,English
+fb2460e025ee0f20,Pima,Marana,85705,65+,male,English
+48804cd56591d5bf,Pima,Marana,85746,45-64,female,Spanish
+ac1b2e4591921872,Pima,Marana,85701,0-17,female,Spanish
+811915dd949c05ad,Pima,Tucson,85701,45-64,female,English
+21a23a41beac31d1,Pima,Marana,85705,18-29,male,Spanish
+860a0495ba86b64f,Pima,Marana,85701,0-17,male,English
+a4d33afc1b481414,Pima,Tucson,85705,30-44,female,English
+4bc87fb2f2364638,Pima,Oro Valley,85746,65+,female,English
+1869b642049a3cca,Pima,Oro Valley,85746,30-44,male,English
+32914e951d252666,Pima,Oro Valley,85705,65+,female,English
+71da4797e42ba663,Pima,Marana,85746,0-17,female,English
+fcf3eaecae1a595a,Pima,Marana,85705,30-44,female,English
+bad99d915ac4cbc9,Pima,Marana,85705,65+,female,Spanish
+406ac1a3463fba57,Pima,Oro Valley,85746,45-64,male,English
+fa0b3ab7c317441b,Pima,Marana,85705,0-17,female,English
+3831fc2070046536,Pima,Oro Valley,85746,30-44,male,Spanish
+07cebaf2fa8d6d7e,Pima,Tucson,85705,45-64,female,Navajo
+c046ee93333f40b7,Pima,Oro Valley,85705,65+,female,English
+3f4cb813376aa6d2,Pima,Tucson,85705,65+,male,English
+89b7c902f4f688ce,Pima,Tucson,85705,30-44,male,English
+3ad9d4cda837ac75,Pima,Marana,85705,65+,female,English
+7b107651a1963f5c,Pima,Marana,85701,30-44,other,English
+743130df785e456a,Pima,Tucson,85746,30-44,male,English
+cff5897ae4731f8d,Pima,Marana,85746,0-17,male,Spanish
+aa8e7201d140d755,Pima,Oro Valley,85746,30-44,female,English
+f4b1420f3790627f,Pima,Marana,85705,65+,female,Spanish
+3ea5b6039e6defef,Pima,Tucson,85705,18-29,male,English
+ddd031f2c1926582,Pima,Marana,85705,18-29,female,English
+d62c1be3e090f45a,Pima,Marana,85705,45-64,female,English
+2a8100ee8aba7974,Pima,Tucson,85746,18-29,male,English
+21b4c64f6329933d,Pima,Tucson,85746,18-29,female,English
+e132a8802b660cbd,Pima,Oro Valley,85705,30-44,female,English
+952bc1823b01564c,Pima,Tucson,85701,65+,female,English
+968f22d7f374abc0,Pima,Marana,85746,65+,male,English
+8f9180707e1dd329,Pima,Oro Valley,85701,45-64,other,English
+4e775f0d42cf07ed,Pima,Oro Valley,85705,18-29,female,English
+3c9126e063294bc3,Pima,Oro Valley,85701,18-29,male,English
+f274c6568d62956b,Pima,Marana,85701,65+,female,Spanish
+20e49ad24ebd4163,Pima,Oro Valley,85705,45-64,male,English
+3c112a15b91c94ce,Pima,Oro Valley,85746,0-17,female,Spanish
+7a9405600428fa6b,Pima,Marana,85701,0-17,female,English
+169772b28899b6a7,Pima,Marana,85705,30-44,female,English
+1165a2a2f54a6527,Pima,Oro Valley,85701,18-29,male,English
+724b6cdb35764cba,Pima,Marana,85746,30-44,male,English
+5ccf985c88be1289,Pima,Oro Valley,85701,65+,female,Spanish
+cb025a072a4e46f8,Pima,Tucson,85705,30-44,male,English
+946af75b6c862db5,Pima,Oro Valley,85705,0-17,female,English
+f00667917e11f12c,Pima,Tucson,85705,65+,female,English
+4da71cc10cda4335,Pima,Tucson,85746,18-29,female,English
+2d27f9d0830ccb47,Pima,Tucson,85701,30-44,female,Spanish
+c4088fb9716f87c4,Pima,Tucson,85701,30-44,male,English
+3987b7e071287e02,Pima,Marana,85705,45-64,male,Spanish
+2e35fcf1604b1497,Pima,Tucson,85746,45-64,male,English
+b09d3e000e42b2c6,Pima,Oro Valley,85705,0-17,female,English
+121f0d5137ba685c,Pima,Tucson,85705,45-64,male,English
+0797e1bbadbeefe2,Pima,Oro Valley,85701,30-44,female,English
+829d1b03bf66a88a,Pima,Marana,85701,45-64,female,Spanish
+67da1b4697dfe1ec,Pima,Tucson,85746,45-64,female,Spanish
+6946a64248d91729,Pima,Marana,85701,65+,male,English
+a6e5fe0b753488f9,Pima,Oro Valley,85701,45-64,female,English
+825caefa7a2c88f6,Pima,Tucson,85746,30-44,female,English
+375ba0d20ab43aad,Pima,Marana,85746,45-64,female,English
+61c95ed00e9a30de,Pima,Marana,85701,45-64,female,English
+e6947b78ed7c27a6,Pima,Oro Valley,85746,30-44,male,English
+1cbacf7e6fb83ab6,Pima,Tucson,85705,65+,male,English
+0b1d66a9309d4f53,Pima,Marana,85705,30-44,male,English
+e9cff9660be2856f,Pima,Tucson,85705,30-44,female,English
+2a8b7c0fce96522e,Pima,Tucson,85701,30-44,female,English
+08e1b51aa69520f0,Pima,Oro Valley,85746,0-17,male,Spanish
+b3e813f349ec27ed,Pima,Marana,85705,45-64,female,English
+2cd66ce640852cdd,Pima,Oro Valley,85701,30-44,female,English
+f2764d07556b3648,Pima,Oro Valley,85705,30-44,female,English
+4cce81a8fd59a0d8,Pima,Marana,85701,18-29,male,English
+dc4a8b2b27d0ea96,Pima,Tucson,85746,65+,male,Spanish
+2c17c6e5921ed0a8,Pima,Marana,85746,18-29,male,English
+963b39e822470519,Pima,Tucson,85705,0-17,male,Spanish
+896ab5a2a962b66c,Pima,Marana,85701,45-64,male,English
+1bf51fee1e849b0d,Pima,Tucson,85746,30-44,male,English
+163db3051a388032,Pima,Oro Valley,85705,30-44,male,English
+9eac4d4d9718d831,Pima,Tucson,85701,45-64,male,English
+d4b1c4458754051f,Pima,Oro Valley,85701,0-17,female,English
+7ebb9ab8919513c1,Pima,Marana,85701,0-17,male,Spanish
+3e99238f78d6b305,Pima,Marana,85705,0-17,male,English
+75acc2aab8a5d302,Pima,Tucson,85701,30-44,male,Spanish
+69d00f4dd83915c5,Pima,Tucson,85746,45-64,male,English
+be5dfba1774f29e1,Pima,Marana,85705,18-29,male,English
+9ec2a8f9d069dfc3,Pima,Oro Valley,85746,45-64,female,English
+7eacc0dfd79fa2c5,Pima,Oro Valley,85746,30-44,female,English
+f29f2daf54318af1,Pima,Oro Valley,85746,18-29,female,English
+1ae51c429205cb77,Pima,Tucson,85705,0-17,male,English
+6b9d23529998fd85,Pima,Marana,85746,0-17,female,Navajo
+ff9b652a1027e8b4,Pima,Tucson,85705,18-29,male,English
+20e29ae80b2cced4,Pima,Tucson,85746,65+,female,English
+0e1e154de8d506a4,Pima,Marana,85701,0-17,female,Spanish
+d25181c0bab22476,Pima,Marana,85746,45-64,female,English
+6dc6224429e631c0,Pima,Oro Valley,85746,18-29,female,English
+eae8bcd55ff37e87,Pima,Marana,85705,65+,female,English
+4bd67169e5aeb556,Pima,Oro Valley,85746,30-44,male,English
+73a4a220774b0e2f,Pima,Marana,85705,30-44,male,Navajo
+ddd974310180e59d,Pima,Tucson,85705,45-64,female,Spanish
+49429d2d8c150953,Pima,Marana,85746,0-17,female,Spanish
+f20a29cc158d4f05,Pima,Tucson,85705,30-44,male,English
+5d4234ccb0000b4e,Pima,Marana,85746,30-44,female,English
+615570ddedfcf221,Pima,Marana,85746,18-29,female,Spanish
+5c8afd4ce139f565,Pima,Marana,85701,0-17,male,English
+8b98f9091cb73b3e,Pima,Marana,85705,30-44,female,English
+75f7cd261cb6a1b5,Pima,Marana,85746,65+,male,English
+f05069c4f9df1e85,Pima,Oro Valley,85701,18-29,female,English
+270fa6e8d7da5c99,Pima,Oro Valley,85746,0-17,male,English
+f776fa821c7362c1,Pima,Tucson,85701,45-64,male,English
+c7c42182144046a0,Pima,Marana,85701,18-29,female,English
+a41202da0518fff5,Pima,Oro Valley,85746,45-64,female,Spanish
+41ddbfe2dd284a89,Pima,Marana,85746,45-64,female,English
+849a813c8b1505d7,Pima,Marana,85701,18-29,female,English
+0fbf733387b92f59,Pima,Marana,85746,45-64,female,English
+45579df40e5f49d6,Pima,Marana,85746,18-29,male,Spanish
+1228a16ea6e87c7a,Pima,Oro Valley,85701,0-17,male,Navajo
+7e3bda739f49a6eb,Pima,Marana,85701,0-17,female,English
+8ea9df1d60da5c6a,Pima,Tucson,85701,30-44,female,English
+0bb11cc7dbf19987,Pima,Oro Valley,85746,45-64,female,English
+fef8ddf2ef29b110,Pima,Oro Valley,85746,30-44,female,English
+86e20b65e2dac2af,Pima,Tucson,85746,65+,male,Spanish
+a64c252f29055e5e,Pima,Oro Valley,85746,0-17,female,English
+4adfc5edafee39bb,Pima,Oro Valley,85746,0-17,male,English
+7df55c755c0eb191,Pima,Tucson,85705,65+,male,English
+b3b750752cadfded,Pima,Tucson,85746,30-44,other,Spanish
+b75be125fd9a9e6a,Pima,Oro Valley,85701,65+,other,English
+4b84d018192e5369,Pima,Marana,85701,0-17,female,English
+9ac914ebaac3be9f,Pima,Oro Valley,85746,65+,male,English
+9ba4026d7b42084a,Pima,Marana,85705,30-44,other,English
+5a4ddefb85a2c43d,Pima,Marana,85701,65+,male,Spanish
+85b71a98b8865b7b,Pima,Marana,85746,30-44,female,Spanish
+5b215206190d29ba,Pima,Marana,85701,0-17,female,Spanish
+23a47dcbda690db5,Pima,Marana,85746,0-17,male,English
+c02bb74946664716,Pima,Tucson,85701,30-44,male,English
+c804916b51e9c43e,Pima,Marana,85705,65+,female,English
+559447e938baf1e5,Pinal,Florence,85194,65+,female,English
+cddd4648b3c3a77a,Pinal,San Tan Valley,85132,30-44,male,English
+69615359a378a6bc,Pinal,San Tan Valley,85194,0-17,female,Spanish
+f64a427000453ee1,Pinal,San Tan Valley,85132,0-17,female,English
+292553452f961db9,Pinal,San Tan Valley,85194,30-44,male,Spanish
+6b40d6a73a055db8,Pinal,Florence,85132,30-44,female,English
+4a36e8a7dd1c7254,Pinal,San Tan Valley,85122,30-44,female,English
+c298d2589a264ad0,Pinal,Casa Grande,85194,0-17,female,English
+cb2e847cd967a7a5,Pinal,Casa Grande,85122,18-29,female,English
+ce9f9a732a9bb856,Pinal,Casa Grande,85132,45-64,male,Spanish
+bb37a2c11f2d5d79,Pinal,San Tan Valley,85194,0-17,female,English
+a759cc23abcfa098,Pinal,Florence,85122,30-44,female,Spanish
+a7e19149d49eddbb,Pinal,Casa Grande,85122,65+,female,English
+2bd1543f055b5e07,Pinal,Florence,85132,30-44,female,English
+4209f3c7d094c93f,Pinal,San Tan Valley,85194,45-64,female,Spanish
+083444184d22cc6c,Pinal,Casa Grande,85194,30-44,other,English
+7a8b336fe9cc0fae,Pinal,San Tan Valley,85132,18-29,male,English
+433c3c7e68aee020,Pinal,San Tan Valley,85132,0-17,male,English
+4c2e0f03bf8c0616,Pinal,Florence,85122,65+,male,English
+cbf25fe42c279e5b,Pinal,Casa Grande,85132,30-44,female,English
+26bad08568ad6259,Pinal,Casa Grande,85132,45-64,male,Spanish
+ae050ea9fa8c4f17,Pinal,Casa Grande,85132,30-44,female,Spanish
+eeb7faf1853f921a,Pinal,Florence,85132,0-17,male,Spanish
+1685e79c2badd125,Pinal,San Tan Valley,85132,30-44,male,Spanish
+52135f33f5d06a3c,Pinal,Casa Grande,85132,45-64,male,English
+e84b0204178aa19a,Pinal,Florence,85122,65+,male,Spanish
+ec8e70d70e31023b,Pinal,Casa Grande,85132,30-44,female,English
+97c93bb42be8d571,Pinal,Casa Grande,85122,30-44,male,Spanish
+95ff81b01bba1d17,Pinal,San Tan Valley,85122,65+,male,English
+c31ba96dd0f18b51,Pinal,Florence,85122,65+,female,Spanish
+ead383eb9fdb12a1,Pinal,Florence,85132,30-44,female,English
+7b8794de2ec83e9c,Pinal,Casa Grande,85132,18-29,female,Spanish
+07fd26a6ac80358b,Pinal,Casa Grande,85194,18-29,male,Spanish
+a7360a0d8d73231b,Pinal,Casa Grande,85132,0-17,female,English
+c7ca1e1101ad1e72,Pinal,San Tan Valley,85122,65+,male,Spanish
+4a4529bd16d4adfb,Pinal,Casa Grande,85122,30-44,female,Spanish
+f28e083123f980f0,Pinal,Florence,85132,45-64,male,English
+849e271d414ebc56,Pinal,San Tan Valley,85122,18-29,male,Navajo
+cc860c11a3e57aef,Pinal,Casa Grande,85194,0-17,female,English
+e8b938867df01fcf,Pinal,Casa Grande,85194,30-44,female,English
+0d81d85b8ceae53b,Pinal,Casa Grande,85132,0-17,female,English
+d9d19081f3a600f8,Pinal,Florence,85194,0-17,female,English
+346c1d1cac8f61a7,Pinal,Florence,85122,18-29,male,English
+fba15f6169376d73,Pinal,San Tan Valley,85194,45-64,female,English
+6b3cc14b9a6453f3,Pinal,San Tan Valley,85122,45-64,female,Spanish
+b95460b26ed6ec90,Pinal,Florence,85122,30-44,female,English
+e97a3b9a62c73aa1,Pinal,San Tan Valley,85194,30-44,male,English
+2cea9dac43e5e0c1,Pinal,San Tan Valley,85194,0-17,male,Spanish
+96815ce19034049c,Pinal,Florence,85132,45-64,male,Navajo
+4bd5c04a6975df16,Pinal,Casa Grande,85132,30-44,female,English
+80779629e6332a52,Pinal,Casa Grande,85132,65+,male,English
+502b1e1eac12d35d,Pinal,San Tan Valley,85194,65+,female,English
+7f00abf82a67f1f7,Pinal,Casa Grande,85132,30-44,female,English
+f6d5ce9e30162269,Pinal,Florence,85132,18-29,female,Spanish
+c7f19b3c958232ee,Pinal,Florence,85122,18-29,female,English
+7f908aa855b915fa,Pinal,San Tan Valley,85122,30-44,female,English
+0929ef982f6e7e8f,Pinal,Florence,85122,0-17,male,English
+763d96d79cc9bd3e,Pinal,San Tan Valley,85132,30-44,female,Navajo
+12290c893de16da7,Pinal,San Tan Valley,85122,65+,male,Spanish
+812a297157df7edb,Pinal,San Tan Valley,85194,30-44,female,English
+160fd531d1c172ee,Pinal,San Tan Valley,85194,45-64,male,English
+93bd3d70adde334a,Pinal,Casa Grande,85132,65+,male,English
+23945f21f49fde0d,Pinal,Casa Grande,85194,18-29,male,Spanish
+68d1176794efb7dd,Pinal,Florence,85122,45-64,male,Navajo
+ac7e8a601b3bb4ee,Pinal,San Tan Valley,85194,65+,female,Spanish
+b2b50030ac473170,Pinal,San Tan Valley,85132,18-29,male,English
+f00a7bccf1264b90,Pinal,Casa Grande,85132,30-44,female,English
+a9b21363adad7fe0,Pinal,San Tan Valley,85132,18-29,female,English
+103c4109230fe255,Pinal,San Tan Valley,85122,18-29,female,Spanish
+0258f0956bbdc5e2,Pinal,Florence,85122,18-29,female,English
+6715b4fc71cd8943,Pinal,San Tan Valley,85132,45-64,male,English
+1cd2b0ccb7557077,Pinal,San Tan Valley,85194,18-29,female,Spanish
+34160e523d2d8c54,Pinal,Florence,85132,18-29,male,English
+4b063fe6e13fb3fb,Pinal,San Tan Valley,85132,18-29,male,English
+8c2a32893406f702,Pinal,Florence,85122,45-64,male,English
+08dd662af9842466,Pinal,San Tan Valley,85132,0-17,male,English
+4cc591ee4f6e3a8c,Pinal,Florence,85132,30-44,female,English
+432e5f97af3cb689,Pinal,Casa Grande,85194,18-29,female,Navajo
+e0771428cbd618b7,Pinal,Florence,85194,45-64,other,English
+0acaa81bcdb784fa,Pinal,Casa Grande,85132,45-64,male,English
+ad1b3c0bf4e77e60,Pinal,Casa Grande,85122,30-44,female,English
+e000b421f10232d9,Pinal,San Tan Valley,85132,30-44,female,English
+e40b37672cfe002a,Pinal,Florence,85132,45-64,male,English
+518c028ba80f1b51,Pinal,San Tan Valley,85194,18-29,male,English
+852176351150a7bb,Pinal,Florence,85132,18-29,male,English
+d6112d0442bebd70,Pinal,Florence,85132,0-17,male,Spanish
+ae885c4d0c72f0f1,Pinal,Casa Grande,85194,65+,female,English
+a52048d16496249a,Pinal,Florence,85122,45-64,male,English
+26079bf5d19b01d0,Pinal,San Tan Valley,85122,30-44,male,Spanish
+796a4fef15dc306b,Pinal,San Tan Valley,85122,0-17,male,English
+dd735a4780e28f9f,Pinal,Casa Grande,85194,45-64,male,English
+dd23092a4c0c80e9,Pinal,Casa Grande,85122,30-44,male,English
+d5a28ae10a557507,Pinal,San Tan Valley,85122,18-29,female,Spanish
+06199bede6511dc2,Pinal,San Tan Valley,85132,30-44,male,English
+0e889b0d9c338a56,Pinal,Casa Grande,85132,30-44,female,English
+4e427af23c8d82aa,Pinal,Casa Grande,85122,30-44,male,English
+b88317216f54e11f,Pinal,San Tan Valley,85194,30-44,male,English
+20c4a68f351876b8,Pinal,Casa Grande,85132,65+,male,English
+1c0214d4c98f6c02,Pinal,San Tan Valley,85194,65+,male,English
+5a575eba0c2fc3b1,Pinal,San Tan Valley,85122,18-29,female,Spanish
+f4bf4f1af862e5f4,Pinal,Casa Grande,85132,30-44,male,English
+f694390f231284e4,Pinal,Florence,85122,0-17,male,Spanish
+2dc181d482abb832,Pinal,Casa Grande,85194,0-17,female,English
+134cf194a589b631,Pinal,Florence,85122,18-29,female,English
+ab0e18888fc19903,Pinal,San Tan Valley,85132,45-64,male,English
+7a3b1494ff19c294,Pinal,Florence,85132,45-64,male,English
+ab2853aa691eef84,Pinal,Casa Grande,85122,0-17,female,English
+a3ec740e4b5906c0,Pinal,San Tan Valley,85132,45-64,female,English
+ee861096a7dc2cc0,Pinal,San Tan Valley,85132,30-44,female,English
+fd18488f04c55671,Pinal,San Tan Valley,85122,0-17,female,English
+7f069accb6518542,Pinal,Casa Grande,85122,65+,male,English
+b1c64b79a045b30d,Pinal,Florence,85132,45-64,male,Navajo
+e57b13d2dcc1b68f,Pinal,Florence,85194,65+,male,English
+010f48e3e35a66ec,Pinal,San Tan Valley,85132,30-44,female,Spanish
+6a44756c3c378334,Pinal,Casa Grande,85194,30-44,female,English
+0383ec242a52569f,Pinal,Casa Grande,85132,18-29,female,English
+3051c9d16775073f,Pinal,San Tan Valley,85122,45-64,female,English
+3db8a860f6c0635b,Pinal,Casa Grande,85194,65+,male,English
+182293f56593a887,Pinal,San Tan Valley,85122,18-29,female,English
+53d83fe75f8badca,Pinal,San Tan Valley,85122,18-29,male,Spanish
+971af1ecf1a270dd,Pinal,Casa Grande,85122,30-44,male,English
+f2ef78663360b888,Pinal,San Tan Valley,85122,45-64,male,English
+cfd4304887aa2c57,Pinal,San Tan Valley,85132,0-17,male,English
+fe00d2bc3ea73fd3,Pinal,Casa Grande,85194,18-29,male,English
+a6ddc4e9814b1785,Pinal,San Tan Valley,85132,0-17,female,English
+f827abecc604168d,Pinal,Florence,85132,0-17,male,English
+b7af28c739ab282b,Pinal,San Tan Valley,85122,18-29,female,English
+44934fe77f887539,Pinal,Casa Grande,85194,30-44,male,English
+66beb37293fe0694,Pinal,San Tan Valley,85132,65+,female,Spanish
+e33352ea9514d4e5,Pinal,San Tan Valley,85122,30-44,male,Spanish
+0106db087b09e4c3,Pinal,Florence,85132,45-64,male,English
+8fbe27b0e1a0f6cb,Pinal,Florence,85194,18-29,male,English
+b6ca2111b0a98b78,Pinal,Casa Grande,85132,18-29,male,English
+89ea622758c20515,Pinal,Casa Grande,85122,30-44,female,Navajo
+690e93eeb4d0569b,Pinal,Florence,85122,0-17,male,English
+0170c015ee67955a,Pinal,Florence,85132,45-64,male,English
+ca649da11394d304,Pinal,Casa Grande,85122,18-29,male,English
+f6da32b6d1f803d4,Pinal,Florence,85122,45-64,male,English
+cd96f0e16c2f2521,Pinal,Casa Grande,85132,0-17,male,Spanish
+c8a0af6ba9231dd7,Pinal,Casa Grande,85194,45-64,female,English
+3e44d44e449caf22,Pinal,San Tan Valley,85194,45-64,male,English
+2e71caf79567efbf,Pinal,Florence,85132,30-44,female,English
+bb025b92af86c2e3,Pinal,San Tan Valley,85132,30-44,female,English
+224d661763e923a3,Pinal,Casa Grande,85132,0-17,female,English
+eb0b6fa0535ac759,Pinal,Florence,85132,0-17,male,English
+cc3feb06e6cbc98f,Pinal,Florence,85132,45-64,female,English
+63b1a510fb076d7a,Pinal,Florence,85194,30-44,female,English
+c9bfde51e7ef0d16,Pinal,Florence,85132,0-17,female,English
+e160778fdd654b75,Pinal,San Tan Valley,85194,30-44,male,English
+4e81183ba33e1f6d,Pinal,Florence,85194,65+,male,English
+2e5b3f0885a6f820,Pinal,San Tan Valley,85132,0-17,female,English
+872c8a3843d33443,Pinal,Florence,85132,65+,female,English
+03272ff16d8f116c,Pinal,Casa Grande,85132,65+,male,Spanish
+f67bae9e74341f7f,Pinal,San Tan Valley,85132,30-44,male,English
+0f7ec8f139139783,Pinal,San Tan Valley,85194,45-64,female,English
+d7c6e255c63aac10,Pinal,San Tan Valley,85122,0-17,male,Spanish
+62d767fb9394742e,Pinal,San Tan Valley,85194,18-29,male,Spanish
+eb3282970dce4d52,Pinal,San Tan Valley,85122,0-17,female,English
+ab0c0411ada56f83,Pinal,Casa Grande,85194,65+,female,English
+7471b0c0d380d8f3,Pinal,Casa Grande,85122,45-64,female,Spanish
+1d6fbadce2f7d52d,Pinal,Casa Grande,85194,0-17,other,English
+54b628d62b0dcaac,Pinal,Florence,85122,65+,male,English
+078f08b9dd56c7cd,Pinal,Florence,85132,30-44,male,Spanish
+9057bcf720642e6e,Pinal,Casa Grande,85194,45-64,male,Spanish
+17abc315b5f98e23,Pinal,Casa Grande,85194,65+,male,Navajo
+56f093e54e914e2d,Pinal,Casa Grande,85194,30-44,female,English
+1b0e1dfeb615807e,Pinal,Casa Grande,85194,18-29,female,English
+e7c366d9f7dadea8,Pinal,San Tan Valley,85194,45-64,male,Spanish
+562934c2b627bda2,Pinal,San Tan Valley,85132,0-17,male,English
+baacedfcc9ff013a,Pinal,Florence,85132,0-17,male,English
+948975f30ed4ca02,Pinal,Florence,85194,30-44,male,Spanish
+06fdfa65d53acccf,Pinal,Florence,85194,65+,female,Spanish
+6e9ac2ba2d353e7c,Pinal,Florence,85122,0-17,male,Spanish
+d01eb5e381a43a49,Pinal,Casa Grande,85194,18-29,female,Spanish
+0c8ba99b0d4b5147,Pinal,San Tan Valley,85122,18-29,female,Navajo
+2b585887797a2c89,Pinal,Casa Grande,85132,0-17,male,Spanish
+d4403b7dae889dd1,Pinal,Florence,85122,30-44,male,Spanish
+86ccb8e697d33a3c,Pinal,Casa Grande,85132,30-44,female,Spanish
+3687c7e040da4e55,Pinal,Casa Grande,85122,65+,male,English
+0a6fb76ea302678c,Pinal,Casa Grande,85122,45-64,female,English
+0e182cdbae767999,Pinal,Florence,85194,65+,female,English
+863a7057fef388d7,Pinal,San Tan Valley,85132,30-44,male,Spanish
+86eeb06a5a825d9e,Pinal,Casa Grande,85132,45-64,female,Spanish
+607aab0b2344a9b6,Pinal,Florence,85132,45-64,female,Spanish
+1387b8b77fcbad10,Pinal,Casa Grande,85194,0-17,male,English
+383fe2de6e3647c2,Pinal,Casa Grande,85132,45-64,male,English
+3b0e4b4d99125d45,Pinal,Casa Grande,85122,30-44,female,English
+3da35f8e5c44b860,Pinal,Florence,85122,0-17,male,Spanish
+a3c897da70c7c08a,Pinal,Florence,85132,45-64,male,English
+7a1db7de7af3d647,Pinal,San Tan Valley,85122,45-64,male,English
+9cd1b1b7fe690601,Pinal,Casa Grande,85122,30-44,female,English
+37dd1ddceaa9ef7c,Pinal,Florence,85194,18-29,male,English
+21bde8fda35d53ed,Pinal,Casa Grande,85194,65+,male,English
+847a7d95f3739648,Pinal,San Tan Valley,85194,30-44,female,English
+d3b717e58c053c7e,Pinal,Casa Grande,85132,65+,female,English
+e3ce13888d83c079,Pinal,San Tan Valley,85132,0-17,male,English
+ae8d92d77cfba78c,Pinal,Florence,85132,65+,female,English
+f172c5c28ae32927,Pinal,Florence,85194,45-64,female,English
+f50de3f35c3a2a8c,Pinal,San Tan Valley,85122,0-17,male,Spanish
+1f11bf85fab08014,Pinal,Casa Grande,85194,0-17,female,English
+963b89e2fadbb202,Santa Cruz,Nogales,85621,18-29,female,English
+86df5765d1a19362,Santa Cruz,Patagonia,85648,45-64,male,English
+6569fa422e36cd20,Santa Cruz,Nogales,85648,30-44,male,English
+d42ae36793468449,Santa Cruz,Nogales,85662,65+,female,English
+624051ce41219444,Santa Cruz,Nogales,85621,0-17,female,Spanish
+fa867c79aa6bbaeb,Santa Cruz,Rio Rico,85648,0-17,female,Spanish
+a91f266f71ef9ec1,Santa Cruz,Patagonia,85662,30-44,other,English
+817d5270d678fb52,Santa Cruz,Patagonia,85648,0-17,female,Spanish
+74904118987ad185,Santa Cruz,Rio Rico,85621,18-29,male,English
+ef69cb40df0c9daf,Santa Cruz,Rio Rico,85662,0-17,male,Spanish
+49434a7d7dc62328,Santa Cruz,Nogales,85648,30-44,female,English
+eb3ad89d32fa0c17,Santa Cruz,Nogales,85648,45-64,female,English
+9a6f816664dd0dc6,Santa Cruz,Rio Rico,85648,30-44,male,Spanish
+2cd75fbcff4c1efe,Santa Cruz,Nogales,85648,45-64,male,English
+95fe3728e0b998ca,Santa Cruz,Patagonia,85621,45-64,female,Spanish
+b22f860a6de605b1,Santa Cruz,Patagonia,85621,30-44,male,English
+7da8171e4c20c884,Santa Cruz,Rio Rico,85662,18-29,male,English
+51e4a76b59bc16b3,Santa Cruz,Nogales,85621,45-64,male,Spanish
+d7268c1d97243c4b,Santa Cruz,Patagonia,85621,30-44,male,English
+54f55ae996cd6aa1,Santa Cruz,Rio Rico,85621,65+,male,English
+72299ae3b4fbcded,Santa Cruz,Rio Rico,85648,30-44,female,Spanish
+02ab5f2ed74f09b9,Santa Cruz,Nogales,85648,45-64,male,English
+3a72b850c285a490,Santa Cruz,Patagonia,85662,65+,female,English
+6248e85038e2d7bb,Santa Cruz,Rio Rico,85621,45-64,male,Spanish
+82d61ab91535db48,Santa Cruz,Rio Rico,85621,45-64,female,English
+3bc74f85ab5bf9b9,Santa Cruz,Rio Rico,85621,18-29,male,English
+302db8238d498aac,Santa Cruz,Nogales,85662,45-64,male,English
+70582bc7baa3f744,Santa Cruz,Nogales,85662,18-29,female,English
+9820541af2df9943,Santa Cruz,Rio Rico,85662,0-17,male,English
+b27e3c2632d522c6,Santa Cruz,Rio Rico,85648,45-64,male,English
+5730cf31678f3d5c,Santa Cruz,Nogales,85662,18-29,female,Navajo
+4f862881346b38c0,Santa Cruz,Rio Rico,85621,45-64,female,English
+96574cb3874d675c,Santa Cruz,Patagonia,85648,45-64,female,English
+398a7f01eda70fa0,Santa Cruz,Patagonia,85662,65+,female,Spanish
+5fa0495e1a4a07ae,Santa Cruz,Patagonia,85648,30-44,male,Spanish
+a02034bffd428ac6,Santa Cruz,Patagonia,85662,18-29,female,English
+9c17203661dc4f2b,Santa Cruz,Patagonia,85648,65+,female,English
+8c8176f284679879,Santa Cruz,Rio Rico,85621,30-44,female,English
+4eb0ddb20c380d8f,Santa Cruz,Nogales,85662,30-44,male,English
+eba3c435616b374c,Santa Cruz,Patagonia,85662,30-44,male,English
+af3949910ee70774,Santa Cruz,Patagonia,85621,30-44,female,Spanish
+35dd99e96ecd6b4f,Santa Cruz,Patagonia,85662,45-64,male,Spanish
+069f00e1b5e97ad3,Santa Cruz,Patagonia,85621,18-29,male,Spanish
+31f0dc314b4310f9,Santa Cruz,Patagonia,85621,65+,male,English
+6996eed8144c5bee,Santa Cruz,Rio Rico,85662,65+,female,English
+b386c1fed45b5699,Santa Cruz,Rio Rico,85621,18-29,female,English
+a89cd6d21130dd28,Santa Cruz,Rio Rico,85648,45-64,female,Navajo
+4c5785b8e1917d64,Santa Cruz,Rio Rico,85648,45-64,female,English
+be7b05b6099fe0aa,Santa Cruz,Rio Rico,85621,18-29,male,English
+2e29e7fc2417464c,Santa Cruz,Patagonia,85648,45-64,male,English
+0c5f85f376e3b55c,Santa Cruz,Nogales,85648,18-29,male,Spanish
+5a4d51a9a6aa941a,Santa Cruz,Rio Rico,85648,0-17,male,English
+e63ff95555083e6e,Santa Cruz,Patagonia,85648,45-64,male,English
+529168bb0cbc9e64,Santa Cruz,Patagonia,85648,18-29,male,Spanish
+b552128edb309345,Santa Cruz,Nogales,85621,18-29,female,English
+ff2787554f215a54,Santa Cruz,Patagonia,85662,30-44,male,English
+e4ea08f6ac066bec,Santa Cruz,Patagonia,85662,0-17,female,English
+6ef156bf92e8b124,Santa Cruz,Rio Rico,85648,0-17,female,English
+1a0eed9d13c75af2,Santa Cruz,Rio Rico,85621,65+,male,Spanish
+a669d89ee1d1cefe,Santa Cruz,Rio Rico,85662,30-44,female,Navajo
+1565c84fa9898e46,Santa Cruz,Nogales,85621,30-44,male,English
+6e3fa3803a763fb7,Santa Cruz,Nogales,85662,65+,female,English
+d7e261b581f1f68d,Santa Cruz,Nogales,85621,0-17,female,English
+2fa401452d85638e,Santa Cruz,Rio Rico,85648,30-44,male,English
+5e3c3169644dee37,Santa Cruz,Nogales,85662,30-44,male,Spanish
+6eaae38e71310ada,Santa Cruz,Patagonia,85648,45-64,other,Spanish
+3334464b08f07265,Santa Cruz,Rio Rico,85648,18-29,male,English
+2eb16006e7a90270,Santa Cruz,Rio Rico,85621,65+,female,Spanish
+8b179df70019080f,Santa Cruz,Nogales,85662,30-44,female,Spanish
+de7488926c716d03,Santa Cruz,Patagonia,85648,30-44,female,Spanish
+4a1378e5e055e0a2,Santa Cruz,Patagonia,85648,45-64,male,English
+cb25ef228ece8058,Santa Cruz,Rio Rico,85648,30-44,female,English
+d1d2db1d9fc18d4b,Santa Cruz,Patagonia,85648,0-17,other,English
+06399e9380f2220d,Santa Cruz,Patagonia,85662,0-17,female,Spanish
+18c7f26578092a2c,Santa Cruz,Nogales,85662,18-29,male,English
+c9c9eaeaf13e0fe9,Santa Cruz,Patagonia,85621,45-64,male,English
+cd458eb3d913ff5b,Santa Cruz,Rio Rico,85621,45-64,female,English
+c6a83fb53db22423,Santa Cruz,Rio Rico,85621,30-44,male,Spanish
+6503e82e8ee8a50f,Santa Cruz,Patagonia,85662,30-44,male,Navajo
+d15a2de3bdb283b7,Santa Cruz,Patagonia,85648,30-44,male,English
+8750d611556490e2,Santa Cruz,Patagonia,85648,45-64,male,English
+aaec5f4bda070f6d,Santa Cruz,Nogales,85621,0-17,male,English
+6f4eea0d1fcd849b,Santa Cruz,Nogales,85621,65+,male,Spanish
+629c241e82efbef7,Santa Cruz,Rio Rico,85648,45-64,female,English
+52a9c9dcbf0040b1,Santa Cruz,Rio Rico,85648,0-17,female,English
+0f057e43d0aecb2f,Santa Cruz,Nogales,85648,30-44,female,Navajo
+b3c8b76267a48956,Santa Cruz,Nogales,85648,30-44,female,English
+0f9c710daef6c770,Santa Cruz,Nogales,85662,0-17,female,English
+5972da5f160a5a3e,Santa Cruz,Nogales,85621,18-29,female,Spanish
+b6d55da3f5824b89,Santa Cruz,Patagonia,85648,65+,male,English
+3c41c9fc3edbb1f4,Santa Cruz,Rio Rico,85621,30-44,male,English
+ad310c9cc39564ac,Santa Cruz,Nogales,85662,30-44,female,English
+c4d2e886d1f2709c,Santa Cruz,Nogales,85662,0-17,male,English
+d7a1e9b5197d38c4,Santa Cruz,Patagonia,85621,45-64,female,English
+1c27b1e60a4b98d9,Santa Cruz,Patagonia,85621,30-44,female,English
+a0e58e17e3cf33c3,Santa Cruz,Patagonia,85621,65+,male,Spanish
+752bd61bdc881cdb,Santa Cruz,Patagonia,85648,45-64,male,English
+2f0843ee0e3725d5,Santa Cruz,Rio Rico,85621,18-29,female,Spanish
+35c11432fa06e007,Santa Cruz,Rio Rico,85621,18-29,male,Spanish
+9f3e968878436661,Santa Cruz,Patagonia,85662,45-64,male,Spanish
+b15543cee365d2aa,Santa Cruz,Patagonia,85662,18-29,male,English
+786c0656aee47405,Santa Cruz,Patagonia,85648,45-64,male,English
+4419d94c7857e9de,Santa Cruz,Rio Rico,85621,18-29,male,English
+1064bf233cc66735,Santa Cruz,Nogales,85648,0-17,female,English
+ca23262228c36059,Santa Cruz,Rio Rico,85648,30-44,male,English
+85f8182fc01cacff,Santa Cruz,Patagonia,85621,30-44,female,Spanish
+ac9fed71f3e6619a,Santa Cruz,Patagonia,85662,65+,male,English
+d8e967e3f996b4c2,Santa Cruz,Nogales,85662,0-17,male,English
+37a8820f89204562,Santa Cruz,Patagonia,85621,45-64,male,English
+ea6c5a86e25ba6ae,Santa Cruz,Patagonia,85621,30-44,male,English
+dfd1086769949180,Santa Cruz,Nogales,85648,65+,male,English
+272eed428ae22732,Santa Cruz,Patagonia,85621,30-44,male,English
+9f517c4772380ea3,Santa Cruz,Rio Rico,85621,65+,female,English
+d10902a65747c505,Santa Cruz,Patagonia,85648,65+,other,Spanish
+a79b5d4f22b62cea,Santa Cruz,Rio Rico,85621,0-17,male,English
+e4f902ad9d413f05,Santa Cruz,Rio Rico,85662,30-44,male,English
+3323586e9982980f,Santa Cruz,Patagonia,85662,65+,female,English
+16c491408ceda0eb,Santa Cruz,Rio Rico,85648,18-29,male,Spanish
+5ac0fb940fcd4f80,Santa Cruz,Rio Rico,85662,0-17,male,English
+b6c1ac7953a36448,Santa Cruz,Rio Rico,85621,45-64,female,English
+f0ff2ff78db104f2,Santa Cruz,Nogales,85648,0-17,male,English
+1a904584e361919d,Santa Cruz,Rio Rico,85662,45-64,male,English
+b982a48a8e340193,Santa Cruz,Rio Rico,85662,18-29,male,English
+54d1747d506507cb,Santa Cruz,Nogales,85662,65+,female,English
+d5bc45e75ac73af5,Santa Cruz,Rio Rico,85648,0-17,female,Spanish
+a8ed80fe81a11124,Santa Cruz,Nogales,85662,45-64,female,English
+09ea7998d4c6a0e9,Santa Cruz,Patagonia,85621,30-44,male,English
+38d4df7ac82660e3,Santa Cruz,Nogales,85621,45-64,female,English
+beb64d17a6d0845f,Santa Cruz,Rio Rico,85648,65+,female,English
+65af045327052a71,Santa Cruz,Nogales,85648,30-44,male,English
+a6142e131266c1d6,Santa Cruz,Nogales,85662,18-29,male,English
+37c3d14e4bb4156d,Santa Cruz,Nogales,85621,45-64,female,English
+491edd8d36ca06c3,Santa Cruz,Rio Rico,85621,0-17,female,English
+5233bb73e8b25402,Santa Cruz,Patagonia,85662,0-17,male,English
+d376346f4c441e25,Santa Cruz,Nogales,85662,18-29,female,English
+4a8c3ef147a23b51,Santa Cruz,Rio Rico,85662,0-17,female,English
+07c990a7a5b825cc,Santa Cruz,Patagonia,85621,0-17,male,English
+88ee4a97a2cc1814,Santa Cruz,Patagonia,85648,18-29,male,English
+2ab3c2429565149d,Santa Cruz,Nogales,85662,30-44,female,Navajo
+add36e2265d841d7,Santa Cruz,Rio Rico,85648,65+,female,English
+3ab31f70377d17a7,Santa Cruz,Nogales,85621,18-29,male,Spanish
+26b7a30945865d4d,Santa Cruz,Rio Rico,85621,18-29,female,Spanish
+0e6b8b888cadf37b,Santa Cruz,Nogales,85648,30-44,male,Spanish
+b74a39d68d900303,Santa Cruz,Nogales,85662,18-29,male,English
+ffa0adbcd62cc15c,Santa Cruz,Rio Rico,85662,30-44,male,English
+aeabd0fcb4d9bebe,Santa Cruz,Rio Rico,85662,30-44,male,English
+7e9fbb821001c642,Santa Cruz,Patagonia,85621,30-44,male,English
+7228e062b47258f7,Santa Cruz,Patagonia,85648,65+,male,Spanish
+ffd42e624bf62884,Santa Cruz,Rio Rico,85662,18-29,female,English
+6908c5c9d016c251,Santa Cruz,Patagonia,85648,18-29,male,Spanish
+c48f111b1e59b2df,Santa Cruz,Rio Rico,85621,18-29,female,Spanish
+8e73c1e11909266d,Santa Cruz,Rio Rico,85662,30-44,male,English
+8372380b76b28e41,Santa Cruz,Rio Rico,85662,45-64,female,Spanish
+36fa5e205984936d,Santa Cruz,Nogales,85662,30-44,male,English
+7205bcdd290e6d3b,Santa Cruz,Rio Rico,85648,18-29,male,Spanish
+45aa921fcb455417,Santa Cruz,Rio Rico,85662,65+,male,Spanish
+62e37f863c11daeb,Santa Cruz,Patagonia,85621,45-64,female,English
+8a09326b2bccc9b2,Santa Cruz,Rio Rico,85621,18-29,male,English
+142886b747a7d47f,Santa Cruz,Nogales,85648,65+,female,Spanish
+508c8dcf223b2a05,Santa Cruz,Rio Rico,85648,18-29,female,English
+082397205ba42149,Santa Cruz,Patagonia,85621,65+,female,English
+574e63e344fe4b53,Santa Cruz,Patagonia,85648,0-17,male,English
+3fb4463bd7468bb7,Santa Cruz,Patagonia,85621,65+,male,English
+87e7164b0a8b6719,Santa Cruz,Nogales,85621,0-17,female,English
+de8a8b9ef9fa11b2,Santa Cruz,Nogales,85662,45-64,male,Spanish
+4bf980bb4660d073,Santa Cruz,Patagonia,85621,30-44,female,English
+f78f8064aaf113bd,Santa Cruz,Patagonia,85648,65+,other,Spanish
+bc426282a9a68831,Santa Cruz,Nogales,85621,45-64,male,Spanish
+67132c184bc14b98,Santa Cruz,Patagonia,85621,65+,female,English
+444d1f2ff8443a3d,Santa Cruz,Nogales,85648,45-64,male,English
+af3093e3fe575f21,Santa Cruz,Rio Rico,85621,18-29,female,English
+df9c98072604593e,Santa Cruz,Nogales,85648,18-29,female,English
+9e4e2261d82ee70a,Santa Cruz,Rio Rico,85648,30-44,female,English
+4562a913ba2548dc,Santa Cruz,Patagonia,85648,45-64,female,English
+7efbe14fc73d010f,Santa Cruz,Nogales,85662,30-44,female,English
+9707d242909ca9a8,Santa Cruz,Rio Rico,85648,0-17,male,English
+751bd1b9550fd1ee,Santa Cruz,Rio Rico,85662,65+,male,English
+440db46d9cf4cbba,Santa Cruz,Nogales,85648,45-64,male,English
+c5f548270d672604,Santa Cruz,Nogales,85648,65+,female,English
+f6b9f2f7ee3cf9f2,Santa Cruz,Patagonia,85621,0-17,female,Spanish
+8f6c3687ae4b0767,Santa Cruz,Nogales,85621,30-44,female,Spanish
+bf7d0b8deef58ef6,Santa Cruz,Nogales,85621,0-17,female,Spanish
+0719fa4369757e37,Santa Cruz,Nogales,85621,30-44,male,Spanish
+c3d69369cf7d6bef,Santa Cruz,Rio Rico,85662,0-17,female,English
+3662c71cc630b404,Santa Cruz,Patagonia,85621,0-17,male,English
+8f953a21072deae8,Santa Cruz,Patagonia,85621,18-29,male,English
+015953d955ee750f,Santa Cruz,Patagonia,85621,30-44,female,Navajo
+a9af44ad98301c76,Santa Cruz,Patagonia,85621,30-44,male,English
+982c962a7cdb2e5a,Santa Cruz,Rio Rico,85621,30-44,female,Navajo
+c5515a189bf35c0d,Santa Cruz,Nogales,85662,30-44,female,English
+d0dca16fc6a4bda8,Santa Cruz,Nogales,85621,0-17,female,Navajo
+65c5f227e8763d37,Santa Cruz,Rio Rico,85662,45-64,female,English
+cbe37e4d99e6111d,Santa Cruz,Rio Rico,85621,30-44,male,Spanish
+c424fd39d655c18b,Santa Cruz,Nogales,85662,65+,male,English
+f962d6498b81f067,Santa Cruz,Nogales,85621,0-17,female,Spanish
+3746d05bba3f81d8,Santa Cruz,Rio Rico,85621,45-64,male,English
+3f6a21d87fd28815,Santa Cruz,Patagonia,85621,18-29,male,Spanish
+f56c255c47dc1c6c,Santa Cruz,Patagonia,85662,45-64,female,English
+0a9717df1d47967d,Santa Cruz,Rio Rico,85648,18-29,male,English
+19d8ffb3dcfff0b8,Santa Cruz,Rio Rico,85648,30-44,male,English
+7cfcf5a5f2221acf,Yavapai,Prescott,86336,18-29,female,English
+350b5b0dad780c87,Yavapai,Sedona,86314,65+,female,English
+b9cefe94f4b3756f,Yavapai,Sedona,86314,65+,male,Spanish
+b237f9a858975850,Yavapai,Cottonwood,86301,30-44,female,Spanish
+d2f0d825fd652ea1,Yavapai,Prescott,86301,30-44,female,English
+7ecec2c0145365ab,Yavapai,Sedona,86301,18-29,female,English
+ff44093a85a4de0e,Yavapai,Sedona,86336,18-29,female,English
+e620fa3e1630a700,Yavapai,Sedona,86314,65+,female,Spanish
+d83d7c3af9715ed8,Yavapai,Sedona,86301,0-17,female,English
+1e8ab3685ae67f4e,Yavapai,Prescott,86301,30-44,male,English
+7cb01639e3c1b5cb,Yavapai,Prescott,86314,45-64,female,English
+9efc91030ce51f73,Yavapai,Sedona,86336,0-17,female,English
+54c2145c36bddf2b,Yavapai,Sedona,86336,65+,female,Navajo
+c16184f067ee4647,Yavapai,Prescott,86314,30-44,female,Spanish
+2059fee496735053,Yavapai,Prescott,86314,45-64,male,English
+b1d242ae9f66cb1c,Yavapai,Cottonwood,86314,30-44,female,English
+e284059ad2c75e7d,Yavapai,Sedona,86336,30-44,male,English
+4a33026ed722ff34,Yavapai,Prescott,86301,30-44,female,English
+9a501fc134de227d,Yavapai,Prescott,86314,45-64,male,English
+d9299459bddc1207,Yavapai,Sedona,86336,65+,male,English
+a31bffda11a25b9b,Yavapai,Sedona,86314,45-64,male,English
+b8850bb2440921eb,Yavapai,Sedona,86301,30-44,female,English
+f6753f0754b0aaef,Yavapai,Cottonwood,86314,30-44,male,Spanish
+bb8e3f1405499d4f,Yavapai,Sedona,86336,65+,female,Spanish
+224a437cf64b8ec1,Yavapai,Cottonwood,86336,0-17,male,Spanish
+96882cbd9d20e3b9,Yavapai,Cottonwood,86336,18-29,male,English
+267e3e9066ffd2e0,Yavapai,Prescott,86314,18-29,female,English
+622a2c1b70ce8b8e,Yavapai,Cottonwood,86314,0-17,female,Spanish
+6e4db61dbbd33c00,Yavapai,Sedona,86336,30-44,female,English
+9399b44d61b3a6b8,Yavapai,Prescott,86314,30-44,female,English
+97cf2d63d2c644b9,Yavapai,Prescott,86336,0-17,male,English
+c2b33f9f417f2d5a,Yavapai,Cottonwood,86314,18-29,female,English
+230f4a7e7dc95b19,Yavapai,Prescott,86336,30-44,female,English
+242196bbeacf57bb,Yavapai,Prescott,86336,18-29,male,English
+3877f3a9519d671b,Yavapai,Prescott,86336,45-64,female,English
+99d644727e44a051,Yavapai,Prescott,86301,0-17,female,English
+9b671c1721de2902,Yavapai,Sedona,86314,18-29,female,Spanish
+68086e3da327a128,Yavapai,Sedona,86336,0-17,female,Spanish
+369fb5b4e32fc157,Yavapai,Prescott,86336,45-64,male,English
+a4dcc741f8298f54,Yavapai,Sedona,86301,18-29,male,English
+fc555b33d8636fff,Yavapai,Cottonwood,86336,18-29,female,English
+795eba98d76291eb,Yavapai,Prescott,86301,30-44,female,Spanish
+d960dda70289c898,Yavapai,Sedona,86301,30-44,female,English
+48dd519f4a45a968,Yavapai,Cottonwood,86314,30-44,female,English
+d9e27775fcd725a6,Yavapai,Prescott,86336,30-44,female,English
+5c38e60649cbac5f,Yavapai,Cottonwood,86301,30-44,female,English
+d67709932b48ff72,Yavapai,Cottonwood,86336,18-29,male,English
+d2d591d0f179476e,Yavapai,Prescott,86336,18-29,female,Spanish
+8b20baf1076fc65f,Yavapai,Prescott,86336,18-29,female,English
+6eaf2a009f66b930,Yavapai,Cottonwood,86336,45-64,female,English
+cd21d9c822c26abb,Yavapai,Prescott,86336,65+,female,Spanish
+43f50b21315cd12b,Yavapai,Cottonwood,86314,45-64,male,Spanish
+78f9b6bcb70d210c,Yavapai,Sedona,86314,30-44,male,English
+06ec59c7e94a88a6,Yavapai,Sedona,86301,30-44,female,English
+cdf0139a16f2b562,Yavapai,Sedona,86301,30-44,male,English
+7c5cb14fd4d7ef88,Yavapai,Sedona,86336,45-64,male,English
+c8cce09deb82f32a,Yavapai,Sedona,86336,65+,female,English
+b68c2442016523d4,Yavapai,Prescott,86336,0-17,female,English
+263c8673a3e8b5e7,Yavapai,Sedona,86314,30-44,male,English
+25fe3b97ffb7df77,Yavapai,Sedona,86301,45-64,male,Spanish
+a28ea1c4febc84b1,Yavapai,Prescott,86314,30-44,female,Spanish
+cd162af1584f6dfe,Yavapai,Sedona,86301,18-29,male,Spanish
+2785daaec692c958,Yavapai,Prescott,86301,65+,male,English
+cfc896fa53cc0964,Yavapai,Sedona,86301,0-17,female,English
+703516b5d46242ae,Yavapai,Cottonwood,86336,18-29,female,English
+3c18c28430ba3208,Yavapai,Cottonwood,86336,0-17,female,English
+5ec19f1d8bafdef8,Yavapai,Prescott,86314,30-44,female,English
+be2c58c285b35dbd,Yavapai,Cottonwood,86301,45-64,male,Spanish
+6f26fe56a42f45e2,Yavapai,Sedona,86336,30-44,male,English
+49ea0527823d2a17,Yavapai,Prescott,86301,45-64,male,Navajo
+0081342c7a99ce05,Yavapai,Cottonwood,86314,30-44,male,Spanish
+fdad8982532d791e,Yavapai,Cottonwood,86301,18-29,female,English
+0199e3f0215856b3,Yavapai,Sedona,86336,0-17,male,English
+ef07e88a21dc6d36,Yavapai,Cottonwood,86301,18-29,male,English
+56d337c6c4ee4972,Yavapai,Sedona,86314,30-44,female,English
+123ab98753c0f028,Yavapai,Cottonwood,86314,45-64,female,Spanish
+a57a9177b5f512a9,Yavapai,Cottonwood,86314,65+,female,English
+7c921386bbacbca3,Yavapai,Sedona,86336,65+,female,English
+43e02ed21cb2a51d,Yavapai,Cottonwood,86301,30-44,male,Spanish
+ab8f78bd58e8157b,Yavapai,Cottonwood,86301,65+,male,Spanish
+e2e8ca044caa8904,Yavapai,Prescott,86314,65+,other,English
+c404ba60f10ddaf4,Yavapai,Prescott,86336,0-17,male,English
+81ce3e917bc87781,Yavapai,Cottonwood,86301,45-64,male,English
+33d17a4e1cd91c8e,Yavapai,Cottonwood,86314,30-44,female,English
+73845fdf31ab9043,Yavapai,Prescott,86336,18-29,female,Spanish
+048732f60b167e74,Yavapai,Prescott,86336,45-64,female,English
+94bb6f8b423b2b4f,Yavapai,Prescott,86336,0-17,male,English
+e75eb284fea9dde7,Yavapai,Sedona,86301,65+,male,English
+9b43101b16816a3a,Yavapai,Sedona,86314,45-64,male,English
+1c90085e2cea4d45,Yavapai,Prescott,86301,0-17,female,English
+1532100d0f597008,Yavapai,Cottonwood,86301,0-17,female,English
+da8648e7d4ff602a,Yavapai,Cottonwood,86314,0-17,male,English
+2318c203c02c2557,Yavapai,Prescott,86314,30-44,male,English
+967c0b05d0a113b5,Yavapai,Cottonwood,86301,45-64,male,English
+14670ceb9561f42e,Yavapai,Prescott,86314,45-64,male,English
+453532de821e0881,Yavapai,Prescott,86314,45-64,male,English
+55de2729804191bb,Yavapai,Sedona,86301,30-44,male,Spanish
+00d1dad9445974ba,Yavapai,Sedona,86314,30-44,female,English
+1ef344a53e6b63bc,Yavapai,Cottonwood,86301,30-44,male,English
+ae281a5c15cf0dac,Yavapai,Prescott,86314,18-29,male,Spanish
+54763d80284dbdb5,Yavapai,Cottonwood,86314,0-17,male,English
+05318c52fab1cee3,Yavapai,Prescott,86336,30-44,male,English
+2a9ddf89fcf73a83,Yavapai,Cottonwood,86314,45-64,male,English
+622adad1efb0ac9c,Yavapai,Cottonwood,86301,45-64,male,Spanish
+af4b90751c7fb918,Yavapai,Prescott,86301,18-29,female,English
+50d155767e1ec74a,Yavapai,Prescott,86301,30-44,female,English
+6b24d14273ce4d1d,Yavapai,Cottonwood,86301,45-64,female,English
+0605eaf9979364c3,Yavapai,Cottonwood,86336,65+,female,English
+c4f16f66d175d182,Yavapai,Prescott,86301,0-17,female,Navajo
+4f1a319ecc3eb89f,Yavapai,Cottonwood,86301,30-44,female,English
+f18875c21969fae1,Yavapai,Cottonwood,86336,65+,female,English
+ba841fbc498b0cac,Yavapai,Sedona,86301,18-29,male,English
+86d39c15055e3958,Yavapai,Prescott,86314,65+,male,English
+a0b2015c7647a9d2,Yavapai,Prescott,86301,0-17,female,English
+467382d33ab5047c,Yavapai,Prescott,86314,45-64,male,English
+755799f07aeffa72,Yavapai,Prescott,86336,0-17,female,English
+c3fa8f924256aa20,Yavapai,Prescott,86301,18-29,male,English
+d882b0c91fcd8c90,Yavapai,Prescott,86336,45-64,female,English
+525422c71e1b19d2,Yavapai,Cottonwood,86301,18-29,male,English
+1595cd999319be6b,Yavapai,Sedona,86301,0-17,female,English
+7ef06b44576804e1,Yavapai,Prescott,86314,30-44,male,Spanish
+4fa6fa4d15b34d1f,Yavapai,Prescott,86336,0-17,male,Spanish
+79d6b87609614ac7,Yavapai,Sedona,86336,65+,female,English
+6c0db8dcc1abc2f4,Yavapai,Sedona,86336,18-29,female,English
+5eb8f2eef69623ec,Yavapai,Sedona,86301,65+,male,English
+9005eae082ca7db0,Yavapai,Cottonwood,86314,30-44,male,Spanish
+3ea56159a64c283b,Yavapai,Prescott,86314,45-64,male,Spanish
+05689bca1a81aa96,Yavapai,Cottonwood,86301,18-29,male,English
+22a25326e9a12f6e,Yavapai,Sedona,86336,0-17,female,English
+be3f8d1d0fdf7cb8,Yavapai,Prescott,86336,0-17,female,English
+32d250179c0acd6d,Yavapai,Sedona,86314,45-64,male,Spanish
+8a016e1e58fba411,Yavapai,Sedona,86336,30-44,male,Spanish
+dc3f0614df033898,Yavapai,Cottonwood,86336,65+,male,English
+b842f533e1dc518b,Yavapai,Prescott,86314,18-29,male,Navajo
+a0e50a1090535955,Yavapai,Cottonwood,86336,45-64,female,English
+1b20c80531d2555b,Yavapai,Sedona,86336,30-44,female,Spanish
+5a07d31b4d6711ca,Yavapai,Cottonwood,86301,18-29,female,Spanish
+1c32e5139ca3ebf6,Yavapai,Cottonwood,86314,18-29,male,English
+c4a4c6af20e9c8dc,Yavapai,Cottonwood,86301,45-64,male,English
+0ca96c6414ff3c08,Yavapai,Sedona,86336,30-44,female,Spanish
+1c01f13315443488,Yavapai,Cottonwood,86301,0-17,male,English
+e0a7e2b2dc7abbad,Yavapai,Prescott,86336,45-64,male,English
+e21abfccfa61dd7f,Yavapai,Sedona,86314,18-29,female,English
+908300697e8ba0e1,Yavapai,Sedona,86336,18-29,female,English
+b65afa81efaf4211,Yavapai,Sedona,86336,65+,female,English
+a5c556605c47d8c0,Yavapai,Sedona,86314,65+,male,Spanish
+ebb703691aa07e20,Yavapai,Cottonwood,86314,18-29,female,English
+8fa11f1730d46689,Yavapai,Cottonwood,86301,30-44,female,English
+0d2b1e61184c556d,Yavapai,Prescott,86314,45-64,other,English
+c24ca875ba8821a0,Yavapai,Sedona,86301,30-44,female,Spanish
+edfa2cb6f9373a66,Yavapai,Cottonwood,86314,18-29,male,English
+e4dd5050e1ef7022,Yavapai,Prescott,86314,65+,male,English
+51dd9c40a0eca936,Yavapai,Prescott,86301,45-64,male,English
+7dc388a7a349e2dd,Yavapai,Sedona,86301,0-17,male,English
+63fc9d431b456bb0,Yavapai,Prescott,86314,18-29,male,Spanish
+0522ad1bcc033857,Yavapai,Cottonwood,86336,45-64,male,Spanish
+79e9b08356fad205,Yavapai,Prescott,86301,65+,female,English
+9e87e91492b0f895,Yavapai,Prescott,86301,18-29,female,English
+aa0251e64b44242a,Yavapai,Cottonwood,86336,65+,female,English
+98d23fc0e8cf245c,Yavapai,Prescott,86314,45-64,female,Spanish
+4da8b520e619a367,Yavapai,Cottonwood,86314,0-17,male,English
+ab1bc4b195dda85b,Yavapai,Sedona,86314,45-64,male,English
+37530cfa5fec2095,Yavapai,Cottonwood,86336,30-44,female,English
+7a6be0f1860bf6d1,Yavapai,Cottonwood,86301,45-64,male,English
+d2df6144704d4d22,Yavapai,Sedona,86301,18-29,female,English
+48fec6f4e61e7432,Yavapai,Sedona,86301,30-44,male,Spanish
+9e1a58d2572fae51,Yavapai,Cottonwood,86301,45-64,female,English
+900eb9955d763261,Yavapai,Sedona,86336,18-29,female,English
+d491b4080f20babb,Yavapai,Sedona,86314,0-17,female,English
+c1462ba6edc57fd8,Yavapai,Sedona,86314,0-17,female,English
+3bf61009f0da18d2,Yavapai,Cottonwood,86336,45-64,male,Navajo
+5c72fd5438492c1a,Yavapai,Prescott,86301,0-17,male,English
+9981e54951a6416d,Yavapai,Cottonwood,86301,18-29,male,English
+7bc91a4f4c7a7f75,Yavapai,Sedona,86301,65+,female,Spanish
+be2f95a2410ea62d,Yavapai,Sedona,86314,0-17,female,Spanish
+9e564b4fc778ab2d,Yavapai,Prescott,86336,45-64,male,Spanish
+0a7031399feda4a8,Yavapai,Prescott,86314,30-44,male,Spanish
+fc9416c81ff849b7,Yavapai,Prescott,86301,45-64,female,Spanish
+7cc4938bf29aa68f,Yavapai,Prescott,86336,0-17,female,Spanish
+0f218708dee1e2f4,Yavapai,Prescott,86301,30-44,female,Spanish
+e2db9892e58c9691,Yavapai,Prescott,86314,30-44,female,English
+7deba6dbfb55370d,Yavapai,Sedona,86301,0-17,female,Spanish
+e42210652c2749c4,Yavapai,Cottonwood,86314,30-44,female,English
+9efbd034357cc7a6,Yavapai,Cottonwood,86301,45-64,female,English
+bdce37d700efe2f5,Yavapai,Prescott,86314,0-17,female,English
+c93fa4258a36d3ee,Yavapai,Cottonwood,86314,30-44,male,Spanish
+1716f6853bbde149,Yavapai,Cottonwood,86336,18-29,male,English
+94a3d6e8e4a57699,Yavapai,Sedona,86314,30-44,female,English
+48cf1ba9753a9873,Yavapai,Prescott,86301,18-29,male,English
+f7d36df75d2ba2a5,Yavapai,Prescott,86336,65+,female,English
+e4915a85e0bc327e,Yavapai,Sedona,86314,18-29,female,English
+1b264fd3408c0c61,Yavapai,Prescott,86314,65+,male,Spanish
+5a2b0335322575fe,Yavapai,Sedona,86314,18-29,female,English
+d29167eccdc6ce0e,Yavapai,Sedona,86314,30-44,male,English
+4ed9b32ecd2f656d,Yavapai,Sedona,86301,30-44,female,Spanish
+2c26eab03f8287e5,Yavapai,Prescott,86314,30-44,female,Spanish
+91735d834494bf4c,Yavapai,Sedona,86301,30-44,female,English
+34696ddf88afb73d,Yavapai,Prescott,86314,0-17,female,English
+0a7217e198e6e149,Yavapai,Prescott,86301,65+,female,English
+a28bbb98b1bdfbb6,Yavapai,Prescott,86301,30-44,male,English
+e134348e070794f5,Yuma,Somerton,85365,45-64,female,English
+0ec44df15175d278,Yuma,Somerton,85364,45-64,male,Spanish
+92efdd46adfaa9d6,Yuma,Somerton,85365,45-64,female,Spanish
+12fa384cfafbab1f,Yuma,San Luis,85367,30-44,other,English
+7b2e4bd6508f1541,Yuma,Somerton,85365,45-64,female,English
+fd536c5dbc3dccfb,Yuma,Yuma,85364,45-64,female,English
+4f7a582f3f1c36f9,Yuma,Somerton,85364,0-17,female,Spanish
+580a7bdc130ba175,Yuma,Somerton,85367,18-29,male,Spanish
+785fbc30901bcf5d,Yuma,San Luis,85367,18-29,male,English
+2ace429cebc6ae3e,Yuma,Yuma,85364,18-29,female,English
+93706015f2f7d613,Yuma,Yuma,85367,30-44,female,English
+884c96210bd617ed,Yuma,San Luis,85367,65+,male,Spanish
+2a3eb79bbbbd852b,Yuma,San Luis,85367,30-44,male,Spanish
+e5f15e8f9424225f,Yuma,San Luis,85365,30-44,male,Spanish
+44fcc3a7eb54e07c,Yuma,San Luis,85367,18-29,male,Spanish
+dbbd6fdf575cbf12,Yuma,Yuma,85365,30-44,female,English
+14c8d56e6154d2ea,Yuma,San Luis,85365,0-17,male,Spanish
+2b7581fb13589ea9,Yuma,Yuma,85364,30-44,male,English
+28d72b28168b80eb,Yuma,Somerton,85364,65+,male,English
+e86ae1d3d3dc4fb0,Yuma,San Luis,85365,30-44,female,English
+6fff0e06eb5bd028,Yuma,San Luis,85365,65+,male,Spanish
+ddfa6bc52945741f,Yuma,Somerton,85365,45-64,female,English
+cc784f64841a1f28,Yuma,Somerton,85365,0-17,female,Spanish
+35b01a61f1a565ec,Yuma,Somerton,85367,18-29,female,English
+1a1e670c92285f3d,Yuma,San Luis,85364,18-29,male,English
+9c88ac82e319a8b4,Yuma,Yuma,85364,0-17,male,English
+08bf784ff847fb51,Yuma,Somerton,85365,65+,male,Spanish
+6b78aa7a9356226f,Yuma,San Luis,85364,65+,female,English
+a2b0d29b5bf4066a,Yuma,Somerton,85365,45-64,male,English
+b0e94ace406f4bfc,Yuma,San Luis,85364,0-17,male,English
+d238552efe96af49,Yuma,San Luis,85364,65+,male,Spanish
+c770ec4cd22675c6,Yuma,Yuma,85365,45-64,male,English
+0dcc665c67acab39,Yuma,San Luis,85367,0-17,male,English
+3e203832bd2f0255,Yuma,San Luis,85365,0-17,male,English
+b7026d989c3b8a21,Yuma,San Luis,85364,45-64,female,Spanish
+e7b095d1c39e947b,Yuma,Yuma,85367,30-44,female,Spanish
+42964ebfe59f1019,Yuma,Somerton,85367,45-64,female,Spanish
+a32267be6f521b80,Yuma,Somerton,85367,18-29,female,English
+43e13317afeb5b6f,Yuma,Yuma,85364,0-17,male,English
+78c786cb9b40fbe0,Yuma,Yuma,85364,45-64,female,English
+92cd16116a3c24c4,Yuma,San Luis,85364,45-64,female,English
+c854655d1766ee10,Yuma,San Luis,85367,30-44,male,Spanish
+aa16030f7ed5dfb6,Yuma,Somerton,85367,0-17,female,English
+47f1170ed00ff50a,Yuma,Yuma,85364,65+,male,English
+7e3b6eeae116a5c4,Yuma,Somerton,85365,45-64,female,English
+0ba46c61827ca331,Yuma,Somerton,85364,45-64,male,English
+f2070f5d12208d78,Yuma,Somerton,85367,65+,female,Spanish
+17ed25726d34fcb8,Yuma,Somerton,85365,0-17,male,English
+579f5c2cfb4887d5,Yuma,Yuma,85364,30-44,male,English
+031c56c215be29c3,Yuma,San Luis,85364,30-44,male,English
+d0d0a282916aa7ff,Yuma,Somerton,85367,30-44,female,English
+64926938d4e20fda,Yuma,San Luis,85364,18-29,female,English
+2b228496fe19dc50,Yuma,San Luis,85367,18-29,female,English
+f11a4bdf6081b43c,Yuma,San Luis,85367,18-29,male,Spanish
+7c52267daafa6cc6,Yuma,Somerton,85367,30-44,female,Navajo
+7fdf6819eb3609e4,Yuma,Yuma,85365,18-29,female,English
+e16e8b770ed006db,Yuma,Yuma,85365,45-64,female,English
+d7ec74658bf9f54c,Yuma,San Luis,85364,65+,male,English
+05576b3dcbcb3f94,Yuma,Somerton,85367,65+,male,English
+00935d3ad96b673f,Yuma,Somerton,85365,18-29,male,English
+b4d04bf70fc61c41,Yuma,Somerton,85364,30-44,female,Spanish
+d8519dfd05ef0937,Yuma,Somerton,85367,45-64,male,English
+294ade8bd848b7e3,Yuma,San Luis,85367,45-64,male,English
+b5e57fc744dea478,Yuma,San Luis,85364,30-44,male,Spanish
+be73167ec835d21e,Yuma,Yuma,85365,30-44,female,English
+313974d982f799aa,Yuma,Yuma,85367,30-44,female,English
+7109347985754052,Yuma,Yuma,85364,0-17,male,English
+9b0af2a1e01f9cd7,Yuma,Somerton,85367,18-29,female,English
+57cd27334f3d2b6c,Yuma,Yuma,85365,0-17,male,English
+459a4d35bf8d967f,Yuma,San Luis,85367,45-64,female,English
+9ec3c794a7c924ed,Yuma,Yuma,85364,0-17,male,Spanish
+e849d222cda1c8c0,Yuma,Yuma,85364,45-64,female,English
+001d78f09aa2e5e2,Yuma,San Luis,85365,30-44,female,English
+caf8701529321ae3,Yuma,Yuma,85365,45-64,female,English
+0c87c191c46487a6,Yuma,San Luis,85365,45-64,male,English
+3b802db95aafc64f,Yuma,Yuma,85364,0-17,female,English
+72a22f20326a1721,Yuma,San Luis,85364,30-44,male,English
+ca01b4baec313f79,Yuma,Somerton,85365,45-64,female,Spanish
+ce21289788627fb4,Yuma,Somerton,85364,0-17,male,English
+c1aa18b2c07ab504,Yuma,San Luis,85367,0-17,other,English
+d5eb5e3091311f5b,Yuma,Somerton,85367,45-64,female,English
+1e5b903b1b2fcadf,Yuma,Yuma,85364,30-44,female,English
+ad3711cd5ab1e95f,Yuma,Somerton,85367,18-29,male,English
+68d2d035b9e94acd,Yuma,Somerton,85364,0-17,female,English
+c93d32a351e160d4,Yuma,Yuma,85367,0-17,male,Navajo
+056fbf1cdb74e0fb,Yuma,Somerton,85364,45-64,female,Spanish
+1030001dbd550693,Yuma,Yuma,85365,30-44,female,English
+723cc1679c374660,Yuma,Yuma,85365,45-64,other,English
+07f96cf425a3a3bc,Yuma,Somerton,85364,18-29,male,Navajo
+952c7b518b152c42,Yuma,Somerton,85364,30-44,male,English
+02f6eb8dcae21f54,Yuma,Somerton,85365,0-17,female,English
+4bc8c7cb93d89e78,Yuma,San Luis,85367,65+,female,English
+a2637cd09efc9d50,Yuma,Somerton,85365,65+,female,English
+9bcedd881ed7c212,Yuma,Yuma,85364,0-17,female,Spanish
+91b40358132a71d1,Yuma,San Luis,85364,45-64,male,English
+3ecf17d106b6395d,Yuma,San Luis,85365,65+,male,English
+44f758bc5a765888,Yuma,Yuma,85365,65+,female,English
+08d5ba291947ab2a,Yuma,San Luis,85364,0-17,female,Spanish
+3440953d30d5df7f,Yuma,Yuma,85365,0-17,male,English
+9dd68ad997b5ed9f,Yuma,Somerton,85364,30-44,male,Spanish
+78ef9988334d9de1,Yuma,Somerton,85364,0-17,male,English
+e3bb0f18eef423d0,Yuma,San Luis,85364,30-44,male,English
+0e3b9068d09ec2f2,Yuma,San Luis,85367,18-29,female,English
+6a9a0e0b3bee3b53,Yuma,San Luis,85367,45-64,female,English
+cada66c4591c012d,Yuma,Somerton,85364,45-64,female,Spanish
+38f53c399417ee38,Yuma,Somerton,85364,30-44,male,Spanish
+0e735793c1834f69,Yuma,Somerton,85364,45-64,male,English
+542376cb0dd0a0a4,Yuma,San Luis,85367,30-44,male,English
+b0bd81680094bb3b,Yuma,San Luis,85365,45-64,male,Spanish
+3050a0160e677d1e,Yuma,Yuma,85367,18-29,male,English
+dbe99d6c7a6f206b,Yuma,San Luis,85364,45-64,male,English
+b151575c8ae314a7,Yuma,Somerton,85364,30-44,male,English
+78656122feba25fd,Yuma,San Luis,85364,30-44,female,English
+006a02ad69078073,Yuma,San Luis,85367,45-64,male,English
+90be13e496571f5d,Yuma,Somerton,85367,30-44,female,English
+db3d1de108788694,Yuma,San Luis,85364,18-29,female,Spanish
+d4c954ddec085c19,Yuma,San Luis,85364,30-44,male,English
+31f1be9385d1f82c,Yuma,Yuma,85365,30-44,female,Spanish
+e6fa1d300d8c862a,Yuma,San Luis,85365,30-44,female,English
+e7be5a0a45eb0196,Yuma,Yuma,85365,18-29,female,English
+5aa18117701f6c43,Yuma,San Luis,85364,30-44,female,English
+93b224c3a793846a,Yuma,Yuma,85367,65+,male,Spanish
+1f1d1dd6b6941c4b,Yuma,Yuma,85365,18-29,male,English
+748d30a014fc3d57,Yuma,San Luis,85365,30-44,other,English
+b518a1393b5f83c2,Yuma,Yuma,85364,18-29,female,English
+6d07a47e8c659223,Yuma,Somerton,85367,30-44,female,English
+838d0e377e8357bc,Yuma,San Luis,85364,18-29,female,Spanish
+ae697796ae9826ca,Yuma,San Luis,85367,65+,male,Spanish
+7b816e9fcf27d580,Yuma,San Luis,85365,65+,female,Spanish
+040c25165f18a9d0,Yuma,San Luis,85367,30-44,female,English
+9aa76affc9c0954a,Yuma,Yuma,85367,18-29,male,English
+7acf0fd58e3766c3,Yuma,Somerton,85367,18-29,female,Spanish
+8a63832f11ff3f05,Yuma,San Luis,85367,18-29,female,English
+11e2c85afa009b1a,Yuma,Somerton,85364,65+,female,Spanish
+da5d7c254dc5fa86,Yuma,Somerton,85365,18-29,male,English
+145fe2c68f0cf5b7,Yuma,Yuma,85367,65+,female,Spanish
+5a8c8a9de64d4227,Yuma,Somerton,85365,30-44,male,English
+6e273f141ec6e148,Yuma,Somerton,85367,0-17,male,English
+06a1bc49e1af4b05,Yuma,Yuma,85365,0-17,male,English
+b9481c8d218b479d,Yuma,San Luis,85367,65+,male,English
+ab3e219a83e35f22,Yuma,San Luis,85364,0-17,female,English
+5d1ae59a54ac3904,Yuma,San Luis,85364,0-17,male,English
+8c2cbea705d1b26d,Yuma,San Luis,85367,0-17,male,Spanish
+4f37ce815c1cd670,Yuma,Somerton,85365,0-17,male,English
+a1b98ed2151e2124,Yuma,Somerton,85364,30-44,female,English
+7a75ed98e43b1bff,Yuma,San Luis,85367,0-17,male,Navajo
+93850a923efb54c0,Yuma,Yuma,85367,18-29,female,English
+bb5db9247980b62f,Yuma,Yuma,85367,0-17,male,English
+3201320a9ee2723a,Yuma,Somerton,85364,45-64,female,English
+512c3d310a07a713,Yuma,San Luis,85367,18-29,male,Spanish
+beb1baa485ccbc01,Yuma,San Luis,85365,0-17,female,Spanish
+0a3ed922e024eba4,Yuma,Somerton,85364,0-17,female,English
+dbecaf6cb3dc5af8,Yuma,Somerton,85364,0-17,female,English
+d72b41c5ef308b27,Yuma,Yuma,85365,18-29,male,English
+5c59e093c67f79cf,Yuma,San Luis,85367,65+,male,Spanish
+36ab63263b4c3e0d,Yuma,San Luis,85365,65+,female,Navajo
+ce8b702982404498,Yuma,San Luis,85367,18-29,female,English
+14968d0ab8479bb8,Yuma,Somerton,85365,18-29,male,Spanish
+7234a52d3398d917,Yuma,Yuma,85364,30-44,female,English
+4d1d029e5967de8d,Yuma,San Luis,85364,45-64,female,English
+f7f16cb7095e2804,Yuma,San Luis,85367,65+,female,English
+8a5d283eb7ecce11,Yuma,San Luis,85367,45-64,female,English
+63f3fb76cafbcfa1,Yuma,Yuma,85364,18-29,female,Spanish
+7e6c94c7d27305da,Yuma,Yuma,85364,30-44,female,English
+f533cee5e197d8f3,Yuma,Somerton,85365,18-29,female,English
+1778cdc910dd723f,Yuma,Somerton,85364,0-17,male,English
+56485d640de84479,Yuma,San Luis,85364,45-64,female,English
+ce691b4b8a7fc744,Yuma,Yuma,85367,45-64,female,English
+46d4fee434b0a4f9,Yuma,Somerton,85364,0-17,female,English
+41c9ba74af997567,Yuma,San Luis,85364,65+,male,English
+551048ca34f9f313,Yuma,San Luis,85367,30-44,female,English
+a64f6f2567f022fc,Yuma,Yuma,85365,45-64,male,English
+08b8a12f1650b1ea,Yuma,San Luis,85367,65+,female,English
+4c1f65ce646a9f43,Yuma,Somerton,85365,45-64,male,English
+d0eeb64e5d61e253,Yuma,Somerton,85365,0-17,male,English
+fa26ba5f51432f1b,Yuma,San Luis,85367,30-44,male,Spanish
+2e41cfdd95c23b7d,Yuma,Yuma,85364,45-64,female,English
+c433b4e189f1baf3,Yuma,Somerton,85365,30-44,male,English
+e2500877396e13b0,Yuma,San Luis,85364,0-17,female,English
+3ebeb87ff8b412e5,Yuma,San Luis,85365,0-17,male,English
+1d065c42df340e3c,Yuma,Somerton,85365,30-44,female,English
+49948f902ce09671,Yuma,San Luis,85364,65+,female,English
+19d86e2751b23185,Yuma,Yuma,85367,30-44,female,English
+01f41f41a46f1a75,Yuma,Somerton,85364,30-44,female,English
+d12c1102e44fa9d1,Yuma,San Luis,85365,45-64,male,English
+9011f777c69fe85c,Yuma,San Luis,85367,0-17,female,English
+0caa746826acc47c,Yuma,Yuma,85365,18-29,male,Spanish
+aacc9c39b4ce3bfb,Yuma,San Luis,85364,18-29,male,Spanish
+79bef34cbd406b27,Yuma,Yuma,85367,65+,male,Spanish
+8ef73d59d73ae77f,Yuma,Yuma,85365,45-64,female,English
+5d31f0ec6af591d3,Yuma,Somerton,85364,0-17,female,English
+ae33f6057ae746d9,Yuma,San Luis,85365,45-64,male,English
+d6ff8669e4fe676f,Yuma,San Luis,85365,30-44,female,English
+4816bc13881ac23a,Yuma,San Luis,85364,18-29,male,English
+2f41940659b91bdd,Yuma,Yuma,85365,65+,female,English
+34338be6e8d8c765,Yuma,Somerton,85365,65+,male,English
+00678675d3687bf0,Yuma,Somerton,85365,65+,female,English
+bba4050954223b9d,Yuma,San Luis,85367,18-29,male,English
+c771fb30a466a8c9,Yuma,San Luis,85364,45-64,female,English
+2898198b51f88fe0,Yuma,Somerton,85365,30-44,male,English

@@ -1,0 +1,106 @@
+county,suspected_disease,last_7d_case_count
+Apache,COVID-19,2
+Apache,E. coli,1
+Apache,Influenza,3
+Apache,Norovirus,3
+Apache,RSV,3
+Apache,Salmonella,1
+Apache,Unknown Febrile Illness,1
+Apache,Valley Fever,2
+Apache,West Nile Virus,1
+Cochise,COVID-19,5
+Cochise,Influenza,1
+Cochise,Norovirus,2
+Cochise,RSV,2
+Cochise,Rabies Exposure,1
+Cochise,Salmonella,1
+Cochise,Valley Fever,1
+Coconino,COVID-19,3
+Coconino,E. coli,2
+Coconino,Influenza,7
+Coconino,Norovirus,1
+Coconino,RSV,3
+Coconino,Salmonella,1
+Coconino,Unknown Febrile Illness,1
+Coconino,Valley Fever,3
+Gila,COVID-19,3
+Gila,Dengue,1
+Gila,E. coli,3
+Gila,Influenza,4
+Gila,RSV,1
+Gila,Rabies Exposure,1
+Gila,Salmonella,1
+Gila,Unknown Febrile Illness,3
+Gila,Valley Fever,2
+Gila,West Nile Virus,1
+Graham,COVID-19,4
+Graham,Influenza,1
+Graham,Norovirus,2
+Graham,RSV,3
+Graham,Salmonella,1
+Greenlee,COVID-19,1
+Greenlee,Dengue,1
+Greenlee,Influenza,3
+Greenlee,RSV,1
+Greenlee,Valley Fever,3
+La Paz,Dengue,1
+La Paz,Influenza,2
+La Paz,RSV,3
+La Paz,Salmonella,1
+La Paz,Unknown Febrile Illness,1
+La Paz,Valley Fever,1
+La Paz,West Nile Virus,1
+Maricopa,COVID-19,2
+Maricopa,E. coli,1
+Maricopa,Influenza,4
+Maricopa,Norovirus,2
+Maricopa,RSV,2
+Maricopa,Salmonella,2
+Maricopa,Unknown Febrile Illness,1
+Maricopa,West Nile Virus,2
+Mohave,COVID-19,3
+Mohave,E. coli,2
+Mohave,Influenza,4
+Mohave,RSV,1
+Mohave,Salmonella,2
+Mohave,Valley Fever,3
+Mohave,West Nile Virus,1
+Navajo,COVID-19,3
+Navajo,Influenza,3
+Navajo,RSV,5
+Navajo,Rabies Exposure,1
+Navajo,Unknown Febrile Illness,1
+Navajo,Valley Fever,3
+Pima,COVID-19,5
+Pima,Influenza,3
+Pima,Norovirus,1
+Pima,RSV,4
+Pima,Salmonella,2
+Pima,West Nile Virus,1
+Pinal,COVID-19,5
+Pinal,Dengue,1
+Pinal,Influenza,2
+Pinal,Norovirus,1
+Pinal,RSV,4
+Pinal,Salmonella,2
+Pinal,Unknown Febrile Illness,2
+Pinal,Valley Fever,1
+Santa Cruz,COVID-19,3
+Santa Cruz,E. coli,1
+Santa Cruz,Influenza,6
+Santa Cruz,Norovirus,2
+Santa Cruz,RSV,1
+Santa Cruz,Salmonella,1
+Yavapai,COVID-19,4
+Yavapai,Influenza,1
+Yavapai,Norovirus,1
+Yavapai,RSV,1
+Yavapai,West Nile Virus,1
+Yuma,COVID-19,1
+Yuma,E. coli,1
+Yuma,Influenza,4
+Yuma,Norovirus,2
+Yuma,RSV,1
+Yuma,Salmonella,1
+Yuma,Unknown Febrile Illness,1
+Yuma,Valley Fever,1

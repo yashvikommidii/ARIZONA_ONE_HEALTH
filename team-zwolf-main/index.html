@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AZ Ember — Disease Outbreak Early Warning</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0d0d1a;
+      color: #e0e0f0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #12122a;
+      border-bottom: 1px solid #2a2a4a;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 1.4rem; font-weight: 700; color: #ffffff; letter-spacing: 0.04em; }
+    header p  { font-size: 0.95rem; color: #ffffff; }
+    .header-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: #e53935; box-shadow: 0 0 6px #e53935;
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+    /* ── Main layout ── */
+    main {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Report Feed (left) ── */
+    #sidebar {
+      width: 200px;
+      flex-shrink: 0;
+      background: #1a1a2e;
+      border-right: 1px solid #2a2a4a;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #sidebar-title {
+      padding: 10px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6677aa;
+      border-bottom: 1px solid #2a2a4a;
+      flex-shrink: 0;
+    }
+    #report-feed {
+      flex: 1;
+      overflow-y: auto;
+      padding: 6px 0;
+    }
+    #report-feed::-webkit-scrollbar { width: 4px; }
+    #report-feed::-webkit-scrollbar-track { background: transparent; }
+    #report-feed::-webkit-scrollbar-thumb { background: #2a2a4a; border-radius: 2px; }
+
+    .feed-item {
+      padding: 8px 12px;
+      border-bottom: 1px solid #1e1e38;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .feed-county  { font-weight: 700; color: #a0c4ff; display: block; }
+    .feed-time    { color: #556; font-size: 0.85rem; }
+    .feed-symptoms { color: #ccc; display: block; }
+    .feed-travel  { color: #ffb300; font-size: 0.88rem; display: block; }
+
+    /* ── Map (center) ── */
+    #map { flex: 1; }
+
+    /* ── Detail Panel (right) ── */
+    #detail-panel {
+      width: 300px;
+      flex-shrink: 0;
+      background: #fff;
+      color: #111;
+      padding: 20px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    #detail-panel h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+    .risk-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .risk-badge.low      { background: #e8f5e9; color: #2e7d32; }
+    .risk-badge.moderate { background: #fff8e1; color: #f57f17; }
+    .risk-badge.high     { background: #ffebee; color: #c62828; }
+
+    .explanation   { font-size: 0.95rem; color: #333; line-height: 1.6; }
+    .report-count  { font-size: 0.78rem; color: #666; }
+    .analyzing     { font-size: 0.85rem; color: #888; font-style: italic; }
+
+    .submit-btn {
+      margin-top: auto;
+      padding: 10px;
+      background: #1a1a2e;
+      color: #a0c4ff;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .submit-btn:hover { background: #2a2a4e; }
+
+    /* ── Modal ── */
+    #modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-box {
+      background: #fff;
+      color: #111;
+      border-radius: 10px;
+      padding: 24px;
+      width: 400px;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .modal-box h2 { font-size: 1.1rem; margin-bottom: 16px; color: #1a1a2e; }
+    #modal-close {
+      position: absolute;
+      top: 14px; right: 16px;
+      background: none; border: none;
+      font-size: 1.3rem; cursor: pointer; color: #888;
+    }
+
+    .form-row { margin-bottom: 14px; }
+    .form-row label { display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 5px; color: #333; }
+    .form-row select, .form-row input[type="text"] {
+      width: 100%;
+      padding: 7px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 0.85rem;
+    }
+
+    .checkbox-group { display: flex; flex-wrap: wrap; gap: 8px; }
+    .checkbox-group label {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 0.8rem; font-weight: 400; color: #444;
+      cursor: pointer;
+    }
+
+    .radio-group { display: flex; gap: 16px; }
+    .radio-group label {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 0.85rem; font-weight: 400; cursor: pointer;
+    }
+
+    .form-submit {
+      width: 100%;
+      padding: 10px;
+      background: #1a1a2e;
+      color: #a0c4ff;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 6px;
+    }
+    .form-submit:hover { background: #2a2a4e; }
+
+    /* ── Remove Leaflet click outline ── */
+    .leaflet-interactive:focus { outline: none; }
+
+    /* ── County hover label ── */
+    .county-label {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-shadow: 0 0 6px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,1);
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    .county-label::before { display: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-dot"></div>
+  <div>
+    <h1>AZ EMBER</h1>
+    <p>Disease Outbreak Early Warning — Arizona</p>
+  </div>
+</header>
+
+<main>
+
+  <!-- Left: Report Feed -->
+  <aside id="sidebar">
+    <div id="sidebar-title">Live Reports</div>
+    <div id="report-feed"></div>
+  </aside>
+
+  <!-- Center: Map -->
+  <div id="map"></div>
+
+  <!-- Right: County Detail -->
+  <div id="detail-panel">
+    <h2>Select a county</h2>
+    <p class="explanation">Click any county on the map to view its risk assessment.</p>
+  </div>
+
+</main>
+
+<!-- Intake Modal -->
+<div id="modal">
+  <div class="modal-box">
+    <button id="modal-close">&times;</button>
+    <h2>Submit Symptom Report</h2>
+    <form id="report-form">
+
+      <div class="form-row">
+        <label for="form-county">County</label>
+        <select id="form-county" required>
+          <option value="Maricopa">Maricopa</option>
+          <option value="Pima">Pima</option>
+          <option value="Pinal">Pinal</option>
+          <option value="Yavapai">Yavapai</option>
+          <option value="Coconino">Coconino</option>
+          <option value="Mohave">Mohave</option>
+          <option value="Navajo">Navajo</option>
+          <option value="Apache">Apache</option>
+          <option value="Cochise">Cochise</option>
+          <option value="Yuma">Yuma</option>
+          <option value="Santa Cruz">Santa Cruz</option>
+          <option value="Gila">Gila</option>
+          <option value="Graham">Graham</option>
+          <option value="Greenlee">Greenlee</option>
+          <option value="La Paz">La Paz</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Symptoms</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" class="symptom-check" value="fever" /> Fever</label>
+          <label><input type="checkbox" class="symptom-check" value="cough" /> Cough</label>
+          <label><input type="checkbox" class="symptom-check" value="fatigue" /> Fatigue</label>
+          <label><input type="checkbox" class="symptom-check" value="rash" /> Rash</label>
+          <label><input type="checkbox" class="symptom-check" value="nausea/vomiting" /> Nausea/Vomiting</label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>Recent International Travel?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="travel" id="travel-yes" value="yes" /> Yes</label>
+          <label><input type="radio" name="travel" id="travel-no" value="no" checked /> No</label>
+        </div>
+      </div>
+      <div class="form-row" id="travel-dest-row" style="display:none;">
+        <label for="travel-dest">Travel Destination</label>
+        <input type="text" id="travel-dest" placeholder="e.g. Thailand" />
+      </div>
+
+      <div class="form-row">
+        <label>Recent Animal Contact?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="animal" id="animal-yes" value="yes" /> Yes</label>
+          <label><input type="radio" name="animal" id="animal-no" value="no" checked /> No</label>
+        </div>
+      </div>
+      <div class="form-row" id="animal-type-row" style="display:none;">
+        <label for="animal-type">Animal Type</label>
+        <input type="text" id="animal-type" placeholder="e.g. poultry" />
+      </div>
+
+      <div class="form-row">
+        <label for="form-age">Age Range</label>
+        <select id="form-age">
+          <option value="0-17">0–17</option>
+          <option value="18-29">18–29</option>
+          <option value="30-44" selected>30–44</option>
+          <option value="45-64">45–64</option>
+          <option value="65+">65+</option>
+        </select>
+      </div>
+
+      <button type="submit" class="form-submit">Submit Report</button>
+    </form>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="api.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

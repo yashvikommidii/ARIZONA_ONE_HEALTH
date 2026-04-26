@@ -1,0 +1,911 @@
+report_id,person_id,submitted_at,symptom_start_date,county,city,zip_code,age_group,sex_at_birth,suspected_disease,severity,hospitalized,test_taken,test_result,animal_contact,travel_14d,close_contact_sick
+R000001,c5968807a2173084,2026-04-03,2026-03-30,Apache,Eagar,86511,65+,female,Influenza,moderate,0,1,negative,none,0,1
+R000002,99f749f9b7b66bc5,2026-04-24,2026-04-19,Apache,Window Rock,86503,45-64,female,Valley Fever,mild,0,0,negative,pet,1,0
+R000003,0ef4f8f4cd016a6a,2026-03-31,2026-03-28,Apache,Chinle,86503,45-64,male,RSV,moderate,0,0,positive,none,1,1
+R000004,7a1958c508618d41,2026-03-27,2026-03-27,Apache,Chinle,86505,18-29,male,Influenza,moderate,0,1,positive,none,0,0
+R000005,7a1958c508618d41,2026-04-22,2026-04-18,Apache,Chinle,86505,18-29,male,Norovirus,mild,0,0,positive,none,0,1
+R000006,f5c8b208c192f82b,2026-04-12,2026-04-09,Apache,Eagar,86505,65+,female,COVID-19,mild,0,1,positive,wildlife,0,0
+R000007,f3cbd65e03bf6118,2026-04-23,2026-04-18,Apache,Eagar,86505,65+,male,Norovirus,mild,0,1,positive,pet,0,0
+R000008,f3cbd65e03bf6118,2026-03-31,2026-03-28,Apache,Eagar,86505,65+,male,Influenza,moderate,0,1,positive,none,0,0
+R000009,dc0b20dfc2ceec90,2026-04-01,2026-03-31,Apache,Chinle,86511,45-64,male,Influenza,mild,0,1,positive,none,0,0
+R000010,dc0b20dfc2ceec90,2026-04-12,2026-04-10,Apache,Chinle,86511,45-64,male,Influenza,mild,0,0,positive,none,0,0
+R000011,dc0b20dfc2ceec90,2026-04-02,2026-04-01,Apache,Chinle,86511,45-64,male,COVID-19,moderate,0,0,positive,none,0,0
+R000012,d73d2f970b42cfda,2026-04-04,2026-03-31,Apache,Window Rock,86511,30-44,female,Unknown Febrile Illness,moderate,0,1,negative,none,0,0
+R000013,d16664861169e0fa,2026-04-20,2026-04-16,Apache,Eagar,86503,30-44,female,COVID-19,moderate,0,1,negative,pet,0,0
+R000014,7d419ce270ff4726,2026-04-13,2026-04-10,Apache,Eagar,86505,18-29,female,Influenza,mild,0,0,negative,none,0,0
+R000015,90ba7bb3693aecbb,2026-04-22,2026-04-20,Apache,Window Rock,86505,0-17,female,Salmonella,moderate,0,0,pending,livestock,1,1
+R000016,90ba7bb3693aecbb,2026-04-04,2026-04-04,Apache,Window Rock,86505,0-17,female,RSV,moderate,0,1,positive,none,1,0
+R000017,70933f7d6bd4a83c,2026-04-08,2026-04-04,Apache,Window Rock,86503,0-17,female,Salmonella,mild,0,0,negative,pet,0,0
+R000018,70933f7d6bd4a83c,2026-04-08,2026-04-05,Apache,Window Rock,86503,0-17,female,RSV,mild,0,1,negative,pet,0,1
+R000019,53ee97cd0822c8d9,2026-04-19,2026-04-17,Apache,Window Rock,86511,18-29,male,Influenza,mild,0,1,positive,none,0,0
+R000020,4c85931622e12742,2026-04-19,2026-04-16,Apache,Window Rock,86503,18-29,female,West Nile Virus,moderate,0,1,positive,none,1,0
+R000021,4c85931622e12742,2026-04-12,2026-04-07,Apache,Window Rock,86503,18-29,female,COVID-19,mild,0,1,positive,none,0,0
+R000022,4c85931622e12742,2026-04-10,2026-04-10,Apache,Window Rock,86503,18-29,female,Dengue,mild,0,0,pending,pet,1,1
+R000023,096301aac9917f76,2026-04-17,2026-04-13,Apache,Eagar,86505,18-29,male,Influenza,mild,0,1,positive,wildlife,0,1
+R000024,67c02aea4429f7d6,2026-04-11,2026-04-07,Apache,Window Rock,86511,0-17,female,Influenza,mild,0,1,negative,pet,0,1
+R000025,29204e1368d518b7,2026-04-25,2026-04-22,Apache,Chinle,86503,45-64,male,COVID-19,mild,0,1,negative,none,0,0
+R000026,502210c442edbccf,2026-03-27,2026-03-25,Apache,Chinle,86511,45-64,male,COVID-19,mild,0,0,pending,none,0,0
+R000027,774bec0f9af8491e,2026-03-31,2026-03-31,Apache,Window Rock,86505,18-29,male,COVID-19,moderate,0,1,positive,none,0,1
+R000028,774bec0f9af8491e,2026-03-29,2026-03-25,Apache,Window Rock,86505,18-29,male,Influenza,moderate,0,0,positive,none,0,0
+R000029,3a8d02471a3db29d,2026-04-21,2026-04-21,Apache,Eagar,86505,0-17,male,E. coli,severe,0,1,negative,none,0,0
+R000030,3a8d02471a3db29d,2026-03-29,2026-03-24,Apache,Eagar,86505,0-17,male,Valley Fever,mild,0,1,negative,none,0,0
+R000031,ffc8732e94160acd,2026-03-27,2026-03-23,Apache,Eagar,86505,45-64,female,Norovirus,mild,0,1,positive,none,0,0
+R000032,ffc8732e94160acd,2026-04-23,2026-04-22,Apache,Eagar,86505,45-64,female,RSV,moderate,0,1,negative,none,0,1
+R000033,5966a91d30188d09,2026-04-24,2026-04-20,Apache,Chinle,86505,30-44,female,Influenza,mild,0,0,pending,none,0,0
+R000034,32074dd600260751,2026-04-04,2026-04-01,Apache,Chinle,86511,30-44,male,Valley Fever,moderate,0,1,pending,none,0,0
+R000035,30dccd2e6bc73a23,2026-04-25,2026-04-22,Apache,Chinle,86511,45-64,male,Norovirus,mild,0,0,positive,wildlife,1,0
+R000036,30dccd2e6bc73a23,2026-04-12,2026-04-12,Apache,Chinle,86511,45-64,male,COVID-19,mild,0,1,positive,wildlife,0,1
+R000037,f1a32dfa4c870422,2026-04-24,2026-04-19,Apache,Chinle,86503,45-64,female,Valley Fever,moderate,0,0,positive,pet,0,0
+R000038,0167ae34f6a6278a,2026-04-05,2026-04-05,Apache,Chinle,86503,45-64,female,Influenza,mild,0,1,positive,none,1,0
+R000039,0167ae34f6a6278a,2026-04-06,2026-04-06,Apache,Chinle,86503,45-64,female,RSV,mild,0,0,pending,none,0,0
+R000040,8eddfc807c69ba99,2026-03-28,2026-03-24,Apache,Window Rock,86505,30-44,male,RSV,moderate,0,1,negative,none,1,0
+R000041,5debe4619a5083d9,2026-04-19,2026-04-14,Apache,Chinle,86505,45-64,female,RSV,mild,0,0,negative,none,0,0
+R000042,82b88df7689cd0fd,2026-03-28,2026-03-28,Apache,Chinle,86503,45-64,male,Influenza,mild,0,1,negative,none,0,1
+R000043,82b88df7689cd0fd,2026-04-06,2026-04-03,Apache,Chinle,86503,45-64,male,Influenza,mild,0,1,negative,none,0,1
+R000044,f5554853bf1c9072,2026-04-12,2026-04-07,Apache,Eagar,86503,0-17,male,COVID-19,moderate,0,0,positive,livestock,1,1
+R000045,af5a18a79e5f1387,2026-04-16,2026-04-16,Apache,Window Rock,86511,45-64,female,West Nile Virus,moderate,0,0,positive,pet,0,0
+R000046,6676ab2ca4d8d1a6,2026-04-10,2026-04-08,Apache,Eagar,86511,30-44,female,COVID-19,mild,0,0,negative,none,1,1
+R000047,90fb8c11b18ef08b,2026-03-30,2026-03-25,Apache,Chinle,86503,18-29,female,Norovirus,mild,0,1,negative,none,0,0
+R000048,90fb8c11b18ef08b,2026-04-09,2026-04-08,Apache,Chinle,86503,18-29,female,Influenza,severe,0,0,negative,none,0,1
+R000049,5c4f7dedc23646e3,2026-03-27,2026-03-23,Apache,Chinle,86505,45-64,male,COVID-19,mild,0,0,negative,wildlife,0,0
+R000050,5c4f7dedc23646e3,2026-04-01,2026-03-29,Apache,Chinle,86505,45-64,male,Influenza,mild,0,1,positive,livestock,0,0
+R000051,273ad3e12032d1b3,2026-03-30,2026-03-29,Apache,Eagar,86503,18-29,male,Salmonella,moderate,0,1,negative,pet,0,1
+R000052,273ad3e12032d1b3,2026-04-23,2026-04-19,Apache,Eagar,86503,18-29,male,RSV,mild,0,0,negative,pet,0,0
+R000053,c951d1a762a132c1,2026-04-01,2026-03-31,Apache,Window Rock,86511,18-29,male,E. coli,moderate,0,1,pending,none,0,0
+R000054,086a8ec810cf76ab,2026-03-27,2026-03-23,Apache,Eagar,86503,30-44,male,Influenza,mild,0,1,positive,none,1,0
+R000055,d45ab8018047c0de,2026-04-18,2026-04-15,Apache,Window Rock,86503,0-17,male,Norovirus,mild,0,0,positive,none,0,0
+R000056,537c6bd802e8f821,2026-03-31,2026-03-26,Apache,Eagar,86505,30-44,female,Influenza,mild,0,0,negative,none,0,0
+R000057,74e67c638d9122cc,2026-03-30,2026-03-30,Apache,Chinle,86505,30-44,female,COVID-19,mild,0,0,negative,none,1,1
+R000058,74e67c638d9122cc,2026-03-27,2026-03-23,Apache,Chinle,86505,30-44,female,COVID-19,mild,0,0,pending,none,0,0
+R000059,7eff146d8d6142a0,2026-04-07,2026-04-03,Apache,Eagar,86503,30-44,female,RSV,mild,0,1,positive,livestock,0,1
+R000060,74d235bf7c3c2ad6,2026-04-13,2026-04-10,Apache,Chinle,86511,45-64,female,RSV,mild,0,1,negative,none,0,1
+R000061,5081af12d7fe0b24,2026-04-08,2026-04-05,Apache,Window Rock,86505,45-64,male,West Nile Virus,moderate,0,0,negative,none,0,0
+R000062,3160db02317c2f80,2026-04-09,2026-04-09,Apache,Eagar,86505,65+,male,COVID-19,mild,0,1,negative,pet,0,1
+R000063,3160db02317c2f80,2026-03-29,2026-03-26,Apache,Eagar,86505,65+,male,Salmonella,mild,0,1,negative,none,0,0
+R000064,68c2f366360ee1ed,2026-04-03,2026-04-03,Apache,Chinle,86503,45-64,female,RSV,mild,0,1,positive,none,0,0
+R000065,d0c3903168389f34,2026-04-07,2026-04-04,Apache,Eagar,86503,65+,male,RSV,mild,0,1,positive,none,1,1
+R000066,9a914f0bd705fa5e,2026-04-03,2026-04-02,Apache,Eagar,86503,30-44,female,Influenza,moderate,0,1,positive,wildlife,0,0
+R000067,32e9b7a372ae75eb,2026-04-16,2026-04-14,Apache,Window Rock,86505,18-29,female,Influenza,moderate,0,1,pending,none,0,0
+R000068,c80dd890749de844,2026-04-15,2026-04-12,Apache,Eagar,86511,18-29,male,Norovirus,severe,0,0,pending,none,0,1
+R000069,e790175e75174900,2026-04-11,2026-04-07,Apache,Eagar,86505,30-44,male,Influenza,mild,0,1,positive,none,0,0
+R000070,e63dcc2f9ae4cf95,2026-04-10,2026-04-06,Apache,Window Rock,86505,65+,female,Influenza,moderate,0,1,positive,pet,0,0
+R000071,6b4196923ab1ade0,2026-04-22,2026-04-18,Apache,Eagar,86511,0-17,male,Influenza,mild,0,0,positive,pet,1,0
+R000072,341edec823085c9d,2026-04-24,2026-04-22,Apache,Eagar,86503,0-17,female,Unknown Febrile Illness,mild,0,0,positive,wildlife,0,0
+R000073,578898d77ceae41a,2026-04-05,2026-04-01,Apache,Eagar,86505,0-17,female,Valley Fever,mild,0,0,negative,livestock,0,0
+R000074,8cd4f1278e6816ef,2026-04-14,2026-04-11,Apache,Chinle,86511,30-44,female,Influenza,mild,0,1,negative,none,0,0
+R000075,8cd4f1278e6816ef,2026-03-28,2026-03-24,Apache,Chinle,86511,30-44,female,COVID-19,severe,0,1,negative,none,0,1
+R000076,6f3b037c1d98aca3,2026-04-07,2026-04-03,Apache,Chinle,86511,65+,male,Unknown Febrile Illness,moderate,0,0,positive,none,1,0
+R000077,488399d29d961d76,2026-04-20,2026-04-16,Cochise,Douglas,85615,65+,male,RSV,mild,0,1,positive,none,1,1
+R000078,c49b02e744dd2d85,2026-04-24,2026-04-24,Cochise,Sierra Vista,85607,65+,male,Norovirus,mild,0,0,positive,none,0,1
+R000079,cca121e433142e2d,2026-03-28,2026-03-27,Cochise,Bisbee,85635,30-44,female,COVID-19,moderate,0,1,negative,none,0,0
+R000080,4406ae8f7f6c7d9d,2026-04-12,2026-04-12,Cochise,Sierra Vista,85615,30-44,male,COVID-19,moderate,0,0,negative,livestock,0,0
+R000081,1b2d0126ec21f427,2026-04-15,2026-04-10,Cochise,Douglas,85607,30-44,male,Influenza,mild,0,0,negative,wildlife,0,0
+R000082,b25b478e70c783b7,2026-04-18,2026-04-13,Cochise,Bisbee,85615,45-64,female,COVID-19,mild,0,1,positive,none,1,0
+R000083,37cce3714b683e68,2026-04-17,2026-04-15,Cochise,Bisbee,85635,18-29,male,Unknown Febrile Illness,moderate,0,0,negative,none,0,1
+R000084,37cce3714b683e68,2026-04-06,2026-04-02,Cochise,Bisbee,85635,18-29,male,Salmonella,moderate,0,1,negative,none,0,1
+R000085,6dd854d9070c86d5,2026-03-28,2026-03-28,Cochise,Sierra Vista,85615,45-64,female,Norovirus,mild,0,1,negative,none,1,0
+R000086,bd8cfaf88afa58a8,2026-03-27,2026-03-27,Cochise,Douglas,85615,45-64,female,Influenza,mild,0,1,pending,none,0,0
+R000087,040fd6c930a45bc8,2026-04-24,2026-04-22,Cochise,Douglas,85607,30-44,male,Valley Fever,mild,0,0,positive,pet,0,0
+R000088,82968d81be7498a4,2026-04-20,2026-04-17,Cochise,Sierra Vista,85615,30-44,male,COVID-19,mild,0,1,negative,pet,0,0
+R000089,461fd0bfdaae7a04,2026-04-12,2026-04-10,Cochise,Douglas,85635,65+,female,Salmonella,moderate,0,1,negative,wildlife,1,0
+R000090,073d997014ba4327,2026-04-25,2026-04-20,Cochise,Douglas,85607,18-29,female,Influenza,severe,0,1,negative,pet,0,0
+R000091,be57ea1218497438,2026-04-08,2026-04-03,Cochise,Bisbee,85635,18-29,male,Valley Fever,mild,0,1,negative,pet,0,1
+R000092,be57ea1218497438,2026-04-02,2026-04-02,Cochise,Bisbee,85635,18-29,male,Norovirus,mild,0,0,pending,none,0,0
+R000093,f487934b9f4ddd50,2026-04-07,2026-04-05,Cochise,Douglas,85635,45-64,female,Dengue,mild,0,1,negative,pet,0,0
+R000094,a243d793cc0c1f3c,2026-04-12,2026-04-07,Cochise,Sierra Vista,85615,0-17,male,Unknown Febrile Illness,mild,0,1,positive,none,0,0
+R000095,64046ec24a923217,2026-04-04,2026-04-01,Cochise,Bisbee,85635,45-64,female,Norovirus,mild,0,0,pending,wildlife,0,0
+R000096,64046ec24a923217,2026-04-03,2026-03-30,Cochise,Bisbee,85635,45-64,female,RSV,moderate,0,1,positive,pet,0,1
+R000097,55a25879b0667f62,2026-03-30,2026-03-30,Cochise,Bisbee,85635,65+,female,Influenza,mild,0,1,positive,none,0,0
+R000098,87d78825a7675baa,2026-04-21,2026-04-21,Cochise,Douglas,85615,65+,male,COVID-19,mild,0,0,positive,none,0,0
+R000099,3dc02a8cfd44c492,2026-03-27,2026-03-24,Cochise,Sierra Vista,85607,18-29,male,Norovirus,moderate,0,1,positive,none,0,0
+R000100,406e984868761ccb,2026-04-25,2026-04-23,Cochise,Bisbee,85615,0-17,female,Norovirus,mild,0,1,positive,pet,0,1
+R000101,a084a99d244ace60,2026-04-13,2026-04-12,Cochise,Sierra Vista,85615,65+,male,COVID-19,mild,0,1,positive,none,0,0
+R000102,03eb1c7a2ea7e479,2026-04-10,2026-04-07,Cochise,Douglas,85607,18-29,female,Influenza,mild,0,0,positive,livestock,1,0
+R000103,f9fecc80bc8f86ac,2026-03-29,2026-03-24,Cochise,Sierra Vista,85635,45-64,female,COVID-19,moderate,0,1,positive,none,1,0
+R000104,f6ca940edba41891,2026-04-14,2026-04-14,Cochise,Sierra Vista,85607,18-29,female,COVID-19,mild,0,0,pending,livestock,0,0
+R000105,f6ca940edba41891,2026-04-20,2026-04-16,Cochise,Sierra Vista,85607,18-29,female,COVID-19,mild,0,0,positive,pet,0,0
+R000106,f6ca940edba41891,2026-04-10,2026-04-09,Cochise,Sierra Vista,85607,18-29,female,Unknown Febrile Illness,mild,0,1,negative,none,1,1
+R000107,dfe6ab624cb56ec6,2026-03-29,2026-03-28,Cochise,Bisbee,85615,18-29,male,RSV,severe,1,0,negative,livestock,0,1
+R000108,2a3327277128456b,2026-04-01,2026-03-29,Cochise,Bisbee,85635,30-44,male,Influenza,mild,0,0,negative,none,0,0
+R000109,2a3327277128456b,2026-04-09,2026-04-05,Cochise,Bisbee,85635,30-44,male,Influenza,mild,0,1,pending,none,0,0
+R000110,c928a4bf701a821e,2026-04-14,2026-04-10,Cochise,Sierra Vista,85607,45-64,female,RSV,moderate,0,0,positive,none,0,0
+R000111,66dc764009289cf0,2026-04-02,2026-03-28,Cochise,Bisbee,85607,65+,female,RSV,moderate,0,1,positive,none,0,0
+R000112,92dfd33efdf57952,2026-04-09,2026-04-09,Cochise,Sierra Vista,85607,0-17,female,Unknown Febrile Illness,moderate,0,1,negative,none,0,1
+R000113,92dfd33efdf57952,2026-03-31,2026-03-27,Cochise,Sierra Vista,85607,0-17,female,COVID-19,mild,0,1,negative,none,0,1
+R000114,491ead46265a8068,2026-04-24,2026-04-22,Cochise,Sierra Vista,85635,45-64,male,Rabies Exposure,mild,0,1,negative,pet,0,0
+R000115,4449fc7157499c85,2026-04-06,2026-04-04,Cochise,Bisbee,85607,0-17,female,Influenza,moderate,0,1,positive,pet,1,0
+R000116,4449fc7157499c85,2026-04-17,2026-04-16,Cochise,Bisbee,85607,0-17,female,West Nile Virus,mild,0,0,negative,livestock,0,0
+R000117,4449fc7157499c85,2026-04-02,2026-03-28,Cochise,Bisbee,85607,0-17,female,Influenza,severe,0,1,negative,pet,0,0
+R000118,cf336cb2713767c6,2026-03-29,2026-03-29,Cochise,Douglas,85635,18-29,male,Salmonella,mild,0,1,pending,none,0,0
+R000119,45fe152051303102,2026-03-28,2026-03-24,Cochise,Sierra Vista,85615,18-29,male,Influenza,moderate,0,0,positive,none,0,0
+R000120,f540a12894d596fb,2026-03-31,2026-03-31,Cochise,Bisbee,85607,45-64,female,Valley Fever,mild,0,1,positive,wildlife,0,0
+R000121,5d0bea02c03574cf,2026-04-02,2026-03-29,Cochise,Douglas,85607,18-29,female,Influenza,moderate,0,1,negative,wildlife,0,1
+R000122,5d0bea02c03574cf,2026-04-07,2026-04-07,Cochise,Douglas,85607,18-29,female,Influenza,mild,0,1,positive,none,0,1
+R000123,95662b273b577bdf,2026-03-30,2026-03-30,Cochise,Bisbee,85615,65+,female,COVID-19,mild,0,0,negative,pet,0,0
+R000124,2c45ca4e83d8f0c2,2026-03-29,2026-03-26,Cochise,Bisbee,85607,65+,female,West Nile Virus,mild,0,1,positive,livestock,0,0
+R000125,9853651ba35acb02,2026-04-21,2026-04-20,Cochise,Douglas,85615,30-44,female,COVID-19,moderate,0,0,positive,none,0,1
+R000126,9853651ba35acb02,2026-04-22,2026-04-21,Cochise,Douglas,85615,30-44,female,Salmonella,mild,0,0,positive,none,0,1
+R000127,5fa706316f4994fc,2026-03-29,2026-03-24,Cochise,Bisbee,85615,18-29,male,Valley Fever,moderate,0,1,negative,pet,0,0
+R000128,5e7dc696dc031a56,2026-03-31,2026-03-27,Cochise,Douglas,85635,45-64,male,Valley Fever,severe,0,1,negative,none,0,0
+R000129,5e7dc696dc031a56,2026-04-13,2026-04-12,Cochise,Douglas,85635,45-64,male,Valley Fever,moderate,0,0,positive,pet,1,1
+R000130,5e7dc696dc031a56,2026-04-07,2026-04-03,Cochise,Douglas,85635,45-64,male,RSV,moderate,0,1,positive,none,0,1
+R000131,6d4dd9cbf512da22,2026-04-25,2026-04-24,Cochise,Douglas,85635,30-44,female,COVID-19,moderate,0,1,positive,none,0,0
+R000132,9ec0ab783fa1c1cb,2026-04-07,2026-04-04,Cochise,Bisbee,85615,18-29,male,RSV,severe,1,1,positive,none,1,1
+R000133,9ec0ab783fa1c1cb,2026-04-12,2026-04-11,Cochise,Bisbee,85615,18-29,male,Valley Fever,mild,0,0,positive,pet,0,0
+R000134,f5fd1d0696b42a8b,2026-04-09,2026-04-06,Cochise,Bisbee,85607,45-64,female,Rabies Exposure,mild,0,1,positive,livestock,0,0
+R000135,f5fd1d0696b42a8b,2026-04-08,2026-04-06,Cochise,Bisbee,85607,45-64,female,RSV,mild,0,1,positive,pet,0,0
+R000136,6d237aa15c6c9df7,2026-04-10,2026-04-09,Cochise,Douglas,85607,18-29,female,COVID-19,mild,0,1,positive,livestock,1,1
+R000137,1048c6f6d71780af,2026-04-16,2026-04-16,Cochise,Sierra Vista,85607,0-17,male,E. coli,mild,0,1,pending,wildlife,0,0
+R000138,e93039256918d43e,2026-03-31,2026-03-26,Cochise,Sierra Vista,85607,65+,male,COVID-19,severe,0,0,pending,none,0,1
+R000139,b9950f2cb122a0b9,2026-04-23,2026-04-21,Cochise,Douglas,85607,30-44,female,RSV,mild,0,0,negative,none,0,1
+R000140,f80b4f221dd276ed,2026-04-15,2026-04-14,Coconino,Flagstaff,86001,30-44,female,Salmonella,mild,0,0,negative,none,0,1
+R000141,0ad50b1efa417c38,2026-04-22,2026-04-20,Coconino,Williams,86001,18-29,female,Influenza,mild,0,0,positive,none,0,0
+R000142,5b280c702217ad13,2026-04-20,2026-04-17,Coconino,Williams,86004,30-44,male,COVID-19,mild,0,0,negative,none,0,0
+R000143,04deeb510fe3d8b2,2026-04-01,2026-03-31,Coconino,Williams,86004,30-44,female,COVID-19,mild,0,0,positive,livestock,0,0
+R000144,04deeb510fe3d8b2,2026-04-01,2026-03-27,Coconino,Williams,86004,30-44,female,Norovirus,severe,0,0,positive,none,0,1
+R000145,40fb585cba70d213,2026-03-28,2026-03-23,Coconino,Williams,86004,45-64,female,COVID-19,moderate,0,0,negative,none,1,0
+R000146,f0d0c7e82a4c15dc,2026-04-23,2026-04-22,Coconino,Page,86011,0-17,female,RSV,mild,0,1,positive,wildlife,0,1
+R000147,e94ded630c26acbd,2026-04-18,2026-04-17,Coconino,Page,86011,30-44,female,COVID-19,mild,0,1,pending,none,0,0
+R000148,fda304b87aa80784,2026-04-10,2026-04-09,Coconino,Williams,86001,65+,male,Salmonella,moderate,0,1,negative,none,1,0
+R000149,a1c355b312977bf9,2026-03-28,2026-03-24,Coconino,Page,86001,45-64,male,Unknown Febrile Illness,mild,0,0,negative,none,0,1
+R000150,184b1a931c52abff,2026-04-22,2026-04-18,Coconino,Williams,86004,45-64,female,Norovirus,mild,0,0,negative,none,0,1
+R000151,e2258e2a60b012ab,2026-04-18,2026-04-17,Coconino,Page,86001,30-44,female,Unknown Febrile Illness,mild,0,1,negative,none,1,0
+R000152,e2258e2a60b012ab,2026-04-22,2026-04-18,Coconino,Page,86001,30-44,female,COVID-19,severe,0,1,positive,none,0,0
+R000153,e2258e2a60b012ab,2026-03-27,2026-03-24,Coconino,Page,86001,30-44,female,E. coli,moderate,0,1,negative,none,1,0
+R000154,c966ef4d6d7f832b,2026-04-03,2026-03-30,Coconino,Flagstaff,86004,30-44,female,Norovirus,moderate,0,1,positive,none,0,0
+R000155,c966ef4d6d7f832b,2026-04-17,2026-04-17,Coconino,Flagstaff,86004,30-44,female,Rabies Exposure,mild,0,1,negative,none,0,0
+R000156,dfbb1851e5782835,2026-04-07,2026-04-06,Coconino,Page,86004,0-17,male,Valley Fever,mild,0,0,negative,none,1,0
+R000157,f1466f0bd427c5ee,2026-04-11,2026-04-10,Coconino,Page,86004,30-44,female,RSV,mild,0,0,negative,none,0,0
+R000158,6ee7f424f8e350b8,2026-04-16,2026-04-11,Coconino,Williams,86011,45-64,female,Influenza,moderate,0,0,negative,none,0,0
+R000159,1ef05c7ac24b2d1c,2026-04-14,2026-04-14,Coconino,Flagstaff,86011,0-17,male,Influenza,mild,0,1,positive,pet,0,1
+R000160,020a30f5101dcaad,2026-04-07,2026-04-04,Coconino,Page,86004,0-17,female,COVID-19,moderate,0,1,pending,none,0,1
+R000161,020a30f5101dcaad,2026-04-10,2026-04-10,Coconino,Page,86004,0-17,female,Unknown Febrile Illness,mild,0,0,negative,none,0,1
+R000162,22a4aaa5e43a491b,2026-04-01,2026-03-29,Coconino,Williams,86011,30-44,female,Influenza,mild,0,1,positive,wildlife,0,0
+R000163,b700065a99ed8557,2026-04-21,2026-04-19,Coconino,Williams,86011,18-29,female,Salmonella,moderate,0,1,pending,none,0,1
+R000164,7dc1080d4b19db8b,2026-04-09,2026-04-08,Coconino,Flagstaff,86011,45-64,female,COVID-19,moderate,0,1,pending,wildlife,0,0
+R000165,26e53271d0bf6f70,2026-04-20,2026-04-20,Coconino,Flagstaff,86004,45-64,male,E. coli,mild,0,1,pending,none,0,0
+R000166,6716ca2ccd7248a4,2026-04-05,2026-04-02,Coconino,Page,86011,30-44,male,RSV,severe,1,0,negative,pet,1,0
+R000167,4036244890c7a4c3,2026-04-22,2026-04-19,Coconino,Page,86011,0-17,male,Valley Fever,severe,0,1,negative,livestock,0,0
+R000168,53000a4fbc509852,2026-04-07,2026-04-07,Coconino,Williams,86011,45-64,female,Valley Fever,moderate,0,1,positive,pet,1,0
+R000169,f3f605f23c7b0874,2026-03-27,2026-03-25,Coconino,Williams,86004,0-17,male,Norovirus,mild,0,1,negative,none,0,0
+R000170,34d7da7d2c1680d9,2026-04-17,2026-04-14,Coconino,Williams,86011,30-44,female,Influenza,mild,0,1,negative,none,1,1
+R000171,34d7da7d2c1680d9,2026-04-04,2026-04-01,Coconino,Williams,86011,30-44,female,Valley Fever,mild,0,1,negative,pet,0,0
+R000172,eab6ada6f799d2c8,2026-04-14,2026-04-14,Coconino,Williams,86011,45-64,female,COVID-19,mild,0,0,positive,none,0,0
+R000173,a1d7776e730949f3,2026-04-20,2026-04-18,Coconino,Flagstaff,86004,18-29,female,Valley Fever,mild,0,0,positive,pet,0,1
+R000174,0e142fdcffeab0b4,2026-03-31,2026-03-31,Coconino,Page,86004,0-17,male,Unknown Febrile Illness,mild,0,1,positive,wildlife,0,0
+R000175,fcc1f7fb506df9c5,2026-04-24,2026-04-19,Coconino,Page,86001,45-64,female,RSV,mild,0,0,negative,none,0,0
+R000176,faa36d8251597623,2026-04-13,2026-04-10,Coconino,Flagstaff,86011,0-17,male,Valley Fever,mild,0,0,negative,none,0,1
+R000177,2b2bf2869eacff20,2026-03-29,2026-03-29,Coconino,Flagstaff,86011,0-17,female,Influenza,mild,0,1,negative,none,0,0
+R000178,d0adb9ff69825c18,2026-04-24,2026-04-21,Coconino,Page,86004,30-44,male,Influenza,severe,0,1,negative,none,1,0
+R000179,f7c97c1249ceef18,2026-04-05,2026-04-03,Coconino,Williams,86004,18-29,female,Influenza,mild,0,0,negative,none,0,0
+R000180,7364f48dedfdc95e,2026-04-21,2026-04-16,Coconino,Page,86001,65+,male,COVID-19,mild,0,1,negative,none,0,0
+R000181,7364f48dedfdc95e,2026-04-11,2026-04-08,Coconino,Page,86001,65+,male,RSV,mild,0,1,pending,none,1,1
+R000182,4e4a643246b10fc5,2026-04-25,2026-04-22,Coconino,Flagstaff,86004,0-17,female,Influenza,mild,0,1,positive,pet,0,0
+R000183,3c0147de748735a9,2026-04-04,2026-03-31,Coconino,Flagstaff,86001,30-44,male,COVID-19,mild,0,0,negative,none,0,1
+R000184,88efe165f07b904c,2026-04-07,2026-04-02,Coconino,Williams,86004,45-64,other,Salmonella,mild,0,0,pending,pet,0,0
+R000185,88efe165f07b904c,2026-04-13,2026-04-09,Coconino,Williams,86004,45-64,other,COVID-19,mild,0,1,positive,none,0,1
+R000186,1ab420fc8b4c6602,2026-04-05,2026-03-31,Coconino,Williams,86011,18-29,male,Influenza,mild,0,0,negative,none,1,1
+R000187,8f7731b6acf303c2,2026-03-30,2026-03-28,Coconino,Williams,86004,18-29,male,Influenza,moderate,0,0,pending,none,0,0
+R000188,c1ada8a23d33d38e,2026-04-03,2026-03-31,Coconino,Williams,86004,0-17,male,Influenza,mild,0,1,negative,none,1,1
+R000189,c1ada8a23d33d38e,2026-03-27,2026-03-25,Coconino,Williams,86004,0-17,male,West Nile Virus,moderate,0,1,positive,none,0,1
+R000190,35e2c1b385c55770,2026-04-01,2026-03-29,Coconino,Flagstaff,86004,0-17,male,Norovirus,moderate,0,0,pending,none,0,0
+R000191,c999ed4f713f974e,2026-04-13,2026-04-11,Coconino,Williams,86001,45-64,female,COVID-19,severe,1,0,positive,pet,0,1
+R000192,8950cac3e1e8ef02,2026-03-29,2026-03-25,Coconino,Page,86011,18-29,male,Norovirus,mild,0,0,negative,livestock,1,0
+R000193,8950cac3e1e8ef02,2026-04-24,2026-04-20,Coconino,Page,86011,18-29,male,Influenza,mild,0,0,negative,none,1,1
+R000194,630aa86f2cc27357,2026-04-22,2026-04-17,Coconino,Page,86001,30-44,male,Unknown Febrile Illness,mild,0,1,positive,wildlife,0,0
+R000195,e86ba129a3210efa,2026-04-24,2026-04-23,Coconino,Williams,86004,0-17,male,Valley Fever,mild,0,1,positive,none,0,0
+R000196,5d9908e2dffcabc0,2026-04-10,2026-04-08,Coconino,Flagstaff,86001,30-44,female,Salmonella,moderate,0,1,negative,pet,0,1
+R000197,035a6080e38ab4a5,2026-04-13,2026-04-13,Coconino,Page,86001,30-44,female,Salmonella,mild,0,1,negative,none,0,0
+R000198,29ac29ab190be965,2026-04-05,2026-04-01,Coconino,Flagstaff,86011,18-29,male,COVID-19,moderate,0,1,negative,none,0,1
+R000199,63e25b5811cc3dff,2026-04-22,2026-04-17,Coconino,Page,86001,0-17,female,RSV,severe,0,1,pending,none,0,0
+R000200,a76262646214bf36,2026-04-07,2026-04-02,Coconino,Flagstaff,86011,18-29,male,Salmonella,mild,0,0,pending,none,1,1
+R000201,a76262646214bf36,2026-04-20,2026-04-17,Coconino,Flagstaff,86011,18-29,male,Influenza,severe,0,0,negative,none,0,0
+R000202,21750ebb5a0abea2,2026-04-04,2026-04-03,Coconino,Page,86011,45-64,female,COVID-19,moderate,0,0,positive,none,0,0
+R000203,21750ebb5a0abea2,2026-04-07,2026-04-03,Coconino,Page,86011,45-64,female,COVID-19,moderate,0,0,positive,livestock,0,1
+R000204,3553636c898c9f4d,2026-04-08,2026-04-06,Coconino,Flagstaff,86004,30-44,male,RSV,mild,0,0,positive,none,0,1
+R000205,6056b849f7da576f,2026-04-24,2026-04-20,Coconino,Page,86011,30-44,female,E. coli,mild,0,0,positive,pet,0,0
+R000206,d95a7c51d1393869,2026-04-22,2026-04-20,Coconino,Page,86004,65+,other,Influenza,mild,0,0,positive,none,0,0
+R000207,f7437c12e2c00dd3,2026-04-20,2026-04-19,Coconino,Flagstaff,86001,18-29,female,Influenza,mild,0,0,negative,pet,0,0
+R000208,cac8f48788cc65a7,2026-04-13,2026-04-13,Coconino,Williams,86001,18-29,female,RSV,mild,0,1,positive,none,0,0
+R000209,daeac57f8573742f,2026-04-05,2026-04-01,Gila,Miami,85501,65+,female,Influenza,mild,0,1,positive,none,0,1
+R000210,c2fab22d782f8189,2026-03-29,2026-03-24,Gila,Payson,85541,18-29,female,COVID-19,mild,0,0,pending,none,0,0
+R000211,a1be867ad482f8db,2026-04-11,2026-04-10,Gila,Miami,85541,65+,female,Valley Fever,moderate,0,1,positive,livestock,0,1
+R000212,8506026375e0b0e8,2026-04-14,2026-04-11,Gila,Payson,85541,18-29,male,RSV,moderate,0,0,pending,pet,0,0
+R000213,46eb0471e555fb00,2026-04-09,2026-04-06,Gila,Globe,85501,0-17,female,Dengue,moderate,0,1,pending,wildlife,1,1
+R000214,7088fa9d2f2597c8,2026-04-11,2026-04-07,Gila,Miami,85501,18-29,female,COVID-19,mild,0,0,positive,none,0,0
+R000215,27336400d3e91cf5,2026-04-16,2026-04-11,Gila,Miami,85501,65+,male,COVID-19,mild,0,1,negative,pet,0,0
+R000216,27336400d3e91cf5,2026-04-03,2026-03-30,Gila,Miami,85501,65+,male,Influenza,mild,0,1,negative,none,0,1
+R000217,a30ef9936ecc54b8,2026-04-05,2026-04-04,Gila,Payson,85553,45-64,male,West Nile Virus,moderate,0,1,positive,none,0,0
+R000218,3a492134102675b9,2026-04-18,2026-04-18,Gila,Payson,85553,18-29,female,Valley Fever,moderate,0,1,pending,wildlife,0,0
+R000219,a35e50cbd700c027,2026-03-30,2026-03-27,Gila,Miami,85553,45-64,male,West Nile Virus,mild,0,1,negative,none,1,0
+R000220,b63f3b7b503f0e64,2026-04-12,2026-04-12,Gila,Payson,85501,65+,male,COVID-19,mild,0,1,positive,pet,0,1
+R000221,b63f3b7b503f0e64,2026-04-16,2026-04-14,Gila,Payson,85501,65+,male,West Nile Virus,mild,0,1,pending,wildlife,1,0
+R000222,db891be54a36c088,2026-04-10,2026-04-10,Gila,Globe,85501,30-44,male,Norovirus,mild,0,1,negative,pet,0,0
+R000223,f86982cb1d9862a4,2026-04-20,2026-04-18,Gila,Payson,85541,18-29,female,E. coli,mild,0,0,positive,none,0,0
+R000224,341b944c185f82d1,2026-04-12,2026-04-08,Gila,Globe,85541,65+,female,Influenza,severe,0,1,negative,pet,0,0
+R000225,29364a47d72f4525,2026-04-22,2026-04-17,Gila,Globe,85553,30-44,male,Influenza,moderate,0,0,positive,none,1,1
+R000226,29364a47d72f4525,2026-04-19,2026-04-14,Gila,Globe,85553,30-44,male,Valley Fever,mild,0,1,positive,pet,1,1
+R000227,29364a47d72f4525,2026-04-11,2026-04-06,Gila,Globe,85553,30-44,male,Influenza,moderate,0,1,negative,none,0,0
+R000228,0cd55fee3c402fa9,2026-04-22,2026-04-20,Gila,Globe,85553,45-64,female,Unknown Febrile Illness,moderate,0,1,positive,pet,0,0
+R000229,a15edcbd321752d5,2026-03-30,2026-03-25,Gila,Payson,85501,45-64,male,RSV,mild,0,1,positive,none,0,0
+R000230,bf79c3ffd639ceb6,2026-04-13,2026-04-09,Gila,Miami,85553,0-17,female,COVID-19,mild,0,1,negative,none,1,0
+R000231,675d87a6866730b0,2026-04-01,2026-03-31,Gila,Payson,85541,45-64,female,Norovirus,mild,0,1,negative,none,0,0
+R000232,675d87a6866730b0,2026-04-04,2026-04-02,Gila,Payson,85541,45-64,female,Salmonella,moderate,0,0,positive,none,1,0
+R000233,93a6b69fd9e13a24,2026-04-20,2026-04-18,Gila,Payson,85553,18-29,male,E. coli,mild,0,0,pending,none,1,0
+R000234,93a6b69fd9e13a24,2026-03-31,2026-03-26,Gila,Payson,85553,18-29,male,Salmonella,severe,0,1,positive,pet,0,0
+R000235,93a6b69fd9e13a24,2026-04-07,2026-04-05,Gila,Payson,85553,18-29,male,Norovirus,mild,0,0,negative,none,0,0
+R000236,934e456c8b811ad6,2026-04-14,2026-04-09,Gila,Globe,85501,30-44,male,Influenza,mild,0,0,negative,livestock,1,0
+R000237,7f9e5d6e15872bc5,2026-04-25,2026-04-25,Gila,Miami,85541,45-64,male,Unknown Febrile Illness,mild,0,1,negative,none,0,0
+R000238,a209ca4b65e8bcb8,2026-04-08,2026-04-04,Gila,Payson,85553,30-44,male,Influenza,moderate,0,0,pending,pet,0,1
+R000239,b917cd98447e8bb5,2026-04-06,2026-04-04,Gila,Miami,85553,45-64,female,RSV,mild,0,1,pending,none,0,1
+R000240,d55ead463305bbbd,2026-04-21,2026-04-19,Gila,Miami,85553,45-64,male,COVID-19,moderate,0,0,negative,none,0,1
+R000241,5c429ba0bb9fe2cd,2026-04-19,2026-04-15,Gila,Globe,85501,30-44,male,Rabies Exposure,moderate,0,0,negative,none,0,1
+R000242,9e03b76b1d8422e0,2026-04-22,2026-04-18,Gila,Miami,85553,45-64,male,Valley Fever,mild,0,0,positive,none,1,0
+R000243,a47c2fd324ed16e2,2026-03-31,2026-03-31,Gila,Payson,85541,45-64,male,Salmonella,mild,0,1,negative,none,0,1
+R000244,d835e475f8697e18,2026-04-16,2026-04-11,Gila,Payson,85541,65+,male,COVID-19,mild,0,1,negative,livestock,0,1
+R000245,6b9477db89a95b7a,2026-04-11,2026-04-09,Gila,Globe,85501,18-29,male,West Nile Virus,moderate,0,0,negative,pet,0,0
+R000246,a2d0dbc00bcd5214,2026-04-13,2026-04-12,Gila,Globe,85553,45-64,male,Unknown Febrile Illness,mild,0,1,negative,pet,0,0
+R000247,e301d1fbb3ae601a,2026-03-27,2026-03-27,Gila,Miami,85553,45-64,male,RSV,mild,0,1,negative,none,1,0
+R000248,b502fabf979b6136,2026-04-06,2026-04-05,Gila,Miami,85541,0-17,female,RSV,severe,0,0,pending,none,0,1
+R000249,b502fabf979b6136,2026-03-29,2026-03-27,Gila,Miami,85541,0-17,female,Influenza,mild,0,1,negative,pet,0,0
+R000250,926ff3db5d9a7e70,2026-04-19,2026-04-14,Gila,Miami,85553,18-29,male,Salmonella,mild,0,1,pending,none,0,0
+R000251,926ff3db5d9a7e70,2026-04-24,2026-04-21,Gila,Miami,85553,18-29,male,West Nile Virus,moderate,0,1,pending,none,0,0
+R000252,926ff3db5d9a7e70,2026-04-25,2026-04-25,Gila,Miami,85553,18-29,male,Influenza,moderate,0,1,negative,wildlife,0,1
+R000253,c00950b7a0973e08,2026-04-21,2026-04-16,Gila,Payson,85553,18-29,male,Influenza,mild,0,1,negative,none,0,0
+R000254,9a8b44844065a9a4,2026-04-02,2026-03-29,Gila,Miami,85553,45-64,female,RSV,mild,0,1,negative,none,0,1
+R000255,9ecefe8d8776dcf7,2026-03-28,2026-03-27,Gila,Globe,85541,30-44,female,Salmonella,mild,0,0,positive,none,0,1
+R000256,9ecefe8d8776dcf7,2026-04-12,2026-04-09,Gila,Globe,85541,30-44,female,Valley Fever,mild,0,0,negative,none,0,0
+R000257,fb63f64de1b40c1d,2026-03-27,2026-03-26,Gila,Payson,85541,30-44,female,COVID-19,mild,0,0,negative,none,0,0
+R000258,58b8839c8707e96a,2026-04-25,2026-04-24,Gila,Globe,85541,30-44,male,COVID-19,moderate,0,0,negative,none,0,1
+R000259,477f5668c17c2b9e,2026-04-06,2026-04-02,Gila,Miami,85553,0-17,female,COVID-19,mild,0,1,negative,none,0,0
+R000260,477f5668c17c2b9e,2026-04-09,2026-04-09,Gila,Miami,85553,0-17,female,RSV,mild,0,1,negative,pet,0,0
+R000261,477f5668c17c2b9e,2026-04-11,2026-04-09,Gila,Miami,85553,0-17,female,RSV,moderate,0,1,pending,none,1,0
+R000262,4198ab6ec23d8607,2026-04-23,2026-04-21,Gila,Globe,85541,45-64,female,COVID-19,mild,0,0,positive,none,0,0
+R000263,78609f67af62de72,2026-04-14,2026-04-12,Gila,Globe,85541,45-64,male,Influenza,moderate,0,0,pending,none,1,1
+R000264,ed5a80c216d02140,2026-04-22,2026-04-17,Gila,Miami,85541,65+,female,Unknown Febrile Illness,mild,0,1,negative,none,0,0
+R000265,8a52ccfd9ae1a5fb,2026-04-19,2026-04-16,Gila,Payson,85501,45-64,male,Dengue,moderate,0,0,negative,none,0,1
+R000266,8318590e7c2ba3ba,2026-04-24,2026-04-22,Gila,Globe,85541,18-29,female,E. coli,severe,0,0,positive,none,0,0
+R000267,a5e3560e2c4c6065,2026-04-10,2026-04-07,Gila,Miami,85501,65+,male,Influenza,mild,0,1,positive,none,0,0
+R000268,77575796dbb3fc81,2026-04-21,2026-04-19,Gila,Globe,85541,45-64,male,Influenza,mild,0,0,pending,pet,0,0
+R000269,497008cba873c27d,2026-04-08,2026-04-06,Gila,Globe,85501,30-44,male,Influenza,moderate,0,1,pending,pet,0,0
+R000270,4aa5ca0391f64794,2026-04-22,2026-04-22,Gila,Miami,85501,18-29,female,RSV,moderate,0,1,positive,none,0,1
+R000271,7b0ed75b406185e4,2026-04-17,2026-04-16,Gila,Payson,85501,0-17,female,West Nile Virus,mild,0,0,pending,pet,0,1
+R000272,1baff53354ae95c7,2026-04-12,2026-04-09,Graham,Thatcher,85552,0-17,male,Dengue,moderate,0,1,positive,none,0,1
+R000273,12924a86884c32dd,2026-04-06,2026-04-03,Graham,Thatcher,85552,0-17,male,Norovirus,mild,0,0,negative,livestock,0,1
+R000274,0376676cb973300e,2026-04-18,2026-04-17,Graham,Pima,85552,45-64,female,Influenza,mild,0,0,negative,none,1,0
+R000275,0376676cb973300e,2026-04-05,2026-04-04,Graham,Pima,85552,45-64,female,Influenza,moderate,0,1,positive,none,0,0
+R000276,62ae5fa558e24a78,2026-04-01,2026-04-01,Graham,Pima,85534,65+,male,Salmonella,moderate,0,0,pending,wildlife,0,1
+R000277,c194d428e34c7f18,2026-04-20,2026-04-20,Graham,Pima,85543,45-64,other,RSV,moderate,0,0,pending,none,0,1
+R000278,c194d428e34c7f18,2026-04-04,2026-04-01,Graham,Pima,85543,45-64,other,Influenza,mild,0,1,negative,none,0,1
+R000279,0f9093032ac2e532,2026-04-11,2026-04-10,Graham,Pima,85552,45-64,male,Unknown Febrile Illness,mild,0,1,pending,none,0,1
+R000280,60486c4b840fc96d,2026-04-02,2026-03-29,Graham,Safford,85552,0-17,female,COVID-19,mild,0,0,negative,none,0,1
+R000281,e1ee25a88b766964,2026-03-29,2026-03-27,Graham,Thatcher,85543,65+,male,Influenza,moderate,0,0,pending,none,1,1
+R000282,38c28fda5056c4e1,2026-04-16,2026-04-14,Graham,Safford,85543,0-17,female,COVID-19,mild,0,0,positive,livestock,0,1
+R000283,f2a433649c45becc,2026-04-08,2026-04-07,Graham,Pima,85552,18-29,female,E. coli,moderate,0,1,negative,none,0,0
+R000284,3c2b454f543bf706,2026-04-08,2026-04-06,Graham,Pima,85552,45-64,female,Salmonella,severe,0,0,pending,none,0,0
+R000285,3c2b454f543bf706,2026-03-29,2026-03-29,Graham,Pima,85552,45-64,female,COVID-19,mild,0,0,pending,pet,0,0
+R000286,e6d413988180babf,2026-03-31,2026-03-28,Graham,Pima,85534,30-44,female,Norovirus,moderate,0,1,positive,pet,0,0
+R000287,368d27f367138494,2026-04-24,2026-04-20,Graham,Safford,85552,65+,male,Norovirus,severe,0,1,positive,none,1,1
+R000288,6027c89a19266b3a,2026-04-16,2026-04-16,Graham,Thatcher,85552,65+,male,Influenza,mild,0,0,positive,pet,0,0
+R000289,6027c89a19266b3a,2026-04-18,2026-04-16,Graham,Thatcher,85552,65+,male,Valley Fever,moderate,0,0,negative,none,1,1
+R000290,3bad91ab60257fa7,2026-04-01,2026-03-28,Graham,Safford,85543,65+,male,COVID-19,moderate,0,1,positive,none,0,1
+R000291,edf1b82caabe225b,2026-04-20,2026-04-18,Graham,Thatcher,85543,65+,female,Influenza,moderate,0,0,negative,none,1,0
+R000292,edf1b82caabe225b,2026-03-29,2026-03-25,Graham,Thatcher,85543,65+,female,Norovirus,mild,0,1,positive,pet,1,1
+R000293,08f306e74a1d97db,2026-04-16,2026-04-16,Graham,Pima,85543,65+,female,West Nile Virus,mild,0,0,negative,none,0,1
+R000294,08f306e74a1d97db,2026-04-04,2026-04-02,Graham,Pima,85543,65+,female,COVID-19,moderate,0,1,negative,none,0,0
+R000295,35546401a76cac98,2026-03-29,2026-03-29,Graham,Thatcher,85543,30-44,male,E. coli,severe,1,0,negative,none,1,0
+R000296,4d0567624c8bb155,2026-04-08,2026-04-06,Graham,Thatcher,85552,18-29,male,West Nile Virus,mild,0,1,pending,none,0,1
+R000297,4d0567624c8bb155,2026-04-23,2026-04-22,Graham,Thatcher,85552,18-29,male,Norovirus,moderate,0,1,pending,none,0,1
+R000298,4d0567624c8bb155,2026-04-24,2026-04-22,Graham,Thatcher,85552,18-29,male,COVID-19,mild,0,0,negative,none,0,0
+R000299,a544cd91cf2172b1,2026-04-24,2026-04-21,Graham,Pima,85543,30-44,male,Salmonella,moderate,0,1,pending,none,0,1
+R000300,a544cd91cf2172b1,2026-04-01,2026-03-30,Graham,Pima,85543,30-44,male,Influenza,moderate,0,1,positive,none,0,1
+R000301,a544cd91cf2172b1,2026-04-20,2026-04-20,Graham,Pima,85543,30-44,male,RSV,mild,0,0,negative,none,0,0
+R000302,e923f9edf46af93d,2026-04-06,2026-04-01,Graham,Pima,85534,0-17,female,RSV,moderate,0,1,pending,none,0,1
+R000303,085a443dd239aeae,2026-04-09,2026-04-04,Graham,Thatcher,85534,18-29,female,Norovirus,mild,0,1,negative,livestock,0,1
+R000304,9e7f5351c49f4ad2,2026-03-29,2026-03-25,Graham,Thatcher,85534,30-44,female,West Nile Virus,mild,0,1,negative,none,1,0
+R000305,816ac61adee9cf38,2026-04-03,2026-03-31,Graham,Thatcher,85543,0-17,female,COVID-19,mild,0,1,negative,none,0,0
+R000306,816ac61adee9cf38,2026-04-23,2026-04-20,Graham,Thatcher,85543,0-17,female,COVID-19,severe,0,0,negative,pet,0,0
+R000307,4e772ec069619552,2026-04-12,2026-04-07,Graham,Safford,85534,18-29,female,Influenza,moderate,0,0,negative,wildlife,1,0
+R000308,baade8c2a043adf1,2026-03-28,2026-03-28,Graham,Pima,85534,30-44,female,Influenza,mild,0,1,pending,pet,0,0
+R000309,174479672471a22e,2026-04-13,2026-04-10,Graham,Safford,85543,65+,female,Dengue,moderate,0,1,positive,none,0,1
+R000310,174479672471a22e,2026-04-14,2026-04-10,Graham,Safford,85543,65+,female,COVID-19,severe,0,0,negative,none,0,0
+R000311,172066e7a3f510ec,2026-04-17,2026-04-12,Graham,Safford,85534,30-44,female,West Nile Virus,mild,0,0,positive,none,0,1
+R000312,a3e49e002f1048e0,2026-04-06,2026-04-06,Graham,Pima,85534,45-64,female,RSV,mild,0,1,positive,none,0,0
+R000313,a3e49e002f1048e0,2026-04-16,2026-04-16,Graham,Pima,85534,45-64,female,Influenza,mild,0,1,negative,none,0,1
+R000314,82c32040e625294f,2026-03-29,2026-03-29,Graham,Pima,85552,18-29,female,Valley Fever,mild,0,1,pending,pet,0,0
+R000315,9bf3605028631ca1,2026-04-15,2026-04-15,Graham,Safford,85534,30-44,male,Influenza,mild,0,0,negative,wildlife,0,0
+R000316,f01ba076cef5f1c7,2026-04-05,2026-03-31,Graham,Safford,85543,30-44,male,Norovirus,severe,1,1,pending,none,0,0
+R000317,21e440513c553bf5,2026-04-10,2026-04-10,Graham,Thatcher,85552,45-64,male,Norovirus,mild,0,0,positive,none,0,0
+R000318,a221d55ca5e104dd,2026-04-18,2026-04-16,Graham,Thatcher,85543,45-64,male,COVID-19,moderate,0,0,negative,none,0,0
+R000319,1623743461e5137e,2026-04-20,2026-04-16,Graham,Safford,85552,30-44,female,RSV,severe,0,0,positive,none,0,0
+R000320,67de8dbf6384b6ef,2026-03-27,2026-03-24,Graham,Pima,85534,45-64,female,Valley Fever,mild,0,1,negative,livestock,0,1
+R000321,f4f80660e3eb1924,2026-04-05,2026-04-05,Graham,Safford,85552,30-44,male,RSV,mild,0,1,positive,livestock,0,0
+R000322,f4f80660e3eb1924,2026-04-15,2026-04-15,Graham,Safford,85552,30-44,male,Unknown Febrile Illness,mild,0,1,positive,none,1,1
+R000323,4efebcc02f80ad69,2026-04-12,2026-04-08,Graham,Pima,85534,18-29,male,Influenza,mild,0,1,negative,none,1,0
+R000324,51e58a89e732bacd,2026-04-22,2026-04-21,Graham,Thatcher,85552,30-44,male,COVID-19,mild,0,0,pending,none,0,1
+R000325,dafb856797f409a4,2026-04-25,2026-04-25,Graham,Safford,85534,18-29,male,COVID-19,mild,0,1,positive,none,0,0
+R000326,555f6a811e4ac170,2026-04-02,2026-03-28,Graham,Pima,85543,18-29,female,RSV,mild,0,1,pending,none,0,0
+R000327,fedfdb85eddaa14c,2026-04-01,2026-03-30,Graham,Safford,85552,30-44,male,COVID-19,moderate,0,1,negative,none,0,0
+R000328,38c737bb20ebaa38,2026-04-01,2026-03-28,Graham,Safford,85534,0-17,male,Unknown Febrile Illness,moderate,0,1,positive,none,0,0
+R000329,04e0b14c6cd3df2f,2026-03-28,2026-03-26,Greenlee,Morenci,85540,30-44,female,RSV,mild,0,1,negative,none,0,0
+R000330,7a3288b4ede03147,2026-04-17,2026-04-16,Greenlee,Duncan,85540,30-44,female,RSV,moderate,0,1,positive,livestock,0,1
+R000331,f75dfa173c028937,2026-04-18,2026-04-16,Greenlee,Duncan,85938,65+,female,Influenza,mild,0,0,positive,none,0,0
+R000332,6ba0a6bbe115e393,2026-03-28,2026-03-24,Greenlee,Morenci,85550,30-44,male,RSV,moderate,0,0,negative,wildlife,0,1
+R000333,6ba0a6bbe115e393,2026-03-30,2026-03-28,Greenlee,Morenci,85550,30-44,male,COVID-19,mild,0,1,negative,none,0,1
+R000334,e3f34e3b4be38a44,2026-04-18,2026-04-16,Greenlee,Clifton,85540,45-64,male,COVID-19,mild,0,0,pending,none,0,0
+R000335,e87c4fae42ff4544,2026-04-18,2026-04-14,Greenlee,Clifton,85550,45-64,female,COVID-19,mild,0,1,positive,none,0,1
+R000336,70ddf317ccd51138,2026-04-03,2026-04-03,Greenlee,Clifton,85540,45-64,male,Influenza,mild,0,1,negative,none,1,0
+R000337,70ddf317ccd51138,2026-04-01,2026-04-01,Greenlee,Clifton,85540,45-64,male,Influenza,moderate,0,1,positive,none,1,1
+R000338,59d0556134cd3f63,2026-03-28,2026-03-27,Greenlee,Duncan,85550,30-44,male,RSV,moderate,0,1,pending,livestock,0,0
+R000339,01956a1954e9559f,2026-03-30,2026-03-25,Greenlee,Morenci,85938,65+,male,Valley Fever,mild,0,1,negative,none,0,0
+R000340,20ba9572ed31b386,2026-04-18,2026-04-15,Greenlee,Morenci,85540,30-44,male,Influenza,mild,0,1,negative,none,0,1
+R000341,a725227ccb30ba67,2026-04-07,2026-04-03,Greenlee,Morenci,85540,0-17,male,Unknown Febrile Illness,mild,0,1,pending,pet,1,1
+R000342,1d46b8a3d68eff1a,2026-03-29,2026-03-28,Greenlee,Clifton,85938,45-64,female,COVID-19,mild,0,1,negative,none,0,0
+R000343,f4b534a421f6408b,2026-04-18,2026-04-14,Greenlee,Clifton,85550,18-29,male,West Nile Virus,mild,0,0,negative,none,0,0
+R000344,64b22cd7a54059c1,2026-04-01,2026-04-01,Greenlee,Morenci,85540,45-64,male,Valley Fever,moderate,0,1,positive,none,0,0
+R000345,1d0ae56679b71555,2026-04-08,2026-04-05,Greenlee,Morenci,85938,45-64,female,Influenza,mild,0,0,negative,none,0,0
+R000346,5bfde1e840d1d79c,2026-04-21,2026-04-20,Greenlee,Duncan,85938,18-29,male,COVID-19,mild,0,1,positive,none,0,0
+R000347,fe7fb52a621a1413,2026-04-10,2026-04-08,Greenlee,Duncan,85550,0-17,male,Dengue,mild,0,0,negative,none,0,1
+R000348,1f4089614f06bba7,2026-04-19,2026-04-16,Greenlee,Clifton,85540,45-64,female,Dengue,mild,0,0,positive,none,1,0
+R000349,c68a6af0cd834b6d,2026-03-28,2026-03-23,Greenlee,Morenci,85540,0-17,male,Norovirus,mild,0,0,negative,none,0,1
+R000350,38fc0e3bce8c8909,2026-04-08,2026-04-07,Greenlee,Duncan,85938,18-29,male,COVID-19,moderate,0,0,positive,pet,0,0
+R000351,38fc0e3bce8c8909,2026-04-02,2026-04-02,Greenlee,Duncan,85938,18-29,male,Norovirus,mild,0,1,negative,pet,0,0
+R000352,34bb224a7481b57f,2026-04-24,2026-04-21,Greenlee,Clifton,85938,0-17,other,Valley Fever,mild,0,1,negative,none,0,0
+R000353,51e9abccf4467daf,2026-04-12,2026-04-07,Greenlee,Duncan,85540,45-64,male,Valley Fever,severe,0,1,negative,livestock,1,0
+R000354,bbe3dab991ee9320,2026-04-05,2026-04-05,Greenlee,Morenci,85550,30-44,female,Unknown Febrile Illness,mild,0,1,negative,wildlife,0,0
+R000355,cb3a3286dc227c85,2026-03-31,2026-03-28,Greenlee,Morenci,85938,65+,male,Valley Fever,mild,0,1,positive,none,0,1
+R000356,1ec455f566f03662,2026-03-27,2026-03-27,Greenlee,Clifton,85550,0-17,male,COVID-19,mild,0,1,negative,pet,0,0
+R000357,46cf7ce28afdd352,2026-04-05,2026-04-03,Greenlee,Morenci,85550,0-17,female,COVID-19,mild,0,1,negative,livestock,1,0
+R000358,86944b495753fcab,2026-04-04,2026-04-03,Greenlee,Duncan,85540,30-44,female,Salmonella,severe,0,1,positive,pet,0,1
+R000359,38dc66fc45282b4c,2026-04-22,2026-04-18,Greenlee,Clifton,85550,0-17,male,Valley Fever,mild,0,1,negative,pet,0,0
+R000360,38dc66fc45282b4c,2026-04-12,2026-04-12,Greenlee,Clifton,85550,0-17,male,Valley Fever,mild,0,0,negative,none,0,0
+R000361,ec6366a50c635b9b,2026-04-18,2026-04-14,Greenlee,Clifton,85540,30-44,male,Influenza,mild,0,1,pending,pet,0,0
+R000362,ec6366a50c635b9b,2026-03-31,2026-03-31,Greenlee,Clifton,85540,30-44,male,E. coli,mild,0,1,negative,none,0,0
+R000363,ec6366a50c635b9b,2026-04-02,2026-04-02,Greenlee,Clifton,85540,30-44,male,Norovirus,mild,0,0,positive,none,0,0
+R000364,c13d2fe7586479c0,2026-04-25,2026-04-21,Greenlee,Morenci,85938,0-17,female,RSV,mild,0,0,negative,pet,0,1
+R000365,1eff9a7cbf70599d,2026-04-15,2026-04-11,Greenlee,Clifton,85550,30-44,female,Influenza,severe,1,1,positive,none,0,1
+R000366,7253b2b5257a6b58,2026-04-13,2026-04-09,Greenlee,Clifton,85550,30-44,female,E. coli,moderate,0,0,negative,none,1,0
+R000367,7253b2b5257a6b58,2026-04-22,2026-04-18,Greenlee,Clifton,85550,30-44,female,Influenza,mild,0,1,negative,none,0,0
+R000368,869e47ab670a2fd5,2026-04-17,2026-04-13,Greenlee,Duncan,85540,30-44,female,Valley Fever,mild,0,0,negative,none,0,1
+R000369,50d39cbe415a0d04,2026-04-20,2026-04-19,Greenlee,Duncan,85550,0-17,male,Influenza,moderate,0,1,negative,livestock,0,0
+R000370,7529146447a9fe52,2026-03-30,2026-03-29,Greenlee,Morenci,85550,30-44,male,COVID-19,moderate,0,0,pending,none,0,0
+R000371,ab2171a862851c67,2026-04-24,2026-04-21,Greenlee,Morenci,85540,45-64,female,Influenza,severe,0,0,negative,livestock,0,0
+R000372,ea4b968a26dfcde6,2026-04-24,2026-04-21,Greenlee,Duncan,85550,65+,female,Valley Fever,moderate,0,1,pending,none,0,1
+R000373,308e97cf346ee0ab,2026-04-06,2026-04-03,La Paz,Parker,85344,18-29,female,Influenza,mild,0,1,negative,pet,0,0
+R000374,74128049fb1262e9,2026-04-07,2026-04-02,La Paz,Bouse,85344,45-64,female,COVID-19,moderate,0,0,pending,none,1,1
+R000375,74128049fb1262e9,2026-04-10,2026-04-09,La Paz,Bouse,85344,45-64,female,Influenza,mild,0,0,negative,pet,0,0
+R000376,0c611a4fa11bf078,2026-03-27,2026-03-26,La Paz,Bouse,85344,0-17,male,Influenza,moderate,0,1,negative,none,0,0
+R000377,6669c831e2f5d547,2026-04-13,2026-04-10,La Paz,Parker,85348,45-64,female,E. coli,mild,0,0,positive,none,0,0
+R000378,6669c831e2f5d547,2026-04-10,2026-04-07,La Paz,Parker,85348,45-64,female,COVID-19,mild,0,0,pending,none,0,1
+R000379,db02c2fc59053095,2026-04-10,2026-04-07,La Paz,Quartzsite,85344,65+,female,Influenza,mild,0,0,negative,none,1,0
+R000380,db02c2fc59053095,2026-03-27,2026-03-23,La Paz,Quartzsite,85344,65+,female,COVID-19,mild,0,1,pending,none,0,0
+R000381,cd9e5229e7f2d5d3,2026-04-19,2026-04-14,La Paz,Bouse,85344,18-29,male,Salmonella,mild,0,0,positive,none,1,1
+R000382,8c15096f6b7f60f6,2026-04-06,2026-04-06,La Paz,Quartzsite,85328,0-17,female,Salmonella,moderate,0,0,negative,pet,0,1
+R000383,48ca828df408d9ff,2026-04-03,2026-04-03,La Paz,Quartzsite,85348,18-29,male,COVID-19,mild,0,1,positive,pet,1,0
+R000384,d9d38258a47252df,2026-03-27,2026-03-23,La Paz,Parker,85348,30-44,female,Influenza,mild,0,1,negative,none,1,1
+R000385,d9d38258a47252df,2026-04-14,2026-04-14,La Paz,Parker,85348,30-44,female,COVID-19,mild,0,0,positive,none,0,1
+R000386,aad3f442b70cabd6,2026-04-12,2026-04-10,La Paz,Parker,85328,18-29,female,COVID-19,mild,0,1,negative,pet,0,0
+R000387,2ea8bde63b0c1122,2026-04-02,2026-04-02,La Paz,Bouse,85328,0-17,male,Influenza,mild,0,1,pending,wildlife,0,1
+R000388,d0c27ccc59dc2750,2026-04-14,2026-04-10,La Paz,Quartzsite,85348,30-44,female,COVID-19,mild,0,1,pending,none,0,0
+R000389,4c21d208ed8f7664,2026-04-08,2026-04-07,La Paz,Quartzsite,85344,30-44,male,Influenza,moderate,0,1,negative,none,1,1
+R000390,69054fe93fc44d27,2026-04-12,2026-04-09,La Paz,Quartzsite,85328,30-44,male,COVID-19,severe,1,1,positive,none,0,0
+R000391,84385db65ba9326c,2026-04-09,2026-04-08,La Paz,Quartzsite,85328,30-44,female,RSV,mild,0,0,negative,none,0,0
+R000392,b3ae9291749c87a3,2026-04-08,2026-04-06,La Paz,Parker,85328,30-44,male,Unknown Febrile Illness,moderate,0,1,positive,none,0,0
+R000393,59facd7a95081639,2026-04-13,2026-04-11,La Paz,Parker,85344,18-29,female,Salmonella,moderate,0,1,positive,livestock,0,0
+R000394,cbc73252d8361614,2026-04-06,2026-04-04,La Paz,Quartzsite,85344,30-44,male,Rabies Exposure,mild,0,0,positive,none,0,1
+R000395,5bcda81fad4e0960,2026-04-16,2026-04-15,La Paz,Parker,85328,0-17,male,Salmonella,moderate,0,1,positive,none,0,1
+R000396,6d8cd35a6584258c,2026-03-30,2026-03-29,La Paz,Parker,85328,65+,female,Valley Fever,severe,0,1,positive,pet,0,0
+R000397,6d8cd35a6584258c,2026-04-05,2026-04-03,La Paz,Parker,85328,65+,female,E. coli,moderate,0,1,negative,none,0,0
+R000398,b409e4d5281d6b92,2026-04-07,2026-04-03,La Paz,Parker,85344,18-29,male,Influenza,mild,0,1,negative,none,0,0
+R000399,b409e4d5281d6b92,2026-04-17,2026-04-14,La Paz,Parker,85344,18-29,male,RSV,moderate,0,0,positive,pet,0,1
+R000400,b409e4d5281d6b92,2026-04-02,2026-04-02,La Paz,Parker,85344,18-29,male,RSV,mild,0,1,negative,none,1,1
+R000401,d702e8a0b9ef7a32,2026-04-19,2026-04-19,La Paz,Bouse,85348,45-64,female,Unknown Febrile Illness,moderate,0,0,positive,none,0,0
+R000402,d702e8a0b9ef7a32,2026-03-28,2026-03-23,La Paz,Bouse,85348,45-64,female,Influenza,mild,0,0,positive,pet,0,1
+R000403,469578515319735d,2026-04-22,2026-04-22,La Paz,Parker,85348,45-64,male,Dengue,severe,0,1,pending,none,0,0
+R000404,834502719bf9d42b,2026-04-09,2026-04-06,La Paz,Parker,85328,30-44,female,Influenza,moderate,0,1,positive,pet,0,1
+R000405,834502719bf9d42b,2026-04-01,2026-03-31,La Paz,Parker,85328,30-44,female,Unknown Febrile Illness,moderate,0,1,positive,none,0,1
+R000406,1eb57e6e69f09173,2026-04-06,2026-04-05,La Paz,Bouse,85328,0-17,female,Salmonella,severe,1,0,negative,livestock,1,0
+R000407,d51cb1f74d6adf9a,2026-04-18,2026-04-13,La Paz,Bouse,85328,45-64,male,Unknown Febrile Illness,mild,0,1,pending,livestock,0,0
+R000408,714dac44b317d869,2026-03-27,2026-03-25,La Paz,Parker,85328,30-44,female,COVID-19,mild,0,1,positive,none,0,0
+R000409,19ded70ac2caaaaa,2026-04-21,2026-04-21,La Paz,Quartzsite,85348,65+,male,RSV,moderate,0,1,negative,pet,0,0
+R000410,bc76c36d0dceb6cd,2026-04-01,2026-03-31,La Paz,Bouse,85344,0-17,male,Salmonella,mild,0,1,positive,none,0,0
+R000411,6d97ee725b9552aa,2026-04-20,2026-04-16,La Paz,Quartzsite,85328,30-44,male,Influenza,mild,0,0,positive,none,0,0
+R000412,5240cc7087da7ec7,2026-04-25,2026-04-25,La Paz,Parker,85328,30-44,male,Valley Fever,moderate,0,1,positive,pet,0,0
+R000413,06025771055c6ff9,2026-04-06,2026-04-05,La Paz,Bouse,85344,30-44,female,E. coli,mild,0,0,pending,none,0,0
+R000414,0642ee2707ff8216,2026-04-12,2026-04-07,La Paz,Bouse,85344,30-44,other,Influenza,mild,0,0,positive,none,0,0
+R000415,2b57bda35e3cc9c2,2026-04-24,2026-04-19,La Paz,Parker,85328,18-29,male,Influenza,mild,0,1,pending,none,1,1
+R000416,2b57bda35e3cc9c2,2026-04-09,2026-04-06,La Paz,Parker,85328,18-29,male,COVID-19,mild,0,1,positive,none,1,0
+R000417,87ae1df472789d7b,2026-03-31,2026-03-29,La Paz,Bouse,85348,0-17,male,Valley Fever,mild,0,1,positive,none,0,0
+R000418,43ea1e4551ac60cf,2026-04-12,2026-04-12,La Paz,Parker,85348,45-64,female,Influenza,moderate,0,1,negative,none,1,1
+R000419,2dabc75eca2f04bf,2026-04-21,2026-04-18,La Paz,Bouse,85328,30-44,female,RSV,mild,0,1,positive,none,0,1
+R000420,9a4e308d61ef3191,2026-03-27,2026-03-26,La Paz,Parker,85348,45-64,female,Influenza,moderate,0,1,pending,pet,0,0
+R000421,d49a96b0aa144e45,2026-04-25,2026-04-24,La Paz,Parker,85328,30-44,male,RSV,severe,0,1,positive,none,0,0
+R000422,b1b40461c9cefbb2,2026-03-28,2026-03-26,La Paz,Quartzsite,85348,30-44,male,Influenza,mild,0,0,positive,none,1,1
+R000423,203d059a81465e9d,2026-03-27,2026-03-26,La Paz,Parker,85344,30-44,female,Influenza,moderate,0,0,positive,none,0,1
+R000424,24a15b3912d3de6a,2026-04-07,2026-04-02,La Paz,Bouse,85348,65+,male,Salmonella,moderate,0,1,negative,none,0,0
+R000425,84a14444325d608e,2026-04-02,2026-03-28,La Paz,Bouse,85348,18-29,female,Salmonella,moderate,0,0,pending,pet,0,0
+R000426,341952b028ae860b,2026-03-29,2026-03-24,La Paz,Quartzsite,85328,0-17,male,Influenza,moderate,0,1,positive,pet,0,0
+R000427,341952b028ae860b,2026-04-17,2026-04-14,La Paz,Quartzsite,85328,0-17,male,Valley Fever,mild,0,0,negative,none,0,1
+R000428,b0002b84585caf6b,2026-04-12,2026-04-07,La Paz,Quartzsite,85344,0-17,female,Salmonella,mild,0,1,positive,livestock,1,1
+R000429,35e2c20141ae8b84,2026-04-02,2026-04-01,La Paz,Parker,85328,18-29,female,Norovirus,mild,0,1,negative,none,0,0
+R000430,a8d4dc360d67579f,2026-04-25,2026-04-21,La Paz,Parker,85348,18-29,male,West Nile Virus,mild,0,1,negative,pet,1,0
+R000431,a8d4dc360d67579f,2026-04-07,2026-04-07,La Paz,Parker,85348,18-29,male,West Nile Virus,moderate,0,1,pending,none,0,0
+R000432,a8d4dc360d67579f,2026-04-09,2026-04-07,La Paz,Parker,85348,18-29,male,Valley Fever,mild,0,1,negative,none,0,0
+R000433,80c3b4ea76253931,2026-04-20,2026-04-19,Maricopa,Phoenix,85003,45-64,male,E. coli,moderate,0,0,negative,none,0,0
+R000434,07d54192a9c511f2,2026-04-23,2026-04-18,Maricopa,Glendale,85003,30-44,female,COVID-19,mild,0,1,positive,none,0,0
+R000435,cffc27dcc816caf5,2026-04-15,2026-04-11,Maricopa,Glendale,85003,0-17,female,COVID-19,mild,0,1,negative,pet,0,0
+R000436,05eaec699b3fdc3e,2026-04-11,2026-04-08,Maricopa,Mesa,85224,18-29,female,Dengue,moderate,0,1,positive,none,0,1
+R000437,6a5f1fe8598c0e1c,2026-04-23,2026-04-19,Maricopa,Glendale,85308,18-29,female,Salmonella,mild,0,0,positive,pet,0,0
+R000438,6a5f1fe8598c0e1c,2026-04-16,2026-04-11,Maricopa,Glendale,85308,18-29,female,E. coli,mild,0,0,pending,pet,0,1
+R000439,2aab34fe8f361e57,2026-03-30,2026-03-27,Maricopa,Mesa,85224,45-64,male,COVID-19,mild,0,0,negative,livestock,0,0
+R000440,2aab34fe8f361e57,2026-04-04,2026-04-03,Maricopa,Mesa,85224,45-64,male,COVID-19,mild,0,1,pending,none,0,0
+R000441,838ee3d4890bb8ae,2026-04-25,2026-04-22,Maricopa,Mesa,85224,45-64,female,Influenza,mild,0,1,positive,none,0,0
+R000442,c8e0f3fda7cf5648,2026-04-25,2026-04-22,Maricopa,Phoenix,85308,30-44,female,COVID-19,mild,0,0,pending,none,0,0
+R000443,4f064d9eeb584e40,2026-04-13,2026-04-12,Maricopa,Glendale,85308,30-44,female,Influenza,mild,0,1,negative,none,0,1
+R000444,8e92ab72f36daa35,2026-03-30,2026-03-27,Maricopa,Glendale,85224,65+,male,Norovirus,severe,0,1,positive,pet,0,1
+R000445,011f62573642de5e,2026-04-20,2026-04-17,Maricopa,Phoenix,85308,0-17,male,Influenza,mild,0,1,negative,none,1,0
+R000446,011f62573642de5e,2026-04-10,2026-04-09,Maricopa,Phoenix,85308,0-17,male,Salmonella,severe,1,0,pending,none,0,1
+R000447,6cf629ad7488fc76,2026-04-06,2026-04-05,Maricopa,Glendale,85224,0-17,female,COVID-19,moderate,0,1,negative,none,1,0
+R000448,6cf629ad7488fc76,2026-04-04,2026-04-03,Maricopa,Glendale,85224,0-17,female,Norovirus,mild,0,0,negative,livestock,0,1
+R000449,e0ec358431420b5b,2026-04-15,2026-04-10,Maricopa,Phoenix,85308,30-44,male,Influenza,mild,0,1,negative,none,1,0
+R000450,e0ec358431420b5b,2026-04-15,2026-04-10,Maricopa,Phoenix,85308,30-44,male,COVID-19,mild,0,1,negative,none,0,1
+R000451,a2f0acfb1ab18d3e,2026-04-25,2026-04-24,Maricopa,Mesa,85224,0-17,female,Norovirus,mild,0,1,positive,none,0,0
+R000452,9b4ca3645017d213,2026-03-29,2026-03-27,Maricopa,Mesa,85003,0-17,female,RSV,mild,0,0,negative,livestock,0,0
+R000453,76a311ff782237c2,2026-04-13,2026-04-11,Maricopa,Mesa,85224,30-44,female,COVID-19,mild,0,0,pending,wildlife,0,1
+R000454,956f41e7d244d027,2026-04-21,2026-04-21,Maricopa,Glendale,85308,45-64,female,Norovirus,mild,0,0,negative,none,0,1
+R000455,7f6a90d40fc9d50b,2026-04-24,2026-04-23,Maricopa,Phoenix,85003,65+,female,Salmonella,moderate,0,1,positive,pet,0,0
+R000456,cc1adfcaf47b3a70,2026-04-06,2026-04-01,Maricopa,Mesa,85308,18-29,male,Unknown Febrile Illness,severe,1,1,pending,pet,0,1
+R000457,372b71ce4f8f5ebf,2026-04-13,2026-04-08,Maricopa,Glendale,85224,18-29,female,COVID-19,mild,0,0,positive,wildlife,0,0
+R000458,372b71ce4f8f5ebf,2026-04-25,2026-04-20,Maricopa,Glendale,85224,18-29,female,West Nile Virus,mild,0,0,pending,none,0,0
+R000459,bf1ed7d7dc1f3358,2026-04-19,2026-04-17,Maricopa,Phoenix,85308,30-44,female,Unknown Febrile Illness,mild,0,1,positive,wildlife,0,1
+R000460,dd571e79c4060f06,2026-04-02,2026-03-30,Maricopa,Glendale,85308,18-29,male,Salmonella,severe,0,1,negative,none,1,0
+R000461,b001ef56754e51af,2026-04-16,2026-04-13,Maricopa,Phoenix,85003,18-29,male,Influenza,mild,0,1,negative,none,0,0
+R000462,609d7e1c98030757,2026-04-11,2026-04-08,Maricopa,Mesa,85224,18-29,male,Valley Fever,mild,0,1,positive,none,0,0
+R000463,3b8ef0c11107af7d,2026-04-14,2026-04-12,Maricopa,Phoenix,85308,18-29,male,E. coli,moderate,0,1,positive,none,1,1
+R000464,263b15822cad89ae,2026-04-12,2026-04-09,Maricopa,Phoenix,85003,18-29,female,Valley Fever,moderate,0,0,positive,none,1,1
+R000465,b33b1e2b8e0da0b2,2026-04-16,2026-04-16,Maricopa,Mesa,85003,0-17,female,COVID-19,mild,0,1,negative,none,0,0
+R000466,2b0b689b007401e0,2026-04-08,2026-04-07,Maricopa,Mesa,85308,45-64,male,Valley Fever,moderate,0,1,pending,none,1,1
+R000467,2fb296e62216be9f,2026-04-21,2026-04-20,Maricopa,Mesa,85003,65+,male,West Nile Virus,mild,0,1,pending,none,0,1
+R000468,9b59ae16ad10f61c,2026-04-12,2026-04-10,Maricopa,Phoenix,85003,0-17,male,E. coli,mild,0,1,negative,none,0,0
+R000469,9b59ae16ad10f61c,2026-04-18,2026-04-16,Maricopa,Phoenix,85003,0-17,male,Unknown Febrile Illness,moderate,0,1,positive,pet,0,0
+R000470,9b59ae16ad10f61c,2026-04-02,2026-03-31,Maricopa,Phoenix,85003,0-17,male,Influenza,mild,0,0,negative,none,1,0
+R000471,dde6631b58135daa,2026-04-09,2026-04-08,Maricopa,Phoenix,85224,18-29,male,Influenza,mild,0,0,positive,none,1,0
+R000472,5310561f9062aa72,2026-04-17,2026-04-12,Maricopa,Glendale,85308,30-44,male,COVID-19,moderate,0,1,positive,none,0,0
+R000473,7e58acb3d00eb71f,2026-04-01,2026-03-29,Maricopa,Phoenix,85224,65+,female,COVID-19,moderate,0,1,positive,pet,0,0
+R000474,7e58acb3d00eb71f,2026-04-17,2026-04-15,Maricopa,Phoenix,85224,65+,female,Valley Fever,mild,0,1,positive,none,0,1
+R000475,545c489db2e3d523,2026-04-20,2026-04-17,Maricopa,Phoenix,85224,30-44,female,Influenza,mild,0,1,negative,none,0,0
+R000476,540642f2f6562b68,2026-03-27,2026-03-23,Maricopa,Mesa,85224,18-29,female,Salmonella,mild,0,1,pending,pet,0,1
+R000477,fa17cbe89fb6eef7,2026-04-15,2026-04-11,Maricopa,Glendale,85003,18-29,female,COVID-19,mild,0,1,negative,livestock,0,1
+R000478,fa17cbe89fb6eef7,2026-04-02,2026-03-31,Maricopa,Glendale,85003,18-29,female,Unknown Febrile Illness,moderate,0,0,negative,none,0,1
+R000479,bc5d6dc5bf38ea79,2026-03-30,2026-03-29,Maricopa,Glendale,85224,0-17,female,Norovirus,mild,0,1,negative,none,0,0
+R000480,ec244533484f4733,2026-04-02,2026-03-28,Maricopa,Glendale,85003,65+,female,E. coli,mild,0,1,negative,none,0,0
+R000481,555bc485c948c7f5,2026-03-31,2026-03-28,Maricopa,Glendale,85224,18-29,female,RSV,severe,0,0,pending,none,1,1
+R000482,122146ebe91de955,2026-04-08,2026-04-04,Maricopa,Phoenix,85308,65+,female,Valley Fever,moderate,0,0,negative,pet,0,0
+R000483,13435c4db1ae8537,2026-04-15,2026-04-10,Maricopa,Glendale,85224,18-29,female,COVID-19,moderate,0,0,positive,none,0,1
+R000484,7134702658fe401c,2026-04-16,2026-04-14,Maricopa,Glendale,85308,30-44,female,Unknown Febrile Illness,moderate,0,1,positive,none,0,1
+R000485,de430cb73b9852bc,2026-04-21,2026-04-18,Maricopa,Glendale,85308,30-44,female,Influenza,mild,0,1,positive,none,0,1
+R000486,d2d4fabb9a156fc3,2026-04-01,2026-03-31,Maricopa,Mesa,85003,18-29,male,Valley Fever,mild,0,1,negative,none,0,1
+R000487,75130dd3b2c1d85b,2026-03-29,2026-03-27,Maricopa,Mesa,85224,30-44,female,COVID-19,moderate,0,1,positive,none,1,1
+R000488,91b7741950bd6fe0,2026-04-07,2026-04-07,Maricopa,Phoenix,85003,45-64,male,Influenza,moderate,0,0,negative,none,0,0
+R000489,9f3d856c45d1e473,2026-03-30,2026-03-25,Maricopa,Glendale,85224,0-17,female,Norovirus,moderate,0,1,positive,none,0,0
+R000490,bec0cf28b44aed23,2026-04-19,2026-04-17,Maricopa,Phoenix,85003,18-29,female,RSV,moderate,0,1,negative,none,0,0
+R000491,bec0cf28b44aed23,2026-04-19,2026-04-18,Maricopa,Phoenix,85003,18-29,female,RSV,mild,0,0,positive,pet,0,1
+R000492,6bb41bcc44e995ba,2026-03-27,2026-03-25,Maricopa,Phoenix,85224,45-64,female,COVID-19,mild,0,1,pending,none,0,0
+R000493,6bb41bcc44e995ba,2026-04-13,2026-04-12,Maricopa,Phoenix,85224,45-64,female,Influenza,mild,0,0,negative,none,0,0
+R000494,ec4da08017a71478,2026-04-08,2026-04-03,Maricopa,Phoenix,85308,18-29,male,COVID-19,severe,1,1,negative,none,0,1
+R000495,32c4f9b8fbe18b0a,2026-04-10,2026-04-06,Maricopa,Mesa,85003,45-64,female,COVID-19,moderate,0,0,negative,pet,0,0
+R000496,32c4f9b8fbe18b0a,2026-03-30,2026-03-28,Maricopa,Mesa,85003,45-64,female,RSV,mild,0,1,positive,none,0,1
+R000497,32fecfb977dd75ab,2026-04-01,2026-03-28,Maricopa,Phoenix,85003,30-44,male,E. coli,mild,0,0,negative,none,1,0
+R000498,583914ffbce7731d,2026-04-12,2026-04-07,Maricopa,Glendale,85224,45-64,female,West Nile Virus,moderate,0,0,pending,none,0,0
+R000499,0629d4c30ea3279f,2026-04-02,2026-03-30,Maricopa,Phoenix,85308,65+,male,Unknown Febrile Illness,severe,0,1,negative,pet,0,0
+R000500,5cca44aee66d235a,2026-04-02,2026-03-29,Mohave,Bullhead City,86403,30-44,male,Unknown Febrile Illness,moderate,0,1,positive,wildlife,0,0
+R000501,5cca44aee66d235a,2026-04-24,2026-04-23,Mohave,Bullhead City,86403,30-44,male,E. coli,severe,1,0,positive,none,0,1
+R000502,6087da5a7a02d41b,2026-03-28,2026-03-24,Mohave,Bullhead City,86442,18-29,male,Influenza,mild,0,0,negative,none,0,0
+R000503,b9e65f1757ebfa8c,2026-04-23,2026-04-22,Mohave,Bullhead City,86401,65+,female,Valley Fever,moderate,0,1,negative,livestock,0,0
+R000504,b9e65f1757ebfa8c,2026-04-15,2026-04-12,Mohave,Bullhead City,86401,65+,female,Influenza,mild,0,1,positive,pet,1,0
+R000505,b9e65f1757ebfa8c,2026-04-12,2026-04-07,Mohave,Bullhead City,86401,65+,female,Norovirus,mild,0,0,positive,livestock,0,1
+R000506,77019706d39be4df,2026-04-20,2026-04-18,Mohave,Kingman,86401,45-64,male,Salmonella,mild,0,0,positive,none,0,1
+R000507,0d9a28f328bd82fb,2026-04-13,2026-04-09,Mohave,Bullhead City,86442,18-29,male,Influenza,moderate,0,0,negative,none,0,1
+R000508,6af14a43ceab8bb3,2026-04-11,2026-04-08,Mohave,Kingman,86403,0-17,female,Influenza,moderate,0,1,negative,wildlife,0,0
+R000509,93d15e6c9278043d,2026-04-21,2026-04-20,Mohave,Kingman,86401,18-29,male,E. coli,moderate,0,1,positive,none,1,1
+R000510,25415642f07bb890,2026-04-07,2026-04-07,Mohave,Bullhead City,86403,45-64,male,Influenza,severe,0,1,pending,none,1,0
+R000511,07b6fb521d85dcd7,2026-04-23,2026-04-21,Mohave,Bullhead City,86401,45-64,male,Influenza,mild,0,0,negative,livestock,0,0
+R000512,07b6fb521d85dcd7,2026-04-09,2026-04-07,Mohave,Bullhead City,86401,45-64,male,West Nile Virus,mild,0,1,positive,pet,0,1
+R000513,24eb51a19f456d1c,2026-04-25,2026-04-23,Mohave,Bullhead City,86442,30-44,male,RSV,severe,0,0,positive,none,0,0
+R000514,64c3edb3b1b1040c,2026-04-25,2026-04-25,Mohave,Kingman,86403,30-44,male,Valley Fever,mild,0,0,positive,none,0,0
+R000515,64c3edb3b1b1040c,2026-04-06,2026-04-06,Mohave,Kingman,86403,30-44,male,Influenza,mild,0,1,pending,pet,0,0
+R000516,1a14855a8562c727,2026-04-23,2026-04-18,Mohave,Bullhead City,86401,45-64,male,COVID-19,moderate,0,0,negative,none,1,0
+R000517,bd24a4ea70f53e39,2026-04-06,2026-04-06,Mohave,Lake Havasu City,86403,65+,male,E. coli,severe,0,1,positive,pet,0,0
+R000518,bd24a4ea70f53e39,2026-04-19,2026-04-16,Mohave,Lake Havasu City,86403,65+,male,COVID-19,moderate,0,0,negative,none,0,1
+R000519,bd24a4ea70f53e39,2026-04-21,2026-04-17,Mohave,Lake Havasu City,86403,65+,male,Influenza,moderate,0,1,positive,livestock,0,1
+R000520,78aff0c3ef4ebe9e,2026-04-02,2026-03-31,Mohave,Kingman,86442,18-29,male,Norovirus,mild,0,1,negative,none,0,0
+R000521,78aff0c3ef4ebe9e,2026-04-18,2026-04-13,Mohave,Kingman,86442,18-29,male,Influenza,severe,0,1,positive,none,0,1
+R000522,78aff0c3ef4ebe9e,2026-04-06,2026-04-01,Mohave,Kingman,86442,18-29,male,RSV,mild,0,0,pending,livestock,0,0
+R000523,bb46ce089df1889b,2026-04-19,2026-04-16,Mohave,Kingman,86401,18-29,female,Influenza,moderate,0,0,pending,wildlife,0,0
+R000524,b893638380826953,2026-04-11,2026-04-10,Mohave,Kingman,86401,30-44,male,COVID-19,moderate,0,1,negative,none,1,0
+R000525,eb8c3bfda09f34ed,2026-04-09,2026-04-06,Mohave,Bullhead City,86403,0-17,male,Norovirus,severe,0,0,negative,none,0,1
+R000526,600e5edb39ede8e3,2026-04-14,2026-04-10,Mohave,Lake Havasu City,86401,30-44,other,Valley Fever,moderate,0,0,pending,none,1,0
+R000527,5cd80239ab1f4579,2026-04-12,2026-04-09,Mohave,Lake Havasu City,86442,18-29,female,Norovirus,moderate,0,1,negative,none,0,0
+R000528,5193ea7179fe017c,2026-04-19,2026-04-18,Mohave,Kingman,86403,30-44,male,COVID-19,moderate,0,1,positive,none,1,1
+R000529,bb4b35d7f54a9b5b,2026-04-08,2026-04-08,Mohave,Kingman,86401,18-29,male,RSV,mild,0,1,pending,none,0,1
+R000530,bb4b35d7f54a9b5b,2026-04-06,2026-04-02,Mohave,Kingman,86401,18-29,male,Influenza,mild,0,1,pending,pet,0,0
+R000531,7768e77d2b08557c,2026-04-07,2026-04-07,Mohave,Bullhead City,86442,65+,other,Influenza,mild,0,1,positive,none,0,0
+R000532,8b86842ea0ef2518,2026-04-14,2026-04-13,Mohave,Kingman,86403,45-64,male,E. coli,mild,0,0,negative,none,0,1
+R000533,885025e41c566181,2026-04-15,2026-04-13,Mohave,Lake Havasu City,86442,45-64,male,Influenza,moderate,0,0,positive,pet,1,0
+R000534,885025e41c566181,2026-04-05,2026-04-05,Mohave,Lake Havasu City,86442,45-64,male,West Nile Virus,severe,0,1,positive,none,0,1
+R000535,2f3b9e346fdb08cd,2026-04-10,2026-04-06,Mohave,Lake Havasu City,86401,0-17,female,Influenza,mild,0,0,pending,none,0,0
+R000536,4fb5d5450ca860ef,2026-04-15,2026-04-11,Mohave,Bullhead City,86403,18-29,female,Unknown Febrile Illness,mild,0,1,negative,livestock,0,1
+R000537,9ecd93c55419e4d9,2026-04-23,2026-04-18,Mohave,Kingman,86403,18-29,female,West Nile Virus,moderate,0,0,positive,none,0,1
+R000538,9ecd93c55419e4d9,2026-04-08,2026-04-04,Mohave,Kingman,86403,18-29,female,Norovirus,moderate,0,1,positive,none,0,0
+R000539,96c47f428421575d,2026-04-17,2026-04-14,Mohave,Bullhead City,86401,0-17,male,Unknown Febrile Illness,severe,0,1,negative,none,0,0
+R000540,999681fb8280078c,2026-04-17,2026-04-13,Mohave,Kingman,86401,0-17,female,Influenza,moderate,0,0,positive,livestock,0,0
+R000541,86877510787e2ff3,2026-04-19,2026-04-15,Mohave,Bullhead City,86401,65+,female,Valley Fever,mild,0,1,pending,none,1,0
+R000542,86877510787e2ff3,2026-04-12,2026-04-09,Mohave,Bullhead City,86401,65+,female,RSV,moderate,0,1,positive,wildlife,0,0
+R000543,2fe07b3812ebb4e8,2026-03-30,2026-03-25,Mohave,Kingman,86403,30-44,female,West Nile Virus,moderate,0,1,positive,none,0,1
+R000544,746903d37c763370,2026-04-14,2026-04-12,Mohave,Lake Havasu City,86401,0-17,male,Valley Fever,moderate,0,0,positive,none,1,0
+R000545,884454004176ccdc,2026-04-13,2026-04-08,Mohave,Bullhead City,86403,65+,male,Rabies Exposure,mild,0,0,negative,none,0,1
+R000546,884454004176ccdc,2026-04-12,2026-04-08,Mohave,Bullhead City,86403,65+,male,RSV,mild,0,1,positive,livestock,0,0
+R000547,14cc08e300dda6e6,2026-03-29,2026-03-26,Mohave,Kingman,86403,18-29,male,Valley Fever,mild,0,1,negative,none,0,0
+R000548,831f81a1be5d3031,2026-04-22,2026-04-17,Mohave,Kingman,86401,45-64,male,Salmonella,moderate,0,0,negative,none,0,1
+R000549,4cba5bc72bdcc691,2026-04-02,2026-03-31,Mohave,Lake Havasu City,86401,45-64,female,Valley Fever,moderate,0,0,positive,none,0,0
+R000550,4cba5bc72bdcc691,2026-04-12,2026-04-10,Mohave,Lake Havasu City,86401,45-64,female,Influenza,moderate,0,0,positive,pet,0,0
+R000551,07ce7e2b276ebcf0,2026-04-22,2026-04-20,Mohave,Kingman,86401,30-44,female,Influenza,moderate,0,1,positive,pet,0,0
+R000552,d48ee3a2f3092998,2026-04-04,2026-03-30,Mohave,Lake Havasu City,86401,30-44,other,RSV,moderate,0,1,negative,none,1,1
+R000553,d48ee3a2f3092998,2026-03-31,2026-03-26,Mohave,Lake Havasu City,86401,30-44,other,Valley Fever,mild,0,0,positive,pet,0,1
+R000554,c99fdffc5dce7538,2026-04-04,2026-04-03,Mohave,Bullhead City,86442,45-64,male,Influenza,severe,0,1,negative,none,0,0
+R000555,703787ad6a65b1b6,2026-04-05,2026-04-05,Navajo,Holbrook,85901,0-17,female,Norovirus,moderate,0,0,positive,none,1,0
+R000556,9a2da21f9af6f449,2026-04-10,2026-04-10,Navajo,Show Low,86025,45-64,female,Valley Fever,severe,0,1,pending,pet,0,0
+R000557,6da1245d45ee499c,2026-04-12,2026-04-10,Navajo,Show Low,86025,45-64,female,RSV,mild,0,1,positive,pet,0,0
+R000558,6da1245d45ee499c,2026-04-06,2026-04-05,Navajo,Show Low,86025,45-64,female,Valley Fever,mild,0,1,positive,none,0,0
+R000559,6da1245d45ee499c,2026-04-21,2026-04-17,Navajo,Show Low,86025,45-64,female,Influenza,moderate,0,1,negative,pet,0,1
+R000560,8c48f193f57b55dd,2026-04-20,2026-04-17,Navajo,Holbrook,85901,18-29,male,COVID-19,mild,0,1,positive,pet,1,1
+R000561,8c48f193f57b55dd,2026-04-21,2026-04-16,Navajo,Holbrook,85901,18-29,male,RSV,mild,0,1,negative,pet,1,0
+R000562,64ea942a6a99365b,2026-04-13,2026-04-09,Navajo,Winslow,86025,45-64,male,Influenza,mild,0,0,pending,none,0,1
+R000563,3c32f26920597533,2026-04-17,2026-04-17,Navajo,Show Low,85929,0-17,female,Unknown Febrile Illness,moderate,0,0,negative,none,0,0
+R000564,3c32f26920597533,2026-04-11,2026-04-07,Navajo,Show Low,85929,0-17,female,West Nile Virus,severe,0,0,positive,none,0,0
+R000565,d90fff4a8ae4496c,2026-04-16,2026-04-12,Navajo,Show Low,86025,30-44,male,RSV,moderate,0,0,negative,pet,0,0
+R000566,af11a3e62df6f4dc,2026-04-13,2026-04-08,Navajo,Winslow,86025,30-44,male,Salmonella,moderate,0,0,positive,none,0,1
+R000567,c4f10971e0bc7ffa,2026-04-19,2026-04-16,Navajo,Winslow,86025,0-17,female,RSV,mild,0,0,negative,livestock,0,0
+R000568,c1a42a5051a902a7,2026-04-24,2026-04-24,Navajo,Show Low,85901,45-64,female,Unknown Febrile Illness,mild,0,1,negative,livestock,1,1
+R000569,c289fa8d57ba9c22,2026-04-08,2026-04-07,Navajo,Show Low,85901,30-44,male,Salmonella,moderate,0,1,negative,pet,0,1
+R000570,dd04e56e6cc46a81,2026-04-22,2026-04-18,Navajo,Winslow,85901,18-29,female,RSV,mild,0,1,negative,none,0,0
+R000571,347114c44e948798,2026-04-21,2026-04-17,Navajo,Show Low,85901,0-17,male,COVID-19,mild,0,1,negative,none,1,1
+R000572,347114c44e948798,2026-03-30,2026-03-29,Navajo,Show Low,85901,0-17,male,Valley Fever,mild,0,1,negative,none,1,1
+R000573,216a2d4194cf65a5,2026-03-30,2026-03-27,Navajo,Show Low,86025,45-64,male,Influenza,moderate,0,0,positive,pet,0,0
+R000574,216a2d4194cf65a5,2026-04-22,2026-04-18,Navajo,Show Low,86025,45-64,male,Influenza,moderate,0,1,positive,none,0,0
+R000575,b9ccd17a66172963,2026-03-28,2026-03-28,Navajo,Winslow,85929,30-44,female,Influenza,mild,0,1,positive,none,0,0
+R000576,b8286cd522e8a431,2026-04-25,2026-04-25,Navajo,Holbrook,86025,45-64,female,RSV,moderate,0,1,positive,livestock,0,1
+R000577,9f932a6a0453c13a,2026-04-06,2026-04-01,Navajo,Winslow,86025,65+,male,COVID-19,moderate,0,0,negative,none,0,0
+R000578,f90966dc0d550009,2026-04-24,2026-04-20,Navajo,Show Low,85901,18-29,female,Valley Fever,moderate,0,0,negative,wildlife,0,1
+R000579,2da8b6d1a77e00b1,2026-04-23,2026-04-19,Navajo,Holbrook,86025,30-44,female,Valley Fever,moderate,0,1,negative,livestock,0,0
+R000580,5ccce723c4b8e999,2026-04-01,2026-03-29,Navajo,Winslow,86025,18-29,female,RSV,moderate,0,1,negative,none,0,1
+R000581,614bfe50146ad43e,2026-04-13,2026-04-10,Navajo,Holbrook,86025,30-44,male,COVID-19,mild,0,0,negative,none,0,0
+R000582,9d711f323753eacd,2026-04-10,2026-04-10,Navajo,Show Low,85929,45-64,female,Salmonella,moderate,0,1,pending,pet,0,1
+R000583,9d711f323753eacd,2026-04-02,2026-03-28,Navajo,Show Low,85929,45-64,female,Influenza,severe,1,0,positive,none,0,1
+R000584,24c069b2258704d5,2026-04-02,2026-03-31,Navajo,Show Low,85901,45-64,male,Norovirus,mild,0,0,positive,none,0,1
+R000585,63622a66cdc996ac,2026-04-20,2026-04-16,Navajo,Holbrook,86025,30-44,male,Valley Fever,moderate,0,1,positive,wildlife,0,0
+R000586,63622a66cdc996ac,2026-04-21,2026-04-21,Navajo,Holbrook,86025,30-44,male,COVID-19,mild,0,0,pending,none,0,0
+R000587,63622a66cdc996ac,2026-03-29,2026-03-26,Navajo,Holbrook,86025,30-44,male,COVID-19,mild,0,0,negative,pet,0,0
+R000588,062a196535d3c63d,2026-04-21,2026-04-20,Navajo,Holbrook,86025,0-17,female,Influenza,moderate,0,1,negative,none,0,0
+R000589,062a196535d3c63d,2026-04-12,2026-04-12,Navajo,Holbrook,86025,0-17,female,Valley Fever,mild,0,1,positive,none,0,1
+R000590,c7cd435a1eb36fb5,2026-03-31,2026-03-28,Navajo,Show Low,85929,18-29,female,COVID-19,mild,0,0,negative,none,0,0
+R000591,c7cd435a1eb36fb5,2026-04-20,2026-04-18,Navajo,Show Low,85929,18-29,female,RSV,mild,0,1,pending,none,1,0
+R000592,5fe1f3f7a944bc70,2026-04-04,2026-03-30,Navajo,Holbrook,85901,45-64,male,RSV,moderate,0,1,negative,none,0,1
+R000593,d5ec9fc11e891167,2026-03-31,2026-03-31,Navajo,Holbrook,85929,30-44,female,Influenza,mild,0,1,negative,pet,1,1
+R000594,056da954a8f3156a,2026-04-25,2026-04-23,Navajo,Holbrook,85929,30-44,female,Rabies Exposure,severe,0,1,negative,pet,0,1
+R000595,44479f35a99022c7,2026-04-12,2026-04-08,Navajo,Holbrook,85901,18-29,male,Valley Fever,mild,0,1,positive,none,0,0
+R000596,38b1377f959e7fbc,2026-04-15,2026-04-12,Navajo,Winslow,85901,18-29,female,E. coli,mild,0,1,pending,none,0,1
+R000597,38b1377f959e7fbc,2026-04-13,2026-04-08,Navajo,Winslow,85901,18-29,female,COVID-19,mild,0,1,positive,none,0,1
+R000598,415f1a9144401952,2026-04-18,2026-04-13,Pima,Marana,85746,18-29,male,COVID-19,moderate,0,1,positive,none,1,0
+R000599,415f1a9144401952,2026-04-18,2026-04-18,Pima,Marana,85746,18-29,male,COVID-19,moderate,0,1,positive,none,1,0
+R000600,261451e6adca8052,2026-04-19,2026-04-17,Pima,Oro Valley,85746,18-29,female,RSV,mild,0,1,positive,none,0,0
+R000601,a0829b73fdedfaab,2026-04-25,2026-04-24,Pima,Oro Valley,85705,0-17,female,RSV,moderate,0,1,negative,none,1,0
+R000602,e4763b158ebcaae2,2026-03-31,2026-03-28,Pima,Oro Valley,85705,0-17,female,COVID-19,mild,0,1,negative,none,0,0
+R000603,e4763b158ebcaae2,2026-04-19,2026-04-19,Pima,Oro Valley,85705,0-17,female,Norovirus,moderate,0,1,positive,pet,0,1
+R000604,a6d22ab46672a31d,2026-04-20,2026-04-15,Pima,Tucson,85705,65+,male,Influenza,moderate,0,1,pending,none,0,0
+R000605,86240f137b23bcfc,2026-04-06,2026-04-05,Pima,Tucson,85705,45-64,male,COVID-19,moderate,0,0,positive,none,0,1
+R000606,86240f137b23bcfc,2026-04-02,2026-03-28,Pima,Tucson,85705,45-64,male,RSV,moderate,0,1,positive,none,0,1
+R000607,a06a249db7115514,2026-04-23,2026-04-20,Pima,Marana,85746,45-64,male,COVID-19,mild,0,0,pending,none,0,1
+R000608,a06a249db7115514,2026-04-01,2026-03-30,Pima,Marana,85746,45-64,male,Valley Fever,moderate,0,0,positive,none,0,1
+R000609,a06a249db7115514,2026-04-03,2026-03-29,Pima,Marana,85746,45-64,male,Norovirus,moderate,0,0,positive,pet,1,0
+R000610,ec7453d199f28107,2026-04-04,2026-04-01,Pima,Tucson,85701,65+,female,Norovirus,mild,0,0,positive,pet,1,0
+R000611,f188d5f121986d65,2026-04-06,2026-04-02,Pima,Tucson,85705,45-64,male,Influenza,moderate,0,1,negative,pet,0,0
+R000612,71f510498dfa7023,2026-04-20,2026-04-17,Pima,Tucson,85701,18-29,female,COVID-19,moderate,0,0,negative,none,0,0
+R000613,6bfe5267a9022bd4,2026-04-13,2026-04-08,Pima,Oro Valley,85701,45-64,male,RSV,mild,0,1,negative,livestock,0,1
+R000614,6bfe5267a9022bd4,2026-04-12,2026-04-12,Pima,Oro Valley,85701,45-64,male,RSV,mild,0,0,negative,none,1,0
+R000615,6bfe5267a9022bd4,2026-04-12,2026-04-11,Pima,Oro Valley,85701,45-64,male,Influenza,moderate,0,0,positive,none,1,0
+R000616,a8fb3d3d2534cbff,2026-04-08,2026-04-05,Pima,Oro Valley,85746,65+,male,Influenza,mild,0,1,positive,none,0,0
+R000617,8034224e4e32ca0d,2026-04-25,2026-04-20,Pima,Oro Valley,85701,0-17,male,RSV,moderate,0,1,pending,none,1,1
+R000618,8034224e4e32ca0d,2026-04-02,2026-04-02,Pima,Oro Valley,85701,0-17,male,Influenza,mild,0,0,negative,none,1,0
+R000619,8e2a7289f0337fdb,2026-04-06,2026-04-04,Pima,Marana,85701,18-29,female,Salmonella,mild,0,1,positive,none,1,0
+R000620,b45b16cdbeb88aa2,2026-04-21,2026-04-19,Pima,Tucson,85701,30-44,male,Influenza,mild,0,1,negative,none,0,1
+R000621,7b386a3bfeb98b37,2026-04-08,2026-04-07,Pima,Oro Valley,85746,18-29,female,Valley Fever,mild,0,1,negative,none,1,1
+R000622,433e1bf673d17e8f,2026-04-12,2026-04-08,Pima,Tucson,85701,45-64,male,Norovirus,moderate,0,0,positive,none,0,0
+R000623,39f500f3fa36a568,2026-04-05,2026-04-03,Pima,Tucson,85705,45-64,female,RSV,mild,0,0,negative,none,0,1
+R000624,a96ea6c240bef571,2026-04-04,2026-03-30,Pima,Oro Valley,85705,0-17,female,Salmonella,mild,0,1,negative,none,0,1
+R000625,b8bdb1985451a56f,2026-04-16,2026-04-12,Pima,Marana,85746,45-64,male,Norovirus,moderate,0,0,negative,none,0,0
+R000626,89b7c902f4f688ce,2026-04-20,2026-04-20,Pima,Tucson,85705,30-44,male,Influenza,mild,0,1,pending,pet,0,1
+R000627,3ea5b6039e6defef,2026-03-30,2026-03-28,Pima,Tucson,85705,18-29,male,COVID-19,moderate,0,1,negative,none,0,1
+R000628,3ea5b6039e6defef,2026-04-11,2026-04-07,Pima,Tucson,85705,18-29,male,Norovirus,mild,0,1,negative,none,0,0
+R000629,3ea5b6039e6defef,2026-04-18,2026-04-17,Pima,Tucson,85705,18-29,male,Valley Fever,mild,0,0,negative,none,0,0
+R000630,8f9180707e1dd329,2026-04-13,2026-04-09,Pima,Oro Valley,85701,45-64,other,Influenza,mild,0,1,positive,none,0,0
+R000631,8f9180707e1dd329,2026-04-05,2026-04-01,Pima,Oro Valley,85701,45-64,other,RSV,mild,0,0,negative,none,0,1
+R000632,4e775f0d42cf07ed,2026-04-21,2026-04-18,Pima,Oro Valley,85705,18-29,female,West Nile Virus,mild,0,1,negative,wildlife,0,0
+R000633,3c9126e063294bc3,2026-03-30,2026-03-26,Pima,Oro Valley,85701,18-29,male,Influenza,moderate,0,1,positive,none,0,1
+R000634,3c9126e063294bc3,2026-04-09,2026-04-06,Pima,Oro Valley,85701,18-29,male,E. coli,mild,0,1,negative,none,0,0
+R000635,5ccf985c88be1289,2026-04-02,2026-03-28,Pima,Oro Valley,85701,65+,female,Unknown Febrile Illness,mild,0,1,negative,none,0,1
+R000636,946af75b6c862db5,2026-04-21,2026-04-17,Pima,Oro Valley,85705,0-17,female,Salmonella,moderate,0,0,positive,none,0,0
+R000637,946af75b6c862db5,2026-03-29,2026-03-28,Pima,Oro Valley,85705,0-17,female,COVID-19,mild,0,1,positive,pet,0,0
+R000638,4da71cc10cda4335,2026-03-30,2026-03-25,Pima,Tucson,85746,18-29,female,Valley Fever,mild,0,1,positive,pet,0,0
+R000639,c4088fb9716f87c4,2026-04-16,2026-04-14,Pima,Tucson,85701,30-44,male,Unknown Febrile Illness,mild,0,1,pending,none,0,0
+R000640,3987b7e071287e02,2026-04-06,2026-04-06,Pima,Marana,85705,45-64,male,Norovirus,moderate,0,1,pending,none,0,0
+R000641,3987b7e071287e02,2026-04-14,2026-04-11,Pima,Marana,85705,45-64,male,Influenza,mild,0,1,positive,pet,0,0
+R000642,2e35fcf1604b1497,2026-04-05,2026-03-31,Pima,Tucson,85746,45-64,male,RSV,severe,0,0,negative,pet,0,0
+R000643,2e35fcf1604b1497,2026-04-17,2026-04-14,Pima,Tucson,85746,45-64,male,Influenza,severe,1,0,pending,livestock,0,0
+R000644,b09d3e000e42b2c6,2026-04-20,2026-04-20,Pima,Oro Valley,85705,0-17,female,COVID-19,mild,0,0,negative,none,0,0
+R000645,0797e1bbadbeefe2,2026-03-29,2026-03-26,Pima,Oro Valley,85701,30-44,female,Valley Fever,moderate,0,1,positive,none,0,0
+R000646,0797e1bbadbeefe2,2026-04-13,2026-04-12,Pima,Oro Valley,85701,30-44,female,Salmonella,moderate,0,0,positive,none,1,0
+R000647,61c95ed00e9a30de,2026-04-20,2026-04-19,Pima,Marana,85701,45-64,female,RSV,moderate,0,0,positive,pet,0,0
+R000648,e6947b78ed7c27a6,2026-04-06,2026-04-02,Pima,Oro Valley,85746,30-44,male,RSV,mild,0,1,positive,pet,0,0
+R000649,2a8b7c0fce96522e,2026-04-03,2026-03-31,Pima,Tucson,85701,30-44,female,Unknown Febrile Illness,mild,0,1,pending,wildlife,0,1
+R000650,2a8b7c0fce96522e,2026-04-06,2026-04-04,Pima,Tucson,85701,30-44,female,Influenza,moderate,0,0,pending,none,0,0
+R000651,08e1b51aa69520f0,2026-04-17,2026-04-16,Pima,Oro Valley,85746,0-17,male,Influenza,severe,0,1,positive,none,1,1
+R000652,b3e813f349ec27ed,2026-04-07,2026-04-04,Pima,Marana,85705,45-64,female,Valley Fever,severe,1,0,negative,none,1,1
+R000653,b3e813f349ec27ed,2026-03-29,2026-03-28,Pima,Marana,85705,45-64,female,RSV,moderate,0,1,positive,none,0,0
+R000654,dc4a8b2b27d0ea96,2026-03-29,2026-03-26,Pima,Tucson,85746,65+,male,E. coli,moderate,0,1,negative,none,0,0
+R000655,896ab5a2a962b66c,2026-04-13,2026-04-11,Pima,Marana,85701,45-64,male,COVID-19,moderate,0,1,pending,none,1,1
+R000656,1bf51fee1e849b0d,2026-04-18,2026-04-17,Pima,Tucson,85746,30-44,male,COVID-19,moderate,0,0,pending,none,0,0
+R000657,163db3051a388032,2026-04-18,2026-04-15,Pima,Oro Valley,85705,30-44,male,West Nile Virus,mild,0,1,pending,none,0,0
+R000658,3e99238f78d6b305,2026-04-13,2026-04-11,Pima,Marana,85705,0-17,male,Influenza,mild,0,0,negative,none,0,1
+R000659,75acc2aab8a5d302,2026-04-06,2026-04-06,Pima,Tucson,85701,30-44,male,COVID-19,moderate,0,0,positive,none,0,1
+R000660,1ae51c429205cb77,2026-04-05,2026-04-04,Pima,Tucson,85705,0-17,male,RSV,mild,0,1,positive,pet,0,0
+R000661,6b9d23529998fd85,2026-04-22,2026-04-20,Pima,Marana,85746,0-17,female,Salmonella,mild,0,0,negative,none,0,0
+R000662,6b9d23529998fd85,2026-03-27,2026-03-26,Pima,Marana,85746,0-17,female,RSV,mild,0,0,positive,livestock,0,0
+R000663,73a4a220774b0e2f,2026-04-09,2026-04-06,Pima,Marana,85705,30-44,male,COVID-19,mild,0,1,negative,pet,1,1
+R000664,73a4a220774b0e2f,2026-04-04,2026-04-02,Pima,Marana,85705,30-44,male,RSV,moderate,0,0,positive,none,0,0
+R000665,49429d2d8c150953,2026-04-08,2026-04-08,Pima,Marana,85746,0-17,female,Valley Fever,mild,0,1,positive,none,0,1
+R000666,849a813c8b1505d7,2026-04-13,2026-04-09,Pima,Marana,85701,18-29,female,RSV,moderate,0,0,positive,none,0,0
+R000667,0fbf733387b92f59,2026-04-16,2026-04-16,Pima,Marana,85746,45-64,female,Valley Fever,mild,0,1,positive,none,0,0
+R000668,0fbf733387b92f59,2026-04-24,2026-04-23,Pima,Marana,85746,45-64,female,COVID-19,moderate,0,1,negative,livestock,0,1
+R000669,7e3bda739f49a6eb,2026-04-16,2026-04-11,Pima,Marana,85701,0-17,female,COVID-19,moderate,0,1,positive,pet,0,0
+R000670,8ea9df1d60da5c6a,2026-04-22,2026-04-21,Pima,Tucson,85701,30-44,female,COVID-19,severe,0,1,pending,none,0,0
+R000671,86e20b65e2dac2af,2026-04-14,2026-04-13,Pima,Tucson,85746,65+,male,Influenza,mild,0,1,negative,none,1,0
+R000672,4b84d018192e5369,2026-04-17,2026-04-12,Pima,Marana,85701,0-17,female,COVID-19,mild,0,1,negative,none,0,1
+R000673,85b71a98b8865b7b,2026-04-07,2026-04-05,Pima,Marana,85746,30-44,female,COVID-19,moderate,0,0,positive,wildlife,1,0
+R000674,559447e938baf1e5,2026-04-15,2026-04-15,Pinal,Florence,85194,65+,female,Dengue,severe,1,0,negative,none,0,1
+R000675,292553452f961db9,2026-04-07,2026-04-05,Pinal,San Tan Valley,85194,30-44,male,COVID-19,moderate,0,1,positive,none,0,0
+R000676,6b40d6a73a055db8,2026-04-02,2026-03-29,Pinal,Florence,85132,30-44,female,COVID-19,moderate,0,1,negative,none,1,1
+R000677,4a36e8a7dd1c7254,2026-04-06,2026-04-01,Pinal,San Tan Valley,85122,30-44,female,COVID-19,mild,0,1,negative,none,0,0
+R000678,c298d2589a264ad0,2026-04-05,2026-04-01,Pinal,Casa Grande,85194,0-17,female,Influenza,mild,0,1,negative,none,1,1
+R000679,bb37a2c11f2d5d79,2026-04-08,2026-04-03,Pinal,San Tan Valley,85194,0-17,female,Valley Fever,moderate,0,1,pending,none,0,1
+R000680,4209f3c7d094c93f,2026-04-11,2026-04-06,Pinal,San Tan Valley,85194,45-64,female,Valley Fever,mild,0,0,negative,livestock,0,1
+R000681,7a8b336fe9cc0fae,2026-04-24,2026-04-22,Pinal,San Tan Valley,85132,18-29,male,Valley Fever,mild,0,0,positive,none,1,0
+R000682,7a8b336fe9cc0fae,2026-04-16,2026-04-14,Pinal,San Tan Valley,85132,18-29,male,Influenza,severe,0,1,negative,none,0,1
+R000683,7a8b336fe9cc0fae,2026-04-10,2026-04-07,Pinal,San Tan Valley,85132,18-29,male,COVID-19,moderate,0,1,positive,none,0,0
+R000684,ae050ea9fa8c4f17,2026-03-30,2026-03-27,Pinal,Casa Grande,85132,30-44,female,COVID-19,mild,0,1,pending,none,0,0
+R000685,97c93bb42be8d571,2026-03-30,2026-03-29,Pinal,Casa Grande,85122,30-44,male,Influenza,moderate,0,0,positive,pet,0,0
+R000686,7b8794de2ec83e9c,2026-04-18,2026-04-14,Pinal,Casa Grande,85132,18-29,female,RSV,moderate,0,0,negative,livestock,0,1
+R000687,0d81d85b8ceae53b,2026-03-29,2026-03-29,Pinal,Casa Grande,85132,0-17,female,Unknown Febrile Illness,severe,0,1,negative,none,1,0
+R000688,fba15f6169376d73,2026-04-18,2026-04-13,Pinal,San Tan Valley,85194,45-64,female,Valley Fever,moderate,0,1,positive,pet,0,0
+R000689,fba15f6169376d73,2026-04-23,2026-04-18,Pinal,San Tan Valley,85194,45-64,female,COVID-19,severe,0,1,negative,none,0,0
+R000690,b95460b26ed6ec90,2026-04-07,2026-04-07,Pinal,Florence,85122,30-44,female,Norovirus,severe,0,1,pending,wildlife,0,0
+R000691,b95460b26ed6ec90,2026-04-20,2026-04-20,Pinal,Florence,85122,30-44,female,COVID-19,moderate,0,1,negative,none,0,1
+R000692,96815ce19034049c,2026-04-06,2026-04-06,Pinal,Florence,85132,45-64,male,COVID-19,moderate,0,1,positive,none,0,1
+R000693,c7f19b3c958232ee,2026-04-15,2026-04-11,Pinal,Florence,85122,18-29,female,West Nile Virus,moderate,0,0,negative,pet,1,1
+R000694,0929ef982f6e7e8f,2026-04-09,2026-04-07,Pinal,Florence,85122,0-17,male,Norovirus,mild,0,0,pending,pet,1,1
+R000695,34160e523d2d8c54,2026-04-01,2026-04-01,Pinal,Florence,85132,18-29,male,Salmonella,mild,0,1,positive,none,1,1
+R000696,e000b421f10232d9,2026-03-29,2026-03-28,Pinal,San Tan Valley,85132,30-44,female,COVID-19,mild,0,1,negative,wildlife,0,0
+R000697,e40b37672cfe002a,2026-04-15,2026-04-15,Pinal,Florence,85132,45-64,male,COVID-19,mild,0,0,negative,none,0,0
+R000698,d6112d0442bebd70,2026-04-23,2026-04-23,Pinal,Florence,85132,0-17,male,Dengue,severe,0,1,positive,none,0,0
+R000699,26079bf5d19b01d0,2026-04-17,2026-04-16,Pinal,San Tan Valley,85122,30-44,male,RSV,moderate,0,0,negative,livestock,1,0
+R000700,dd735a4780e28f9f,2026-04-23,2026-04-22,Pinal,Casa Grande,85194,45-64,male,RSV,mild,0,1,negative,none,0,1
+R000701,0e889b0d9c338a56,2026-04-12,2026-04-11,Pinal,Casa Grande,85132,30-44,female,Valley Fever,mild,0,1,positive,pet,0,0
+R000702,f694390f231284e4,2026-04-17,2026-04-16,Pinal,Florence,85122,0-17,male,COVID-19,moderate,0,1,negative,none,0,1
+R000703,134cf194a589b631,2026-04-11,2026-04-07,Pinal,Florence,85122,18-29,female,West Nile Virus,mild,0,1,negative,pet,0,0
+R000704,ab0e18888fc19903,2026-04-19,2026-04-19,Pinal,San Tan Valley,85132,45-64,male,Unknown Febrile Illness,mild,0,0,positive,none,0,1
+R000705,a3ec740e4b5906c0,2026-04-12,2026-04-10,Pinal,San Tan Valley,85132,45-64,female,Influenza,moderate,0,1,positive,none,0,0
+R000706,3051c9d16775073f,2026-04-25,2026-04-22,Pinal,San Tan Valley,85122,45-64,female,RSV,moderate,0,1,positive,none,0,0
+R000707,3db8a860f6c0635b,2026-04-23,2026-04-21,Pinal,Casa Grande,85194,65+,male,Salmonella,mild,0,1,pending,none,0,0
+R000708,53d83fe75f8badca,2026-04-13,2026-04-10,Pinal,San Tan Valley,85122,18-29,male,COVID-19,severe,0,1,negative,livestock,0,0
+R000709,971af1ecf1a270dd,2026-03-28,2026-03-28,Pinal,Casa Grande,85122,30-44,male,COVID-19,mild,0,0,positive,wildlife,0,1
+R000710,f2ef78663360b888,2026-03-28,2026-03-26,Pinal,San Tan Valley,85122,45-64,male,Valley Fever,moderate,0,1,pending,none,0,0
+R000711,cfd4304887aa2c57,2026-04-01,2026-03-28,Pinal,San Tan Valley,85132,0-17,male,RSV,moderate,0,1,positive,none,0,0
+R000712,f827abecc604168d,2026-04-03,2026-03-29,Pinal,Florence,85132,0-17,male,West Nile Virus,moderate,0,1,negative,none,1,0
+R000713,b7af28c739ab282b,2026-04-24,2026-04-19,Pinal,San Tan Valley,85122,18-29,female,Unknown Febrile Illness,moderate,0,0,negative,pet,1,0
+R000714,b7af28c739ab282b,2026-04-18,2026-04-16,Pinal,San Tan Valley,85122,18-29,female,RSV,mild,0,1,positive,pet,0,0
+R000715,66beb37293fe0694,2026-04-23,2026-04-22,Pinal,San Tan Valley,85132,65+,female,COVID-19,mild,0,0,negative,pet,0,0
+R000716,66beb37293fe0694,2026-03-29,2026-03-28,Pinal,San Tan Valley,85132,65+,female,Valley Fever,moderate,0,1,negative,none,0,0
+R000717,0106db087b09e4c3,2026-04-24,2026-04-23,Pinal,Florence,85132,45-64,male,Norovirus,mild,0,1,positive,livestock,1,0
+R000718,0106db087b09e4c3,2026-04-11,2026-04-11,Pinal,Florence,85132,45-64,male,Norovirus,mild,0,0,negative,none,1,0
+R000719,8fbe27b0e1a0f6cb,2026-04-18,2026-04-13,Pinal,Florence,85194,18-29,male,Influenza,mild,0,1,positive,none,0,1
+R000720,ca649da11394d304,2026-04-14,2026-04-10,Pinal,Casa Grande,85122,18-29,male,Influenza,mild,0,1,negative,none,0,0
+R000721,ca649da11394d304,2026-04-18,2026-04-13,Pinal,Casa Grande,85122,18-29,male,Unknown Febrile Illness,severe,0,1,pending,none,0,0
+R000722,f6da32b6d1f803d4,2026-04-20,2026-04-19,Pinal,Florence,85122,45-64,male,Influenza,mild,0,0,negative,none,0,1
+R000723,cd96f0e16c2f2521,2026-04-19,2026-04-18,Pinal,Casa Grande,85132,0-17,male,COVID-19,mild,0,1,positive,none,0,0
+R000724,224d661763e923a3,2026-03-27,2026-03-25,Pinal,Casa Grande,85132,0-17,female,RSV,moderate,0,1,pending,pet,0,0
+R000725,cc3feb06e6cbc98f,2026-04-25,2026-04-25,Pinal,Florence,85132,45-64,female,RSV,mild,0,1,positive,none,0,1
+R000726,4e81183ba33e1f6d,2026-04-10,2026-04-08,Pinal,Florence,85194,65+,male,Influenza,moderate,0,1,negative,none,0,0
+R000727,4e81183ba33e1f6d,2026-04-24,2026-04-20,Pinal,Florence,85194,65+,male,Salmonella,severe,0,0,pending,none,1,0
+R000728,2e5b3f0885a6f820,2026-04-04,2026-03-30,Pinal,San Tan Valley,85132,0-17,female,Influenza,mild,0,1,positive,none,0,0
+R000729,872c8a3843d33443,2026-04-07,2026-04-06,Pinal,Florence,85132,65+,female,RSV,moderate,0,1,positive,none,0,1
+R000730,03272ff16d8f116c,2026-04-02,2026-03-28,Pinal,Casa Grande,85132,65+,male,COVID-19,mild,0,1,positive,none,1,0
+R000731,f67bae9e74341f7f,2026-04-06,2026-04-04,Pinal,San Tan Valley,85132,30-44,male,Influenza,mild,0,0,positive,none,0,0
+R000732,f67bae9e74341f7f,2026-04-24,2026-04-19,Pinal,San Tan Valley,85132,30-44,male,Influenza,mild,0,0,positive,none,0,0
+R000733,d7c6e255c63aac10,2026-04-03,2026-03-30,Pinal,San Tan Valley,85122,0-17,male,Influenza,mild,0,0,pending,pet,0,0
+R000734,ab0c0411ada56f83,2026-03-29,2026-03-26,Pinal,Casa Grande,85194,65+,female,Valley Fever,moderate,0,0,positive,none,0,0
+R000735,ab0c0411ada56f83,2026-03-28,2026-03-28,Pinal,Casa Grande,85194,65+,female,Salmonella,moderate,0,1,negative,none,0,0
+R000736,078f08b9dd56c7cd,2026-04-18,2026-04-15,Pinal,Florence,85132,30-44,male,Norovirus,moderate,0,0,positive,none,0,1
+R000737,baacedfcc9ff013a,2026-04-18,2026-04-17,Pinal,Florence,85132,0-17,male,Salmonella,mild,0,0,positive,livestock,0,0
+R000738,6e9ac2ba2d353e7c,2026-04-16,2026-04-14,Pinal,Florence,85122,0-17,male,COVID-19,mild,0,0,negative,none,0,0
+R000739,d01eb5e381a43a49,2026-04-13,2026-04-10,Pinal,Casa Grande,85194,18-29,female,Influenza,moderate,0,0,negative,none,0,0
+R000740,863a7057fef388d7,2026-04-10,2026-04-10,Pinal,San Tan Valley,85132,30-44,male,Unknown Febrile Illness,moderate,0,1,negative,none,0,1
+R000741,86eeb06a5a825d9e,2026-03-30,2026-03-26,Pinal,Casa Grande,85132,45-64,female,Norovirus,moderate,0,1,negative,none,0,1
+R000742,a3c897da70c7c08a,2026-04-16,2026-04-15,Pinal,Florence,85132,45-64,male,West Nile Virus,mild,0,1,pending,none,0,0
+R000743,37dd1ddceaa9ef7c,2026-04-19,2026-04-18,Pinal,Florence,85194,18-29,male,COVID-19,mild,0,1,negative,wildlife,0,0
+R000744,e3ce13888d83c079,2026-04-12,2026-04-12,Pinal,San Tan Valley,85132,0-17,male,COVID-19,mild,0,1,negative,livestock,0,0
+R000745,f172c5c28ae32927,2026-04-19,2026-04-17,Pinal,Florence,85194,45-64,female,RSV,mild,0,0,pending,none,0,1
+R000746,74904118987ad185,2026-04-05,2026-04-03,Santa Cruz,Rio Rico,85621,18-29,male,Influenza,moderate,0,0,positive,none,1,0
+R000747,74904118987ad185,2026-04-25,2026-04-23,Santa Cruz,Rio Rico,85621,18-29,male,Influenza,severe,1,1,pending,pet,0,0
+R000748,ef69cb40df0c9daf,2026-04-19,2026-04-16,Santa Cruz,Rio Rico,85662,0-17,male,RSV,mild,0,1,negative,none,0,0
+R000749,eb3ad89d32fa0c17,2026-04-04,2026-04-03,Santa Cruz,Nogales,85648,45-64,female,COVID-19,mild,0,0,negative,none,0,0
+R000750,9a6f816664dd0dc6,2026-04-11,2026-04-06,Santa Cruz,Rio Rico,85648,30-44,male,COVID-19,moderate,0,0,positive,pet,0,0
+R000751,54f55ae996cd6aa1,2026-04-20,2026-04-20,Santa Cruz,Rio Rico,85621,65+,male,COVID-19,mild,0,0,pending,none,1,0
+R000752,b27e3c2632d522c6,2026-04-21,2026-04-20,Santa Cruz,Rio Rico,85648,45-64,male,Norovirus,mild,0,0,positive,none,0,1
+R000753,069f00e1b5e97ad3,2026-03-30,2026-03-26,Santa Cruz,Patagonia,85621,18-29,male,COVID-19,mild,0,0,negative,none,0,0
+R000754,be7b05b6099fe0aa,2026-04-05,2026-04-02,Santa Cruz,Rio Rico,85621,18-29,male,COVID-19,mild,0,1,positive,none,0,0
+R000755,b552128edb309345,2026-04-08,2026-04-07,Santa Cruz,Nogales,85621,18-29,female,Valley Fever,severe,0,1,negative,none,0,1
+R000756,1565c84fa9898e46,2026-04-02,2026-04-02,Santa Cruz,Nogales,85621,30-44,male,RSV,mild,0,0,positive,pet,0,0
+R000757,6eaae38e71310ada,2026-04-12,2026-04-09,Santa Cruz,Patagonia,85648,45-64,other,COVID-19,mild,0,1,pending,none,0,0
+R000758,6eaae38e71310ada,2026-04-02,2026-03-28,Santa Cruz,Patagonia,85648,45-64,other,Norovirus,mild,0,1,pending,none,0,0
+R000759,8b179df70019080f,2026-04-09,2026-04-07,Santa Cruz,Nogales,85662,30-44,female,Influenza,severe,0,0,positive,livestock,1,1
+R000760,3c41c9fc3edbb1f4,2026-04-12,2026-04-11,Santa Cruz,Rio Rico,85621,30-44,male,Salmonella,severe,0,0,positive,none,0,1
+R000761,9f3e968878436661,2026-04-23,2026-04-22,Santa Cruz,Patagonia,85662,45-64,male,COVID-19,mild,0,1,negative,none,1,0
+R000762,9f3e968878436661,2026-04-23,2026-04-21,Santa Cruz,Patagonia,85662,45-64,male,Influenza,mild,0,1,positive,livestock,0,1
+R000763,1064bf233cc66735,2026-04-20,2026-04-19,Santa Cruz,Nogales,85648,0-17,female,COVID-19,moderate,0,0,positive,none,0,0
+R000764,85f8182fc01cacff,2026-04-18,2026-04-13,Santa Cruz,Patagonia,85621,30-44,female,Valley Fever,moderate,0,1,negative,none,0,1
+R000765,ac9fed71f3e6619a,2026-04-01,2026-03-30,Santa Cruz,Patagonia,85662,65+,male,Influenza,moderate,0,0,positive,none,0,0
+R000766,ac9fed71f3e6619a,2026-04-06,2026-04-06,Santa Cruz,Patagonia,85662,65+,male,West Nile Virus,moderate,0,0,negative,none,0,0
+R000767,ea6c5a86e25ba6ae,2026-04-20,2026-04-16,Santa Cruz,Patagonia,85621,30-44,male,Norovirus,severe,0,0,pending,none,0,0
+R000768,ea6c5a86e25ba6ae,2026-03-31,2026-03-31,Santa Cruz,Patagonia,85621,30-44,male,COVID-19,moderate,0,0,negative,none,0,0
+R000769,a79b5d4f22b62cea,2026-04-25,2026-04-24,Santa Cruz,Rio Rico,85621,0-17,male,Influenza,severe,0,0,negative,pet,0,0
+R000770,16c491408ceda0eb,2026-04-19,2026-04-18,Santa Cruz,Rio Rico,85648,18-29,male,Influenza,moderate,0,0,negative,pet,0,0
+R000771,b982a48a8e340193,2026-03-30,2026-03-28,Santa Cruz,Rio Rico,85662,18-29,male,Influenza,moderate,0,1,positive,pet,0,0
+R000772,d5bc45e75ac73af5,2026-04-01,2026-04-01,Santa Cruz,Rio Rico,85648,0-17,female,Influenza,mild,0,0,negative,pet,1,1
+R000773,38d4df7ac82660e3,2026-04-22,2026-04-21,Santa Cruz,Nogales,85621,45-64,female,Salmonella,mild,0,1,positive,none,0,0
+R000774,07c990a7a5b825cc,2026-04-04,2026-04-04,Santa Cruz,Patagonia,85621,0-17,male,Valley Fever,mild,0,0,negative,none,0,0
+R000775,3ab31f70377d17a7,2026-04-05,2026-04-02,Santa Cruz,Nogales,85621,18-29,male,Rabies Exposure,mild,0,0,positive,none,0,0
+R000776,26b7a30945865d4d,2026-04-19,2026-04-15,Santa Cruz,Rio Rico,85621,18-29,female,Influenza,mild,0,1,positive,none,1,0
+R000777,0e6b8b888cadf37b,2026-04-17,2026-04-15,Santa Cruz,Nogales,85648,30-44,male,RSV,mild,0,1,positive,livestock,0,1
+R000778,ffa0adbcd62cc15c,2026-04-22,2026-04-18,Santa Cruz,Rio Rico,85662,30-44,male,E. coli,mild,0,1,positive,none,0,0
+R000779,36fa5e205984936d,2026-04-18,2026-04-18,Santa Cruz,Nogales,85662,30-44,male,Norovirus,mild,0,1,positive,pet,0,1
+R000780,3fb4463bd7468bb7,2026-03-31,2026-03-31,Santa Cruz,Patagonia,85621,65+,male,Influenza,severe,0,1,positive,none,0,0
+R000781,3fb4463bd7468bb7,2026-04-09,2026-04-07,Santa Cruz,Patagonia,85621,65+,male,Influenza,severe,0,0,negative,pet,0,0
+R000782,4bf980bb4660d073,2026-04-16,2026-04-15,Santa Cruz,Patagonia,85621,30-44,female,RSV,mild,0,1,positive,none,0,1
+R000783,4bf980bb4660d073,2026-04-03,2026-03-30,Santa Cruz,Patagonia,85621,30-44,female,COVID-19,moderate,0,1,pending,none,0,0
+R000784,9e4e2261d82ee70a,2026-03-29,2026-03-24,Santa Cruz,Rio Rico,85648,30-44,female,COVID-19,moderate,0,1,pending,none,0,1
+R000785,4562a913ba2548dc,2026-04-21,2026-04-18,Santa Cruz,Patagonia,85648,45-64,female,Influenza,mild,0,0,positive,none,0,0
+R000786,751bd1b9550fd1ee,2026-04-03,2026-04-02,Santa Cruz,Rio Rico,85662,65+,male,E. coli,moderate,0,0,negative,livestock,1,0
+R000787,a9af44ad98301c76,2026-03-28,2026-03-23,Santa Cruz,Patagonia,85621,30-44,male,RSV,severe,0,1,positive,none,0,1
+R000788,a9af44ad98301c76,2026-04-02,2026-04-01,Santa Cruz,Patagonia,85621,30-44,male,Unknown Febrile Illness,mild,0,1,positive,none,0,1
+R000789,7cfcf5a5f2221acf,2026-04-18,2026-04-17,Yavapai,Prescott,86336,18-29,female,RSV,mild,0,0,pending,none,0,0
+R000790,b9cefe94f4b3756f,2026-04-15,2026-04-14,Yavapai,Sedona,86314,65+,male,Salmonella,mild,0,1,positive,pet,0,0
+R000791,7ecec2c0145365ab,2026-04-04,2026-04-03,Yavapai,Sedona,86301,18-29,female,Norovirus,severe,0,0,negative,wildlife,1,0
+R000792,4a33026ed722ff34,2026-04-14,2026-04-12,Yavapai,Prescott,86301,30-44,female,Norovirus,severe,0,0,negative,pet,0,1
+R000793,9a501fc134de227d,2026-04-18,2026-04-15,Yavapai,Prescott,86314,45-64,male,Influenza,mild,0,1,negative,none,0,0
+R000794,9a501fc134de227d,2026-04-15,2026-04-15,Yavapai,Prescott,86314,45-64,male,RSV,moderate,0,1,negative,none,0,0
+R000795,d9299459bddc1207,2026-03-30,2026-03-28,Yavapai,Sedona,86336,65+,male,E. coli,moderate,0,1,positive,none,1,1
+R000796,d9299459bddc1207,2026-04-01,2026-04-01,Yavapai,Sedona,86336,65+,male,RSV,mild,0,0,positive,none,0,0
+R000797,224a437cf64b8ec1,2026-04-12,2026-04-07,Yavapai,Cottonwood,86336,0-17,male,RSV,severe,0,0,negative,none,0,0
+R000798,224a437cf64b8ec1,2026-04-09,2026-04-07,Yavapai,Cottonwood,86336,0-17,male,RSV,mild,0,1,positive,pet,0,0
+R000799,224a437cf64b8ec1,2026-04-17,2026-04-14,Yavapai,Cottonwood,86336,0-17,male,COVID-19,moderate,0,1,pending,none,1,0
+R000800,3877f3a9519d671b,2026-04-15,2026-04-12,Yavapai,Prescott,86336,45-64,female,COVID-19,mild,0,1,positive,wildlife,0,0
+R000801,3877f3a9519d671b,2026-03-31,2026-03-28,Yavapai,Prescott,86336,45-64,female,COVID-19,mild,0,1,positive,pet,0,0
+R000802,795eba98d76291eb,2026-04-23,2026-04-21,Yavapai,Prescott,86301,30-44,female,West Nile Virus,moderate,0,0,positive,none,0,0
+R000803,795eba98d76291eb,2026-04-24,2026-04-23,Yavapai,Prescott,86301,30-44,female,COVID-19,moderate,0,1,pending,none,0,1
+R000804,d9e27775fcd725a6,2026-04-09,2026-04-05,Yavapai,Prescott,86336,30-44,female,Influenza,mild,0,0,negative,pet,0,0
+R000805,d9e27775fcd725a6,2026-04-08,2026-04-07,Yavapai,Prescott,86336,30-44,female,Norovirus,mild,0,0,positive,none,1,0
+R000806,d2d591d0f179476e,2026-04-04,2026-03-30,Yavapai,Prescott,86336,18-29,female,COVID-19,mild,0,0,pending,wildlife,0,0
+R000807,43f50b21315cd12b,2026-04-14,2026-04-12,Yavapai,Cottonwood,86314,45-64,male,Unknown Febrile Illness,moderate,0,1,pending,none,0,0
+R000808,25fe3b97ffb7df77,2026-04-24,2026-04-22,Yavapai,Sedona,86301,45-64,male,COVID-19,mild,0,0,positive,livestock,0,1
+R000809,a28ea1c4febc84b1,2026-04-06,2026-04-03,Yavapai,Prescott,86314,30-44,female,RSV,moderate,0,1,positive,pet,0,0
+R000810,2785daaec692c958,2026-04-15,2026-04-10,Yavapai,Prescott,86301,65+,male,COVID-19,moderate,0,0,pending,none,0,1
+R000811,be2c58c285b35dbd,2026-04-08,2026-04-03,Yavapai,Cottonwood,86301,45-64,male,Salmonella,mild,0,0,negative,none,0,0
+R000812,6f26fe56a42f45e2,2026-04-10,2026-04-09,Yavapai,Sedona,86336,30-44,male,Salmonella,mild,0,0,negative,pet,1,1
+R000813,0199e3f0215856b3,2026-04-04,2026-04-03,Yavapai,Sedona,86336,0-17,male,COVID-19,moderate,0,1,negative,none,0,0
+R000814,123ab98753c0f028,2026-03-27,2026-03-22,Yavapai,Cottonwood,86314,45-64,female,COVID-19,moderate,0,1,negative,pet,1,0
+R000815,7c921386bbacbca3,2026-04-01,2026-03-31,Yavapai,Sedona,86336,65+,female,E. coli,mild,0,0,positive,wildlife,0,1
+R000816,7c921386bbacbca3,2026-03-27,2026-03-27,Yavapai,Sedona,86336,65+,female,Dengue,mild,0,0,negative,none,0,0
+R000817,7c921386bbacbca3,2026-03-28,2026-03-23,Yavapai,Sedona,86336,65+,female,Influenza,moderate,0,0,positive,livestock,0,0
+R000818,81ce3e917bc87781,2026-03-31,2026-03-29,Yavapai,Cottonwood,86301,45-64,male,Unknown Febrile Illness,moderate,0,1,negative,none,0,0
+R000819,81ce3e917bc87781,2026-04-04,2026-04-03,Yavapai,Cottonwood,86301,45-64,male,RSV,moderate,0,0,positive,none,0,0
+R000820,73845fdf31ab9043,2026-04-22,2026-04-18,Yavapai,Prescott,86336,18-29,female,Norovirus,mild,0,1,negative,none,1,0
+R000821,94bb6f8b423b2b4f,2026-04-05,2026-04-05,Yavapai,Prescott,86336,0-17,male,COVID-19,mild,0,1,negative,pet,0,0
+R000822,05318c52fab1cee3,2026-04-23,2026-04-21,Yavapai,Prescott,86336,30-44,male,RSV,moderate,0,0,positive,none,0,1
+R000823,f18875c21969fae1,2026-04-09,2026-04-04,Yavapai,Cottonwood,86336,65+,female,COVID-19,moderate,0,1,positive,none,0,1
+R000824,86d39c15055e3958,2026-03-31,2026-03-28,Yavapai,Prescott,86314,65+,male,Salmonella,mild,0,1,positive,pet,0,0
+R000825,c3fa8f924256aa20,2026-04-06,2026-04-04,Yavapai,Prescott,86301,18-29,male,COVID-19,severe,0,0,positive,none,0,1
+R000826,7ef06b44576804e1,2026-04-05,2026-04-04,Yavapai,Prescott,86314,30-44,male,Norovirus,mild,0,1,pending,pet,0,0
+R000827,1b20c80531d2555b,2026-04-21,2026-04-17,Yavapai,Sedona,86336,30-44,female,COVID-19,mild,0,1,positive,pet,1,1
+R000828,5a07d31b4d6711ca,2026-03-27,2026-03-22,Yavapai,Cottonwood,86301,18-29,female,Influenza,moderate,0,1,negative,none,1,0
+R000829,a5c556605c47d8c0,2026-04-12,2026-04-07,Yavapai,Sedona,86314,65+,male,COVID-19,mild,0,1,negative,none,0,1
+R000830,0d2b1e61184c556d,2026-04-12,2026-04-12,Yavapai,Prescott,86314,45-64,other,Norovirus,moderate,0,1,negative,pet,0,0
+R000831,c24ca875ba8821a0,2026-04-06,2026-04-05,Yavapai,Sedona,86301,30-44,female,Valley Fever,mild,0,1,negative,none,0,1
+R000832,c24ca875ba8821a0,2026-04-04,2026-03-31,Yavapai,Sedona,86301,30-44,female,Salmonella,mild,0,1,pending,none,0,1
+R000833,51dd9c40a0eca936,2026-04-03,2026-03-31,Yavapai,Prescott,86301,45-64,male,RSV,moderate,0,0,positive,none,0,1
+R000834,c1462ba6edc57fd8,2026-04-19,2026-04-18,Yavapai,Sedona,86314,0-17,female,Influenza,severe,0,1,positive,none,0,1
+R000835,be2f95a2410ea62d,2026-04-17,2026-04-13,Yavapai,Sedona,86314,0-17,female,Influenza,mild,0,1,negative,pet,1,1
+R000836,7cc4938bf29aa68f,2026-04-06,2026-04-06,Yavapai,Prescott,86336,0-17,female,E. coli,mild,0,0,pending,livestock,0,0
+R000837,0f218708dee1e2f4,2026-04-08,2026-04-08,Yavapai,Prescott,86301,30-44,female,Influenza,severe,0,1,pending,pet,0,1
+R000838,94a3d6e8e4a57699,2026-04-18,2026-04-17,Yavapai,Sedona,86314,30-44,female,RSV,mild,0,0,positive,none,0,1
+R000839,94a3d6e8e4a57699,2026-03-27,2026-03-23,Yavapai,Sedona,86314,30-44,female,RSV,moderate,0,0,pending,none,0,0
+R000840,f7d36df75d2ba2a5,2026-04-21,2026-04-21,Yavapai,Prescott,86336,65+,female,COVID-19,mild,0,1,positive,pet,1,1
+R000841,0ec44df15175d278,2026-03-27,2026-03-25,Yuma,Somerton,85364,45-64,male,Influenza,severe,0,0,pending,none,1,0
+R000842,0ec44df15175d278,2026-04-18,2026-04-14,Yuma,Somerton,85364,45-64,male,RSV,mild,0,1,positive,pet,0,0
+R000843,fd536c5dbc3dccfb,2026-03-31,2026-03-31,Yuma,Yuma,85364,45-64,female,COVID-19,moderate,0,1,positive,none,0,0
+R000844,93706015f2f7d613,2026-04-08,2026-04-06,Yuma,Yuma,85367,30-44,female,Influenza,moderate,0,1,positive,pet,1,0
+R000845,884c96210bd617ed,2026-04-10,2026-04-07,Yuma,San Luis,85367,65+,male,COVID-19,mild,0,0,positive,none,0,0
+R000846,884c96210bd617ed,2026-04-25,2026-04-20,Yuma,San Luis,85367,65+,male,E. coli,moderate,0,0,positive,pet,0,0
+R000847,2b7581fb13589ea9,2026-03-28,2026-03-23,Yuma,Yuma,85364,30-44,male,Influenza,mild,0,1,negative,none,0,0
+R000848,2b7581fb13589ea9,2026-04-11,2026-04-11,Yuma,Yuma,85364,30-44,male,COVID-19,mild,0,0,positive,none,0,0
+R000849,e86ae1d3d3dc4fb0,2026-03-27,2026-03-24,Yuma,San Luis,85365,30-44,female,Influenza,mild,0,0,positive,pet,0,0
+R000850,ddfa6bc52945741f,2026-04-24,2026-04-23,Yuma,Somerton,85365,45-64,female,Unknown Febrile Illness,mild,0,1,negative,none,0,1
+R000851,3e203832bd2f0255,2026-04-18,2026-04-15,Yuma,San Luis,85365,0-17,male,RSV,mild,0,0,positive,none,0,0
+R000852,a32267be6f521b80,2026-03-28,2026-03-26,Yuma,Somerton,85367,18-29,female,Influenza,moderate,0,0,positive,none,0,0
+R000853,0ba46c61827ca331,2026-04-19,2026-04-16,Yuma,Somerton,85364,45-64,male,Influenza,mild,0,1,pending,none,0,0
+R000854,579f5c2cfb4887d5,2026-04-22,2026-04-22,Yuma,Yuma,85364,30-44,male,Salmonella,moderate,0,1,positive,none,0,1
+R000855,64926938d4e20fda,2026-04-11,2026-04-07,Yuma,San Luis,85364,18-29,female,Salmonella,mild,0,1,positive,none,0,0
+R000856,2b228496fe19dc50,2026-04-13,2026-04-10,Yuma,San Luis,85367,18-29,female,COVID-19,mild,0,1,positive,none,0,0
+R000857,f11a4bdf6081b43c,2026-04-10,2026-04-06,Yuma,San Luis,85367,18-29,male,RSV,mild,0,0,positive,none,0,0
+R000858,7c52267daafa6cc6,2026-03-31,2026-03-26,Yuma,Somerton,85367,30-44,female,Influenza,mild,0,1,positive,none,0,0
+R000859,d7ec74658bf9f54c,2026-04-21,2026-04-20,Yuma,San Luis,85364,65+,male,Influenza,mild,0,0,positive,pet,0,1
+R000860,294ade8bd848b7e3,2026-04-04,2026-04-02,Yuma,San Luis,85367,45-64,male,Norovirus,moderate,0,1,negative,none,1,0
+R000861,294ade8bd848b7e3,2026-04-12,2026-04-12,Yuma,San Luis,85367,45-64,male,Influenza,mild,0,0,negative,none,0,0
+R000862,7109347985754052,2026-03-28,2026-03-27,Yuma,Yuma,85364,0-17,male,Norovirus,mild,0,1,positive,none,0,0
+R000863,0c87c191c46487a6,2026-03-27,2026-03-24,Yuma,San Luis,85365,45-64,male,Valley Fever,moderate,0,1,negative,pet,0,0
+R000864,d5eb5e3091311f5b,2026-04-07,2026-04-07,Yuma,Somerton,85367,45-64,female,Unknown Febrile Illness,mild,0,1,positive,none,0,0
+R000865,68d2d035b9e94acd,2026-04-17,2026-04-17,Yuma,Somerton,85364,0-17,female,RSV,mild,0,0,positive,none,0,1
+R000866,91b40358132a71d1,2026-04-01,2026-04-01,Yuma,San Luis,85364,45-64,male,Valley Fever,moderate,0,0,negative,none,0,0
+R000867,91b40358132a71d1,2026-04-08,2026-04-04,Yuma,San Luis,85364,45-64,male,Norovirus,moderate,0,0,positive,none,0,1
+R000868,3ecf17d106b6395d,2026-04-05,2026-03-31,Yuma,San Luis,85365,65+,male,RSV,mild,0,0,negative,wildlife,0,0
+R000869,e3bb0f18eef423d0,2026-04-18,2026-04-13,Yuma,San Luis,85364,30-44,male,Unknown Febrile Illness,moderate,0,0,pending,none,1,1
+R000870,6a9a0e0b3bee3b53,2026-04-13,2026-04-12,Yuma,San Luis,85367,45-64,female,E. coli,moderate,0,1,positive,none,0,1
+R000871,38f53c399417ee38,2026-03-27,2026-03-26,Yuma,Somerton,85364,30-44,male,Salmonella,mild,0,0,pending,livestock,1,0
+R000872,542376cb0dd0a0a4,2026-04-17,2026-04-13,Yuma,San Luis,85367,30-44,male,Rabies Exposure,moderate,0,1,negative,livestock,0,0
+R000873,542376cb0dd0a0a4,2026-04-01,2026-03-30,Yuma,San Luis,85367,30-44,male,Norovirus,moderate,0,1,positive,none,1,0
+R000874,542376cb0dd0a0a4,2026-04-01,2026-03-29,Yuma,San Luis,85367,30-44,male,COVID-19,mild,0,0,positive,pet,0,0
+R000875,dbe99d6c7a6f206b,2026-04-01,2026-03-28,Yuma,San Luis,85364,45-64,male,Salmonella,moderate,0,0,negative,wildlife,0,0
+R000876,90be13e496571f5d,2026-04-14,2026-04-13,Yuma,Somerton,85367,30-44,female,Valley Fever,mild,0,1,positive,none,0,1
+R000877,db3d1de108788694,2026-04-16,2026-04-16,Yuma,San Luis,85364,18-29,female,E. coli,mild,0,1,negative,none,0,1
+R000878,d4c954ddec085c19,2026-03-27,2026-03-25,Yuma,San Luis,85364,30-44,male,Valley Fever,severe,0,0,negative,none,0,1
+R000879,31f1be9385d1f82c,2026-03-28,2026-03-23,Yuma,Yuma,85365,30-44,female,Influenza,mild,0,1,positive,none,0,0
+R000880,31f1be9385d1f82c,2026-04-17,2026-04-16,Yuma,Yuma,85365,30-44,female,COVID-19,severe,0,1,positive,none,0,0
+R000881,e6fa1d300d8c862a,2026-04-11,2026-04-07,Yuma,San Luis,85365,30-44,female,E. coli,moderate,0,1,pending,none,0,0
+R000882,6d07a47e8c659223,2026-04-10,2026-04-05,Yuma,Somerton,85367,30-44,female,COVID-19,moderate,0,0,pending,wildlife,1,0
+R000883,6d07a47e8c659223,2026-04-02,2026-04-01,Yuma,Somerton,85367,30-44,female,Valley Fever,severe,1,1,negative,none,0,1
+R000884,6d07a47e8c659223,2026-03-27,2026-03-26,Yuma,Somerton,85367,30-44,female,RSV,moderate,0,1,pending,pet,0,0
+R000885,7b816e9fcf27d580,2026-04-09,2026-04-04,Yuma,San Luis,85365,65+,female,RSV,mild,0,1,negative,none,0,1
+R000886,8a63832f11ff3f05,2026-04-23,2026-04-23,Yuma,San Luis,85367,18-29,female,COVID-19,moderate,0,1,positive,none,0,1
+R000887,da5d7c254dc5fa86,2026-03-31,2026-03-26,Yuma,Somerton,85365,18-29,male,Unknown Febrile Illness,moderate,0,0,negative,none,0,0
+R000888,93850a923efb54c0,2026-03-31,2026-03-30,Yuma,Yuma,85367,18-29,female,Norovirus,moderate,0,1,pending,none,0,0
+R000889,3201320a9ee2723a,2026-04-12,2026-04-09,Yuma,Somerton,85364,45-64,female,COVID-19,severe,0,1,negative,none,0,1
+R000890,d72b41c5ef308b27,2026-04-03,2026-03-29,Yuma,Yuma,85365,18-29,male,Valley Fever,mild,0,1,positive,none,0,1
+R000891,d72b41c5ef308b27,2026-04-09,2026-04-08,Yuma,Yuma,85365,18-29,male,COVID-19,mild,0,0,pending,none,0,0
+R000892,d72b41c5ef308b27,2026-04-20,2026-04-19,Yuma,Yuma,85365,18-29,male,Norovirus,moderate,0,1,pending,pet,0,0
+R000893,ce8b702982404498,2026-04-15,2026-04-13,Yuma,San Luis,85367,18-29,female,Salmonella,mild,0,0,pending,pet,0,1
+R000894,4d1d029e5967de8d,2026-03-31,2026-03-28,Yuma,San Luis,85364,45-64,female,Unknown Febrile Illness,mild,0,1,negative,wildlife,1,1
+R000895,8a5d283eb7ecce11,2026-03-28,2026-03-23,Yuma,San Luis,85367,45-64,female,RSV,mild,0,1,negative,none,0,1
+R000896,1778cdc910dd723f,2026-04-24,2026-04-19,Yuma,Somerton,85364,0-17,male,Valley Fever,mild,0,0,positive,none,0,1
+R000897,41c9ba74af997567,2026-04-07,2026-04-02,Yuma,San Luis,85364,65+,male,COVID-19,mild,0,1,negative,none,0,0
+R000898,a64f6f2567f022fc,2026-04-11,2026-04-09,Yuma,Yuma,85365,45-64,male,Salmonella,mild,0,0,pending,pet,0,1
+R000899,a64f6f2567f022fc,2026-03-29,2026-03-29,Yuma,Yuma,85365,45-64,male,Influenza,moderate,0,0,positive,none,0,0
+R000900,08b8a12f1650b1ea,2026-04-01,2026-03-27,Yuma,San Luis,85367,65+,female,COVID-19,moderate,0,0,positive,wildlife,0,0
+R000901,08b8a12f1650b1ea,2026-04-22,2026-04-19,Yuma,San Luis,85367,65+,female,Influenza,mild,0,0,negative,none,0,1
+R000902,08b8a12f1650b1ea,2026-03-31,2026-03-28,Yuma,San Luis,85367,65+,female,RSV,mild,0,0,negative,none,1,0
+R000903,4c1f65ce646a9f43,2026-04-02,2026-03-28,Yuma,Somerton,85365,45-64,male,Influenza,moderate,0,0,pending,none,0,1
+R000904,c433b4e189f1baf3,2026-04-11,2026-04-08,Yuma,Somerton,85365,30-44,male,Norovirus,mild,0,1,negative,none,0,0
+R000905,19d86e2751b23185,2026-04-19,2026-04-14,Yuma,Yuma,85367,30-44,female,RSV,mild,0,0,negative,none,0,0
+R000906,ae33f6057ae746d9,2026-04-22,2026-04-18,Yuma,San Luis,85365,45-64,male,Influenza,moderate,0,0,positive,none,0,1
+R000907,ae33f6057ae746d9,2026-04-02,2026-04-01,Yuma,San Luis,85365,45-64,male,Salmonella,mild,0,0,positive,pet,0,0
+R000908,34338be6e8d8c765,2026-04-04,2026-03-31,Yuma,Somerton,85365,65+,male,Valley Fever,mild,0,1,pending,none,0,0
+R000909,34338be6e8d8c765,2026-04-23,2026-04-18,Yuma,Somerton,85365,65+,male,Norovirus,moderate,0,1,positive,none,0,0
+R000910,00678675d3687bf0,2026-04-18,2026-04-18,Yuma,Somerton,85365,65+,female,Salmonella,moderate,0,1,positive,pet,0,0
