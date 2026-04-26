@@ -107,6 +107,31 @@ export default function HomePage() {
     if (label === "Arizona Risk Map") return tx.quickActionAzUpdates;
     return label;
   };
+  const badgeTitleLabel = (title: string) => {
+    if (title === "7-Day Health Hero") return tx.badge7DayHeroTitle;
+    if (title === "Half the Way Badge") return tx.badgeHalfwayTitle;
+    return title;
+  };
+  const badgeDescriptionLabel = (title: string, description: string) => {
+    if (title === "7-Day Health Hero") return tx.badge7DayHeroDescription;
+    if (title === "Half the Way Badge") return tx.badgeHalfwayDescription;
+    return description;
+  };
+  const badgeThresholdLabel = (title: string, threshold: string) => {
+    if (title === "7-Day Health Hero") return tx.badge7DayHeroThreshold;
+    if (title === "Half the Way Badge") return tx.badgeHalfwayThreshold;
+    return threshold;
+  };
+  const scratchTitleLabel = (title: string) => {
+    if (title === "2-Week Streak Scratch Card") return tx.scratch2WeekTitle;
+    if (title === "30-Day Champion Scratch Card") return tx.scratch30DayTitle;
+    return title;
+  };
+  const scratchDescriptionLabel = (title: string, description: string) => {
+    if (title === "2-Week Streak Scratch Card") return tx.scratch2WeekDescription;
+    if (title === "30-Day Champion Scratch Card") return tx.scratch30DayDescription;
+    return description;
+  };
 
   useEffect(() => {
     const username = localStorage.getItem("username");
@@ -192,30 +217,30 @@ export default function HomePage() {
       <section className="card home-engagement">
         <div className="home-ads-head">
           <div>
-            <h3>Submission Streak</h3>
-            <p className="home-muted">Track how often you submit health information.</p>
+            <h3>{tx.submissionStreak}</h3>
+            <p className="home-muted">{tx.submissionStreakSubtitle}</p>
           </div>
-          <span>{data.engagement.currentStreakDays} day streak</span>
+          <span>{data.engagement.currentStreakDays} {tx.dayStreakSuffix}</span>
         </div>
         <div className="home-streak-grid">
           <article className="home-streak-card">
             <strong>{data.engagement.submittedLast7Days}/7</strong>
-            <span>Submitted days in the last 7 days</span>
+            <span>{tx.submittedLast7DaysLabel}</span>
           </article>
           <article className="home-streak-card">
             <strong>{data.engagement.submittedLast30Days}/30</strong>
-            <span>Submitted days in the last 30 days</span>
+            <span>{tx.submittedLast30DaysLabel}</span>
           </article>
           <article className="home-streak-card">
             <strong>{data.engagement.longestStreakDays}</strong>
-            <span>Longest consecutive-day streak</span>
+            <span>{tx.longestConsecutiveStreakLabel}</span>
           </article>
         </div>
       </section>
 
       <section className="home-reward-grid">
         <article className="card">
-          <h3>Badges</h3>
+          <h3>{tx.badgesTitle}</h3>
           <div className="home-badge-list">
             {data.engagement.badges.map((badge) => (
               <div
@@ -229,14 +254,14 @@ export default function HomePage() {
                 </div>
                 <div>
                   <div className="home-badge-title-row">
-                    <strong>{badge.title}</strong>
+                    <strong>{badgeTitleLabel(badge.title)}</strong>
                     <span className="home-badge-status">
-                      {badge.unlocked ? "Earned" : "Locked"}
+                      {badge.unlocked ? tx.badgeStatusEarned : tx.badgeStatusLocked}
                     </span>
                   </div>
-                  <p>{badge.description}</p>
+                  <p>{badgeDescriptionLabel(badge.title, badge.description)}</p>
                   <span>
-                    Progress: {badge.progress}/{badge.goal} - {badge.threshold}
+                    {tx.progressLabel}: {badge.progress}/{badge.goal} - {badgeThresholdLabel(badge.title, badge.threshold)}
                   </span>
                 </div>
               </div>
@@ -245,16 +270,16 @@ export default function HomePage() {
         </article>
 
         <article className="card">
-          <h3>Scratch Cards</h3>
+          <h3>{tx.scratchCardsTitle}</h3>
           <div className="home-scratch-grid">
             {data.engagement.scratchCards.map((scratchCard) => {
               const cardContent = (
                 <>
                   <span className="home-scratch-status">
-                    {scratchCard.unlocked ? "Ready to scratch" : "Keep submitting"}
+                    {scratchCard.unlocked ? tx.scratchStatusReady : tx.scratchStatusKeepSubmitting}
                   </span>
-                  <strong>{scratchCard.title}</strong>
-                  <p>{scratchCard.description}</p>
+                  <strong>{scratchTitleLabel(scratchCard.title)}</strong>
+                  <p>{scratchDescriptionLabel(scratchCard.title, scratchCard.description)}</p>
                   <div className="home-scratch-reward">
                     {scratchCard.unlocked
                       ? scratchReward.name

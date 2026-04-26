@@ -44,7 +44,7 @@ export function TopNav() {
           aria-label="Language selector"
         >
           <option value="en">English</option>
-          <option value="es">Espanol</option>
+          <option value="es">Español</option>
         </select>
         {loggedIn && (
           <button
