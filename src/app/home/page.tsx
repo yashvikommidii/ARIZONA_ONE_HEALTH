@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/components/LanguageProvider";
+import { SymptomAnalysis, SymptomAnalysisPanel } from "@/components/SymptomAnalysisPanel";
 
 type HomeData = {
   profile: { name: string; county: string; zipCode: string; age: number; username: string };
@@ -41,6 +42,11 @@ type HomeData = {
   ads: { title: string; description: string; url: string; badge: string; cta: string; imageUrl: string }[];
 };
 
+type RiskMeta = {
+  countyOptions: string[];
+  zipOptionsByCounty: Record<string, string[]>;
+};
+
 const discountedItems = [
   {
     name: "20% off at-home wellness kit",
@@ -64,7 +70,17 @@ export default function HomePage() {
   const router = useRouter();
   const { tx } = useLanguage();
   const [data, setData] = useState<HomeData | null>(null);
+  const [riskMeta, setRiskMeta] = useState<RiskMeta | null>(null);
   const [scratchReward, setScratchReward] = useState(discountedItems[0]);
+  const [reportCounty, setReportCounty] = useState("");
+  const [reportZip, setReportZip] = useState("");
+  const [selectedSymptoms, setSelectedSymptoms] = useState<string[]>([]);
+  const [severity, setSeverity] = useState("mild");
+  const [onset, setOnset] = useState("today");
+  const [hasTravel, setHasTravel] = useState(false);
+  const [hasAnimalExposure, setHasAnimalExposure] = useState(false);
+  const [analysis, setAnalysis] = useState<SymptomAnalysis | null>(null);
+  const [analyzing, setAnalyzing] = useState(false);
 
   const adBadgeLabel = (badge: string) => {
     if (badge === "In stock") return tx.adBadgeInStock;
@@ -132,6 +148,21 @@ export default function HomePage() {
     if (title === "30-Day Champion Scratch Card") return tx.scratch30DayDescription;
     return description;
   };
+  const symptomLabel = (symptom: string) => {
+    const labels: Record<string, string> = {
+      fever: tx.symptomFever,
+      cough: tx.symptomCough,
+      rash: tx.symptomRash,
+      nausea: tx.symptomNausea,
+      diarrhea: tx.symptomDiarrhea,
+      fatigue: tx.symptomFatigue,
+      headache: tx.symptomHeadache,
+      respiratory: tx.symptomRespiratory,
+      "sore throat": tx.symptomSoreThroat,
+      "body aches": tx.symptomBodyAches,
+    };
+    return labels[symptom] ?? symptom;
+  };
 
   useEffect(() => {
     const username = localStorage.getItem("username");
@@ -141,12 +172,60 @@ export default function HomePage() {
     }
     fetch(`/api/home?username=${encodeURIComponent(username)}`)
       .then((r) => r.json())
-      .then(setData);
+      .then((res: HomeData) => {
+        setData(res);
+        setReportCounty(res.profile.county);
+        setReportZip(res.profile.zipCode);
+      });
   }, [router]);
+
+  useEffect(() => {
+    fetch("/api/risk")
+      .then((r) => r.json())
+      .then((res: RiskMeta) => {
+        setRiskMeta(res);
+      });
+  }, []);
 
   useEffect(() => {
     setScratchReward(discountedItems[Math.floor(Math.random() * discountedItems.length)]);
   }, []);
+
+  const toggleSymptom = (symptom: string) => {
+    setSelectedSymptoms((prev) =>
+      prev.includes(symptom) ? prev.filter((item) => item !== symptom) : [...prev, symptom]
+    );
+  };
+
+  const onReportCountyChange = (nextCounty: string) => {
+    setReportCounty(nextCounty);
+    setReportZip(riskMeta?.zipOptionsByCounty[nextCounty]?.[0] ?? "");
+  };
+
+  const submitSymptomReport = async () => {
+    if (!data || !selectedSymptoms.length || analyzing) return;
+    setAnalyzing(true);
+    try {
+      const res = await fetch("/api/analyze-symptoms", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          county: reportCounty,
+          zipCode: reportZip,
+          symptoms: selectedSymptoms,
+          severity,
+          onset,
+          hasTravel,
+          hasAnimalExposure,
+          message: `Self-report: ${selectedSymptoms.join(", ")}`,
+        }),
+      });
+      const payload = await res.json();
+      if (res.ok) setAnalysis(payload.analysis);
+    } finally {
+      setAnalyzing(false);
+    }
+  };
 
   if (!data) return <main className="container">{tx.loading}</main>;
 
@@ -189,6 +268,93 @@ export default function HomePage() {
             <p className="home-muted">{tx.noData}</p>
           )}
         </article>
+      </section>
+
+      <section className="card self-report-card">
+        <div className="home-ads-head">
+          <div>
+            <h3>{tx.selfReportTitle}</h3>
+            <p className="home-muted">{tx.selfReportSubtitle}</p>
+          </div>
+        </div>
+        <div className="self-report-grid">
+          <label>
+            {tx.county}
+            <select value={reportCounty} onChange={(e) => onReportCountyChange(e.target.value)}>
+              {(riskMeta?.countyOptions ?? [reportCounty]).filter(Boolean).map((countyOption) => (
+                <option key={countyOption} value={countyOption}>
+                  {countyOption}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            ZIP
+            <select value={reportZip} onChange={(e) => setReportZip(e.target.value)}>
+              {(riskMeta?.zipOptionsByCounty[reportCounty] ?? [reportZip]).filter(Boolean).map((zip) => (
+                <option key={zip} value={zip}>
+                  {zip}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            {tx.severityLabel}
+            <select value={severity} onChange={(e) => setSeverity(e.target.value)}>
+              <option value="mild">{tx.severityMild}</option>
+              <option value="moderate">{tx.severityModerate}</option>
+              <option value="severe">{tx.severitySevere}</option>
+            </select>
+          </label>
+          <label>
+            {tx.onsetLabel}
+            <select value={onset} onChange={(e) => setOnset(e.target.value)}>
+              <option value="today">{tx.onsetToday}</option>
+              <option value="1-3">{tx.onsetOneToThree}</option>
+              <option value="4-7">{tx.onsetFourToSeven}</option>
+            </select>
+          </label>
+        </div>
+        <div className="symptom-chip-grid">
+          {["fever", "cough", "rash", "nausea", "diarrhea", "fatigue", "headache", "respiratory", "sore throat", "body aches"].map(
+            (symptom) => (
+              <button
+                key={symptom}
+                type="button"
+                className={selectedSymptoms.includes(symptom) ? "symptom-chip active" : "symptom-chip"}
+                onClick={() => toggleSymptom(symptom)}
+              >
+                {symptomLabel(symptom)}
+              </button>
+            )
+          )}
+        </div>
+        <div className="self-report-toggles">
+          <label>
+            <input
+              type="checkbox"
+              checked={hasTravel}
+              onChange={(e) => setHasTravel(e.target.checked)}
+            />
+            {tx.travelExposure}
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              checked={hasAnimalExposure}
+              onChange={(e) => setHasAnimalExposure(e.target.checked)}
+            />
+            {tx.animalExposure}
+          </label>
+        </div>
+        <button
+          type="button"
+          onClick={() => void submitSymptomReport()}
+          disabled={!selectedSymptoms.length || analyzing}
+        >
+          {analyzing ? tx.analyzing : tx.submitAndAnalyze}
+        </button>
+        {analysis ? <SymptomAnalysisPanel analysis={analysis} /> : null}
       </section>
 
       <section className="home-kpi-grid">

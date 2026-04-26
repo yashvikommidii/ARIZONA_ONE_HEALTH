@@ -50,6 +50,138 @@ function normalizeText(input: string) {
     .trim();
 }
 
+const SYMPTOM_SYNONYMS: Record<string, string[]> = {
+  fever: ["fever", "temperature", "high temp", "fiebre"],
+  cough: ["cough", "coughing", "tos"],
+  sore_throat: ["sore throat", "throat pain", "dolor de garganta", "garganta"],
+  shortness_of_breath: ["shortness of breath", "breathless", "trouble breathing", "dificultad para respirar"],
+  fatigue: ["fatigue", "tired", "weak", "cansancio"],
+  body_aches: ["body ache", "body pain", "muscle pain", "aches", "dolor corporal"],
+  headache: ["headache", "migraine", "dolor de cabeza"],
+  nausea: ["nausea", "vomit", "vomiting", "queasiness", "náusea", "nausea"],
+  diarrhea: ["diarrhea", "loose stool", "stomach bug", "diarrea"],
+  rash: ["rash", "skin spots", "hives", "erupcion", "erupción"],
+  loss_smell_taste: ["loss of smell", "loss of taste", "cant smell", "cant taste", "no smell"],
+};
+
+const DISEASE_SYMPTOM_WEIGHTS: Record<string, Record<string, number>> = {
+  Influenza: {
+    fever: 2.2,
+    cough: 2.0,
+    fatigue: 1.6,
+    body_aches: 1.8,
+    headache: 1.4,
+    sore_throat: 1.3,
+  },
+  "COVID-19": {
+    fever: 1.8,
+    cough: 2.1,
+    fatigue: 1.6,
+    shortness_of_breath: 2.2,
+    loss_smell_taste: 2.4,
+    sore_throat: 1.1,
+    headache: 1.0,
+  },
+  RSV: {
+    cough: 2.1,
+    fever: 1.3,
+    shortness_of_breath: 1.8,
+    fatigue: 1.1,
+    sore_throat: 1.0,
+  },
+  Norovirus: {
+    nausea: 2.2,
+    diarrhea: 2.4,
+    fatigue: 0.9,
+    fever: 0.8,
+  },
+  Salmonella: {
+    nausea: 1.7,
+    diarrhea: 2.4,
+    fever: 1.0,
+    body_aches: 0.6,
+  },
+  "E. coli": {
+    nausea: 1.6,
+    diarrhea: 2.6,
+    fever: 0.7,
+  },
+  Dengue: {
+    fever: 2.4,
+    headache: 1.9,
+    body_aches: 1.8,
+    rash: 1.6,
+    nausea: 1.0,
+  },
+  "West Nile Virus": {
+    fever: 1.7,
+    headache: 1.8,
+    body_aches: 1.4,
+    fatigue: 1.0,
+  },
+  "Valley Fever": {
+    cough: 1.9,
+    fever: 1.3,
+    fatigue: 1.5,
+    shortness_of_breath: 1.2,
+  },
+};
+
+function extractMentionedSymptoms(input: string): string[] {
+  const normalized = normalizeText(input);
+  const symptoms: string[] = [];
+  for (const [symptom, aliases] of Object.entries(SYMPTOM_SYNONYMS)) {
+    if (aliases.some((phrase) => normalized.includes(normalizeText(phrase)))) {
+      symptoms.push(symptom);
+    }
+  }
+  return symptoms;
+}
+
+function detectSeverity(input: string) {
+  const lower = input.toLowerCase();
+  if (
+    /(severe|very bad|worst|can.?t breathe|cannot breathe|chest pain|faint|extreme|urgent|emergency)/i.test(
+      lower
+    )
+  ) {
+    return "high";
+  }
+  if (/(moderate|getting worse|worse|persistent|several days|not improving)/i.test(lower)) {
+    return "medium";
+  }
+  return "low";
+}
+
+function detectDurationDays(input: string) {
+  const lower = input.toLowerCase();
+  const dayMatch = lower.match(/(\d+)\s*(day|days)/);
+  if (dayMatch) return Number(dayMatch[1]);
+  const weekMatch = lower.match(/(\d+)\s*(week|weeks)/);
+  if (weekMatch) return Number(weekMatch[1]) * 7;
+  if (lower.includes("today")) return 1;
+  if (lower.includes("yesterday")) return 2;
+  return 0;
+}
+
+function isSymptomConcernInput(input: string) {
+  const lower = input.toLowerCase();
+  const symptoms = extractMentionedSymptoms(input);
+  const symptomLeadIn =
+    lower.includes("i have") ||
+    lower.includes("i am feeling") ||
+    lower.includes("i feel") ||
+    lower.includes("my symptoms") ||
+    lower.includes("symptoms") ||
+    lower.includes("tengo") ||
+    lower.includes("me siento");
+  return symptomLeadIn || symptoms.length >= 2;
+}
+
+function symptomLabel(symptom: string) {
+  return symptom.replace(/_/g, " ");
+}
+
 function matchDiseaseFromInput(input: string, diseaseCatalog: string[]) {
   const normalizedInput = normalizeText(input);
   const normalizedDiseaseMap = diseaseCatalog.map((d) => ({
@@ -143,6 +275,55 @@ function formatTopDiseases(diseaseCounts: Record<string, number>, limit = 5) {
       .map(([disease, count]) => `${disease}: ${count}`)
       .join(", ") || "N/A"
   );
+}
+
+function buildSymptomEnhancementReply(args: {
+  input: string;
+  selectedCounty: string;
+  selectedZip: string;
+  communityRiskPct: string;
+  countyDiseaseCounts7d: Record<string, number>;
+  diseaseCatalog: string[];
+}) {
+  const { input, selectedCounty, selectedZip, communityRiskPct, countyDiseaseCounts7d, diseaseCatalog } =
+    args;
+  const symptoms = extractMentionedSymptoms(input);
+  const severity = detectSeverity(input);
+  const durationDays = detectDurationDays(input);
+  const totalCountyReports = Object.values(countyDiseaseCounts7d).reduce((a, b) => a + b, 0);
+
+  const candidates = diseaseCatalog
+    .filter((disease) => DISEASE_SYMPTOM_WEIGHTS[disease])
+    .map((disease) => {
+      const symptomWeights = DISEASE_SYMPTOM_WEIGHTS[disease];
+      const symptomScore = symptoms.reduce((score, symptom) => score + (symptomWeights[symptom] ?? 0), 0);
+      const prevalence = countyDiseaseCounts7d[disease] ?? 0;
+      const prevalenceScore = totalCountyReports ? (prevalence / totalCountyReports) * 3 : 0;
+      return { disease, score: symptomScore * 0.75 + prevalenceScore * 0.25, prevalence };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3);
+
+  const topSignals = candidates
+    .filter((c) => c.score > 0)
+    .map((c) => `${c.disease} (local 7-day reports: ${c.prevalence})`)
+    .join(", ");
+
+  let concernLevel = "low";
+  if (severity === "high" || durationDays >= 7 || Number(communityRiskPct) >= 8) concernLevel = "high";
+  else if (severity === "medium" || durationDays >= 3 || Number(communityRiskPct) >= 4) concernLevel = "moderate";
+
+  return [
+    `Symptom check for ${selectedCounty} County, ZIP ${selectedZip}:`,
+    `- Detected symptoms: ${symptoms.length ? symptoms.map(symptomLabel).join(", ") : "not enough symptom detail yet"}.`,
+    `- Local community risk context: ${communityRiskPct}% in your selected area.`,
+    `- Highest matching local disease signals: ${topSignals || "No strong match from current symptom detail."}`,
+    `- Estimated concern level: ${concernLevel}.`,
+    concernLevel === "high"
+      ? "- Recommendation: Seek urgent medical evaluation today, especially if breathing difficulty, chest pain, dehydration, or worsening symptoms are present."
+      : "- Recommendation: Continue monitoring symptoms, use Risk and Map pages for local trend context, and seek medical care if symptoms worsen or persist.",
+    "Note: This is a data-guided support summary, not a medical diagnosis.",
+  ].join("\n");
 }
 
 function detectProfileIntent(input: string) {
@@ -620,6 +801,37 @@ Top travel ZIP hotspots: ${topHotspots.join(", ") || "N/A"}.`;
 
       return NextResponse.json({
         reply: `${matchedCounty} County has ${recentCount} ${countyDiseaseIntent} report(s) in the last 7 days and ${allCount} total ${countyDiseaseIntent} report(s) in the local dataset. Overall recent county risk is ${recentRisk}% (${countyReports7d.length}/${countyPopulationForQuestion}).`,
+      });
+    }
+
+    if (isSymptomConcernInput(latestUserMessage)) {
+      const countyForSymptomContext = matchedCounty ?? selectedCounty;
+      const zipForSymptomContext = matchedZip ?? selectedZip;
+      const usersInCountyContext = users.filter((u) => u.county === countyForSymptomContext);
+      const countyPersonIds = new Set(usersInCountyContext.map((u) => u.person_id));
+      const countyReports7d = reports.filter((r) => {
+        if (!countyPersonIds.has(r.person_id)) return false;
+        const d = new Date(r.submitted_at);
+        return d >= start && d <= end;
+      });
+      const diseaseCountsForCounty7d: Record<string, number> = {};
+      for (const report of countyReports7d) {
+        diseaseCountsForCounty7d[report.suspected_disease] =
+          (diseaseCountsForCounty7d[report.suspected_disease] ?? 0) + 1;
+      }
+      const countyRiskForContext = usersInCountyContext.length
+        ? ((countyReports7d.length / usersInCountyContext.length) * 100).toFixed(2)
+        : "0.00";
+
+      return NextResponse.json({
+        reply: buildSymptomEnhancementReply({
+          input: latestUserMessage,
+          selectedCounty: countyForSymptomContext,
+          selectedZip: zipForSymptomContext,
+          communityRiskPct: countyRiskForContext,
+          countyDiseaseCounts7d: diseaseCountsForCounty7d,
+          diseaseCatalog,
+        }),
       });
     }
 

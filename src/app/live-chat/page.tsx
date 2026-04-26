@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { SymptomAnalysis, SymptomAnalysisPanel } from "@/components/SymptomAnalysisPanel";
+import { useLanguage } from "@/components/LanguageProvider";
 
-type Msg = { role: "user" | "assistant"; text: string };
+type Msg = { role: "user" | "assistant"; text: string; analysis?: SymptomAnalysis };
 type BrowserSpeechRecognition = {
   lang: string;
   continuous: boolean;
@@ -28,7 +30,27 @@ const INITIAL_MESSAGES: Msg[] = [
   },
 ];
 
+const symptomKeywords = [
+  "fever",
+  "cough",
+  "sore throat",
+  "rash",
+  "vomit",
+  "nausea",
+  "fatigue",
+  "headache",
+  "diarrhea",
+  "shortness of breath",
+  "i feel",
+  "i have",
+  "my child",
+  "symptoms",
+  "sick",
+  "ill",
+];
+
 export default function LiveChatPage() {
+  const { tx } = useLanguage();
   const [messages, setMessages] = useState<Msg[]>(INITIAL_MESSAGES);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -91,6 +113,9 @@ export default function LiveChatPage() {
       .replace(/\s{2,}/g, " ")
       .trim();
 
+  const isSymptomMessage = (text: string) =>
+    symptomKeywords.some((keyword) => text.toLowerCase().includes(keyword));
+
   const send = async (value?: string) => {
     const text = (value ?? input).trim();
     if (!text || loading) return;
@@ -107,6 +132,24 @@ export default function LiveChatPage() {
       const username = localStorage.getItem("username") ?? undefined;
       const county = localStorage.getItem("riskCounty") ?? undefined;
       const zipCode = localStorage.getItem("riskZipCode") ?? undefined;
+      if (isSymptomMessage(text)) {
+        const analysisRes = await fetch("/api/analyze-symptoms", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: text, county, zipCode }),
+        });
+        const analysisData = await analysisRes.json();
+        if (analysisRes.ok && analysisData.analysis) {
+          setMessages((prev) => [
+            ...prev,
+            {
+              role: "assistant",
+              text: tx.whatThisMightMean,
+              analysis: analysisData.analysis,
+            },
+          ]);
+        }
+      }
       const res = await fetch("/api/live-chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -126,7 +169,7 @@ export default function LiveChatPage() {
     } catch {
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", text: "Unable to connect to chat service right now." },
+        { role: "assistant", text: tx.unableToConnectChat },
       ]);
     } finally {
       setLoading(false);
@@ -142,7 +185,7 @@ export default function LiveChatPage() {
   const startVoiceInput = () => {
     const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRec || recording) {
-      setSpeechStatus("Voice input is not supported in this browser. Try Chrome.");
+      setSpeechStatus(tx.voiceUnsupported);
       return;
     }
     const recog = new SpeechRec();
@@ -151,7 +194,7 @@ export default function LiveChatPage() {
     recog.continuous = false;
     recog.interimResults = false;
     setRecording(true);
-    setSpeechStatus(`Listening (${lang})...`);
+    setSpeechStatus(`${tx.listening} (${lang})...`);
     recog.onresult = (e: SpeechRecognitionEvent) => {
       const text = e.results?.[0]?.[0]?.transcript ?? "";
       if (text) {
@@ -162,7 +205,7 @@ export default function LiveChatPage() {
     recog.onerror = () => {
       setRecording(false);
       setSpeechStatus(
-        "Microphone permission denied or recognition unavailable. Allow mic access and retry."
+        tx.micPermissionError
       );
     };
     recog.onend = () => {
@@ -176,9 +219,9 @@ export default function LiveChatPage() {
     <main className="container live-shell">
       <section className="card live-card">
         <div className="live-head">
-          <h2>Live Chat with Us</h2>
+          <h2>{tx.liveChatTitle}</h2>
           <button type="button" onClick={clearChat}>
-            Clear chat
+            {tx.clearChat}
           </button>
           <label className="live-voice-toggle">
             <input
@@ -186,16 +229,17 @@ export default function LiveChatPage() {
               checked={voiceReply}
               onChange={(e) => setVoiceReply(e.target.checked)}
             />
-            Voice reply
+            {tx.voiceReply}
           </label>
         </div>
         <div className="live-messages" ref={listRef}>
           {messages.map((m, i) => (
             <div key={`${m.role}-${i}`} className={`live-msg ${m.role}`}>
               {m.text}
+              {m.analysis ? <SymptomAnalysisPanel analysis={m.analysis} compact /> : null}
             </div>
           ))}
-          {loading ? <div className="live-msg assistant">Thinking...</div> : null}
+          {loading ? <div className="live-msg assistant">{tx.thinking}</div> : null}
         </div>
         <div className="live-input-row">
           <input
@@ -204,11 +248,11 @@ export default function LiveChatPage() {
             onKeyDown={(e) => {
               if (e.key === "Enter") void send();
             }}
-            placeholder="Ask about pages, features, or how to use this website..."
+            placeholder={tx.chatPlaceholder}
           />
           {canUseSpeech ? (
             <button type="button" onClick={startVoiceInput} className={recording ? "recording" : ""}>
-              {recording ? "Listening..." : "Voice"}
+              {recording ? `${tx.listening}...` : tx.voice}
             </button>
           ) : null}
           <button type="button" onClick={() => void send()} disabled={loading || !input.trim()}>
