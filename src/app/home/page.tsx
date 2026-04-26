@@ -13,16 +13,58 @@ type HomeData = {
     countyRisk: string;
     topDisease: string;
   };
+  engagement: {
+    submittedLast7Days: number;
+    submittedLast30Days: number;
+    currentStreakDays: number;
+    longestStreakDays: number;
+    badges: {
+      title: string;
+      description: string;
+      threshold: string;
+      unlocked: boolean;
+      progress: number;
+      goal: number;
+    }[];
+    scratchCards: {
+      title: string;
+      description: string;
+      reward: string;
+      unlocked: boolean;
+      progress: number;
+      goal: number;
+    }[];
+  };
   quickActions: { label: string; href: string }[];
   communityAlert: string;
   resources: { label: string; description: string; url: string }[];
   ads: { title: string; description: string; url: string; badge: string; cta: string; imageUrl: string }[];
 };
 
+const discountedItems = [
+  {
+    name: "20% off at-home wellness kit",
+    url: "https://www.cvs.com/shop/home-health-care",
+  },
+  {
+    name: "Discount pharmacy essentials",
+    url: "https://www.safeway.com/pharmacy.html",
+  },
+  {
+    name: "Savings on health plan resources",
+    url: "https://www.healthcare.gov/",
+  },
+  {
+    name: "Community care reward options",
+    url: "https://www.azahcccs.gov/",
+  },
+];
+
 export default function HomePage() {
   const router = useRouter();
   const { tx } = useLanguage();
   const [data, setData] = useState<HomeData | null>(null);
+  const [scratchReward, setScratchReward] = useState(discountedItems[0]);
 
   const adBadgeLabel = (badge: string) => {
     if (badge === "In stock") return tx.adBadgeInStock;
@@ -76,6 +118,10 @@ export default function HomePage() {
       .then((r) => r.json())
       .then(setData);
   }, [router]);
+
+  useEffect(() => {
+    setScratchReward(discountedItems[Math.floor(Math.random() * discountedItems.length)]);
+  }, []);
 
   if (!data) return <main className="container">{tx.loading}</main>;
 
@@ -140,6 +186,101 @@ export default function HomePage() {
             {tx.topDisease} in {data.profile.zipCode}
           </h4>
           <p className="home-kpi">{data.snapshot.topDisease}</p>
+        </article>
+      </section>
+
+      <section className="card home-engagement">
+        <div className="home-ads-head">
+          <div>
+            <h3>Submission Streak</h3>
+            <p className="home-muted">Track how often you submit health information.</p>
+          </div>
+          <span>{data.engagement.currentStreakDays} day streak</span>
+        </div>
+        <div className="home-streak-grid">
+          <article className="home-streak-card">
+            <strong>{data.engagement.submittedLast7Days}/7</strong>
+            <span>Submitted days in the last 7 days</span>
+          </article>
+          <article className="home-streak-card">
+            <strong>{data.engagement.submittedLast30Days}/30</strong>
+            <span>Submitted days in the last 30 days</span>
+          </article>
+          <article className="home-streak-card">
+            <strong>{data.engagement.longestStreakDays}</strong>
+            <span>Longest consecutive-day streak</span>
+          </article>
+        </div>
+      </section>
+
+      <section className="home-reward-grid">
+        <article className="card">
+          <h3>Badges</h3>
+          <div className="home-badge-list">
+            {data.engagement.badges.map((badge) => (
+              <div
+                key={badge.title}
+                className={`home-badge-card ${badge.unlocked ? "unlocked" : "locked"} ${
+                  badge.goal >= 15 ? "gold" : "silver"
+                }`}
+              >
+                <div className="home-badge-award" aria-hidden="true">
+                  <span />
+                </div>
+                <div>
+                  <div className="home-badge-title-row">
+                    <strong>{badge.title}</strong>
+                    <span className="home-badge-status">
+                      {badge.unlocked ? "Earned" : "Locked"}
+                    </span>
+                  </div>
+                  <p>{badge.description}</p>
+                  <span>
+                    Progress: {badge.progress}/{badge.goal} - {badge.threshold}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+
+        <article className="card">
+          <h3>Scratch Cards</h3>
+          <div className="home-scratch-grid">
+            {data.engagement.scratchCards.map((scratchCard) => {
+              const cardContent = (
+                <>
+                  <span className="home-scratch-status">
+                    {scratchCard.unlocked ? "Ready to scratch" : "Keep submitting"}
+                  </span>
+                  <strong>{scratchCard.title}</strong>
+                  <p>{scratchCard.description}</p>
+                  <div className="home-scratch-reward">
+                    {scratchCard.unlocked
+                      ? scratchReward.name
+                      : `${scratchCard.progress}/${scratchCard.goal} days`}
+                  </div>
+                </>
+              );
+
+              return scratchCard.unlocked ? (
+                <a
+                  key={scratchCard.title}
+                  href={scratchReward.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="home-scratch-card unlocked clickable"
+                  aria-label={`Scratch ${scratchCard.title} for ${scratchReward.name}`}
+                >
+                  {cardContent}
+                </a>
+              ) : (
+                <div key={scratchCard.title} className="home-scratch-card locked">
+                  {cardContent}
+                </div>
+              );
+            })}
+          </div>
         </article>
       </section>
 

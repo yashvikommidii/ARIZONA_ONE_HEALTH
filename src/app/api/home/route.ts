@@ -7,6 +7,48 @@ function getLocalDateString() {
   return local.toISOString().slice(0, 10);
 }
 
+function addDays(dateString: string, days: number) {
+  const date = new Date(`${dateString}T00:00:00`);
+  date.setDate(date.getDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function countSubmittedDaysInWindow(submittedDates: Set<string>, endDate: string, days: number) {
+  let count = 0;
+  for (let offset = 0; offset < days; offset += 1) {
+    if (submittedDates.has(addDays(endDate, -offset))) count += 1;
+  }
+  return count;
+}
+
+function getLongestSubmissionStreak(submittedDates: Set<string>) {
+  const dates = Array.from(submittedDates).sort();
+  let longest = 0;
+  let current = 0;
+  let previous = "";
+
+  for (const date of dates) {
+    current = previous && addDays(previous, 1) === date ? current + 1 : 1;
+    longest = Math.max(longest, current);
+    previous = date;
+  }
+
+  return longest;
+}
+
+function getCurrentSubmissionStreak(submittedDates: Set<string>, today: string) {
+  const anchorDate = submittedDates.has(today) ? today : addDays(today, -1);
+  let streak = 0;
+  let cursor = anchorDate;
+
+  while (submittedDates.has(cursor)) {
+    streak += 1;
+    cursor = addDays(cursor, -1);
+  }
+
+  return streak;
+}
+
 export async function GET(request: NextRequest) {
   const username = request.nextUrl.searchParams.get("username");
   if (!username) {
@@ -25,6 +67,12 @@ export async function GET(request: NextRequest) {
   const todaysReport = reports.find(
     (r) => r.person_id === user.person_id && r.submitted_at === today
   );
+  const userReports = reports.filter((r) => r.person_id === user.person_id);
+  const submittedDates = new Set(userReports.map((r) => r.submitted_at));
+  const submittedLast7Days = countSubmittedDaysInWindow(submittedDates, today, 7);
+  const submittedLast30Days = countSubmittedDaysInWindow(submittedDates, today, 30);
+  const currentStreakDays = getCurrentSubmissionStreak(submittedDates, today);
+  const longestStreakDays = getLongestSubmissionStreak(submittedDates);
 
   const end = new Date();
   const start = new Date();
@@ -104,6 +152,48 @@ export async function GET(request: NextRequest) {
       individualRisk: `${individualRisk}%`,
       countyRisk: `${countyRisk}%`,
       topDisease: topDiseaseName,
+    },
+    engagement: {
+      submittedLast7Days,
+      submittedLast30Days,
+      currentStreakDays,
+      longestStreakDays,
+      badges: [
+        {
+          title: "7-Day Health Hero",
+          description: "Submit health information every day for a full week.",
+          threshold: "7 submissions in the last 7 days",
+          unlocked: submittedLast7Days >= 7,
+          progress: submittedLast7Days,
+          goal: 7,
+        },
+        {
+          title: "Half the Way Badge",
+          description: "Submit health information at least 15 days in the last 30 days.",
+          threshold: "15 submissions in the last 30 days",
+          unlocked: submittedLast30Days >= 15,
+          progress: submittedLast30Days,
+          goal: 15,
+        },
+      ],
+      scratchCards: [
+        {
+          title: "2-Week Streak Scratch Card",
+          description: "Unlocked after submitting data for 14 days in a row.",
+          reward: "Community care reward",
+          unlocked: longestStreakDays >= 14,
+          progress: Math.min(longestStreakDays, 14),
+          goal: 14,
+        },
+        {
+          title: "30-Day Champion Scratch Card",
+          description: "Unlocked after submitting data for 30 days in a row.",
+          reward: "Monthly wellness reward",
+          unlocked: longestStreakDays >= 30,
+          progress: Math.min(longestStreakDays, 30),
+          goal: 30,
+        },
+      ],
     },
     quickActions: [
       { label: "Submit Today's Report", href: "/home" },

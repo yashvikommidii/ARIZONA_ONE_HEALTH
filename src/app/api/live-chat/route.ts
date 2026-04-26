@@ -119,6 +119,32 @@ function detectDiseaseReportCountIntent(input: string, diseaseCatalog: string[])
   return { asksReportCount, matchedDisease };
 }
 
+function isCountyDataQuestion(input: string) {
+  const lower = input.trim().toLowerCase();
+  return (
+    lower.includes("detail") ||
+    lower.includes("details") ||
+    lower.includes("stat") ||
+    lower.includes("statistics") ||
+    lower.includes("cases") ||
+    lower.includes("reports") ||
+    lower.includes("high") ||
+    lower.includes("highest") ||
+    lower.includes("risk") ||
+    lower.includes("about")
+  );
+}
+
+function formatTopDiseases(diseaseCounts: Record<string, number>, limit = 5) {
+  return (
+    Object.entries(diseaseCounts)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, limit)
+      .map(([disease, count]) => `${disease}: ${count}`)
+      .join(", ") || "N/A"
+  );
+}
+
 function detectProfileIntent(input: string) {
   const lower = input.trim().toLowerCase();
   const refersToMyCounty = lower.includes("my county") || lower.includes("mine");
@@ -320,6 +346,7 @@ export async function POST(request: NextRequest) {
       "";
     const countyUsers = users.filter((u) => u.county === selectedCounty);
     const zipOptions = Array.from(new Set(countyUsers.map((u) => u.zip_code))).sort();
+    const allZipOptions = Array.from(new Set(users.map((u) => u.zip_code))).sort();
     const requestedZip = body.zipCode?.trim();
     const profileZip =
       personalProfile?.county === selectedCounty ? personalProfile.zipCode : undefined;
@@ -475,6 +502,11 @@ Top travel ZIP hotspots: ${topHotspots.join(", ") || "N/A"}.`;
     const lowerUser = latestUserMessage.toLowerCase();
     const matchedCounty =
       countyOptions.find((countyName) => lowerUser.includes(countyName.toLowerCase())) ?? null;
+    const matchedZip =
+      latestUserMessage.match(/\b\d{5}\b/)?.[0] &&
+      allZipOptions.includes(latestUserMessage.match(/\b\d{5}\b/)?.[0] ?? "")
+        ? latestUserMessage.match(/\b\d{5}\b/)?.[0] ?? null
+        : null;
 
     if (profileIntent.asksMyCountyStats) {
       if (personalProfile) {
@@ -550,6 +582,101 @@ Top travel ZIP hotspots: ${topHotspots.join(", ") || "N/A"}.`;
       });
     }
 
+    const hotspotIntent = detectDiseaseHotspotIntent(latestUserMessage, diseaseCatalog);
+    if (hotspotIntent.asksDiseaseHotspot && hotspotIntent.matchedDisease) {
+      const top = topCountiesByDisease[hotspotIntent.matchedDisease] ?? [];
+      if (top.length) {
+        const topText = top
+          .slice(0, 5)
+          .map((x) => `${x.county}: ${x.count}`)
+          .join(", ");
+        return NextResponse.json({
+          reply: `The counties with the highest ${hotspotIntent.matchedDisease} reports in the last 7 days are: ${topText}.`,
+        });
+      }
+      return NextResponse.json({
+        reply: `There are no recent ${hotspotIntent.matchedDisease} reports in the current 7-day window.`,
+      });
+    }
+
+    const countyDiseaseIntent = matchDiseaseFromInput(latestUserMessage, diseaseCatalog);
+    if (matchedCounty && countyDiseaseIntent) {
+      const countyUsersForQuestion = users.filter((u) => u.county === matchedCounty);
+      const countyPopulationForQuestion = countyUsersForQuestion.length;
+      const countyReportsAll = reports.filter((r) => r.county === matchedCounty);
+      const countyReports7d = countyReportsAll.filter((r) => {
+        const d = new Date(r.submitted_at);
+        return d >= start && d <= end;
+      });
+      const allCount = countyReportsAll.filter(
+        (r) => r.suspected_disease === countyDiseaseIntent
+      ).length;
+      const recentCount = countyReports7d.filter(
+        (r) => r.suspected_disease === countyDiseaseIntent
+      ).length;
+      const recentRisk = countyPopulationForQuestion
+        ? ((countyReports7d.length / countyPopulationForQuestion) * 100).toFixed(2)
+        : "0.00";
+
+      return NextResponse.json({
+        reply: `${matchedCounty} County has ${recentCount} ${countyDiseaseIntent} report(s) in the last 7 days and ${allCount} total ${countyDiseaseIntent} report(s) in the local dataset. Overall recent county risk is ${recentRisk}% (${countyReports7d.length}/${countyPopulationForQuestion}).`,
+      });
+    }
+
+    if (matchedCounty && isCountyDataQuestion(latestUserMessage)) {
+      const countyUsersForQuestion = users.filter((u) => u.county === matchedCounty);
+      const countyPopulationForQuestion = countyUsersForQuestion.length;
+      const countyReportsAll = reports.filter((r) => r.county === matchedCounty);
+      const countyReports7d = countyReportsAll.filter((r) => {
+        const d = new Date(r.submitted_at);
+        return d >= start && d <= end;
+      });
+      const recentDiseaseCounts: Record<string, number> = {};
+      for (const report of countyReports7d) {
+        recentDiseaseCounts[report.suspected_disease] =
+          (recentDiseaseCounts[report.suspected_disease] ?? 0) + 1;
+      }
+      const zipCountsForCounty: Record<string, number> = {};
+      for (const report of countyReports7d) {
+        zipCountsForCounty[report.zip_code] = (zipCountsForCounty[report.zip_code] ?? 0) + 1;
+      }
+      const topZipText =
+        Object.entries(zipCountsForCounty)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 3)
+          .map(([zip, count]) => `${zip}: ${count}`)
+          .join(", ") || "N/A";
+      const recentRisk = countyPopulationForQuestion
+        ? ((countyReports7d.length / countyPopulationForQuestion) * 100).toFixed(2)
+        : "0.00";
+
+      return NextResponse.json({
+        reply: `${matchedCounty} County statistics from the local dataset: last 7 days risk is ${recentRisk}% (${countyReports7d.length}/${countyPopulationForQuestion}); top recent diseases are ${formatTopDiseases(recentDiseaseCounts)}; highest report ZIPs are ${topZipText}; total submitted reports in this county are ${countyReportsAll.length}.`,
+      });
+    }
+
+    if (matchedZip) {
+      const zipUsersForQuestion = users.filter((u) => u.zip_code === matchedZip);
+      const zipReportsAll = reports.filter((r) => r.zip_code === matchedZip);
+      const zipReports7d = zipReportsAll.filter((r) => {
+        const d = new Date(r.submitted_at);
+        return d >= start && d <= end;
+      });
+      const zipDiseaseCounts: Record<string, number> = {};
+      for (const report of zipReports7d) {
+        zipDiseaseCounts[report.suspected_disease] =
+          (zipDiseaseCounts[report.suspected_disease] ?? 0) + 1;
+      }
+      const zipRisk = zipUsersForQuestion.length
+        ? ((zipReports7d.length / zipUsersForQuestion.length) * 100).toFixed(2)
+        : "0.00";
+      const zipCounty = zipUsersForQuestion[0]?.county ?? zipReportsAll[0]?.county ?? "Unknown";
+
+      return NextResponse.json({
+        reply: `ZIP ${matchedZip} (${zipCounty}) statistics from the local dataset: last 7 days risk is ${zipRisk}% (${zipReports7d.length}/${zipUsersForQuestion.length}); top recent diseases are ${formatTopDiseases(zipDiseaseCounts)}; total submitted reports for this ZIP are ${zipReportsAll.length}.`,
+      });
+    }
+
     const diseaseReportCountIntent = detectDiseaseReportCountIntent(
       latestUserMessage,
       diseaseCatalog
@@ -569,23 +696,6 @@ Top travel ZIP hotspots: ${topHotspots.join(", ") || "N/A"}.`;
 
       return NextResponse.json({
         reply: `${disease} has ${totalCount} submitted report(s) in the local dataset. For the current selection, ${selectedCounty} County has ${selectedCountyCount}, and ZIP ${selectedZip} has ${selectedZipCount}.`,
-      });
-    }
-
-    const hotspotIntent = detectDiseaseHotspotIntent(latestUserMessage, diseaseCatalog);
-    if (hotspotIntent.asksDiseaseHotspot && hotspotIntent.matchedDisease) {
-      const top = topCountiesByDisease[hotspotIntent.matchedDisease] ?? [];
-      if (top.length) {
-        const topText = top
-          .slice(0, 5)
-          .map((x) => `${x.county}: ${x.count}`)
-          .join(", ");
-        return NextResponse.json({
-          reply: `The counties with the highest ${hotspotIntent.matchedDisease} reports in the last 7 days are: ${topText}.`,
-        });
-      }
-      return NextResponse.json({
-        reply: `There are no recent ${hotspotIntent.matchedDisease} reports in the current 7-day window.`,
       });
     }
 
