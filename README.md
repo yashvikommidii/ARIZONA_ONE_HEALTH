@@ -8,11 +8,11 @@ Use these example credentials to log in:
 
 FIRST NAME	LAST NAME	USERNAME	DATE OF BIRTH
 
-Lucas	Vega	lucas.vega 621	07-09-2009
+Lucas	Vega	lucas.vega621	    07-09-2009
 
-Chloe	Garcia	chloe.garcia 5228	10-21-1986
+Chloe	Garcia	chloe.garcia5228	   10-21-1986
 
-Natalie	Mendoza	natalie.mendoza 9211	08-16-1974
+Natalie	Mendoza	natalie.mendoza9211	   08-16-1974
 
 Inspiration
 
